@@ -4,7 +4,11 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { ContentStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { localName } from "@/lib/locale-name";
+import { getSessionUser } from "@/lib/user-guard";
+import { redirect } from "@/i18n/navigation";
 import ReviewForm from "@/components/ReviewForm";
+import VerifyNotice from "@/components/auth/VerifyNotice";
+import NicknameForm from "@/components/auth/NicknameForm";
 
 export const dynamic = "force-dynamic";
 
@@ -28,7 +32,7 @@ export default async function ReviewDoctorPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale: pageLocale, slug } = await params;
   const locale = await getLocale();
   const t = await getTranslations("reviewForm");
   const doctor = await prisma.doctor.findUnique({
@@ -36,6 +40,15 @@ export default async function ReviewDoctorPage({
     include: { specialty: true },
   });
   if (!doctor) notFound();
+
+  // Gating: pa login s'ka formë vlerësimi
+  const user = await getSessionUser();
+  if (!user) {
+    redirect({
+      href: `/identifikohu?callbackUrl=${encodeURIComponent(`/mjeku/${slug}/vlereso`)}`,
+      locale: pageLocale,
+    });
+  }
 
   const name = `Dr. ${doctor.firstName} ${doctor.lastName}`;
 
@@ -45,7 +58,17 @@ export default async function ReviewDoctorPage({
       <p className="mb-6 text-gray-500">
         {t("for", { name })} · {localName(doctor.specialty, locale)}
       </p>
-      <ReviewForm targetType="DOCTOR" targetId={doctor.id} backHref={`/mjeku/${doctor.slug}`} />
+      {!user!.verified ? (
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+          <VerifyNotice />
+        </div>
+      ) : !user!.nickname ? (
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+          <NicknameForm />
+        </div>
+      ) : (
+        <ReviewForm targetType="DOCTOR" targetId={doctor.id} backHref={`/mjeku/${doctor.slug}`} />
+      )}
     </div>
   );
 }

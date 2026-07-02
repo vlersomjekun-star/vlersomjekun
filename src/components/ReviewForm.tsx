@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Star, CheckCircle2 } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { useAuthGate } from "./auth/AuthGate";
 
 type Props = {
   targetType: "DOCTOR" | "CLINIC";
@@ -12,32 +13,27 @@ type Props = {
 };
 
 const ERROR_KEYS: Record<string, string> = {
-  INVALID_CODE: "errorInvalidCode",
-  TOO_MANY_ATTEMPTS: "errorTooManyAttempts",
-  EXPIRED: "errorExpired",
   RATE_LIMITED: "errorRateLimited",
   ALREADY_REVIEWED: "errorAlreadyReviewed",
-  OTP_REQUIRED: "errorOtpRequired",
   TEXT_TOO_SHORT: "errorTextTooShort",
-  INVALID_PHONE: "errorPhone",
+  INVALID_VISIT_DATE: "errorVisit",
 };
+
+const GATE_ERRORS = ["AUTH_REQUIRED", "EMAIL_NOT_VERIFIED", "NICKNAME_REQUIRED"];
 
 export default function ReviewForm({ targetType, targetId, backHref }: Props) {
   const t = useTranslations("reviewForm");
   const tm = useTranslations("months");
   const tc = useTranslations("common");
   const locale = useLocale();
+  const { requireAuth } = useAuthGate();
 
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
   const [text, setText] = useState("");
   const [visitMonth, setVisitMonth] = useState("");
   const [visitYear, setVisitYear] = useState("");
-  const [nickname, setNickname] = useState("");
   const [language, setLanguage] = useState(locale.toUpperCase());
-  const [phone, setPhone] = useState("+355 ");
-  const [code, setCode] = useState("");
-  const [otpState, setOtpState] = useState<"idle" | "sending" | "sent" | "verifying" | "verified">("idle");
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [result, setResult] = useState<"PUBLISHED" | "PENDING" | null>(null);
@@ -55,67 +51,12 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
     return months;
   }
 
-  function mapError(codeStr: string | undefined): string {
-    const key = codeStr ? ERROR_KEYS[codeStr] : undefined;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    return key ? t(key as any) : tc("error");
-  }
-
-  async function sendCode() {
-    setError(null);
-    if (!/^\+?[0-9\s\-()]{8,18}$/.test(phone.trim())) {
-      setError(t("errorPhone"));
-      return;
-    }
-    setOtpState("sending");
-    try {
-      const res = await fetch("/api/otp/send", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: phone.trim() }),
-      });
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        setError(mapError(data.error));
-        setOtpState("idle");
-        return;
-      }
-      setOtpState("sent");
-    } catch {
-      setError(tc("error"));
-      setOtpState("idle");
-    }
-  }
-
-  async function verifyCode() {
-    setError(null);
-    setOtpState("verifying");
-    try {
-      const res = await fetch("/api/otp/verify", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phone: phone.trim(), code: code.trim() }),
-      });
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        setError(mapError(data.error));
-        setOtpState("sent");
-        return;
-      }
-      setOtpState("verified");
-    } catch {
-      setError(tc("error"));
-      setOtpState("sent");
-    }
-  }
-
   async function submit() {
     setError(null);
     if (rating < 1) return setError(t("errorRating"));
     if (text.trim().length < 30) return setError(t("errorTextTooShort"));
     if (!visitMonth || !visitYear) return setError(t("errorVisit"));
-    if (!nickname.trim()) return setError(t("errorNickname"));
-    if (otpState !== "verified") return setError(t("errorOtpRequired"));
+    if (!requireAuth()) return;
 
     setSubmitting(true);
     try {
@@ -129,14 +70,18 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
           text: text.trim(),
           visitMonth: Number(visitMonth),
           visitYear: Number(visitYear),
-          nickname: nickname.trim(),
           language,
-          phone: phone.trim(),
         }),
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
-        setError(mapError(data.error));
+        if (GATE_ERRORS.includes(data.error)) {
+          requireAuth(); // hap modal-in e duhur
+        } else {
+          const key = ERROR_KEYS[data.error];
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          setError(key ? t(key as any) : tc("error"));
+        }
         setSubmitting(false);
         return;
       }
@@ -258,23 +203,7 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
         </div>
       </div>
 
-      {/* 4. Nofka */}
-      <div>
-        <label htmlFor="nickname" className={labelClass}>
-          {t("nicknameLabel")}
-        </label>
-        <input
-          id="nickname"
-          value={nickname}
-          onChange={(e) => setNickname(e.target.value)}
-          maxLength={30}
-          placeholder={t("nicknamePlaceholder")}
-          className={inputClass}
-        />
-        <p className="mt-1 text-xs text-gray-400">{t("nicknameHelp")}</p>
-      </div>
-
-      {/* 5. Gjuha */}
+      {/* 4. Gjuha */}
       <div>
         <label htmlFor="language" className={labelClass}>
           {t("languageLabel")}
@@ -291,72 +220,13 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
         </select>
       </div>
 
-      {/* 6. Telefoni + OTP */}
-      <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
-        <label htmlFor="phone" className={labelClass}>
-          {t("phoneLabel")}
-        </label>
-        <p className="mb-2 text-xs text-gray-400">{t("phoneHelp")}</p>
-        {otpState === "verified" ? (
-          <p className="inline-flex items-center gap-1.5 rounded-full bg-trust-light px-3 py-1.5 text-sm font-medium text-trust">
-            <CheckCircle2 size={16} aria-hidden />
-            {t("codeVerified")}
-          </p>
-        ) : (
-          <>
-            <div className="flex gap-2">
-              <input
-                id="phone"
-                type="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                placeholder={t("phonePlaceholder")}
-                disabled={otpState === "sent" || otpState === "verifying"}
-                className={inputClass}
-              />
-              <button
-                type="button"
-                onClick={sendCode}
-                disabled={otpState === "sending" || otpState === "verifying"}
-                className="shrink-0 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-primary-dark disabled:opacity-50"
-              >
-                {t("sendCode")}
-              </button>
-            </div>
-            {(otpState === "sent" || otpState === "verifying") && (
-              <div className="mt-3">
-                <p className="mb-2 text-xs text-trust">{t("codeSent")}</p>
-                <div className="flex gap-2">
-                  <input
-                    value={code}
-                    onChange={(e) => setCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
-                    inputMode="numeric"
-                    placeholder={t("codeLabel")}
-                    aria-label={t("codeLabel")}
-                    className={`${inputClass} tracking-[0.3em]`}
-                  />
-                  <button
-                    type="button"
-                    onClick={verifyCode}
-                    disabled={code.length !== 6 || otpState === "verifying"}
-                    className="shrink-0 rounded-lg bg-trust px-4 py-2 text-sm font-semibold text-white transition hover:opacity-90 disabled:opacity-50"
-                  >
-                    {t("verifyCode")}
-                  </button>
-                </div>
-              </div>
-            )}
-          </>
-        )}
-      </div>
-
       {error && (
         <p role="alert" className="rounded-lg bg-red-50 p-3 text-sm font-medium text-red-600">
           {error}
         </p>
       )}
 
-      {/* 7. Submit */}
+      {/* 5. Submit */}
       <button
         type="button"
         onClick={submit}

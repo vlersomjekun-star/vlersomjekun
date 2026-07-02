@@ -2,15 +2,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 import { MapPin, Phone } from "lucide-react";
-import { ContentStatus, ReviewStatus } from "@prisma/client";
+import { CommentStatus, ContentStatus, ReviewStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { localName } from "@/lib/locale-name";
 import { hreflangAlternates, localeUrl } from "@/lib/seo";
-import { Link } from "@/i18n/navigation";
+import { getSessionUser } from "@/lib/user-guard";
 import Avatar from "@/components/Avatar";
 import RatingBlock from "@/components/RatingBlock";
 import ReviewCard from "@/components/ReviewCard";
 import ResultCard from "@/components/ResultCard";
+import BlurGate from "@/components/BlurGate";
+import GatedLink from "@/components/auth/GatedLink";
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +24,13 @@ async function getClinic(slug: string) {
       reviews: {
         where: { status: ReviewStatus.PUBLISHED },
         orderBy: { createdAt: "desc" },
+        include: {
+          comments: {
+            where: { status: CommentStatus.PUBLISHED },
+            orderBy: { createdAt: "asc" },
+            include: { user: { select: { nickname: true } } },
+          },
+        },
       },
       doctors: {
         where: { status: ContentStatus.APPROVED },
@@ -66,8 +75,10 @@ export default async function ClinicPage({
   const { slug } = await params;
   const locale = await getLocale();
   const t = await getTranslations("profile");
-  const clinic = await getClinic(slug);
+  const [clinic, viewer] = await Promise.all([getClinic(slug), getSessionUser()]);
   if (!clinic) notFound();
+
+  const loggedIn = Boolean(viewer);
 
   const distribution: Record<number, number> = {};
   for (const r of clinic.reviews) {
@@ -147,12 +158,12 @@ export default async function ClinicPage({
       </div>
 
       <div className="fixed inset-x-0 bottom-0 z-30 border-t border-gray-100 bg-white/95 p-3 backdrop-blur sm:static sm:mt-4 sm:border-0 sm:bg-transparent sm:p-0">
-        <Link
+        <GatedLink
           href={`/klinika/${clinic.slug}/vlereso`}
           className="block w-full rounded-xl bg-primary py-3 text-center font-semibold text-white shadow-sm transition hover:bg-primary-dark"
         >
           {t("leaveReview")}
-        </Link>
+        </GatedLink>
       </div>
 
       {/* Mjekët e klinikës */}
@@ -187,9 +198,45 @@ export default async function ClinicPage({
           </p>
         ) : (
           <div className="space-y-3">
-            {clinic.reviews.map((r) => (
-              <ReviewCard key={r.id} review={r} />
+            {clinic.reviews.slice(0, 1).map((r) => (
+              <ReviewCard
+                key={r.id}
+                review={r}
+                comments={r.comments.map((c) => ({
+                  id: c.id,
+                  text: c.text,
+                  nickname: c.user.nickname ?? "—",
+                  createdAt: c.createdAt.toISOString(),
+                }))}
+                viewerLoggedIn={loggedIn}
+                locale={locale}
+              />
             ))}
+            {clinic.reviews.length > 1 &&
+              (loggedIn ? (
+                clinic.reviews.slice(1).map((r) => (
+                  <ReviewCard
+                    key={r.id}
+                    review={r}
+                    comments={r.comments.map((c) => ({
+                      id: c.id,
+                      text: c.text,
+                      nickname: c.user.nickname ?? "—",
+                      createdAt: c.createdAt.toISOString(),
+                    }))}
+                    viewerLoggedIn
+                    locale={locale}
+                  />
+                ))
+              ) : (
+                <BlurGate>
+                  <div className="space-y-3">
+                    {clinic.reviews.slice(1).map((r) => (
+                      <ReviewCard key={r.id} review={r} locale={locale} />
+                    ))}
+                  </div>
+                </BlurGate>
+              ))}
           </div>
         )}
       </section>

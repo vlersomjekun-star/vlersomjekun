@@ -7,6 +7,7 @@ import { prisma } from "@/lib/prisma";
 import { hashIp, clientIp } from "@/lib/hash";
 import { rateLimit } from "@/lib/rate-limit";
 import { uniqueDoctorSlug, uniqueClinicSlug } from "@/lib/slug";
+import { requireActionUser } from "@/lib/user-guard";
 
 export type SubmitState = { status: "idle" | "ok" | "error"; error?: string };
 
@@ -35,6 +36,9 @@ export async function submitEntry(
   _prev: SubmitState,
   formData: FormData
 ): Promise<SubmitState> {
+  const guard = await requireActionUser();
+  if ("error" in guard) return { status: "error", error: guard.error };
+
   const raw = Object.fromEntries(formData.entries());
 
   const ipHash = hashIp(clientIp(await headers()));

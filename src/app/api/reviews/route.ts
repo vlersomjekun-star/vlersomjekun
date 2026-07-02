@@ -7,11 +7,12 @@ import {
   TargetType,
 } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
-import { hashPhone, hashIp, clientIp } from "@/lib/hash";
+import { hashIp, clientIp } from "@/lib/hash";
 import { rateLimit } from "@/lib/rate-limit";
 import { findBlacklistedWord } from "@/lib/blacklist";
 import { textSimilarity } from "@/lib/similarity";
 import { recalcRating } from "@/lib/ratings";
+import { requireActionUser } from "@/lib/user-guard";
 
 const schema = z.object({
   targetType: z.enum(["DOCTOR", "CLINIC"]),
@@ -20,9 +21,7 @@ const schema = z.object({
   text: z.string().min(30).max(3000),
   visitMonth: z.number().int().min(1).max(12),
   visitYear: z.number().int().min(2000),
-  nickname: z.string().min(1).max(30),
   language: z.enum(["SQ", "EN", "IT"]),
-  phone: z.string().regex(/^\+?[0-9\s\-()]{8,18}$/),
 });
 
 /** Heq çdo tag HTML nga teksti i review-t. */
@@ -31,6 +30,13 @@ function stripHtml(text: string): string {
 }
 
 export async function POST(req: NextRequest) {
+  // Gating: login + email i verifikuar + nickname
+  const guard = await requireActionUser();
+  if ("error" in guard) {
+    return NextResponse.json({ error: guard.error }, { status: guard.error === "AUTH_REQUIRED" ? 401 : 403 });
+  }
+  const user = guard.user;
+
   const body = await req.json().catch(() => null);
   const parsed = schema.safeParse(body);
   if (!parsed.success) {
@@ -53,21 +59,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "INVALID_VISIT_DATE" }, { status: 400 });
   }
 
-  const phoneHash = hashPhone(data.phone);
-
-  // OTP i verifikuar brenda 15 minutave të fundit
-  const otp = await prisma.otpRequest.findFirst({
-    where: {
-      phoneHash,
-      verified: true,
-      createdAt: { gte: new Date(Date.now() - 15 * 60 * 1000) },
-    },
-    orderBy: { createdAt: "desc" },
-  });
-  if (!otp) {
-    return NextResponse.json({ error: "OTP_REQUIRED" }, { status: 403 });
-  }
-
   // Target ekziston dhe është APPROVED
   const targetType = data.targetType as TargetType;
   const target =
@@ -83,11 +74,11 @@ export async function POST(req: NextRequest) {
       ? { doctorId: data.targetId }
       : { clinicId: data.targetId };
 
-  // Constraint: 1 vlerësim për profil për phoneHash në 12 muaj
+  // Constraint: 1 vlerësim për profil për userId në 12 muaj
   const existing = await prisma.review.findFirst({
     where: {
       ...targetWhere,
-      phoneHash,
+      userId: user.id,
       status: { not: ReviewStatus.REMOVED },
       createdAt: { gte: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000) },
     },
@@ -106,16 +97,16 @@ export async function POST(req: NextRequest) {
   const startOfDay = new Date();
   startOfDay.setHours(0, 0, 0, 0);
 
-  // a) i njëjti phoneHash ka vlerësuar 2+ profile të tjera sot
+  // a) i njëjti userId ka vlerësuar 2+ profile të tjera sot
   const otherToday = await prisma.review.count({
     where: {
-      phoneHash,
+      userId: user.id,
       createdAt: { gte: startOfDay },
       NOT: targetWhere,
     },
   });
   if (otherToday >= 2) {
-    flagReason = "same-phone-multiple-targets-today";
+    flagReason = "same-user-multiple-targets-today";
   }
 
   // b) similarity ≥80% me review ekzistuese të të njëjtit profil
@@ -140,7 +131,18 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // d) fjalë nga blacklist
+  // d) llogari më e re se 24 orë → moderim manual
+  if (!flagReason) {
+    const dbUser = await prisma.user.findUnique({
+      where: { id: user.id },
+      select: { createdAt: true },
+    });
+    if (dbUser && dbUser.createdAt > new Date(Date.now() - 24 * 60 * 60 * 1000)) {
+      flagReason = "new-account";
+    }
+  }
+
+  // e) fjalë nga blacklist
   if (!flagReason) {
     const word = findBlacklistedWord(text);
     if (word) flagReason = `blacklist:${word}`;
@@ -153,20 +155,18 @@ export async function POST(req: NextRequest) {
       data: {
         targetType,
         ...targetWhere,
+        userId: user.id,
         rating: data.rating,
         text,
         visitMonth: data.visitMonth,
         visitYear: data.visitYear,
-        nickname: data.nickname,
+        nickname: user.nickname ?? "—", // snapshot
         language: data.language as Language,
-        phoneHash,
         ipHash,
         status,
         flagReason,
       },
     });
-    // Konsumo OTP-në që të mos ripërdoret
-    await tx.otpRequest.deleteMany({ where: { phoneHash } });
     if (status === ReviewStatus.PUBLISHED) {
       await recalcRating(tx, targetType, data.targetId);
     }

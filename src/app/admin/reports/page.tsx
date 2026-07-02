@@ -7,7 +7,10 @@ export const dynamic = "force-dynamic";
 export default async function ReportsPage() {
   const reports = await prisma.report.findMany({
     where: { status: ReportStatus.OPEN },
-    include: { review: { include: { doctor: true, clinic: true } } },
+    include: {
+      review: { include: { doctor: true, clinic: true } },
+      comment: { include: { user: { select: { nickname: true, email: true } } } },
+    },
     orderBy: { createdAt: "asc" },
   });
 
@@ -21,6 +24,9 @@ export default async function ReportsPage() {
         {reports.map((rep) => (
           <div key={rep.id} className="rounded-xl border border-gray-200 bg-white p-4">
             <div className="mb-2 flex flex-wrap items-center gap-2 text-sm">
+              <span className="rounded bg-gray-800 px-2 py-0.5 text-xs font-medium text-white">
+                {rep.comment ? "KOMENT" : "VLERËSIM"}
+              </span>
               <span className="rounded bg-red-100 px-2 py-0.5 text-xs font-medium text-red-600">
                 Arsyeja: {rep.reason}
               </span>
@@ -28,21 +34,35 @@ export default async function ReportsPage() {
                 Raportuar: {new Date(rep.createdAt).toLocaleString("sq-AL")}
               </span>
             </div>
-            <div className="mb-3 rounded-lg bg-gray-50 p-3 text-sm">
-              <p className="mb-1 font-medium text-gray-800">
-                {rep.review.nickname} · {"★".repeat(rep.review.rating)} →{" "}
-                {rep.review.doctor
-                  ? `Dr. ${rep.review.doctor.firstName} ${rep.review.doctor.lastName}`
-                  : rep.review.clinic?.name}{" "}
-                <span className="text-xs text-gray-400">({rep.review.status})</span>
-              </p>
-              <p className="whitespace-pre-line text-gray-600">{rep.review.text}</p>
-            </div>
+
+            {rep.review && (
+              <div className="mb-3 rounded-lg bg-gray-50 p-3 text-sm">
+                <p className="mb-1 font-medium text-gray-800">
+                  {rep.review.nickname} · {"★".repeat(rep.review.rating)} →{" "}
+                  {rep.review.doctor
+                    ? `Dr. ${rep.review.doctor.firstName} ${rep.review.doctor.lastName}`
+                    : rep.review.clinic?.name}{" "}
+                  <span className="text-xs text-gray-400">({rep.review.status})</span>
+                </p>
+                <p className="whitespace-pre-line text-gray-600">{rep.review.text}</p>
+              </div>
+            )}
+
+            {rep.comment && (
+              <div className="mb-3 rounded-lg bg-gray-50 p-3 text-sm">
+                <p className="mb-1 font-medium text-gray-800">
+                  {rep.comment.user.nickname ?? rep.comment.user.email}{" "}
+                  <span className="text-xs text-gray-400">({rep.comment.status})</span>
+                </p>
+                <p className="whitespace-pre-line text-gray-600">{rep.comment.text}</p>
+              </div>
+            )}
+
             <div className="flex flex-wrap gap-2">
               <form action={resolveReportKeep}>
                 <input type="hidden" name="id" value={rep.id} />
                 <button className="rounded-lg bg-trust px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90">
-                  Mbaje vlerësimin
+                  {rep.comment ? "Mbaje komentin" : "Mbaje vlerësimin"}
                 </button>
               </form>
               <form action={resolveReportRemove} className="flex items-center gap-2">
@@ -53,7 +73,7 @@ export default async function ReportsPage() {
                   className="rounded-lg border border-gray-200 p-1.5 text-xs"
                 />
                 <button className="rounded-lg bg-red-500 px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90">
-                  Hiqe vlerësimin
+                  {rep.comment ? "Hiqe komentin" : "Hiqe vlerësimin"}
                 </button>
               </form>
             </div>

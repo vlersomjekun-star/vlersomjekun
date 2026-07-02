@@ -6,12 +6,6 @@ const salt = () => {
   return s;
 };
 
-/** Numri i telefonit NUK ruhet kurrë në clear text — vetëm ky hash. */
-export function hashPhone(phone: string): string {
-  const normalized = phone.replace(/[\s\-().]/g, "");
-  return createHash("sha256").update(normalized + salt()).digest("hex");
-}
-
 export function hashIp(ip: string): string {
   return createHash("sha256").update(ip + salt()).digest("hex");
 }

@@ -17,6 +17,8 @@ export default async function AdminDashboard() {
     pendingDoctors,
     pendingClinics,
     openReports,
+    totalUsers,
+    newUsersThisWeek,
   ] = await Promise.all([
     prisma.review.count(),
     prisma.review.count({ where: { createdAt: { gte: weekAgo } } }),
@@ -27,9 +29,12 @@ export default async function AdminDashboard() {
     prisma.doctor.count({ where: { status: ContentStatus.PENDING } }),
     prisma.clinic.count({ where: { status: ContentStatus.PENDING } }),
     prisma.report.count({ where: { status: ReportStatus.OPEN } }),
+    prisma.user.count(),
+    prisma.user.count({ where: { createdAt: { gte: weekAgo } } }),
   ]);
 
   const removedPct = totalReviews > 0 ? ((removedReviews / totalReviews) * 100).toFixed(1) : "0";
+  const reviewsPerUser = totalUsers > 0 ? (totalReviews / totalUsers).toFixed(2) : "0";
 
   const stats = [
     { label: "Vlerësime totale", value: totalReviews },
@@ -37,6 +42,9 @@ export default async function AdminDashboard() {
     { label: "Mjekë aktivë", value: totalDoctors },
     { label: "Klinika aktive", value: totalClinics },
     { label: "% vlerësime të hequra", value: `${removedPct}%`, warn: Number(removedPct) > 5 },
+    { label: "Përdorues totalë", value: totalUsers },
+    { label: "Përdorues të rinj këtë javë", value: newUsersThisWeek },
+    { label: "Vlerësime / përdorues", value: reviewsPerUser },
   ];
 
   const queues = [
@@ -48,7 +56,7 @@ export default async function AdminDashboard() {
   return (
     <div>
       <h1 className="mb-5 text-xl font-bold text-gray-900">Statistika</h1>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         {stats.map((s) => (
           <div key={s.label} className="rounded-xl border border-gray-200 bg-white p-4">
             <p className={`text-2xl font-bold ${s.warn ? "text-red-500" : "text-gray-900"}`}>{s.value}</p>

@@ -9,8 +9,16 @@ Pa monetizim, pa rezervime, pa chat. Trilingue: **sq** (default), **en**, **it**
 - PostgreSQL + Prisma 6
 - Tailwind CSS 4
 - next-intl (routing: `/` sq, `/en`, `/it`)
-- Zod, bcryptjs, lucide-react
-- SMS OTP: `MockSmsProvider` (dev, logga il codice in console) / `TwilioSmsProvider` (prod)
+- **NextAuth v5 (Auth.js)**: Credentials (email+password, bcrypt) + Google OAuth
+- Email verifica: `MockEmailProvider` (dev, logga il link in console) / `ResendEmailProvider` (prod)
+- Zod, lucide-react
+
+## Autenticazione e gating
+
+- Le recensioni richiedono un **account con email verificata + nickname** (niente più OTP SMS).
+- Gating dei contenuti: profili, rating e **prima recensione** visibili a tutti (SEO); le recensioni dal secondo in poi e i commenti sono **sfocati via CSS** per i non registrati — il testo resta nell'HTML server-side, quindi Google lo indicizza.
+- Il login viene chiesto **solo al click** su un'azione protetta (modal login/signup).
+- Recensioni legacy (era OTP): assegnate all'utente placeholder `legacy-otp-user`; il loro nickname originale è conservato in `Review.nickname` (snapshot), quindi in UI nulla cambia.
 
 ## Setup locale
 
@@ -29,24 +37,26 @@ npx prisma db seed          # 12 qytete, 20 specialitete, 10 klinika, 30 mjekë 
 npm run dev
 ```
 
-**Troubleshooting DB locale**: se il sito dà 500 con "Can't reach database server at localhost:51218", il processo `prisma dev` è morto. Riavvialo con `npx prisma dev --name vlersomjekun`. Se dice "already running" ma l'errore persiste, oppure "Lock file is already being held": termina il processo node zombie che occupa le porte 51217-51219 (`Get-NetTCPConnection -LocalPort 51218 -State Listen` → `Stop-Process -Id <pid> -Force`), elimina le cartelle `.lock` in `%LOCALAPPDATA%\prisma-dev-nodejs\Data\*\` e rilancia. I dati non si perdono (restano in `.pglite`).
+**Troubleshooting DB locale**: se il sito dà 500 con "Can't reach database server", il processo `prisma dev` è morto. Riavvialo con `npx prisma dev --name vlersomjekun`. Se dice "already running" ma l'errore persiste, oppure "Lock file is already being held": termina il processo node zombie che occupa le porte 51217-51219 (`Get-NetTCPConnection -LocalPort 51218 -State Listen` → `Stop-Process -Id <pid> -Force`), elimina le cartelle `.lock` in `%LOCALAPPDATA%\prisma-dev-nodejs\Data\*\` e rilancia. I dati non si perdono (restano in `.pglite`).
 
 Admin: `/admin` — credenziali da `ADMIN_SEED_EMAIL` / `ADMIN_SEED_PASSWORD`.
-In dev il codice OTP appare nella console del server (`[MockSmsProvider] OTP për ... : 123456`).
+In dev il **link di verifica email** appare nella console del server (`[MockEmailProvider] Verifikim për ... : http://...`).
 
 ## Deploy (Vercel + Neon)
 
 1. Crea un DB Neon, imposta `DATABASE_URL` (pooled) su Vercel.
-2. `npx prisma migrate deploy` (le migration sono in `prisma/migrations/`).
+2. `npx prisma migrate deploy` (le migration sono in `prisma/migrations/`, inclusa `users_replace_otp` con il backfill legacy).
 3. `npx prisma db seed` una volta.
-4. Env obbligatorie: `DATABASE_URL`, `PHONE_HASH_SALT`, `AUTH_SECRET`, `SMS_PROVIDER=twilio`, `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_FROM_NUMBER`, `NEXT_PUBLIC_BASE_URL=https://vlersomjekun.al`.
-5. `PHONE_HASH_SALT` non va MAI cambiato dopo il lancio (romperebbe il vincolo 1-recensione-per-numero).
+4. Env obbligatorie: `DATABASE_URL`, `PHONE_HASH_SALT`, `AUTH_SECRET`, `EMAIL_PROVIDER=resend`, `RESEND_API_KEY`, `NEXT_PUBLIC_BASE_URL=https://vlersomjekun.al`.
+5. Google OAuth (opzionale ma consigliato): `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET` — redirect URI: `https://vlersomjekun.al/api/auth/callback/google`. Se mancano, il bottone Google non appare.
+6. `PHONE_HASH_SALT` e `AUTH_SECRET` non vanno MAI cambiati dopo il lancio.
 
 ## Regole architetturali (non negoziabili)
 
-- Numeri di telefono MAI in chiaro nel DB — solo SHA-256 con salt (`phoneHash`).
-- 1 recensione per medico per numero ogni 12 mesi (application layer, `/api/reviews`).
-- Le recensioni flaggate dai filtri automatici vanno in `PENDING` (moderazione), mai bloccate.
+- 1 recensione per medico per **account** ogni 12 mesi (application layer, `/api/reviews`).
+- Filtri automatici → `PENDING` (moderazione), mai blocco: multi-target stesso giorno, testo duplicato ≥80%, 3+ da stesso IP/24h, **account più giovane di 24h**, blacklist.
+- Il testo delle recensioni sfocate NON va mai rimosso dall'HTML server-side (solo blur CSS) — requisito SEO.
+- Nessun profilo utente pubblico: solo il nickname è visibile.
 - `avgRating`/`reviewCount` denormalizzati, ricalcolati in transaction a ogni publish/remove.
 - I 30 medici del seed sono FITTIZI — da sostituire con dati reali prima del lancio.
-- Niente login utenti, prenotazioni, chat, notifiche, dark mode.
+- Niente prenotazioni, chat, notifiche, dark mode, login Facebook/Apple.

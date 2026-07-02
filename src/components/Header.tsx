@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
+import UserMenu from "./auth/UserMenu";
 
 export default function Header() {
   const t = useTranslations("header");
@@ -27,6 +28,7 @@ export default function Header() {
           <Suspense>
             <LanguageSwitcher />
           </Suspense>
+          <UserMenu />
         </nav>
       </div>
     </header>

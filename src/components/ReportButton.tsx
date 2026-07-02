@@ -6,12 +6,22 @@ import { useTranslations } from "next-intl";
 
 const REASONS = ["insult", "notMedical", "privacy", "fake", "other"] as const;
 
-export default function ReportButton({ reviewId }: { reviewId: string }) {
+/** Raporton një vlerësim (reviewId) ose një koment (commentId). */
+export default function ReportButton({
+  reviewId,
+  commentId,
+  small = false,
+}: {
+  reviewId?: string;
+  commentId?: string;
+  small?: boolean;
+}) {
   const t = useTranslations("profile");
   const tc = useTranslations("common");
   const [open, setOpen] = useState(false);
   const [reason, setReason] = useState<string>("");
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const id = reviewId ?? commentId ?? "";
 
   async function submit() {
     if (!reason) return;
@@ -20,7 +30,7 @@ export default function ReportButton({ reviewId }: { reviewId: string }) {
       const res = await fetch("/api/reports", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ reviewId, reason }),
+        body: JSON.stringify({ reviewId, commentId, reason }),
       });
       setState(res.ok ? "sent" : "error");
     } catch {
@@ -32,9 +42,11 @@ export default function ReportButton({ reviewId }: { reviewId: string }) {
     <>
       <button
         onClick={() => setOpen(true)}
-        className="inline-flex items-center gap-1 text-xs text-gray-400 transition hover:text-red-500"
+        className={`inline-flex items-center gap-1 text-gray-400 transition hover:text-red-500 ${
+          small ? "text-[10px]" : "text-xs"
+        }`}
       >
-        <Flag size={12} aria-hidden />
+        <Flag size={small ? 10 : 12} aria-hidden />
         {t("report")}
       </button>
 
@@ -58,11 +70,11 @@ export default function ReportButton({ reviewId }: { reviewId: string }) {
               <p className="text-sm text-trust">{t("reportSent")}</p>
             ) : (
               <>
-                <label className="mb-1 block text-sm font-medium text-gray-700" htmlFor={`reason-${reviewId}`}>
+                <label className="mb-1 block text-sm font-medium text-gray-700" htmlFor={`reason-${id}`}>
                   {t("reportReason")}
                 </label>
                 <select
-                  id={`reason-${reviewId}`}
+                  id={`reason-${id}`}
                   value={reason}
                   onChange={(e) => setReason(e.target.value)}
                   className="mb-4 w-full rounded-lg border border-gray-200 p-2 text-sm outline-none focus:border-primary"

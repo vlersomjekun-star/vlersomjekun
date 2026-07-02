@@ -2,9 +2,13 @@ import { useTranslations } from "next-intl";
 import { BadgeCheck } from "lucide-react";
 import Stars from "./Stars";
 import ReportButton from "./ReportButton";
+import CommentSection, { type CommentData } from "./CommentSection";
 
 export default function ReviewCard({
   review,
+  comments = [],
+  viewerLoggedIn = false,
+  locale = "sq",
 }: {
   review: {
     id: string;
@@ -15,6 +19,9 @@ export default function ReviewCard({
     nickname: string;
     language: string;
   };
+  comments?: CommentData[];
+  viewerLoggedIn?: boolean;
+  locale?: string;
 }) {
   const t = useTranslations("profile");
   const tm = useTranslations("months");
@@ -39,6 +46,12 @@ export default function ReviewCard({
         </span>
         <ReportButton reviewId={review.id} />
       </div>
+      <CommentSection
+        reviewId={review.id}
+        comments={comments}
+        viewerLoggedIn={viewerLoggedIn}
+        locale={locale}
+      />
     </article>
   );
 }

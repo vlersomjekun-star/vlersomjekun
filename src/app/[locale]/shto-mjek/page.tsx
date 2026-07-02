@@ -4,6 +4,10 @@ import { ContentStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { localName } from "@/lib/locale-name";
 import { hreflangAlternates, localeUrl } from "@/lib/seo";
+import { getSessionUser } from "@/lib/user-guard";
+import { redirect } from "@/i18n/navigation";
+import VerifyNotice from "@/components/auth/VerifyNotice";
+import NicknameForm from "@/components/auth/NicknameForm";
 import AddEntryForm from "./AddEntryForm";
 
 export const dynamic = "force-dynamic";
@@ -22,9 +26,33 @@ export async function generateMetadata({
   };
 }
 
-export default async function AddPage() {
+export default async function AddPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale: pageLocale } = await params;
   const locale = await getLocale();
   const t = await getTranslations("addDoctor");
+
+  // Gating: kërkohet login + verifikim + nickname
+  const user = await getSessionUser();
+  if (!user) {
+    redirect({
+      href: `/identifikohu?callbackUrl=${encodeURIComponent("/shto-mjek")}`,
+      locale: pageLocale,
+    });
+  }
+  if (!user!.verified || !user!.nickname) {
+    return (
+      <div className="mx-auto max-w-xl px-4 py-8">
+        <h1 className="mb-6 text-2xl font-bold text-gray-900">{t("title")}</h1>
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+          {!user!.verified ? <VerifyNotice /> : <NicknameForm />}
+        </div>
+      </div>
+    );
+  }
 
   const [specialties, cities, clinics] = await Promise.all([
     prisma.specialty.findMany({ orderBy: { nameSq: "asc" } }),

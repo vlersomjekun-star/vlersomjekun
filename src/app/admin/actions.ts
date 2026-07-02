@@ -5,10 +5,12 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
 import {
+  CommentStatus,
   ContentStatus,
   ReportStatus,
   ReviewStatus,
   TargetType,
+  UserStatus,
 } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import {
@@ -146,12 +148,63 @@ export async function resolveReportRemove(formData: FormData): Promise<void> {
     where: { id: String(formData.get("id")) },
   });
   const reason = String(formData.get("reason") || "reported");
-  await setReviewStatus(report.reviewId, ReviewStatus.REMOVED, reason);
+  if (report.reviewId) {
+    await setReviewStatus(report.reviewId, ReviewStatus.REMOVED, reason);
+  } else if (report.commentId) {
+    await prisma.reviewComment.update({
+      where: { id: report.commentId },
+      data: { status: CommentStatus.REMOVED },
+    });
+  }
   await prisma.report.update({
     where: { id: report.id },
     data: { status: ReportStatus.RESOLVED },
   });
   revalidatePath("/admin/reports");
+}
+
+// ---------- Përdoruesit ----------
+
+export async function banUser(formData: FormData): Promise<void> {
+  await requireAdmin();
+  await prisma.user.update({
+    where: { id: String(formData.get("id")) },
+    data: { status: UserStatus.BANNED },
+  });
+  revalidatePath("/admin/users");
+}
+
+export async function unbanUser(formData: FormData): Promise<void> {
+  await requireAdmin();
+  await prisma.user.update({
+    where: { id: String(formData.get("id")) },
+    data: { status: UserStatus.ACTIVE },
+  });
+  revalidatePath("/admin/users");
+}
+
+/** Heq (REMOVED) të gjitha vlerësimet e një përdoruesi dhe rillogarit ratings. */
+export async function removeAllUserReviews(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const userId = String(formData.get("id"));
+  const reviews = await prisma.review.findMany({
+    where: { userId, status: { not: ReviewStatus.REMOVED } },
+  });
+  await prisma.$transaction(async (tx) => {
+    await tx.review.updateMany({
+      where: { userId, status: { not: ReviewStatus.REMOVED } },
+      data: { status: ReviewStatus.REMOVED, removalReason: "user-mass-removal" },
+    });
+    const targets = new Map<string, TargetType>();
+    for (const r of reviews) {
+      const targetId = r.targetType === TargetType.DOCTOR ? r.doctorId : r.clinicId;
+      if (targetId) targets.set(targetId, r.targetType);
+    }
+    for (const [targetId, targetType] of targets) {
+      await recalcRating(tx, targetType, targetId);
+    }
+  });
+  revalidatePath("/admin/users");
 }
 
 // ---------- CRUD Mjekë ----------

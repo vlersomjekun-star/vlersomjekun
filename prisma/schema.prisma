@@ -41,6 +41,45 @@ enum ReportStatus {
   RESOLVED
 }
 
+enum AuthProvider {
+  CREDENTIALS
+  GOOGLE
+}
+
+enum UserStatus {
+  ACTIVE
+  BANNED
+}
+
+enum CommentStatus {
+  PUBLISHED
+  REMOVED
+}
+
+model User {
+  id                 String              @id @default(cuid())
+  email              String              @unique
+  passwordHash       String? // null për OAuth users
+  name               String?
+  nickname           String? // max 30 (Zod); i detyrueshëm para veprimit të parë të mbrojtur
+  emailVerified      DateTime?
+  provider           AuthProvider        @default(CREDENTIALS)
+  status             UserStatus          @default(ACTIVE)
+  createdAt          DateTime            @default(now())
+  reviews            Review[]
+  comments           ReviewComment[]
+  verificationTokens VerificationToken[]
+}
+
+model VerificationToken {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
 model City {
   id      String   @id @default(cuid())
   nameSq  String
@@ -97,62 +136,68 @@ model Doctor {
   photoUrl       String?
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
-  avgRating     Float          @default(0)
-  reviewCount   Int            @default(0)
-  createdAt     DateTime       @default(now())
-  reviews       Review[]
+  avgRating      Float         @default(0)
+  reviewCount    Int           @default(0)
+  createdAt      DateTime      @default(now())
+  reviews        Review[]
 
   @@index([specialtyId, status])
   @@index([cityId, status])
 }
 
 model Review {
-  id            String       @id @default(cuid())
+  id            String          @id @default(cuid())
   targetType    TargetType
   doctorId      String?
-  doctor        Doctor?      @relation(fields: [doctorId], references: [id])
+  doctor        Doctor?         @relation(fields: [doctorId], references: [id])
   clinicId      String?
-  clinic        Clinic?      @relation(fields: [clinicId], references: [id])
+  clinic        Clinic?         @relation(fields: [clinicId], references: [id])
+  userId        String
+  user          User            @relation(fields: [userId], references: [id])
   rating        Int
   text          String
   visitMonth    Int
   visitYear     Int
-  nickname      String
+  nickname      String // snapshot i nickname-it të user-it në momentin e krijimit (ruan edhe reviews legacy)
   language      Language
-  phoneHash     String
   ipHash        String
-  status        ReviewStatus @default(PUBLISHED)
+  status        ReviewStatus    @default(PUBLISHED)
   removalReason String?
   flagReason    String?
-  createdAt     DateTime     @default(now())
+  createdAt     DateTime        @default(now())
   reports       Report[]
+  comments      ReviewComment[]
 
   @@index([doctorId, status])
   @@index([clinicId, status])
-  @@index([phoneHash])
+  @@index([userId, createdAt])
   @@index([ipHash, createdAt])
 }
 
-model OtpRequest {
-  id        String   @id @default(cuid())
-  phoneHash String
-  code      String
-  expiresAt DateTime
-  verified  Boolean  @default(false)
-  attempts  Int      @default(0)
-  createdAt DateTime @default(now())
+model ReviewComment {
+  id        String        @id @default(cuid())
+  reviewId  String
+  review    Review        @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User          @relation(fields: [userId], references: [id])
+  text      String // max 500 (Zod)
+  status    CommentStatus @default(PUBLISHED)
+  createdAt DateTime      @default(now())
+  reports   Report[]
 
-  @@index([phoneHash, createdAt])
+  @@index([reviewId, status])
 }
 
 model Report {
-  id             String       @id @default(cuid())
-  reviewId       String
-  review         Review       @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  id             String         @id @default(cuid())
+  reviewId       String?
+  review         Review?        @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  commentId      String?
+  comment        ReviewComment? @relation(fields: [commentId], references: [id], onDelete: Cascade)
   reason         String
   reporterIpHash String
-  status         ReportStatus @default(OPEN)
-  createdAt      DateTime     @default(now())
+  status         ReportStatus   @default(OPEN)
+  createdAt      DateTime       @default(now())
 }
 
 model AdminUser {

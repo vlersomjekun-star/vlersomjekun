@@ -3,7 +3,11 @@ import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { ContentStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
+import { getSessionUser } from "@/lib/user-guard";
+import { redirect } from "@/i18n/navigation";
 import ReviewForm from "@/components/ReviewForm";
+import VerifyNotice from "@/components/auth/VerifyNotice";
+import NicknameForm from "@/components/auth/NicknameForm";
 
 export const dynamic = "force-dynamic";
 
@@ -27,18 +31,36 @@ export default async function ReviewClinicPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale: pageLocale, slug } = await params;
   const t = await getTranslations("reviewForm");
   const clinic = await prisma.clinic.findUnique({
     where: { slug, status: ContentStatus.APPROVED },
   });
   if (!clinic) notFound();
 
+  const user = await getSessionUser();
+  if (!user) {
+    redirect({
+      href: `/identifikohu?callbackUrl=${encodeURIComponent(`/klinika/${slug}/vlereso`)}`,
+      locale: pageLocale,
+    });
+  }
+
   return (
     <div className="mx-auto max-w-xl px-4 py-8">
       <h1 className="text-2xl font-bold text-gray-900">{t("title")}</h1>
       <p className="mb-6 text-gray-500">{t("for", { name: clinic.name })}</p>
-      <ReviewForm targetType="CLINIC" targetId={clinic.id} backHref={`/klinika/${clinic.slug}`} />
+      {!user!.verified ? (
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+          <VerifyNotice />
+        </div>
+      ) : !user!.nickname ? (
+        <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+          <NicknameForm />
+        </div>
+      ) : (
+        <ReviewForm targetType="CLINIC" targetId={clinic.id} backHref={`/klinika/${clinic.slug}`} />
+      )}
     </div>
   );
 }
