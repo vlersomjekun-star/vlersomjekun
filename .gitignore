@@ -41,3 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 !.env.example
+
+# probe HTML scratch (faza 2)
+scripts/clinics/probe/

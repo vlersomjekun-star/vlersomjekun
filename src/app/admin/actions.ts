@@ -7,6 +7,7 @@ import bcrypt from "bcryptjs";
 import {
   CommentStatus,
   ContentStatus,
+  MatchStatus,
   ReportStatus,
   ReviewStatus,
   TargetType,
@@ -205,6 +206,111 @@ export async function removeAllUserReviews(formData: FormData): Promise<void> {
     }
   });
   revalidatePath("/admin/users");
+}
+
+// ---------- Përputhjet mjek→klinikë (Faza 2, scraper) ----------
+
+/** Apliko pasurimin e një match-i te mjeku (pa mbishkruar të dhëna ekzistuese). */
+async function applyMatchToDoctor(matchId: string): Promise<void> {
+  const m = await prisma.doctorClinicMatch.findUniqueOrThrow({
+    where: { id: matchId },
+    include: { doctor: { include: { specialty: true } } },
+  });
+  if (!m.doctor || m.doctor.createdBy === "USER") return;
+  const data: {
+    clinicId?: string;
+    subSpecialty?: string;
+    photoSourceUrl?: string;
+    enrichedAt?: Date;
+  } = {};
+  if (!m.doctor.clinicId) data.clinicId = m.clinicId;
+  if (
+    m.scrapedSpecialty &&
+    !m.doctor.subSpecialty &&
+    m.scrapedSpecialty.toLowerCase() !== m.doctor.specialty.nameSq.toLowerCase()
+  ) {
+    data.subSpecialty = m.scrapedSpecialty;
+  }
+  if (m.photoSourceUrl && !m.doctor.photoSourceUrl) data.photoSourceUrl = m.photoSourceUrl;
+  if (Object.keys(data).length > 0) {
+    data.enrichedAt = new Date();
+    await prisma.doctor.update({ where: { id: m.doctor.id }, data });
+  }
+}
+
+export async function confirmMatch(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const match = await prisma.doctorClinicMatch.findUniqueOrThrow({ where: { id } });
+  if (!match.doctorId) return; // s'ka kandidat — përdor "Krijo mjek të ri"
+  await prisma.doctorClinicMatch.update({
+    where: { id },
+    data: { matchStatus: MatchStatus.CONFIRMED },
+  });
+  await applyMatchToDoctor(id);
+  revalidatePath("/admin/matches");
+}
+
+export async function rejectMatch(formData: FormData): Promise<void> {
+  await requireAdmin();
+  await prisma.doctorClinicMatch.update({
+    where: { id: String(formData.get("id")) },
+    data: { matchStatus: MatchStatus.REJECTED },
+  });
+  revalidatePath("/admin/matches");
+}
+
+/** NEW_DOCTOR: krijon mjekun nga të dhënat e scraped (source CLINIC_SITE). */
+export async function createDoctorFromMatch(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const m = await prisma.doctorClinicMatch.findUniqueOrThrow({
+    where: { id },
+    include: { clinic: true },
+  });
+
+  // Specialiteti: përputhje me emrin e scraped, ndryshe Mjek i Përgjithshëm
+  let specialty = m.scrapedSpecialty
+    ? await prisma.specialty.findFirst({
+        where: {
+          OR: [
+            { nameSq: { equals: m.scrapedSpecialty, mode: "insensitive" } },
+            { nameSq: { contains: m.scrapedSpecialty, mode: "insensitive" } },
+          ],
+        },
+      })
+    : null;
+  specialty ??= await prisma.specialty.findUniqueOrThrow({
+    where: { slug: "mjek-i-pergjithshem" },
+  });
+
+  const doctor = await prisma.doctor.create({
+    data: {
+      firstName: m.scrapedFirstName,
+      lastName: m.scrapedLastName,
+      slug: await uniqueDoctorSlug(m.scrapedFirstName, m.scrapedLastName, specialty.slug),
+      specialtyId: specialty.id,
+      cityId: m.clinic.cityId,
+      clinicId: m.clinicId,
+      subSpecialty:
+        m.scrapedSpecialty &&
+        m.scrapedSpecialty.toLowerCase() !== specialty.nameSq.toLowerCase()
+          ? m.scrapedSpecialty
+          : null,
+      photoSourceUrl: m.photoSourceUrl,
+      source: "CLINIC_SITE",
+      sourceUrl: m.profileUrl,
+      enrichedAt: new Date(),
+      status: ContentStatus.APPROVED,
+      createdBy: "ADMIN",
+    },
+  });
+
+  await prisma.doctorClinicMatch.update({
+    where: { id },
+    data: { matchStatus: MatchStatus.CONFIRMED, doctorId: doctor.id },
+  });
+  revalidatePath("/admin/matches");
 }
 
 // ---------- CRUD Mjekë ----------

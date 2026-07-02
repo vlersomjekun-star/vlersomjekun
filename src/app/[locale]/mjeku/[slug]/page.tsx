@@ -125,7 +125,12 @@ export default async function DoctorPage({
         <Avatar name={`${doctor.firstName} ${doctor.lastName}`} photoUrl={doctor.photoUrl} size={72} />
         <div className="min-w-0">
           <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
-          <p className="font-medium text-primary">{localName(doctor.specialty, locale)}</p>
+          <p className="font-medium text-primary">
+            {localName(doctor.specialty, locale)}
+            {doctor.subSpecialty && (
+              <span className="text-gray-400"> · {doctor.subSpecialty}</span>
+            )}
+          </p>
           <div className="mt-2 space-y-1 text-sm text-gray-600">
             {(doctor.clinic || doctor.clinicFreeText) && (
               <p className="flex items-center gap-1.5">

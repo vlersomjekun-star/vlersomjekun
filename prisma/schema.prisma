@@ -61,6 +61,14 @@ enum Gender {
   F
 }
 
+enum MatchStatus {
+  AUTO_MATCHED
+  NEEDS_REVIEW
+  CONFIRMED
+  REJECTED
+  NEW_DOCTOR
+}
+
 model User {
   id                 String              @id @default(cuid())
   email              String              @unique
@@ -117,9 +125,11 @@ model Clinic {
   createdBy   CreatedBy     @default(USER)
   avgRating   Float         @default(0)
   reviewCount Int           @default(0)
+  source      String? // p.sh. "SCRAPER"
   createdAt   DateTime      @default(now())
   doctors     Doctor[]
   reviews     Review[]
+  doctorMatches DoctorClinicMatch[]
 
   @@index([cityId, status])
 }
@@ -143,12 +153,16 @@ model Doctor {
   source         String? // p.sh. "UMSH"
   sourceUrl      String?
   sourceKey      String?       @unique // hash idempotence për importet masive
+  photoSourceUrl String? // vetëm referencë e brendshme — NUK shfaqet publikisht
+  subSpecialty   String? // specialiteti më i saktë nga faqja e klinikës
+  enrichedAt     DateTime?
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
   avgRating      Float         @default(0)
   reviewCount    Int           @default(0)
   createdAt      DateTime      @default(now())
   reviews        Review[]
+  clinicMatches  DoctorClinicMatch[]
 
   @@index([specialtyId, status])
   @@index([cityId, status])
@@ -195,6 +209,27 @@ model ReviewComment {
   reports   Report[]
 
   @@index([reviewId, status])
+}
+
+// Staging për scraper-at e klinikave — asgjë nuk shkruhet te Doctor pa kaluar këtu
+model DoctorClinicMatch {
+  id                String      @id @default(cuid())
+  doctorId          String?
+  doctor            Doctor?     @relation(fields: [doctorId], references: [id])
+  clinicId          String
+  clinic            Clinic      @relation(fields: [clinicId], references: [id], onDelete: Cascade)
+  scrapedFirstName  String
+  scrapedLastName   String
+  scrapedSpecialty  String?
+  scrapedTitle      String?
+  photoSourceUrl    String?
+  profileUrl        String?
+  matchStatus       MatchStatus
+  matchScore        Float?
+  createdAt         DateTime    @default(now())
+
+  @@unique([clinicId, scrapedFirstName, scrapedLastName])
+  @@index([matchStatus])
 }
 
 model Report {
