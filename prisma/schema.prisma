@@ -1,0 +1,162 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+enum ContentStatus {
+  APPROVED
+  PENDING
+  REJECTED
+}
+
+enum CreatedBy {
+  ADMIN
+  USER
+}
+
+enum TargetType {
+  DOCTOR
+  CLINIC
+}
+
+enum ReviewStatus {
+  PUBLISHED
+  PENDING
+  REMOVED
+}
+
+enum Language {
+  SQ
+  EN
+  IT
+}
+
+enum ReportStatus {
+  OPEN
+  RESOLVED
+}
+
+model City {
+  id      String   @id @default(cuid())
+  nameSq  String
+  nameEn  String
+  nameIt  String
+  slug    String   @unique
+  doctors Doctor[]
+  clinics Clinic[]
+}
+
+model Specialty {
+  id      String   @id @default(cuid())
+  nameSq  String
+  nameEn  String
+  nameIt  String
+  slug    String   @unique
+  icon    String
+  doctors Doctor[]
+}
+
+model Clinic {
+  id          String        @id @default(cuid())
+  name        String
+  slug        String        @unique
+  cityId      String
+  city        City          @relation(fields: [cityId], references: [id])
+  address     String?
+  phone       String?
+  status      ContentStatus @default(PENDING)
+  createdBy   CreatedBy     @default(USER)
+  avgRating   Float         @default(0)
+  reviewCount Int           @default(0)
+  createdAt   DateTime      @default(now())
+  doctors     Doctor[]
+  reviews     Review[]
+
+  @@index([cityId, status])
+}
+
+model Doctor {
+  id             String        @id @default(cuid())
+  firstName      String
+  lastName       String
+  slug           String        @unique
+  specialtyId    String
+  specialty      Specialty     @relation(fields: [specialtyId], references: [id])
+  clinicId       String?
+  clinic         Clinic?       @relation(fields: [clinicId], references: [id])
+  clinicFreeText String?
+  cityId         String
+  city           City          @relation(fields: [cityId], references: [id])
+  address        String?
+  phone          String?
+  photoUrl       String?
+  status         ContentStatus @default(PENDING)
+  createdBy      CreatedBy     @default(USER)
+  avgRating     Float          @default(0)
+  reviewCount   Int            @default(0)
+  createdAt     DateTime       @default(now())
+  reviews       Review[]
+
+  @@index([specialtyId, status])
+  @@index([cityId, status])
+}
+
+model Review {
+  id            String       @id @default(cuid())
+  targetType    TargetType
+  doctorId      String?
+  doctor        Doctor?      @relation(fields: [doctorId], references: [id])
+  clinicId      String?
+  clinic        Clinic?      @relation(fields: [clinicId], references: [id])
+  rating        Int
+  text          String
+  visitMonth    Int
+  visitYear     Int
+  nickname      String
+  language      Language
+  phoneHash     String
+  ipHash        String
+  status        ReviewStatus @default(PUBLISHED)
+  removalReason String?
+  flagReason    String?
+  createdAt     DateTime     @default(now())
+  reports       Report[]
+
+  @@index([doctorId, status])
+  @@index([clinicId, status])
+  @@index([phoneHash])
+  @@index([ipHash, createdAt])
+}
+
+model OtpRequest {
+  id        String   @id @default(cuid())
+  phoneHash String
+  code      String
+  expiresAt DateTime
+  verified  Boolean  @default(false)
+  attempts  Int      @default(0)
+  createdAt DateTime @default(now())
+
+  @@index([phoneHash, createdAt])
+}
+
+model Report {
+  id             String       @id @default(cuid())
+  reviewId       String
+  review         Review       @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  reason         String
+  reporterIpHash String
+  status         ReportStatus @default(OPEN)
+  createdAt      DateTime     @default(now())
+}
+
+model AdminUser {
+  id           String @id @default(cuid())
+  email        String @unique
+  passwordHash String
+}
