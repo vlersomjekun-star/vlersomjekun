@@ -56,6 +56,11 @@ enum CommentStatus {
   REMOVED
 }
 
+enum Gender {
+  M
+  F
+}
+
 model User {
   id                 String              @id @default(cuid())
   email              String              @unique
@@ -134,6 +139,10 @@ model Doctor {
   address        String?
   phone          String?
   photoUrl       String?
+  gender         Gender?
+  source         String? // p.sh. "UMSH"
+  sourceUrl      String?
+  sourceKey      String?       @unique // hash idempotence për importet masive
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
   avgRating      Float         @default(0)

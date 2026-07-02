@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "semundje-infektive",
+    "nameSq": "Sëmundje Infektive",
+    "nameEn": "Infectious Diseases",
+    "nameIt": "Malattie infettive",
+    "icon": "biohazard"
+  },
+  {
+    "slug": "imazheri",
+    "nameSq": "Imazheri",
+    "nameEn": "Medical Imaging",
+    "nameIt": "Diagnostica per immagini",
+    "icon": "scan"
+  },
+  {
+    "slug": "toksikologji",
+    "nameSq": "Toksikologji Klinike",
+    "nameEn": "Clinical Toxicology",
+    "nameIt": "Tossicologia clinica",
+    "icon": "flask-conical"
+  },
+  {
+    "slug": "neonatologji",
+    "nameSq": "Neonatologji",
+    "nameEn": "Neonatology",
+    "nameIt": "Neonatologia",
+    "icon": "baby"
+  },
+  {
+    "slug": "radiologji",
+    "nameSq": "Radiologji",
+    "nameEn": "Radiology",
+    "nameIt": "Radiologia",
+    "icon": "radiation"
+  },
+  {
+    "slug": "anestezi-reanimacion",
+    "nameSq": "Anestezi-Reanimacion",
+    "nameEn": "Anesthesiology & Intensive Care",
+    "nameIt": "Anestesia e Rianimazione",
+    "icon": "syringe"
+  },
+  {
+    "slug": "mikrobiologji",
+    "nameSq": "Mikrobiologji",
+    "nameEn": "Microbiology",
+    "nameIt": "Microbiologia",
+    "icon": "microscope"
+  },
+  {
+    "slug": "hematologji",
+    "nameSq": "Hematologji",
+    "nameEn": "Hematology",
+    "nameIt": "Ematologia",
+    "icon": "droplet"
+  },
+  {
+    "slug": "mjekesi-interne",
+    "nameSq": "Mjekësi Interne",
+    "nameEn": "Internal Medicine",
+    "nameIt": "Medicina interna",
+    "icon": "stethoscope"
+  },
+  {
+    "slug": "laborator-klinik",
+    "nameSq": "Laborator Klinik-Biokimik",
+    "nameEn": "Clinical & Biochemical Laboratory",
+    "nameIt": "Laboratorio clinico-biochimico",
+    "icon": "microscope"
+  },
+  {
+    "slug": "alergologji-imunologji",
+    "nameSq": "Alergologji-Imunologji",
+    "nameEn": "Allergology & Immunology",
+    "nameIt": "Allergologia e immunologia",
+    "icon": "shield"
+  },
+  {
+    "slug": "anatomi-patologjike",
+    "nameSq": "Anatomi Patologjike",
+    "nameEn": "Pathological Anatomy",
+    "nameIt": "Anatomia patologica",
+    "icon": "microscope"
+  },
+  {
+    "slug": "shendet-publik",
+    "nameSq": "Shëndet Publik",
+    "nameEn": "Public Health",
+    "nameIt": "Sanità pubblica",
+    "icon": "users"
+  },
+  {
+    "slug": "higjene",
+    "nameSq": "Higjienë",
+    "nameEn": "Hygiene Specialist",
+    "nameIt": "Igienista",
+    "icon": "sparkles"
+  },
+  {
+    "slug": "mjekesi-transfuzive",
+    "nameSq": "Mjekësi Transfuzive",
+    "nameEn": "Transfusion Medicine",
+    "nameIt": "Medicina trasfusionale",
+    "icon": "droplets"
+  },
+  {
+    "slug": "psikiatri-femijesh",
+    "nameSq": "Psikiatri e Fëmijëve dhe Adoleshentëve",
+    "nameEn": "Child & Adolescent Psychiatry",
+    "nameIt": "Psichiatria infantile e dell'adolescenza",
+    "icon": "message-circle"
+  },
+  {
+    "slug": "kirurgji-vaskulare",
+    "nameSq": "Kirurgji Vaskulare",
+    "nameEn": "Vascular Surgery",
+    "nameIt": "Chirurgia vascolare",
+    "icon": "activity"
+  },
+  {
+    "slug": "neuropsikiatri",
+    "nameSq": "Neuropsikiatri",
+    "nameEn": "Neuropsychiatry",
+    "nameIt": "Neuropsichiatria",
+    "icon": "brain"
+  },
+  {
+    "slug": "neurokirurgji",
+    "nameSq": "Neurokirurgji",
+    "nameEn": "Neurosurgery",
+    "nameIt": "Neurochirurgia",
+    "icon": "brain"
+  },
+  {
+    "slug": "mjekesi-urgjence",
+    "nameSq": "Mjekësi e Urgjencës",
+    "nameEn": "Emergency Medicine",
+    "nameIt": "Medicina d'urgenza",
+    "icon": "siren"
+  },
+  {
+    "slug": "mjekesi-ligjore",
+    "nameSq": "Mjekësi Ligjore",
+    "nameEn": "Forensic Medicine",
+    "nameIt": "Medicina legale",
+    "icon": "scale"
+  },
+  {
+    "slug": "kirurgji-maxilo-faciale",
+    "nameSq": "Kirurgji Oro-Maxilo-Faciale",
+    "nameEn": "Oral & Maxillofacial Surgery",
+    "nameIt": "Chirurgia maxillo-facciale",
+    "icon": "smile"
+  },
+  {
+    "slug": "fizioterapi",
+    "nameSq": "Fizioterapi",
+    "nameEn": "Physiotherapy",
+    "nameIt": "Fisioterapia",
+    "icon": "accessibility"
+  },
+  {
+    "slug": "kardiokirurgji",
+    "nameSq": "Kardiokirurgji",
+    "nameEn": "Cardiac Surgery",
+    "nameIt": "Cardiochirurgia",
+    "icon": "heart-pulse"
+  },
+  {
+    "slug": "epidemiologji",
+    "nameSq": "Epidemiologji",
+    "nameEn": "Epidemiology",
+    "nameIt": "Epidemiologia",
+    "icon": "activity"
+  },
+  {
+    "slug": "mjekesi-punes",
+    "nameSq": "Mjekësi e Punës",
+    "nameEn": "Occupational Medicine",
+    "nameIt": "Medicina del lavoro",
+    "icon": "briefcase"
+  },
+  {
+    "slug": "dietologji",
+    "nameSq": "Dietologji",
+    "nameEn": "Dietology",
+    "nameIt": "Dietologia",
+    "icon": "apple"
+  },
+  {
+    "slug": "kirurgji-plastike",
+    "nameSq": "Kirurgji Plastike Rikonstruktive",
+    "nameEn": "Plastic & Reconstructive Surgery",
+    "nameIt": "Chirurgia plastica ricostruttiva",
+    "icon": "scissors"
+  },
+  {
+    "slug": "mjekesi-sportive",
+    "nameSq": "Mjekësi Sportive",
+    "nameEn": "Sports Medicine",
+    "nameIt": "Medicina dello sport",
+    "icon": "dumbbell"
+  },
+  {
+    "slug": "mjekesi-kineze",
+    "nameSq": "Mjekësi Tradicionale Kineze",
+    "nameEn": "Traditional Chinese Medicine",
+    "nameIt": "Medicina tradizionale cinese",
+    "icon": "leaf"
+  },
+  {
+    "slug": "semundje-profesionale",
+    "nameSq": "Sëmundje Profesionale",
+    "nameEn": "Occupational Diseases",
+    "nameIt": "Malattie professionali",
+    "icon": "briefcase-medical"
+  },
+  {
+    "slug": "andrologji",
+    "nameSq": "Andrologji",
+    "nameEn": "Andrology",
+    "nameIt": "Andrologia",
+    "icon": "user"
+  },
+  {
+    "slug": "kardiopediatri",
+    "nameSq": "Kardiopediatri",
+    "nameEn": "Pediatric Cardiology",
+    "nameIt": "Cardiologia pediatrica",
+    "icon": "heart-pulse"
+  },
+  {
+    "slug": "mjekesi-berthamore",
+    "nameSq": "Mjekësi Bërthamore",
+    "nameEn": "Nuclear Medicine",
+    "nameIt": "Medicina nucleare",
+    "icon": "atom"
+  },
+  {
+    "slug": "pneumoftiziatri",
+    "nameSq": "Pneumoftiziatri",
+    "nameEn": "Pneumophthisiology",
+    "nameIt": "Pneumotisiologia",
+    "icon": "wind"
+  },
+  {
+    "slug": "patologji",
+    "nameSq": "Patologji",
+    "nameEn": "Pathology",
+    "nameIt": "Patologia",
+    "icon": "microscope"
+  }
+]
