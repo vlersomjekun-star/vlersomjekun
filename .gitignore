@@ -46,3 +46,5 @@ next-env.d.ts
 scripts/clinics/probe/
 
 scripts/osm/output/osm-raw.json
+
+scripts/*.log
