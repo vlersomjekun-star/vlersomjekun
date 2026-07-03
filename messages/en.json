@@ -55,6 +55,8 @@
     "areYouThisClinic": "Do you represent this clinic? Contact us",
     "clinicDoctors": "Doctors at this clinic",
     "openInMaps": "Open in Maps",
+    "locationPending": "Location being updated",
+    "reportLocation": "Report the exact location",
     "reportTitle": "Report this review",
     "reportReason": "Reason",
     "reportReasonInsult": "Contains insults or hate speech",
@@ -87,7 +89,10 @@
     "errorRating": "Select a star rating.",
     "errorVisit": "Select the month and year of the visit.",
     "errorAlreadyReviewed": "This account has already reviewed this profile in the last 12 months.",
-    "errorRateLimited": "Too many requests. Wait a few minutes and try again."
+    "errorRateLimited": "Too many requests. Wait a few minutes and try again.",
+    "cityQuestion": "In which city did you visit? (optional)",
+    "citySave": "Send",
+    "cityThanks": "Thank you! Your suggestion was recorded."
   },
   "auth": {
     "loginTitle": "Log in",

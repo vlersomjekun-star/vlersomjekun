@@ -142,7 +142,7 @@ export default async function MatchesPage({
                       {m.doctor.firstName} {m.doctor.lastName}
                     </p>
                     <p className="text-gray-600">
-                      {m.doctor.specialty.nameSq} · {m.doctor.city.nameSq}
+                      {m.doctor.specialty.nameSq} · {m.doctor.city?.nameSq ?? "(pa qytet)"}
                     </p>
                     <a href={`/mjeku/${m.doctor.slug}`} target="_blank" className="text-xs text-primary hover:underline">
                       Shiko profilin ↗

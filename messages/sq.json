@@ -55,6 +55,8 @@
     "areYouThisClinic": "Përfaqëson këtë klinikë? Na kontakto",
     "clinicDoctors": "Mjekët e kësaj klinike",
     "openInMaps": "Hape në hartë",
+    "locationPending": "Vendndodhja në përditësim",
+    "reportLocation": "Njofto vendndodhjen e saktë",
     "reportTitle": "Raporto këtë vlerësim",
     "reportReason": "Arsyeja",
     "reportReasonInsult": "Përmban fyerje ose gjuhë urrejtjeje",
@@ -87,7 +89,10 @@
     "errorRating": "Zgjidh numrin e yjeve.",
     "errorVisit": "Zgjidh muajin dhe vitin e vizitës.",
     "errorAlreadyReviewed": "Me këtë llogari ke lënë tashmë një vlerësim për këtë profil në 12 muajt e fundit.",
-    "errorRateLimited": "Shumë kërkesa. Prit pak minuta dhe provo përsëri."
+    "errorRateLimited": "Shumë kërkesa. Prit pak minuta dhe provo përsëri.",
+    "cityQuestion": "Në cilin qytet e vizitove? (opsionale)",
+    "citySave": "Dërgo",
+    "cityThanks": "Faleminderit! Sugjerimi u regjistrua."
   },
   "auth": {
     "loginTitle": "Hyr në llogari",

@@ -40,7 +40,7 @@ export default async function PendingPage() {
                 Dr. {d.firstName} {d.lastName}
               </p>
               <p className="text-gray-500">
-                {d.specialty.nameSq} · {d.city.nameSq}
+                {d.specialty.nameSq} · {d.city?.nameSq ?? "(pa qytet)"}
                 {(d.clinic?.name || d.clinicFreeText) && ` · ${d.clinic?.name ?? d.clinicFreeText}`}
               </p>
               <p className="text-xs text-gray-400">

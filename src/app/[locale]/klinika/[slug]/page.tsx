@@ -177,7 +177,7 @@ export default async function ClinicPage({
                 href={`/mjeku/${d.slug}`}
                 name={`Dr. ${d.firstName} ${d.lastName}`}
                 subtitle={localName(d.specialty, locale)}
-                meta={localName(d.city, locale)}
+                meta={d.city ? localName(d.city, locale) : undefined}
                 avgRating={d.avgRating}
                 reviewCount={d.reviewCount}
                 photoUrl={d.photoUrl}

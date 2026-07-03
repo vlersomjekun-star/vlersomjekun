@@ -10,6 +10,8 @@ type Props = {
   targetType: "DOCTOR" | "CLINIC";
   targetId: string;
   backHref: string;
+  /** Për mjekët pa qytet (USSH): pas submit-it pyetet opsionalisht qyteti i vizitës. */
+  askCity?: { cities: { slug: string; name: string }[] } | null;
 };
 
 const ERROR_KEYS: Record<string, string> = {
@@ -21,7 +23,7 @@ const ERROR_KEYS: Record<string, string> = {
 
 const GATE_ERRORS = ["AUTH_REQUIRED", "EMAIL_NOT_VERIFIED", "NICKNAME_REQUIRED"];
 
-export default function ReviewForm({ targetType, targetId, backHref }: Props) {
+export default function ReviewForm({ targetType, targetId, backHref, askCity }: Props) {
   const t = useTranslations("reviewForm");
   const tm = useTranslations("months");
   const tc = useTranslations("common");
@@ -37,6 +39,23 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [result, setResult] = useState<"PUBLISHED" | "PENDING" | null>(null);
+  const [suggestedCity, setSuggestedCity] = useState("");
+  const [cityState, setCityState] = useState<"idle" | "sending" | "sent">("idle");
+
+  async function suggestCity() {
+    if (!suggestedCity) return;
+    setCityState("sending");
+    try {
+      await fetch("/api/location-suggestions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ doctorId: targetId, citySlug: suggestedCity }),
+      });
+    } catch {
+      // opsionale — dështimi nuk bllokon asgjë
+    }
+    setCityState("sent");
+  }
 
   const now = new Date();
   const currentYear = now.getFullYear();
@@ -99,6 +118,42 @@ export default function ReviewForm({ targetType, targetId, backHref }: Props) {
         <p className="mb-6 font-medium text-gray-800">
           {result === "PUBLISHED" ? t("successPublished") : t("successPending")}
         </p>
+
+        {/* Pyetje opsionale për mjekët pa qytet (USSH) */}
+        {askCity && targetType === "DOCTOR" && (
+          <div className="mb-6 rounded-xl bg-gray-50 p-4 text-left">
+            {cityState === "sent" ? (
+              <p className="text-sm font-medium text-trust">{t("cityThanks")}</p>
+            ) : (
+              <>
+                <p className="mb-2 text-sm font-semibold text-gray-800">{t("cityQuestion")}</p>
+                <div className="flex gap-2">
+                  <select
+                    value={suggestedCity}
+                    onChange={(e) => setSuggestedCity(e.target.value)}
+                    aria-label={t("cityQuestion")}
+                    className="flex-1 rounded-lg border border-gray-200 p-2 text-sm outline-none focus:border-primary"
+                  >
+                    <option value="">—</option>
+                    {askCity.cities.map((c) => (
+                      <option key={c.slug} value={c.slug}>
+                        {c.name}
+                      </option>
+                    ))}
+                  </select>
+                  <button
+                    onClick={suggestCity}
+                    disabled={!suggestedCity || cityState === "sending"}
+                    className="rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white hover:bg-primary-dark disabled:opacity-50"
+                  >
+                    {t("citySave")}
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        )}
+
         <Link
           href={backHref}
           className="inline-block rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-white hover:bg-primary-dark"

@@ -88,6 +88,8 @@ export default async function SearchPage({
         OR: [
           { firstName: { contains: term, mode: "insensitive" } },
           { lastName: { contains: term, mode: "insensitive" } },
+          { alternativeLastName: { contains: term, mode: "insensitive" } },
+          { subSpecialty: { contains: term, mode: "insensitive" } },
           { clinic: { is: { name: { contains: term, mode: "insensitive" } } } },
           { clinicFreeText: { contains: term, mode: "insensitive" } },
           {
@@ -130,7 +132,7 @@ export default async function SearchPage({
       href: `/mjeku/${d.slug}`,
       name: `Dr. ${d.firstName} ${d.lastName}`,
       subtitle: localName(d.specialty, locale),
-      meta: [d.clinic?.name ?? d.clinicFreeText, localName(d.city, locale)]
+      meta: [d.clinic?.name ?? d.clinicFreeText, d.city ? localName(d.city, locale) : null]
         .filter(Boolean)
         .join(" · "),
       avgRating: d.avgRating,

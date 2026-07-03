@@ -157,7 +157,7 @@ async function DoctorList() {
       {doctors.map((d) => (
         <div key={d.id} className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm">
           <span>
-            <b>Dr. {d.firstName} {d.lastName}</b> · {d.specialty.nameSq} · {d.city.nameSq}
+            <b>Dr. {d.firstName} {d.lastName}</b> · {d.specialty.nameSq} · {d.city?.nameSq ?? "(pa qytet)"}
             {d.clinic && ` · ${d.clinic.name}`}{" "}
             <StatusBadge status={d.status} />
             <span className="ml-1 text-xs text-gray-400">

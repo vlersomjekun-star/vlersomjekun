@@ -325,7 +325,7 @@ export async function updateDoctor(formData: FormData): Promise<void> {
       firstName: String(formData.get("firstName")).trim(),
       lastName: String(formData.get("lastName")).trim(),
       specialtyId: String(formData.get("specialtyId")),
-      cityId: String(formData.get("cityId")),
+      cityId: String(formData.get("cityId") || "") || null,
       clinicId: clinicId || null,
       clinicFreeText: String(formData.get("clinicFreeText") || "").trim() || null,
       address: String(formData.get("address") || "").trim() || null,

@@ -62,7 +62,8 @@ export default async function EditDoctorPage({
         </div>
         <div>
           <label className={label}>Qyteti</label>
-          <select name="cityId" defaultValue={doctor.cityId} className={input}>
+          <select name="cityId" defaultValue={doctor.cityId ?? ""} className={input}>
+            <option value="">— pa qytet (në përditësim) —</option>
             {cities.map((c) => (
               <option key={c.id} value={c.id}>{c.nameSq}</option>
             ))}

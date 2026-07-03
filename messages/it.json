@@ -55,6 +55,8 @@
     "areYouThisClinic": "Rappresenti questa clinica? Contattaci",
     "clinicDoctors": "I medici di questa clinica",
     "openInMaps": "Apri in Maps",
+    "locationPending": "Posizione in aggiornamento",
+    "reportLocation": "Segnala la posizione esatta",
     "reportTitle": "Segnala questa recensione",
     "reportReason": "Motivo",
     "reportReasonInsult": "Contiene insulti o linguaggio d'odio",
@@ -87,7 +89,10 @@
     "errorRating": "Seleziona il numero di stelle.",
     "errorVisit": "Seleziona mese e anno della visita.",
     "errorAlreadyReviewed": "Con questo account hai già recensito questo profilo negli ultimi 12 mesi.",
-    "errorRateLimited": "Troppe richieste. Attendi qualche minuto e riprova."
+    "errorRateLimited": "Troppe richieste. Attendi qualche minuto e riprova.",
+    "cityQuestion": "In quale città l'hai visitato? (opzionale)",
+    "citySave": "Invia",
+    "cityThanks": "Grazie! Il tuo suggerimento è stato registrato."
   },
   "auth": {
     "loginTitle": "Accedi",

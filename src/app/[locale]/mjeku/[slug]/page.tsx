@@ -49,7 +49,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
   const name = `Dr. ${doctor.firstName} ${doctor.lastName}`;
   const specialty = localName(doctor.specialty, locale);
-  const city = localName(doctor.city, locale);
+  const city = doctor.city
+    ? localName(doctor.city, locale)
+    : locale === "sq"
+      ? "Shqipëri"
+      : "Albania";
   const path = `/mjeku/${slug}`;
   return {
     title: t("doctorTitle", { name, specialty, city }),
@@ -85,9 +89,11 @@ export default async function DoctorPage({
     distribution[r.rating] = (distribution[r.rating] ?? 0) + 1;
   }
 
-  const mapsQuery = encodeURIComponent(
-    [name, doctor.address, localName(doctor.city, "sq")].filter(Boolean).join(", ")
-  );
+  const mapsQuery = doctor.city
+    ? encodeURIComponent(
+        [name, doctor.address, localName(doctor.city, "sq")].filter(Boolean).join(", ")
+      )
+    : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -96,7 +102,7 @@ export default async function DoctorPage({
     medicalSpecialty: doctor.specialty.nameEn,
     address: {
       "@type": "PostalAddress",
-      addressLocality: doctor.city.nameEn,
+      ...(doctor.city && { addressLocality: doctor.city.nameEn }),
       addressCountry: "AL",
       ...(doctor.address && { streetAddress: doctor.address }),
     },
@@ -144,17 +150,30 @@ export default async function DoctorPage({
                 )}
               </p>
             )}
-            <p className="flex items-center gap-1.5">
-              <MapPin size={14} className="shrink-0 text-gray-400" aria-hidden />
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${mapsQuery}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                {[doctor.address, localName(doctor.city, locale)].filter(Boolean).join(", ")}
-              </a>
-            </p>
+            {doctor.city ? (
+              <p className="flex items-center gap-1.5">
+                <MapPin size={14} className="shrink-0 text-gray-400" aria-hidden />
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${mapsQuery}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  {[doctor.address, localName(doctor.city, locale)].filter(Boolean).join(", ")}
+                </a>
+              </p>
+            ) : (
+              <p className="flex items-center gap-1.5">
+                <MapPin size={14} className="shrink-0 text-gray-400" aria-hidden />
+                <span className="italic text-gray-400">{t("locationPending")}</span>
+                <a
+                  href={`mailto:info@vlersomjekun.al?subject=${encodeURIComponent(`Vendndodhja: ${name} (${doctor.slug})`)}`}
+                  className="text-primary hover:underline"
+                >
+                  {t("reportLocation")}
+                </a>
+              </p>
+            )}
             {doctor.phone && (
               <p className="flex items-center gap-1.5">
                 <Phone size={14} className="shrink-0 text-gray-400" aria-hidden />

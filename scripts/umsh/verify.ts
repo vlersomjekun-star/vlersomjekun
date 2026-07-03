@@ -22,7 +22,7 @@ async function main() {
   });
   for (const d of sample) {
     console.log(
-      `${d.firstName} ${d.lastName} | ${d.gender ?? "-"} | ${d.specialty.nameSq} | ${d.city.nameSq} | /mjeku/${d.slug}`
+      `${d.firstName} ${d.lastName} | ${d.gender ?? "-"} | ${d.specialty.nameSq} | ${d.city?.nameSq ?? "(pa qytet)"} | /mjeku/${d.slug}`
     );
   }
 }

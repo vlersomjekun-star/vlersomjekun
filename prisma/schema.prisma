@@ -82,6 +82,7 @@ model User {
   reviews            Review[]
   comments           ReviewComment[]
   verificationTokens VerificationToken[]
+  locationSuggestions LocationSuggestion[]
 }
 
 model VerificationToken {
@@ -101,6 +102,7 @@ model City {
   slug    String   @unique
   doctors Doctor[]
   clinics Clinic[]
+  locationSuggestions LocationSuggestion[]
 }
 
 model Specialty {
@@ -138,14 +140,16 @@ model Doctor {
   id             String        @id @default(cuid())
   firstName      String
   lastName       String
+  // Mbiemri alternativ (i vajzërisë etj., p.sh. nga "Aga (Xharo)") — i brendshëm, i kërkueshëm
+  alternativeLastName String?
   slug           String        @unique
   specialtyId    String
   specialty      Specialty     @relation(fields: [specialtyId], references: [id])
   clinicId       String?
   clinic         Clinic?       @relation(fields: [clinicId], references: [id])
   clinicFreeText String?
-  cityId         String
-  city           City          @relation(fields: [cityId], references: [id])
+  cityId         String? // stomatologët nga USSH vijnë PA qytet
+  city           City?         @relation(fields: [cityId], references: [id])
   address        String?
   phone          String?
   photoUrl       String?
@@ -156,6 +160,9 @@ model Doctor {
   photoSourceUrl String? // vetëm referencë e brendshme — NUK shfaqet publikisht
   subSpecialty   String? // specialiteti më i saktë nga faqja e klinikës
   enrichedAt     DateTime?
+  // E BRENDSHME: kurrë e ekspozuar publikisht dhe kurrë e përdorur si filtër —
+  // datat e vjetra janë mungesë përditësimi e regjistrit, jo revokim licence
+  licenseExpiry  DateTime?
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
   avgRating      Float         @default(0)
@@ -163,9 +170,25 @@ model Doctor {
   createdAt      DateTime      @default(now())
   reviews        Review[]
   clinicMatches  DoctorClinicMatch[]
+  locationSuggestions LocationSuggestion[]
 
   @@index([specialtyId, status])
   @@index([cityId, status])
+}
+
+// Sugjerime vendndodhjeje nga përdoruesit për mjekët pa qytet (USSH):
+// 2+ sugjerime të pavarura që përputhen → cityId vendoset automatikisht
+model LocationSuggestion {
+  id        String   @id @default(cuid())
+  doctorId  String
+  doctor    Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  cityId    String
+  city      City     @relation(fields: [cityId], references: [id])
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@unique([doctorId, userId])
 }
 
 model Review {

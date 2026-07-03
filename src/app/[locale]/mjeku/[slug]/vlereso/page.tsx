@@ -41,6 +41,16 @@ export default async function ReviewDoctorPage({
   });
   if (!doctor) notFound();
 
+  // Për mjekët pa qytet (USSH): pas vlerësimit pyetet opsionalisht qyteti
+  const askCity = doctor.cityId
+    ? null
+    : {
+        cities: (await prisma.city.findMany({ orderBy: { nameSq: "asc" } })).map((c) => ({
+          slug: c.slug,
+          name: localName(c, locale),
+        })),
+      };
+
   // Gating: pa login s'ka formë vlerësimi
   const user = await getSessionUser();
   if (!user) {
@@ -67,7 +77,12 @@ export default async function ReviewDoctorPage({
           <NicknameForm />
         </div>
       ) : (
-        <ReviewForm targetType="DOCTOR" targetId={doctor.id} backHref={`/mjeku/${doctor.slug}`} />
+        <ReviewForm
+          targetType="DOCTOR"
+          targetId={doctor.id}
+          backHref={`/mjeku/${doctor.slug}`}
+          askCity={askCity}
+        />
       )}
     </div>
   );
