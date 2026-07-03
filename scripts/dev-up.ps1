@@ -1,36 +1,35 @@
-# Watchdog VlersoMjekun: mban gjalle DB-ne lokale (prisma dev) dhe dev server-in.
-# Ekzekutohet nga Task Scheduler ne logon + cdo 5 minuta; mund te ekzekutohet edhe me dore.
+# Watchdog VlersoMjekun: mban gjalle vetem dev server-in (Next.js, porta 3005).
+#
+# PostgreSQL eshte tani sherbim Windows i vertete (postgresql-x64-17, Automatic
+# startup) — nuk ka nevoje per supervizim, nuk vdes vete si pglite/prisma dev
+# (motori eksperimental WASM i perdorur me pare, i cili crashonte periodikisht
+# me "Aborted()" ne pglite — shih git history per detaje).
+#
+# Ekzekutohet nga Task Scheduler ne logon + cdo 20 minuta (jo 5 — me pak nevoje
+# tani qe DB eshte i qendrueshem); mund te ekzekutohet edhe me dore.
+#
+# Lancimi eshte VERTET i padukshem (wscript.exe + WScript.Shell.Run windowStyle=0)
+# — ndryshe nga Start-Process -WindowStyle Hidden qe mund te shkaktoje nje
+# lampezim te shkurter te terminalit kur nis cmd.exe si ndermjetes.
 $proj = "C:\Users\clien\Searches\vlersomjekun"
 $logFile = Join-Path $proj "scripts\dev-up.log"
+$vbs = Join-Path $proj "scripts\run-hidden.vbs"
 
 function Write-Log($msg) {
     "$(Get-Date -Format s) $msg" | Add-Content -Path $logFile
 }
 
-# --- 1. Databaza (Prisma Postgres lokale, porta 51218) ---
-$dbUp = [bool](Get-NetTCPConnection -LocalPort 51218 -State Listen -ErrorAction SilentlyContinue)
-if (-not $dbUp) {
-    Write-Log "DB down - pastrim lock + nisje prisma dev"
-    Remove-Item -Recurse -Force `
-        "$env:LOCALAPPDATA\prisma-dev-nodejs\Data\vlersomjekun\.lock", `
-        "$env:LOCALAPPDATA\prisma-dev-nodejs\Data\default\.lock" `
-        -ErrorAction SilentlyContinue
-    Start-Process -FilePath "cmd.exe" `
-        -ArgumentList "/c npx prisma dev --name vlersomjekun >> `"$proj\scripts\prisma-dev.log`" 2>&1" `
-        -WorkingDirectory $proj -WindowStyle Hidden
-    # prit derisa porta te hapet (max ~40s)
-    for ($i = 0; $i -lt 20; $i++) {
-        Start-Sleep -Seconds 2
-        if (Get-NetTCPConnection -LocalPort 51218 -State Listen -ErrorAction SilentlyContinue) { break }
-    }
-    Write-Log "DB start attempted; listening=$([bool](Get-NetTCPConnection -LocalPort 51218 -State Listen -ErrorAction SilentlyContinue))"
+# --- PostgreSQL: sherbim Windows — kontrollohet, nisje nese eshte ndalur ---
+$pg = Get-Service -Name "postgresql-x64-17" -ErrorAction SilentlyContinue
+if ($pg -and $pg.Status -ne "Running") {
+    Write-Log "PostgreSQL service jo aktiv (status: $($pg.Status)) - nisje"
+    Start-Service -Name "postgresql-x64-17" -ErrorAction SilentlyContinue
 }
 
-# --- 2. Dev server (Next.js, porta 3005) ---
+# --- Dev server (Next.js, porta 3005) ---
 $webUp = [bool](Get-NetTCPConnection -LocalPort 3005 -State Listen -ErrorAction SilentlyContinue)
 if (-not $webUp) {
-    Write-Log "Web down - nisje next dev ne 3005"
-    Start-Process -FilePath "cmd.exe" `
-        -ArgumentList "/c npm run dev -- --port 3005 >> `"$proj\scripts\next-dev.log`" 2>&1" `
-        -WorkingDirectory $proj -WindowStyle Hidden
+    Write-Log "Web down - nisje next dev ne 3005 (padukshem)"
+    $cmd = "cmd.exe /c cd /d `"$proj`" && npm run dev -- --port 3005 >> `"$proj\scripts\next-dev.log`" 2>&1"
+    Start-Process -FilePath "wscript.exe" -ArgumentList "//B", "//Nologo", "`"$vbs`"", "`"$cmd`""
 }

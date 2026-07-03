@@ -22,31 +22,39 @@ Pa monetizim, pa rezervime, pa chat. Trilingue: **sq** (default), **en**, **it**
 
 ## Setup locale
 
+Database: **PostgreSQL 17 reale**, installato come servizio Windows via winget
+(`postgresql-x64-17`, avvio automatico). Non usiamo più `prisma dev` (pglite/WASM
+— motore sperimentale che crashava periodicamente con `Aborted()`, causa di tutti
+i "500 Can't reach database server" storici — vedi commit "Migrazione a PostgreSQL
+reale" per i dettagli e la migrazione dati).
+
 ```bash
 npm install
 cp .env.example .env        # compila i valori
 
-# DB locale senza Docker (Prisma Postgres):
-npx prisma dev --name vlersomjekun
-# copia la DATABASE_URL stampata in .env, SENZA i parametri extra,
-# aggiungendo &pgbouncer=true, es.:
-# DATABASE_URL="postgres://postgres:postgres@localhost:51218/template1?sslmode=disable&pgbouncer=true"
+# DB: PostgreSQL reale su porta 5432 (servizio Windows, sempre attivo)
+# .env di default: postgresql://postgres:postgres@localhost:5432/vlersomjekun
 
-npx prisma db push          # sync schema (dev)
+npx prisma migrate deploy   # applica tutte le migration
 npx prisma db seed          # 12 qytete, 20 specialitete, 10 klinika, 30 mjekë placeholder, admin
 npm run dev
 ```
+
+Se il servizio PostgreSQL non è attivo: `Start-Service postgresql-x64-17` (PowerShell,
+richiede privilegi admin la prima volta) — ma è impostato su avvio automatico, quindi
+normalmente non serve toccarlo mai.
 
 ### Anteprima sempre attiva (watchdog)
 
 Il sito è sempre raggiungibile su **http://localhost:3005** grazie a un watchdog automatico:
 
-- **Attività pianificata "VlersoMjekun Dev"** (Task Scheduler, ogni 5 minuti) + **avvio al logon** (`vlersomjekun-dev.vbs` nella cartella Esecuzione automatica): eseguono `scripts/dev-up.ps1`, che riavvia DB (porta 51218) e dev server (porta 3005) se sono giù, pulendo anche i lock stantii.
+- **Attività pianificata "VlersoMjekun Dev"** (Task Scheduler, ogni 20 minuti) + **avvio al logon** (`vlersomjekun-dev.vbs` nella cartella Esecuzione automatica): eseguono `scripts/dev-up.ps1`, che verifica il servizio PostgreSQL (raramente serve, essendo un servizio Windows stabile) e riavvia il dev server (porta 3005) se è giù.
+- Lancio **veramente invisibile** tramite `scripts/run-hidden.vbs` (WScript.Shell.Run con finestra nascosta) — evita il lampeggio del terminale che si otteneva con `Start-Process -WindowStyle Hidden` quando lanciava `cmd.exe` come intermediario.
 - Avvio manuale immediato: doppio click su `start-vlersomjekun.cmd` nella root del progetto (apre anche il browser).
-- Log: `scripts/dev-up.log`, `scripts/prisma-dev.log`, `scripts/next-dev.log`.
+- Log: `scripts/dev-up.log`, `scripts/next-dev.log`.
 - Per rimuovere il watchdog: `schtasks /Delete /TN "VlersoMjekun Dev" /F` + cancella il file `.vbs` da `shell:startup`.
 
-I dati del DB locale sono persistenti in `%LOCALAPPDATA%\prisma-dev-nodejs\Data\` — nessun riavvio li perde.
+I dati del DB sono in PostgreSQL reale (`C:\Program Files\PostgreSQL\17\data`), persistenti come qualunque installazione Postgres standard.
 
 Admin: `/admin` — credenziali da `ADMIN_SEED_EMAIL` / `ADMIN_SEED_PASSWORD`.
 In dev il **link di verifica email** appare nella console del server (`[MockEmailProvider] Verifikim për ... : http://...`).
