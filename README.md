@@ -37,7 +37,16 @@ npx prisma db seed          # 12 qytete, 20 specialitete, 10 klinika, 30 mjekë 
 npm run dev
 ```
 
-**Troubleshooting DB locale**: se il sito dà 500 con "Can't reach database server", il processo `prisma dev` è morto. Riavvialo con `npx prisma dev --name vlersomjekun`. Se dice "already running" ma l'errore persiste, oppure "Lock file is already being held": termina il processo node zombie che occupa le porte 51217-51219 (`Get-NetTCPConnection -LocalPort 51218 -State Listen` → `Stop-Process -Id <pid> -Force`), elimina le cartelle `.lock` in `%LOCALAPPDATA%\prisma-dev-nodejs\Data\*\` e rilancia. I dati non si perdono (restano in `.pglite`).
+### Anteprima sempre attiva (watchdog)
+
+Il sito è sempre raggiungibile su **http://localhost:3005** grazie a un watchdog automatico:
+
+- **Attività pianificata "VlersoMjekun Dev"** (Task Scheduler, ogni 5 minuti) + **avvio al logon** (`vlersomjekun-dev.vbs` nella cartella Esecuzione automatica): eseguono `scripts/dev-up.ps1`, che riavvia DB (porta 51218) e dev server (porta 3005) se sono giù, pulendo anche i lock stantii.
+- Avvio manuale immediato: doppio click su `start-vlersomjekun.cmd` nella root del progetto (apre anche il browser).
+- Log: `scripts/dev-up.log`, `scripts/prisma-dev.log`, `scripts/next-dev.log`.
+- Per rimuovere il watchdog: `schtasks /Delete /TN "VlersoMjekun Dev" /F` + cancella il file `.vbs` da `shell:startup`.
+
+I dati del DB locale sono persistenti in `%LOCALAPPDATA%\prisma-dev-nodejs\Data\` — nessun riavvio li perde.
 
 Admin: `/admin` — credenziali da `ADMIN_SEED_EMAIL` / `ADMIN_SEED_PASSWORD`.
 In dev il **link di verifica email** appare nella console del server (`[MockEmailProvider] Verifikim për ... : http://...`).
