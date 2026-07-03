@@ -15,7 +15,7 @@
  */
 import { readFileSync, writeFileSync } from "fs";
 import path from "path";
-import { cleanName, fixMojibake } from "../lib/normalize";
+import { cleanName, fixMojibake, splitDoubleSurname } from "../lib/normalize";
 import type { RawDentist } from "./parse";
 
 const DIR = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
@@ -27,29 +27,6 @@ export type CleanDentist = {
   alternativeLastName: string | null;
   licenseExpiry: string | null; // ISO — E BRENDSHME, kurrë publike
 };
-
-/** Ndahet mbiemri i dyfishtë → [kryesori, alternativi|null]. */
-function splitSurname(raw: string): [string, string | null] {
-  let s = raw.replace(/\/{2,}/g, "/").replace(/\s+/g, " ").trim();
-
-  // "(Vrapi) Gjika" — kllapa në fillim → alternativi është në kllapa
-  const leadParen = s.match(/^\(([^)]+)\)\s*(.+)$/);
-  if (leadParen) return [leadParen[2].trim(), leadParen[1].trim()];
-
-  // "Aga (Xharo)" / "Hykaj(Dervishaj)"
-  const trailParen = s.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
-  if (trailParen) return [trailParen[1].trim(), trailParen[2].trim()];
-
-  // "Guza/Nano"
-  const slash = s.split("/");
-  if (slash.length > 1) return [slash[0].trim(), slash.slice(1).join(" ").trim() || null];
-
-  // "Dervishi Shala" — dy fjalë me hapësirë → i pari kryesor, i dyti alternativ
-  const words = s.split(" ");
-  if (words.length > 1) return [words[0], words.slice(1).join(" ")];
-
-  return [s, null];
-}
 
 /** Parse i datave në dy formatet e përziera të burimit. */
 function parseDate(raw: string | null): Date | null {
@@ -93,7 +70,7 @@ function main() {
     if (f1.changed || f2.changed) mojibakeFixed++;
 
     // 3. mbiemra të dyfishtë (para Title Case, mbi tekstin e pastruar)
-    const [mainSurname, altSurname] = splitSurname(f2.fixed);
+    const [mainSurname, altSurname] = splitDoubleSurname(f2.fixed);
     if (altSurname) doubleSurnames++;
 
     // 2. Title Case

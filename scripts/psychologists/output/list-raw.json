@@ -1,0 +1,5594 @@
+[
+  {
+    "detailSlug": "besjana-farruku",
+    "firstName": "Besjana",
+    "lastName": "Farruku",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "erjon-lika",
+    "firstName": "Erjon",
+    "lastName": "Lika",
+    "city": "Laç"
+  },
+  {
+    "detailSlug": "gracela-mana",
+    "firstName": "Gracela",
+    "lastName": "Mana",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elton-kuqja",
+    "firstName": "Elton",
+    "lastName": "Kuqja",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "enkeleida-berati",
+    "firstName": "Enkeleida",
+    "lastName": "Berati",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "elona-mecani",
+    "firstName": "Elona",
+    "lastName": "Meçani",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "odeta-topollaj",
+    "firstName": "Odeta",
+    "lastName": "Topollaj",
+    "city": "Mirditë"
+  },
+  {
+    "detailSlug": "nevila-toska",
+    "firstName": "Nevila",
+    "lastName": "Toska",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "ardiola-hoxha",
+    "firstName": "Ardiola",
+    "lastName": "Hoxha/Bodinaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ani-beqo",
+    "firstName": "Ani",
+    "lastName": "Beqo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "paula-koxhaj",
+    "firstName": "Paula",
+    "lastName": "Koxhaj",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "enisa-marku",
+    "firstName": "Enisa",
+    "lastName": "Marku",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "eranda-bita",
+    "firstName": "Eranda",
+    "lastName": "Bita",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "rovena-kadhe",
+    "firstName": "Rovena",
+    "lastName": "Kadhe",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "malvina-cara",
+    "firstName": "Malvina",
+    "lastName": "Cara",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lediana-marku",
+    "firstName": "Lediana",
+    "lastName": "Marku/Ndoni",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "irma-vako",
+    "firstName": "Irma",
+    "lastName": "Vako",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erjona-dervishaliaj",
+    "firstName": "Erjona",
+    "lastName": "Dervishaliaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "ina-danaj",
+    "firstName": "Ina",
+    "lastName": "Danaj",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "emiranda-jahja",
+    "firstName": "Emiranda",
+    "lastName": "Jahja",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "ershela-lika",
+    "firstName": "Ershela",
+    "lastName": "Lika",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "fatjon-taipi",
+    "firstName": "Fatjon",
+    "lastName": "Taipi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "adela-barbullushi",
+    "firstName": "Adela",
+    "lastName": "Barbullushi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "ingrit-luani",
+    "firstName": "Ingrit",
+    "lastName": "Luani",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "adela-muca",
+    "firstName": "Adela",
+    "lastName": "Muça",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "romina-dedi",
+    "firstName": "Romina",
+    "lastName": "Dedi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "aurora-hoxha",
+    "firstName": "Aurora",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermal-azisllari",
+    "firstName": "Ermal",
+    "lastName": "Azisllari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "perparim-zylfo",
+    "firstName": "Perparim",
+    "lastName": "Zylfo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "gentiana-xhelili",
+    "firstName": "Gentiana",
+    "lastName": "Xhelili",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "klodiana-baxho",
+    "firstName": "Klodiana",
+    "lastName": "Baxho",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "majlinda-dona",
+    "firstName": "Majlinda",
+    "lastName": "Dona",
+    "city": "Rrëshen"
+  },
+  {
+    "detailSlug": "adelaida-larti",
+    "firstName": "Adelaida",
+    "lastName": "Larti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "almira-llausha",
+    "firstName": "Almira",
+    "lastName": "Llausha",
+    "city": "Divjak"
+  },
+  {
+    "detailSlug": "elona-tepelena",
+    "firstName": "Eljona",
+    "lastName": "Tepelena/Tusha",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "blerina-rrumbullaku",
+    "firstName": "Blerina",
+    "lastName": "Rrumbullaku",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "blerina-prekperaj",
+    "firstName": "Blerina",
+    "lastName": "Prekperaj/Martini",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "deona-cano",
+    "firstName": "Deona",
+    "lastName": "Cano",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "marsida-zyfi",
+    "firstName": "Marsida",
+    "lastName": "Zyfi",
+    "city": "Bilisht"
+  },
+  {
+    "detailSlug": "kamela-xhafaj",
+    "firstName": "Kamela",
+    "lastName": "Xhafaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "enxhela-sula",
+    "firstName": "Enxhela",
+    "lastName": "Sula / Tosku",
+    "city": "Rrogozhinë"
+  },
+  {
+    "detailSlug": "fatjona-qose",
+    "firstName": "Fatjona",
+    "lastName": "Qose",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "senada-laci",
+    "firstName": "Senada",
+    "lastName": "Laçi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "albana-hoxha",
+    "firstName": "Albana",
+    "lastName": "Hoxha",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "isabela-hoxha",
+    "firstName": "Isabela",
+    "lastName": "Hoxha",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "aeda-qirjo",
+    "firstName": "Aeda",
+    "lastName": "Qirjo/Bellaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "nazime-elezi",
+    "firstName": "Nazime",
+    "lastName": "Elezi",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "blerina-durici",
+    "firstName": "Blerina",
+    "lastName": "Durici",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "enerisa-guberaj",
+    "firstName": "Enerisa",
+    "lastName": "Guberaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elediona-murati",
+    "firstName": "Elediona",
+    "lastName": "Murati",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elmira-bushgjokaj",
+    "firstName": "Elmira",
+    "lastName": "Bushgjokaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arlinda-pjetri",
+    "firstName": "Arlinda",
+    "lastName": "Pjetri/Kocaqi",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "bledar-zeneli",
+    "firstName": "Bledar",
+    "lastName": "Zeneli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "malvina-degjoni",
+    "firstName": "Malvina",
+    "lastName": "Degjoni",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "markeljana-pina",
+    "firstName": "Markeljana",
+    "lastName": "Pina",
+    "city": "Ersekë"
+  },
+  {
+    "detailSlug": "erina-maci",
+    "firstName": "Erina",
+    "lastName": "Maçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "brunilda-beluli",
+    "firstName": "Brunilda",
+    "lastName": "Beluli/Shera",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "irma-gjozi",
+    "firstName": "Irma",
+    "lastName": "Gjozi",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "romina-caushaj",
+    "firstName": "Romina",
+    "lastName": "Caushaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dhurata-hasa",
+    "firstName": "Dhurata",
+    "lastName": "Hasa",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "irena-shanaj",
+    "firstName": "Irena",
+    "lastName": "Shanaj/Zvirina",
+    "city": "Ballsh"
+  },
+  {
+    "detailSlug": "malvina-braho",
+    "firstName": "Malvina",
+    "lastName": "Braho/Marku",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "anjeza-avduli",
+    "firstName": "Anjeza",
+    "lastName": "Avduli",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "ludmilla-danjolli",
+    "firstName": "Ludmilla",
+    "lastName": "Danjolli/Elezaj",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "jorida-braushi",
+    "firstName": "Jorida",
+    "lastName": "Braushi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "albarina-nikolli",
+    "firstName": "Albarina",
+    "lastName": "Nikolli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lorenc-barjami",
+    "firstName": "Lorenc",
+    "lastName": "Barjami",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besiana-xhyra",
+    "firstName": "Besiana",
+    "lastName": "Xhyra",
+    "city": "Peqin"
+  },
+  {
+    "detailSlug": "diana-kacerja",
+    "firstName": "Diana",
+    "lastName": "Kacerja",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "erkida-sefa",
+    "firstName": "Erkida",
+    "lastName": "Sefa",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "pranvera-paplekaj",
+    "firstName": "Pranvera",
+    "lastName": "Paplekaj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "kaliro-leka",
+    "firstName": "Kaliro",
+    "lastName": "Leka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ilda-klosi",
+    "firstName": "Ilda",
+    "lastName": "Klosi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "irma-ferhati",
+    "firstName": "Irma",
+    "lastName": "Ferhati/Progonati",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "ilir-dyrmishi",
+    "firstName": "Ilir",
+    "lastName": "Dyrmishi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "hajdine-dyli",
+    "firstName": "Hajdine",
+    "lastName": "Dyli",
+    "city": "Cërrik"
+  },
+  {
+    "detailSlug": "englantina-mersini",
+    "firstName": "Englantina",
+    "lastName": "Mersini",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "senada-duli",
+    "firstName": "Senada",
+    "lastName": "Duli/Tufina",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lediona-braho",
+    "firstName": "Lediona",
+    "lastName": "Braho",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "benuarda-gogo",
+    "firstName": "Benuarda",
+    "lastName": "Gogo",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "blerina-lule",
+    "firstName": "Blerina",
+    "lastName": "Lule",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "emisa-aliaj",
+    "firstName": "Emisa",
+    "lastName": "Aliaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "entela-syla",
+    "firstName": "Entela",
+    "lastName": "Syla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "tedi-mana",
+    "firstName": "Tedi",
+    "lastName": "Mana",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elvira-metani",
+    "firstName": "Elvira",
+    "lastName": "Metani",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "andia-meksi",
+    "firstName": "Andia",
+    "lastName": "Meksi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elona-mustafaraj",
+    "firstName": "Elona",
+    "lastName": "Mustafaraj",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "jonida-haxhiu",
+    "firstName": "Jonida",
+    "lastName": "Haxhiu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anjeza-vila",
+    "firstName": "Anjeza",
+    "lastName": "Vila",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "jolanda-hila",
+    "firstName": "Jolanda",
+    "lastName": "Hila",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "vera-zaraj",
+    "firstName": "Vera",
+    "lastName": "Zaraj",
+    "city": "Koplik"
+  },
+  {
+    "detailSlug": "adeline-hysa",
+    "firstName": "Adeline",
+    "lastName": "Hysa",
+    "city": "Koplik"
+  },
+  {
+    "detailSlug": "eslida-hakaj",
+    "firstName": "Eslida",
+    "lastName": "Hakaj",
+    "city": "Koplik"
+  },
+  {
+    "detailSlug": "ardita-demaj",
+    "firstName": "Ardita",
+    "lastName": "Demaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kilda-gusha",
+    "firstName": "Kilda",
+    "lastName": "Gusha",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "manolita-hida",
+    "firstName": "Manolita",
+    "lastName": "Hida",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "eridjola-bici",
+    "firstName": "Eridjola",
+    "lastName": "Bici/Xhaferri",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "elona-hasmujaj",
+    "firstName": "Elona",
+    "lastName": "Hasmujaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "suzana-lekaj",
+    "firstName": "Suzana",
+    "lastName": "Lekaj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "elvana-agushi",
+    "firstName": "Elvana",
+    "lastName": "Agushi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "valbona-habili",
+    "firstName": "Valbona",
+    "lastName": "Habili/Sauku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aurora-ballhysa",
+    "firstName": "Aurora",
+    "lastName": "Ballhysa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "majlinda-elezaj",
+    "firstName": "Majlinda",
+    "lastName": "Elezaj/Leka",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "klesta-dyrmishi",
+    "firstName": "Klesta",
+    "lastName": "Dyrmishi/Koxhaj",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "fjorda-lula",
+    "firstName": "Fjorda",
+    "lastName": "Lula",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sentina-coniku",
+    "firstName": "Sentina",
+    "lastName": "Çoniku",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "dorjana-shahu",
+    "firstName": "Dorjana",
+    "lastName": "Shahu",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "arjana-mucaj",
+    "firstName": "Arjana",
+    "lastName": "Muçaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eranda-tocila",
+    "firstName": "Eranda",
+    "lastName": "Toçila/Muha",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "orsjola-miha",
+    "firstName": "Orsjola",
+    "lastName": "Miha",
+    "city": "None"
+  },
+  {
+    "detailSlug": "eva-dako",
+    "firstName": "Eva",
+    "lastName": "Dako",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "valbona-caushi",
+    "firstName": "Valbona",
+    "lastName": "Caushi",
+    "city": "Sarandë"
+  },
+  {
+    "detailSlug": "jetmira-amuli",
+    "firstName": "Jetmira",
+    "lastName": "Amuli",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "dorina-bedhia",
+    "firstName": "Dorina",
+    "lastName": "Bedhia",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirela-perroj",
+    "firstName": "Mirela",
+    "lastName": "Përroj",
+    "city": "Poliçan"
+  },
+  {
+    "detailSlug": "ilirjana-cali",
+    "firstName": "Ilirjana",
+    "lastName": "Çali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erdita-fshazi",
+    "firstName": "Erudita",
+    "lastName": "Fshazi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "adisa-teliti",
+    "firstName": "Adisa",
+    "lastName": "Teliti",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "besmir-guri",
+    "firstName": "Besmir",
+    "lastName": "Guri",
+    "city": "Rrëshen"
+  },
+  {
+    "detailSlug": "matilda-kallajxhiu",
+    "firstName": "Matilda",
+    "lastName": "Kallajxhiu",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "blerta-rroshi",
+    "firstName": "Blerta",
+    "lastName": "Rroshi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elona-pasmaqi",
+    "firstName": "Elona",
+    "lastName": "Pasmaqi",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "ilira-cako",
+    "firstName": "Ilira",
+    "lastName": "Çako",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anxhela-peza",
+    "firstName": "Anxhela",
+    "lastName": "Peza",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elona-cepelja",
+    "firstName": "Elona",
+    "lastName": "Shuli/Cepelja",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "dritan-krosi",
+    "firstName": "Dritan",
+    "lastName": "Krosi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jonida-kostandini",
+    "firstName": "Jonida",
+    "lastName": "Kostandini",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "elisaveta-dino",
+    "firstName": "Elisaveta",
+    "lastName": "Dino",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "aurora-memushaj",
+    "firstName": "Aurora",
+    "lastName": "Memushaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "emona-ferhati",
+    "firstName": "Emona",
+    "lastName": "Ferhati",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "redina-balla",
+    "firstName": "Redina",
+    "lastName": "Balla/Sulstarova",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elisa-bano",
+    "firstName": "Elisa",
+    "lastName": "Bano",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "oxhena-hatellari",
+    "firstName": "Oxhena",
+    "lastName": "Hatellari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "esmeralda-xhelilaj",
+    "firstName": "Esmeralda",
+    "lastName": "Xhelilaj/Dimo",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "erisa-truma",
+    "firstName": "Erisa",
+    "lastName": "Truma",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "evelina-alia",
+    "firstName": "Evelina",
+    "lastName": "Alia",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "denada-kreshpaj",
+    "firstName": "Denada",
+    "lastName": "Kreshpaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "ertjola-lulaj",
+    "firstName": "Ertjola",
+    "lastName": "Lulaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "adela-zelo",
+    "firstName": "Adela",
+    "lastName": "Zelo",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "artemis-bajaziti",
+    "firstName": "Artemis",
+    "lastName": "Bajaziti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sonila-mecaj",
+    "firstName": "Sonila",
+    "lastName": "Meçaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "hilda-goda",
+    "firstName": "Hilda",
+    "lastName": "Goda",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "vjola-jaku",
+    "firstName": "Vjola",
+    "lastName": "Jaku/Gjeloshi",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "ariona-danaj",
+    "firstName": "Ariona",
+    "lastName": "Danaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "blerta-bodinaku",
+    "firstName": "Blerta",
+    "lastName": "Bodinaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fjona-kasaj",
+    "firstName": "Fjona",
+    "lastName": "Kasaj",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "xhensila-xhelili",
+    "firstName": "Xhensila",
+    "lastName": "Xhelili",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "naureda-bajraktari",
+    "firstName": "Naureda",
+    "lastName": "Bajraktari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "enertila-bekteshi",
+    "firstName": "Enertila",
+    "lastName": "Bekteshi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "valmira-skendi",
+    "firstName": "Valmira",
+    "lastName": "Skëndi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "denisa-ndreka",
+    "firstName": "Denisa",
+    "lastName": "Ndreka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erida-meta",
+    "firstName": "Erida",
+    "lastName": "Meta",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "xhensila-lluga",
+    "firstName": "Xhensila",
+    "lastName": "Lluga",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "ariola-panteqi",
+    "firstName": "Ariola",
+    "lastName": "Panteqi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "dajana-bejko",
+    "firstName": "Dajana",
+    "lastName": "Bejko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irma-koci",
+    "firstName": "Irma",
+    "lastName": "Koçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirseda-marra",
+    "firstName": "Mirseda",
+    "lastName": "Marra",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "sanieda-fataj",
+    "firstName": "Sanieda",
+    "lastName": "Fataj/Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "edina-memaj",
+    "firstName": "Edina",
+    "lastName": "Memaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "elona-sheme",
+    "firstName": "Elona",
+    "lastName": "Sheme",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aida-tusha",
+    "firstName": "Aida",
+    "lastName": "Tusha",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "blerina-aliaj",
+    "firstName": "Blerina",
+    "lastName": "Aliaj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "skerdi-zahaj",
+    "firstName": "Skerdi",
+    "lastName": "Zahaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "oltiana-jenishi",
+    "firstName": "Oltiana",
+    "lastName": "Jenishi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "marta-bej",
+    "firstName": "Marta",
+    "lastName": "Bej",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "estela-pemaj",
+    "firstName": "Estela",
+    "lastName": "Pemaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "dhurata-kazazi",
+    "firstName": "Dhurata",
+    "lastName": "Kazazi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "eglantina-shabhasa",
+    "firstName": "Eglantina",
+    "lastName": "Shabhasa/Myrta",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "etel-turtulli",
+    "firstName": "Etel",
+    "lastName": "Turtulli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "katerina-stefani",
+    "firstName": "Katerina",
+    "lastName": "Stefani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kostandina-mile",
+    "firstName": "Kostandina",
+    "lastName": "Mile/Kotollaku",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "erjona-kadiqi",
+    "firstName": "Erjona",
+    "lastName": "Kadiqi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "klajdina-hodaj",
+    "firstName": "Klajdina",
+    "lastName": "Hodaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "rezarta-basha",
+    "firstName": "Rezarta",
+    "lastName": "Basha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "blerina-shehu",
+    "firstName": "Blerina",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fatjona-radhima",
+    "firstName": "Fatjona",
+    "lastName": "Radhima",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anisa-kaci",
+    "firstName": "Anisa",
+    "lastName": "Kaci",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "brisilda-gashi",
+    "firstName": "Brisilda",
+    "lastName": "Gashi",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "megi-shllaku",
+    "firstName": "Megi",
+    "lastName": "Vjerdha/Shllaku",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "iva-cajupi",
+    "firstName": "Iva",
+    "lastName": "Çajupi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sonila-luzi",
+    "firstName": "Sonila",
+    "lastName": "Luzi/Jaupbashi",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "irena-muchasaj",
+    "firstName": "Irena",
+    "lastName": "Muçhasaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "safete-salillari",
+    "firstName": "Safete",
+    "lastName": "Salillari/Toska",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jetmir-nikolli",
+    "firstName": "Jetmir",
+    "lastName": "Nikolli",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "suela-ndoja",
+    "firstName": "Suela",
+    "lastName": "Ndoja",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "elsuida-murati",
+    "firstName": "Elsuida",
+    "lastName": "Murati",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "florinda-braho",
+    "firstName": "Florinda",
+    "lastName": "Braho",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ledia-canameti",
+    "firstName": "Ledia",
+    "lastName": "Canameti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "majlinda-toma",
+    "firstName": "Majlinda",
+    "lastName": "Toma",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "gladiola-gucaj",
+    "firstName": "Gladiola",
+    "lastName": "Guçaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "loziana-zela",
+    "firstName": "Loziana",
+    "lastName": "Zela/Llambro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "natali-lala",
+    "firstName": "Natali",
+    "lastName": "Lala",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "klodiana-semanaj",
+    "firstName": "Klodiana",
+    "lastName": "Semanaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "nertila-yzeiraj",
+    "firstName": "Nertila",
+    "lastName": "Yzeiraj",
+    "city": "Laç"
+  },
+  {
+    "detailSlug": "enila-cenko",
+    "firstName": "Enila",
+    "lastName": "Cenko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anjeza-kallaku",
+    "firstName": "Anjeza",
+    "lastName": "Kallaku",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "aida-feti",
+    "firstName": "Aida",
+    "lastName": "Kamberi/Feti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "matilda-belalla",
+    "firstName": "Matilda",
+    "lastName": "Belalla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "suela-kalaja",
+    "firstName": "Suela",
+    "lastName": "Kalaja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rrezarta-hasmegaj",
+    "firstName": "Rrezarta",
+    "lastName": "Hasmegaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ornela-xhelo",
+    "firstName": "Ornela",
+    "lastName": "Xhelo",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "suela-culaku-tola",
+    "firstName": "Suela",
+    "lastName": "Çulaku-tola",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "pranvera-muho",
+    "firstName": "Pranvera",
+    "lastName": "Muho/Duro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lindita-durmishi",
+    "firstName": "Lindita",
+    "lastName": "Durmishi",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "osvalt-turmalaj",
+    "firstName": "Osvalt",
+    "lastName": "Turmalaj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "engjellushe-meneri",
+    "firstName": "Engjëllushe",
+    "lastName": "Meneri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "enkelejda-duka",
+    "firstName": "Enkelejda",
+    "lastName": "Duka",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "arjeta-doci",
+    "firstName": "Arjeta",
+    "lastName": "Doçi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "nertila-cela",
+    "firstName": "Nertila",
+    "lastName": "Çela",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "fellenza-beqiri",
+    "firstName": "Fellenza",
+    "lastName": "Beqiri/Kurti",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "ina-tabaku",
+    "firstName": "Ina",
+    "lastName": "Tabaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "nerilda-kurti",
+    "firstName": "Nerilda",
+    "lastName": "Kurti",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "genta-ruci",
+    "firstName": "Genta",
+    "lastName": "Ruçi/Gjokazaj",
+    "city": "Rrëshen"
+  },
+  {
+    "detailSlug": "edlira-dyrmishaj",
+    "firstName": "Edlira",
+    "lastName": "Dyrmishaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "andri-petro",
+    "firstName": "Andi",
+    "lastName": "Petro",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "matilda-zefi",
+    "firstName": "Matilda",
+    "lastName": "Zefi",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "lisa-tabaku",
+    "firstName": "Lisa",
+    "lastName": "Tabaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rudina-zhugli",
+    "firstName": "Rudina",
+    "lastName": "Zhugli",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "ina-blaceri",
+    "firstName": "Ina",
+    "lastName": "Blacëri / Muçka",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "albana-telhai",
+    "firstName": "Albana",
+    "lastName": "Telhai",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "enegrida-tahiraj",
+    "firstName": "Enegrida",
+    "lastName": "Tahiraj",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "eleana-naci",
+    "firstName": "Eleana",
+    "lastName": "Naçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irsida-lalaj",
+    "firstName": "Irsida",
+    "lastName": "Lalaj/Gjoka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irma-tare",
+    "firstName": "Irsa",
+    "lastName": "Tare/Koprencka",
+    "city": "Çorovodë"
+  },
+  {
+    "detailSlug": "manjola-collaku",
+    "firstName": "Manjola",
+    "lastName": "Çollaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "shyqyrije-palushi",
+    "firstName": "Shyqyrije",
+    "lastName": "Palushi/Muja",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "marjana-luani",
+    "firstName": "Marjana",
+    "lastName": "Luani",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "liverta-gjonce",
+    "firstName": "Liverta",
+    "lastName": "Gjonçe",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "emanuela-cami",
+    "firstName": "Emanuela",
+    "lastName": "Çami",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "redona-thanasaj",
+    "firstName": "Redona",
+    "lastName": "Thanasaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "donika-maliqi",
+    "firstName": "Donika",
+    "lastName": "Maliqi",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "lumturi-vruho",
+    "firstName": "Lumturi",
+    "lastName": "Vruho",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "alberta-shkembi",
+    "firstName": "Alberta",
+    "lastName": "Shkëmbi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aleksandra-puci",
+    "firstName": "Aleksandra",
+    "lastName": "Puci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "diola-malasi",
+    "firstName": "Diola",
+    "lastName": "Malasi",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "blerta-allaraj",
+    "firstName": "Blerta",
+    "lastName": "Allaraj/Kuka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xheni-berberi",
+    "firstName": "Xheni",
+    "lastName": "Berberi",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "mariela-kosta",
+    "firstName": "Mariela",
+    "lastName": "Kosta",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "anjeza-kodra",
+    "firstName": "Anjeza",
+    "lastName": "Kodra",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "fjoralba-hoxha",
+    "firstName": "Fjoralba",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arizona-nuka",
+    "firstName": "Arizona",
+    "lastName": "Nuka",
+    "city": "Peqin"
+  },
+  {
+    "detailSlug": "matilda-ranxha",
+    "firstName": "Matilda",
+    "lastName": "Ranxha",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "efigena-kabili",
+    "firstName": "Efigena",
+    "lastName": "Kabili/Bozo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "marvina-troka",
+    "firstName": "Marvina",
+    "lastName": "Troka",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "rezalda-shehi",
+    "firstName": "Rezalda",
+    "lastName": "Shehi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kristina-qirici",
+    "firstName": "Kristina",
+    "lastName": "Qirici",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ledia-rushit",
+    "firstName": "Ledia",
+    "lastName": "Rushit",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fatjona-ahmetli",
+    "firstName": "Fatjona",
+    "lastName": "Ahmetli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erisa-sulollari",
+    "firstName": "Erisa",
+    "lastName": "Sulollari",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "valentina-telhaj",
+    "firstName": "Valentina",
+    "lastName": "Telhaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "bukurije-yzeirllari",
+    "firstName": "Bukurije",
+    "lastName": "Yzeirllari",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "lindita-prenga",
+    "firstName": "Lindita",
+    "lastName": "Prenga",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "alma-babo",
+    "firstName": "Alma",
+    "lastName": "Babo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rajmonda-lybeshari",
+    "firstName": "Rajmonda",
+    "lastName": "Lybeshari",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "sonila-kreku",
+    "firstName": "Sonila",
+    "lastName": "Kreku",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "blerina-dollani",
+    "firstName": "Blerina",
+    "lastName": "Dollani",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "simona-sinjari",
+    "firstName": "Simona",
+    "lastName": "Sinjari",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "irena-gorrica",
+    "firstName": "Irena",
+    "lastName": "Gorrica",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "fllanxa-doci",
+    "firstName": "Fllanxa",
+    "lastName": "Doçi",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "silva-hepaj",
+    "firstName": "Silva",
+    "lastName": "Hepaj",
+    "city": "Malësi e Madhe"
+  },
+  {
+    "detailSlug": "lulzime-lusha",
+    "firstName": "Lulzime",
+    "lastName": "Lusha",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "elona-tocaj",
+    "firstName": "Elona",
+    "lastName": "Toçaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "delina-malaj",
+    "firstName": "Delina",
+    "lastName": "Malaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "zerina-sako",
+    "firstName": "Zerina",
+    "lastName": "Sako",
+    "city": "Rrogozhinë"
+  },
+  {
+    "detailSlug": "angela-sula",
+    "firstName": "Angela",
+    "lastName": "Sula",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "nerita-heqimi",
+    "firstName": "Nerita",
+    "lastName": "Heqimi",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "rezarta-mema",
+    "firstName": "Rezarta",
+    "lastName": "Mema",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "matilda-heqimaj",
+    "firstName": "Matilda",
+    "lastName": "Heqimaj",
+    "city": "Mallakastër"
+  },
+  {
+    "detailSlug": "fatmir-spahiu",
+    "firstName": "Fatmir",
+    "lastName": "Spahiu",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "floreta-cili",
+    "firstName": "Floreta",
+    "lastName": "Çili/Prifti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dhurata-kapidani",
+    "firstName": "Dhurata",
+    "lastName": "Kapidani",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "valmira-rakipaj",
+    "firstName": "Valmira",
+    "lastName": "Rakipaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "megi-qirjako",
+    "firstName": "Megi",
+    "lastName": "Qirjako",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "lumturie-barhani",
+    "firstName": "Lumturie",
+    "lastName": "Barhani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "entela-perja",
+    "firstName": "Entela",
+    "lastName": "Perja",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "ornela-hinaj",
+    "firstName": "Ornela",
+    "lastName": "Hinaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eriona-kola",
+    "firstName": "Eriona",
+    "lastName": "Kola",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "selvije-koka",
+    "firstName": "Selvije",
+    "lastName": "Koka",
+    "city": "Has"
+  },
+  {
+    "detailSlug": "anila-hodo",
+    "firstName": "Anila",
+    "lastName": "Hodo",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "besmir-mema",
+    "firstName": "Besmir",
+    "lastName": "Mema",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "esmeralda-trashani",
+    "firstName": "Esmeralda",
+    "lastName": "Trashani/Ishmaku",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "ilarjana-hasanaj",
+    "firstName": "Ilirjana",
+    "lastName": "Hasanaj",
+    "city": "Bajram Curri"
+  },
+  {
+    "detailSlug": "albana-xhemali",
+    "firstName": "Albana",
+    "lastName": "Xhemali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "franceska-gjonaj",
+    "firstName": "Françeska",
+    "lastName": "Gjonaj/Lucaj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "rovena-kortoci",
+    "firstName": "Rovena",
+    "lastName": "Kortoçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "silvi-alla",
+    "firstName": "Silvi",
+    "lastName": "Alla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rudina-koromani",
+    "firstName": "Rudina",
+    "lastName": "Koromani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fatlinda-ibro",
+    "firstName": "Fatlinda",
+    "lastName": "Ibro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "esmeralda-kajacka",
+    "firstName": "Esmeralda",
+    "lastName": "Kajaçka/Kushta",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "jetmir-dedaj",
+    "firstName": "Jetmir",
+    "lastName": "Dedaj",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "jonela-droboniku",
+    "firstName": "Jonela",
+    "lastName": "Droboniku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rrozar-shiroka",
+    "firstName": "Rrozar",
+    "lastName": "Shiroka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermira-shpata",
+    "firstName": "Ermira",
+    "lastName": "Shpata",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "florie-ngjeci",
+    "firstName": "Florie",
+    "lastName": "Ngjeçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "melisa-shehu",
+    "firstName": "Melisa",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "marsida-lika",
+    "firstName": "Marsida",
+    "lastName": "Lika",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "imelda-sina",
+    "firstName": "Imelda",
+    "lastName": "Sina",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "florina-hajrulla",
+    "firstName": "Florina",
+    "lastName": "Hajrulla",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "judona-trashani",
+    "firstName": "Judona",
+    "lastName": "Trashani",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "edlira-tafani",
+    "firstName": "Edlira",
+    "lastName": "Tafani",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "juliana-dulla",
+    "firstName": "Juliana",
+    "lastName": "Dulla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besard-cokaj",
+    "firstName": "Besard",
+    "lastName": "Çokaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "sonila-shullazi",
+    "firstName": "Sonila",
+    "lastName": "Shullazi",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "jola-aliaj",
+    "firstName": "Jola",
+    "lastName": "Aliaj",
+    "city": "Këlcyr"
+  },
+  {
+    "detailSlug": "veliona-hoxhaj",
+    "firstName": "Veliona",
+    "lastName": "Hoxhaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "florida-aliaj",
+    "firstName": "Florida",
+    "lastName": "Aliaj/Gjongecaj",
+    "city": "Bajram Curri"
+  },
+  {
+    "detailSlug": "elida-kercyku",
+    "firstName": "Elida",
+    "lastName": "Kërçyku",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "danjela-metvelaj",
+    "firstName": "Danjela",
+    "lastName": "Metvelaj",
+    "city": "Koplik"
+  },
+  {
+    "detailSlug": "ada-mehmeti",
+    "firstName": "Ada",
+    "lastName": "Mehmeti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dorela-shehu",
+    "firstName": "Dorela",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "bujana-nurellari",
+    "firstName": "Bujana",
+    "lastName": "Nurellari",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "brunilda-laboviti",
+    "firstName": "Brunilda",
+    "lastName": "Laboviti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "loreta-bytyci",
+    "firstName": "Loreta",
+    "lastName": "Bytyçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alketa-coku",
+    "firstName": "Alketa",
+    "lastName": "Çoku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirjeta-trota",
+    "firstName": "Mirjeta",
+    "lastName": "Trota/Doçi",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "orjola-plaku",
+    "firstName": "Orjola",
+    "lastName": "Plaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "armela-garipi",
+    "firstName": "Armela",
+    "lastName": "Garipi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "valbona-bicaku",
+    "firstName": "Valbona",
+    "lastName": "Bicaku/Bahiti",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "sofianoa-lakuriqi",
+    "firstName": "Sofiona",
+    "lastName": "Lakuriqi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dhurata-nixha",
+    "firstName": "Dhurata",
+    "lastName": "Nixha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "gerta-panxha",
+    "firstName": "Gerta",
+    "lastName": "Panxha",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "xhensila-lato",
+    "firstName": "Xhensila",
+    "lastName": "Lato",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "melina-begaj",
+    "firstName": "Melina",
+    "lastName": "Begaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elidon-shehu",
+    "firstName": "Elidon",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "etleva-olldashi",
+    "firstName": "Etleva",
+    "lastName": "Olldashi",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "rexhina-memolla",
+    "firstName": "Rexhina",
+    "lastName": "Memolla",
+    "city": "Rrogozhinë"
+  },
+  {
+    "detailSlug": "fleura-shkembi",
+    "firstName": "Fleura",
+    "lastName": "Shkëmbi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kristiana-jorgji",
+    "firstName": "Kristiana",
+    "lastName": "Jorgji",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "lediana-xhakollari",
+    "firstName": "Lediana",
+    "lastName": "Xhakollari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermira-hoxha",
+    "firstName": "Ermira",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eksena-qirici",
+    "firstName": "Eksena",
+    "lastName": "Qirici",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "enkeleda-sako",
+    "firstName": "Enkeleda",
+    "lastName": "Sako",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "blerina-sinomati",
+    "firstName": "Blerina",
+    "lastName": "Sinomati",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irena-hysenaj",
+    "firstName": "Irena",
+    "lastName": "Hysenaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anastasi-hoti",
+    "firstName": "Anastasi",
+    "lastName": "Hoti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jada-caja",
+    "firstName": "Jada",
+    "lastName": "Caja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irma-barci",
+    "firstName": "Irma",
+    "lastName": "Barçi/Vasa",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "ornela-sinjari",
+    "firstName": "Ornela",
+    "lastName": "Sinjari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ana-mica",
+    "firstName": "Ana",
+    "lastName": "Miça",
+    "city": "Sarandë"
+  },
+  {
+    "detailSlug": "frida-dashi",
+    "firstName": "Frida",
+    "lastName": "Dashi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "migena-haxhi",
+    "firstName": "Migena",
+    "lastName": "Burrja / Haxhi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "ola-minxhozi",
+    "firstName": "Ola",
+    "lastName": "Minxhozi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irena-xhaferri",
+    "firstName": "Irena",
+    "lastName": "Xhaferri",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "enkeleda-kacani",
+    "firstName": "Enkeleda",
+    "lastName": "Kacani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erion-cenko",
+    "firstName": "Erion",
+    "lastName": "Cenko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirela-tafa",
+    "firstName": "Mirela",
+    "lastName": "Tafa",
+    "city": "Ura Vajgurore"
+  },
+  {
+    "detailSlug": "roland-xhako",
+    "firstName": "Roland",
+    "lastName": "Xhako",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jona-hila",
+    "firstName": "Jona",
+    "lastName": "Hila",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "valbona-idrizi",
+    "firstName": "Valbona",
+    "lastName": "Idrizi/Bregu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aurela-agalliu",
+    "firstName": "Aurela",
+    "lastName": "Agalliu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elisa-Velaj",
+    "firstName": "Elisa",
+    "lastName": "Velaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Besmir-Frroku",
+    "firstName": "Besmir",
+    "lastName": "Frroku",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Klarina-Filaj",
+    "firstName": "Klarina",
+    "lastName": "Filaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marinela-Postoli",
+    "firstName": "Marinela",
+    "lastName": "Postoli",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Ardit-Xhafkollari",
+    "firstName": "Ardit",
+    "lastName": "Xhafkollari",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "Eriona-Hoxha",
+    "firstName": "Eriona",
+    "lastName": "Hoxha",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Marsela-Shehu",
+    "firstName": "Marsela",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Olsa-Mema",
+    "firstName": "Olsa",
+    "lastName": "Mema",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Denisa-Tanku",
+    "firstName": "Denisa",
+    "lastName": "Tanku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Jonida-Mustafaraj",
+    "firstName": "Jonida",
+    "lastName": "Mustafaraj",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "orgesa-qosja",
+    "firstName": "Orgesa",
+    "lastName": "Macaj/Qosja",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Dorjan-Deda",
+    "firstName": "Dorjan",
+    "lastName": "Deda",
+    "city": "Bulqizë"
+  },
+  {
+    "detailSlug": "Anjeza-Proshka",
+    "firstName": "Anjeza",
+    "lastName": "Proshka",
+    "city": "Rrogozhinë"
+  },
+  {
+    "detailSlug": "Arlinda-Ymeri",
+    "firstName": "Arlinda",
+    "lastName": "Ymeri",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Anisa-Shehu",
+    "firstName": "Anisa",
+    "lastName": "Asllanaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Albana-Ismaili",
+    "firstName": "Albana",
+    "lastName": "Ismaili",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "Ardiana-Mali",
+    "firstName": "Ardiana",
+    "lastName": "Mali",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Blerina-Toma",
+    "firstName": "Blerina",
+    "lastName": "Toma/Daupi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Brikena-Veliaj",
+    "firstName": "Brikena",
+    "lastName": "Veliaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Xheni-Halili",
+    "firstName": "Xheni",
+    "lastName": "Halili",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Daniela-Mece",
+    "firstName": "Daniela",
+    "lastName": "Meçe",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Aida-Mehmeti",
+    "firstName": "Aida",
+    "lastName": "Mehmeti",
+    "city": "Laç"
+  },
+  {
+    "detailSlug": "Irma-leka-Peza",
+    "firstName": "Irma",
+    "lastName": "Leka/Peza",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Erinda-Bani",
+    "firstName": "Erinda",
+    "lastName": "Bani",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Eriselda-Dervishi",
+    "firstName": "Eriselda",
+    "lastName": "Dervishi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Klodiana-Docaj",
+    "firstName": "Klodiana",
+    "lastName": "Docaj",
+    "city": "Tropojë"
+  },
+  {
+    "detailSlug": "Alfred-Nela",
+    "firstName": "Alfred",
+    "lastName": "Nela",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ana-Shkembi",
+    "firstName": "Ana",
+    "lastName": "Shkembi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Enkelejda-Gjoza",
+    "firstName": "Enkelejda",
+    "lastName": "Gjoza",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Olta-Jacellari",
+    "firstName": "Olta",
+    "lastName": "Jacellari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marjeta-Ceci",
+    "firstName": "Marjeta",
+    "lastName": "Ceci",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Ledina-lekgegaj",
+    "firstName": "Ledina",
+    "lastName": "Lekgegaj/Laze",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Renisa-Doku",
+    "firstName": "Renisa",
+    "lastName": "Doku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Laura-Cami",
+    "firstName": "Laura",
+    "lastName": "Cami",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Greta-Talo",
+    "firstName": "Greta",
+    "lastName": "Talo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marjan-Ndoci",
+    "firstName": "Marjan",
+    "lastName": "Ndoci",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Ina-Islamaj",
+    "firstName": "Ina",
+    "lastName": "Islamaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "Silvana-Duka",
+    "firstName": "Silvana",
+    "lastName": "Duka",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Jonida-Dulemata",
+    "firstName": "Jonida",
+    "lastName": "Dulemata",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arben-Hoti",
+    "firstName": "Arben",
+    "lastName": "Hoti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Paola-Gjika",
+    "firstName": "Paola",
+    "lastName": "Gjika",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Rovena-Recka",
+    "firstName": "Rovena",
+    "lastName": "Recka",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "Jorida-Rustemi",
+    "firstName": "Jorida",
+    "lastName": "Rustemi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Diana-Rajdho",
+    "firstName": "Diana",
+    "lastName": "Rajdho",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "Erisilda-Cali",
+    "firstName": "Ersilda",
+    "lastName": "Cali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ines-Haxhimali",
+    "firstName": "Ines",
+    "lastName": "Haxhimali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arlinda-Kaca",
+    "firstName": "Arlinda",
+    "lastName": "Kaca",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Erilda-Ajaz",
+    "firstName": "Erilda",
+    "lastName": "Ajaz",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arbjola-Halimi",
+    "firstName": "Arbjola",
+    "lastName": "Halimi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Silvana-Lleshi",
+    "firstName": "Silvana",
+    "lastName": "Lleshi/Ndoca",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "Nertila-Sulenji",
+    "firstName": "Nertila",
+    "lastName": "Sulenji",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Danjela-Blaceri",
+    "firstName": "Danjela",
+    "lastName": "Blacëri/Gjorgo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Simona-Stojko",
+    "firstName": "Simona",
+    "lastName": "Stojko/Hodaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Altin-Nika",
+    "firstName": "Altin",
+    "lastName": "Nika",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Valentina-Morina",
+    "firstName": "Valentina",
+    "lastName": "Morina-Xhomaqi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Alida-Zyka",
+    "firstName": "Alida",
+    "lastName": "Zyka",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Arjet-Pervizi",
+    "firstName": "Arjet",
+    "lastName": "Pervizi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Anjeza-Strugaj",
+    "firstName": "Anjeza",
+    "lastName": "Strugaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Kristina-Marku",
+    "firstName": "Kristina",
+    "lastName": "Marku",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Kristjana-Selimi",
+    "firstName": "Kristjana",
+    "lastName": "Selimi/Toska",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Ernila-Sinani",
+    "firstName": "Ernila",
+    "lastName": "Sinani / Cekoja",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Demush-Kastrati",
+    "firstName": "Demush",
+    "lastName": "Kastrati",
+    "city": "Has"
+  },
+  {
+    "detailSlug": "Eglantina-Nikollaj",
+    "firstName": "Eglantina",
+    "lastName": "Nikollaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Lejda-Abazi",
+    "firstName": "Lejda",
+    "lastName": "Abazi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Esmiralda-Kafellari",
+    "firstName": "Esmiralda",
+    "lastName": "Kafellari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Destemona-Celo",
+    "firstName": "Destemona",
+    "lastName": "Celo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Majlinda-Xhika",
+    "firstName": "Majlinda",
+    "lastName": "Xhika",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marjola-Jano",
+    "firstName": "Marjola",
+    "lastName": "Jano",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Vera-Laci",
+    "firstName": "Vera",
+    "lastName": "Laci",
+    "city": "Pukë"
+  },
+  {
+    "detailSlug": "Greta-Mani",
+    "firstName": "Greta",
+    "lastName": "Mani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Eldisa-Qehaj",
+    "firstName": "Eldisa",
+    "lastName": "Qehaj",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Fatmira-Lala",
+    "firstName": "Fatmira",
+    "lastName": "Lala",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Blerina-Shore",
+    "firstName": "Blerina",
+    "lastName": "Shore",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Flutur-Allkja",
+    "firstName": "Flutur",
+    "lastName": "Allkja",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "Esmeralda-Leka",
+    "firstName": "Esmeralda",
+    "lastName": "Leka",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "Svea-Cake",
+    "firstName": "Svea",
+    "lastName": "Cake",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "hILE",
+    "firstName": "Drilona",
+    "lastName": "Rrotani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Sabina-Tahsimi",
+    "firstName": "Sabina",
+    "lastName": "Tahsimi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ermira-Rrustemaj",
+    "firstName": "Ermira",
+    "lastName": "Rrustemaj/Likaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Bora-Bektashaj",
+    "firstName": "Bora",
+    "lastName": "Bektashaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ardit-Malkja",
+    "firstName": "Ardit",
+    "lastName": "Malkja",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Edona-Kalthi",
+    "firstName": "Edona",
+    "lastName": "Kalthi",
+    "city": "Laç"
+  },
+  {
+    "detailSlug": "Isela-Janka",
+    "firstName": "Isela",
+    "lastName": "Janka",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Odeta-Troci",
+    "firstName": "Odeta",
+    "lastName": "Troci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Oriola-Heta",
+    "firstName": "Oriola",
+    "lastName": "Heta",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Anxhelina-Kano",
+    "firstName": "Anxhelina",
+    "lastName": "Kano",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Angjelina-Vaso",
+    "firstName": "Angjelina",
+    "lastName": "Vaso",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Fiqerete-Dauti",
+    "firstName": "Fiqirete",
+    "lastName": "Dauti",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "Eglantina-Petro",
+    "firstName": "Eglantina",
+    "lastName": "Petro",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "Brisda-Gega",
+    "firstName": "Brisida",
+    "lastName": "Gega",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marsela-Golemi",
+    "firstName": "Marsela",
+    "lastName": "Golemi/Pinari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Eli-Prifti",
+    "firstName": "Eli",
+    "lastName": "Prifti",
+    "city": "Kuçovë"
+  },
+  {
+    "detailSlug": "Joana-brami",
+    "firstName": "Joana",
+    "lastName": "Brami",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "Danjela-Grada",
+    "firstName": "Danjela",
+    "lastName": "Grada",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Esida-Hasaj",
+    "firstName": "Esida",
+    "lastName": "Hasaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Manuela-Orhani",
+    "firstName": "Manuela",
+    "lastName": "Orhani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Zerina-Qendro",
+    "firstName": "Zerina",
+    "lastName": "Qendro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Donisa-Rapushaj",
+    "firstName": "Dionisa",
+    "lastName": "Rapushaj",
+    "city": "Mallakastër"
+  },
+  {
+    "detailSlug": "Gea-Gjoni",
+    "firstName": "Gea",
+    "lastName": "Gjoni",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Rosita-Pustina",
+    "firstName": "Rosita",
+    "lastName": "Pustina",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ermilinda-Zgjana",
+    "firstName": "Ermilinda",
+    "lastName": "Zgjana",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Jola-Tomorri",
+    "firstName": "Jola",
+    "lastName": "Tomorri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Lulzime-Hyseni",
+    "firstName": "Lulëzime",
+    "lastName": "Hyseni",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Erisa-Degjoni",
+    "firstName": "Erisa",
+    "lastName": "Degjoni",
+    "city": "Peshkopi"
+  },
+  {
+    "detailSlug": "Edisnajda-Xhihani",
+    "firstName": "Edisnajda",
+    "lastName": "Xhihani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Erisa-Kucuku",
+    "firstName": "Erisa",
+    "lastName": "Kuçuku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Fatjona-Hysi",
+    "firstName": "Fatjona",
+    "lastName": "Hysi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Loreta-Bakillari",
+    "firstName": "Loreta",
+    "lastName": "Bakillari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Hume-Kertusha",
+    "firstName": "Hume",
+    "lastName": "Kertusha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Klorinda-Serani",
+    "firstName": "Klorinda",
+    "lastName": "Serani",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Fatbardha-Osmanaga",
+    "firstName": "Fatbardha",
+    "lastName": "Osmanaga",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Aida-Prendi",
+    "firstName": "Aida",
+    "lastName": "Prendi",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Marildo-Cela",
+    "firstName": "Marildo",
+    "lastName": "Cela",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Elsa-Balliu",
+    "firstName": "Elsa",
+    "lastName": "Balliu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Anxhela-Deliu",
+    "firstName": "Anxhela",
+    "lastName": "Deliu",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Jonilda-Zenelhasani",
+    "firstName": "Jonilda",
+    "lastName": "Zenelhasani",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "Nerenxa-Alia",
+    "firstName": "Nerenxa",
+    "lastName": "Alia / Dranga",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Vasjana-Bardhushi",
+    "firstName": "Vasjana",
+    "lastName": "Bardhushi",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "Klodian-Gega",
+    "firstName": "Klodian",
+    "lastName": "Gega",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Albjona-Kadiu",
+    "firstName": "Albjona",
+    "lastName": "Kadiu",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "Loreta-Mamani",
+    "firstName": "Loreta",
+    "lastName": "Mamani",
+    "city": "Gjirokastër"
+  },
+  {
+    "detailSlug": "Erisa-Pajenga",
+    "firstName": "Erisa",
+    "lastName": "Pajenga",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Lorita-Tahiraj",
+    "firstName": "Lorida",
+    "lastName": "Tahiraj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Irena-Cela",
+    "firstName": "Irena",
+    "lastName": "Cela",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arilda-Dushaj",
+    "firstName": "Arilda",
+    "lastName": "Dushaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Orjeta-Koci",
+    "firstName": "Orjeta",
+    "lastName": "Koci",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Klejda-Risilia",
+    "firstName": "Klejda",
+    "lastName": "Risilia",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arela-Carku",
+    "firstName": "Arela",
+    "lastName": "Carku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Eranda-Konomi",
+    "firstName": "Eranda",
+    "lastName": "Konomi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ankela-Baku",
+    "firstName": "Ankela",
+    "lastName": "Baku",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "Ekleva-Reci",
+    "firstName": "Ekleva",
+    "lastName": "Reci",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Donalda-Cani",
+    "firstName": "Donalda",
+    "lastName": "Cani",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Ada-Sabahu",
+    "firstName": "Ada",
+    "lastName": "Sabahu",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Kladiola-Filaj",
+    "firstName": "Kladiola",
+    "lastName": "Filaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "Elis-Bejaj",
+    "firstName": "Elis",
+    "lastName": "Bejaj",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "Sabina-Dabjani",
+    "firstName": "Sabina",
+    "lastName": "Dabjani",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "Dahline-Abazi",
+    "firstName": "Dahlinë",
+    "lastName": "Abazi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Suela-Domnori",
+    "firstName": "Suela",
+    "lastName": "Domnori",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Ernela-Gumeni",
+    "firstName": "Ernela",
+    "lastName": "Gumeni",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Arjola-Percaku",
+    "firstName": "Arjola",
+    "lastName": "Percaku",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Elona-baci",
+    "firstName": "Elona",
+    "lastName": "Pilinci/Baci",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Arjola-Hysa",
+    "firstName": "Arjola",
+    "lastName": "Hysa",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Albesa-Jasini",
+    "firstName": "Albesa",
+    "lastName": "Jasini",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Spiridhona-Bello",
+    "firstName": "Spiridhona",
+    "lastName": "Bello",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "Marjeta-Karaj",
+    "firstName": "Marjeta",
+    "lastName": "Karaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Erikela-Kollcaku",
+    "firstName": "Erikela",
+    "lastName": "Kollcaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elisa-Ademi",
+    "firstName": "Elisa",
+    "lastName": "Ademi",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "Bora-Selmani",
+    "firstName": "Bora",
+    "lastName": "Selmani/Ibro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Marjola-Lala",
+    "firstName": "Marjola",
+    "lastName": "Lala",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Pranvera-Vangjeli",
+    "firstName": "Pranvera",
+    "lastName": "Vangjeli",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "diana-shehaj",
+    "firstName": "Diana",
+    "lastName": "Shehaj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "hystina-margo",
+    "firstName": "Hystina",
+    "lastName": "Margo",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "sulejman-hafizi",
+    "firstName": "Sulejman",
+    "lastName": "Hafizi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Llurata-Pecaj",
+    "firstName": "Llurata",
+    "lastName": "Pecaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "alesia-lena",
+    "firstName": "Alesia",
+    "lastName": "Lena",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "keli-gega",
+    "firstName": "Keli",
+    "lastName": "Gega",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fitim-lami",
+    "firstName": "Fitim",
+    "lastName": "Lami",
+    "city": "Peshkopi"
+  },
+  {
+    "detailSlug": "anxhela-ibrahimllari",
+    "firstName": "Anxhela",
+    "lastName": "Ibrahimllari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "iliriana-rajta",
+    "firstName": "Iliriana",
+    "lastName": "Rajta",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "imo-alikaj",
+    "firstName": "Imo",
+    "lastName": "Alikaj/Aliraj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "samela-imeraj",
+    "firstName": "Samela",
+    "lastName": "Imeraj/Vata",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "iva-fosa",
+    "firstName": "Iva",
+    "lastName": "Fosa",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "bledina-gjerga",
+    "firstName": "Bledina",
+    "lastName": "Gjerga",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "fjoralba-hoxhallari",
+    "firstName": "Fjoralba",
+    "lastName": "Hoxhallari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ana-nikaj",
+    "firstName": "Ana",
+    "lastName": "Nikaj",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "elda-sinani",
+    "firstName": "Elda",
+    "lastName": "Sinani",
+    "city": "Divjak"
+  },
+  {
+    "detailSlug": "arta-beqiri",
+    "firstName": "Arta",
+    "lastName": "Beqiri",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "lorena-prifti",
+    "firstName": "Lorena",
+    "lastName": "Prifti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "suela-tasha",
+    "firstName": "Suela",
+    "lastName": "Tasha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhuliana-marku",
+    "firstName": "Xhuliana",
+    "lastName": "Marku",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Anisa-Zace",
+    "firstName": "Anisa",
+    "lastName": "Zace",
+    "city": "None"
+  },
+  {
+    "detailSlug": "Alma-Ivanaj",
+    "firstName": "Alma",
+    "lastName": "Ivanaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elona-Durmishaj",
+    "firstName": "Elona",
+    "lastName": "Durmishaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Donilda-Bylyku",
+    "firstName": "Donilda",
+    "lastName": "Bylyku",
+    "city": "Bilisht"
+  },
+  {
+    "detailSlug": "Sonila-Hasani",
+    "firstName": "Sonila",
+    "lastName": "Papas/Hasani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Almeida-Ametbejasi",
+    "firstName": "Almeida",
+    "lastName": "Ametbejasi/Xhaferi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Arlinda-Shella",
+    "firstName": "Arlinda",
+    "lastName": "Shella",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ardenal-Ferhati",
+    "firstName": "Ardenal",
+    "lastName": "Ferhati",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "Lorena-Bajollari",
+    "firstName": "Lorena",
+    "lastName": "Bajollari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Ilir-Dobrozi",
+    "firstName": "Ilir",
+    "lastName": "Dobrozi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Eralda-Xhafa",
+    "firstName": "Eralda",
+    "lastName": "Xhafa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Andi-Shkurti",
+    "firstName": "Andi",
+    "lastName": "Shkurti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Erida-Hysesani",
+    "firstName": "Erida",
+    "lastName": "Hysesani/Lile",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Brunketa-Zoto",
+    "firstName": "Brunketa",
+    "lastName": "Zoto",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Enkel-Bulica",
+    "firstName": "Enkel",
+    "lastName": "Bulica",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Majlinda-Blushi",
+    "firstName": "Majlinda",
+    "lastName": "Blushi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elsa-Kera",
+    "firstName": "Elsa",
+    "lastName": "Kera",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Aurora-Karaj",
+    "firstName": "Aurora",
+    "lastName": "Karaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elvis-Popaj",
+    "firstName": "Elvis",
+    "lastName": "Popaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Ilva-Lamaj",
+    "firstName": "Ilva",
+    "lastName": "Lamaj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "vitjona-begeja",
+    "firstName": "Vitjona",
+    "lastName": "Begeja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "florida-buda",
+    "firstName": "Florida",
+    "lastName": "Buda",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anxhela-kurti",
+    "firstName": "Anxhela",
+    "lastName": "Kurti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "pranvera-gradica",
+    "firstName": "Pranvera",
+    "lastName": "Gradica",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klajdi-xhelilaj",
+    "firstName": "Klajdi",
+    "lastName": "Xhelilaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhensila-durrsi",
+    "firstName": "Xhensila",
+    "lastName": "Durrsi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elona-kallajxhi",
+    "firstName": "Elona",
+    "lastName": "Kallajxhi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "loreta-tomaj",
+    "firstName": "Loreta",
+    "lastName": "Tomaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "armela-memaci",
+    "firstName": "Armela",
+    "lastName": "Memaci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "desara-gremi",
+    "firstName": "Desara",
+    "lastName": "Gremi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "violeta-tafili",
+    "firstName": "Violeta",
+    "lastName": "Tafili",
+    "city": "Laç"
+  },
+  {
+    "detailSlug": "juela-kapaj",
+    "firstName": "Juela",
+    "lastName": "Kapaj/Muçollari",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "adelajda-alikaj",
+    "firstName": "Adelajda",
+    "lastName": "Alikaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "boralda-lala",
+    "firstName": "Boralda",
+    "lastName": "Lala",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "savjola-konja",
+    "firstName": "Savjola",
+    "lastName": "Konja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klarida-makli",
+    "firstName": "Klarida",
+    "lastName": "Makli",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "eralda-uka",
+    "firstName": "Eralda",
+    "lastName": "Uka",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "kristina-gjoni",
+    "firstName": "Kristina",
+    "lastName": "Gjoni",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "paola-zefi",
+    "firstName": "Paola",
+    "lastName": "Zefi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arian-najpi",
+    "firstName": "Arian",
+    "lastName": "Najpi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "alfred-hoxha",
+    "firstName": "Alfred",
+    "lastName": "Hoxha",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "dorina-voci",
+    "firstName": "Dorina",
+    "lastName": "Voci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ema-jonuzi",
+    "firstName": "Ema",
+    "lastName": "Jonuzi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "vilma-ruci",
+    "firstName": "Vilma",
+    "lastName": "Ruci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rosela-bodlli",
+    "firstName": "Rosela",
+    "lastName": "Bodlli/Kasa",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "aurora-kondakciu",
+    "firstName": "Aurora",
+    "lastName": "Kondakciu",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "matilda-shinjatari",
+    "firstName": "Matilda",
+    "lastName": "Shinjatari",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "silva-laboviti",
+    "firstName": "Silva",
+    "lastName": "Laboviti",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "juela-cela",
+    "firstName": "Juela",
+    "lastName": "Cela",
+    "city": "None"
+  },
+  {
+    "detailSlug": "paola-jakova",
+    "firstName": "Paola",
+    "lastName": "Jakova",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alketa-kupe",
+    "firstName": "Alketa",
+    "lastName": "Kupe",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "heseva-serjanaj",
+    "firstName": "Heseva",
+    "lastName": "Serjanaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "albana-margaritari",
+    "firstName": "Albana",
+    "lastName": "Margaritari",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "isabela-kokomani",
+    "firstName": "Izabela",
+    "lastName": "Kokomani",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "vinifreda-gazulli",
+    "firstName": "Vinifreda",
+    "lastName": "Gazulli",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "estela-sulko",
+    "firstName": "Estela",
+    "lastName": "Sulko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "shqiponja-kurti",
+    "firstName": "Shqiponja",
+    "lastName": "Kurti/Dorzi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eneida-doku",
+    "firstName": "Eneida",
+    "lastName": "Doku/Xhanej",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "redona-tupi",
+    "firstName": "Redona",
+    "lastName": "Tupi",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "ela-tollkuci",
+    "firstName": "Ela",
+    "lastName": "Tollkuci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ledja-gropa",
+    "firstName": "Ledja",
+    "lastName": "Gropa",
+    "city": "Patos"
+  },
+  {
+    "detailSlug": "valentina-doda",
+    "firstName": "Valentina",
+    "lastName": "Doda",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "anxhela-ziu",
+    "firstName": "Anxhela",
+    "lastName": "Ziu",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "donatela-paluca",
+    "firstName": "Donatela",
+    "lastName": "Paluca",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "angjela-shllaku",
+    "firstName": "Angjela",
+    "lastName": "Shllaku",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "franceska-prenjasi",
+    "firstName": "Franceska",
+    "lastName": "Prenjasi",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "jonarda-kerkuti",
+    "firstName": "Jonarda",
+    "lastName": "Kerkuti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "vojsava-cekodhima",
+    "firstName": "Vojsava",
+    "lastName": "Cekodhima",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "arta-naci",
+    "firstName": "Arta",
+    "lastName": "Naci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhensilda-hatija",
+    "firstName": "Xhensilda",
+    "lastName": "Hatija",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "valbona-ukperaj",
+    "firstName": "Valbona",
+    "lastName": "Ukperaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ervina-shabaj",
+    "firstName": "Ervina",
+    "lastName": "Shabaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "eligerta-mema",
+    "firstName": "Eligerta",
+    "lastName": "Mema",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "matilda-kalemaj",
+    "firstName": "Matilda",
+    "lastName": "Kalemaj / Lamllari",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "majlinda-marku",
+    "firstName": "Majlinda",
+    "lastName": "Marku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ineida-lleshi",
+    "firstName": "Ineida",
+    "lastName": "Lleshi",
+    "city": "Bulqizë"
+  },
+  {
+    "detailSlug": "majlinda-balliu",
+    "firstName": "Majlinda",
+    "lastName": "Balliu",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "klarita-mazelliu",
+    "firstName": "Klarita",
+    "lastName": "Mazelliu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arjola-manreka",
+    "firstName": "Arjola",
+    "lastName": "Manreka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lorena-gjindoda",
+    "firstName": "Lorena",
+    "lastName": "Gjindoda",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anjeza-ahmati",
+    "firstName": "Anjeza",
+    "lastName": "Ahmati",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "aurela-lumshi",
+    "firstName": "Aurela",
+    "lastName": "Lumshi",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "migena-bakiaj",
+    "firstName": "Migena",
+    "lastName": "Bakiaj",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "anita-balo",
+    "firstName": "Anita",
+    "lastName": "Balo",
+    "city": "Sarandë"
+  },
+  {
+    "detailSlug": "era-sinani",
+    "firstName": "Era",
+    "lastName": "Sinani",
+    "city": "Cërrik"
+  },
+  {
+    "detailSlug": "edlira-hazizolli",
+    "firstName": "Edlira",
+    "lastName": "Hazizolli",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "almir-xhangolli",
+    "firstName": "Almir",
+    "lastName": "Xhangolli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "manjola-mengjezi",
+    "firstName": "Manola",
+    "lastName": "Mengjezi",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "ernisa-ibrahimi",
+    "firstName": "Ernisa",
+    "lastName": "Ibrahimi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhulja-bali",
+    "firstName": "Xhulja",
+    "lastName": "Bali",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "engjellushe-toska",
+    "firstName": "Engjellushe",
+    "lastName": "Toska",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "manjola-baci",
+    "firstName": "Manjola",
+    "lastName": "Baci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arta-mena",
+    "firstName": "Arta",
+    "lastName": "Mena",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "marinela-gjeloshi",
+    "firstName": "Marinela",
+    "lastName": "Gjeloshi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arlinda-sevo",
+    "firstName": "Arlinda",
+    "lastName": "Sevo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erblina-juniku",
+    "firstName": "Erblina",
+    "lastName": "Juniku",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "behije-neziri",
+    "firstName": "Behije",
+    "lastName": "Neziri-Jangulli",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "elsa-faqolli",
+    "firstName": "Elsa",
+    "lastName": "Faqolli",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "agela-pupi",
+    "firstName": "Agela",
+    "lastName": "Pupi",
+    "city": "Lushnje"
+  },
+  {
+    "detailSlug": "krisalda-sauli",
+    "firstName": "Krisalda",
+    "lastName": "Sauli",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "mimoza-prela",
+    "firstName": "Mimoza",
+    "lastName": "Prela",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermira-hila",
+    "firstName": "Ermira",
+    "lastName": "Hila",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "flavio-dibra",
+    "firstName": "Flavio",
+    "lastName": "Dibra",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anila-kurti",
+    "firstName": "Anila",
+    "lastName": "Kurti",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "griselda-kuni",
+    "firstName": "Griselda",
+    "lastName": "Kuni",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "eralda-allushi",
+    "firstName": "Eralda",
+    "lastName": "Allushi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rea-halilaj",
+    "firstName": "Rea",
+    "lastName": "Halilaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "parashqevi-projka",
+    "firstName": "Parashqevi",
+    "lastName": "Projka",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "uarda-becerri",
+    "firstName": "Uarda",
+    "lastName": "Becerri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ersida-ferhati",
+    "firstName": "Ersida",
+    "lastName": "Ferhati",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "eglantina-rrozhani",
+    "firstName": "Eglantina",
+    "lastName": "Rrozhani/Sherri",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "elone-ferati",
+    "firstName": "Elone",
+    "lastName": "Ferati",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Eriola-Belba",
+    "firstName": "Eriola",
+    "lastName": "Belba",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "alban-petro",
+    "firstName": "Alban",
+    "lastName": "Petro",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besnik-hoxha",
+    "firstName": "Besnik",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "miklovan-braka",
+    "firstName": "Miklovan",
+    "lastName": "Braka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Flora-Dedaj",
+    "firstName": "Flora",
+    "lastName": "Dedaj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Anora-Kroj",
+    "firstName": "Anora",
+    "lastName": "Kroj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Erinda-Rrogozi",
+    "firstName": "Erinda",
+    "lastName": "Rrogozi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "silvana-dollani",
+    "firstName": "Silvana",
+    "lastName": "Dollani",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "Valbona-Hoti",
+    "firstName": "Valbona",
+    "lastName": "Hoti",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "Eranda-Bego",
+    "firstName": "Eranda",
+    "lastName": "Bego",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Anxhela-Muha",
+    "firstName": "Anxhela",
+    "lastName": "Muka",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Ersterina-Ajazi",
+    "firstName": "Esterina",
+    "lastName": "Ajazi",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "Nejsvi-Zaja",
+    "firstName": "Nejsvi",
+    "lastName": "Zaja",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "Esmeralda-Kucuku",
+    "firstName": "Esmeralda",
+    "lastName": "Kucuku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Mirela-Muka",
+    "firstName": "Mirela",
+    "lastName": "Muka",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "Aglinda-Jata",
+    "firstName": "Aglinda",
+    "lastName": "Jata",
+    "city": "None"
+  },
+  {
+    "detailSlug": "Eralba-Zenelaj",
+    "firstName": "Eralba",
+    "lastName": "Zenelaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Elona-Isollari",
+    "firstName": "Elona",
+    "lastName": "Isollari",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "Xheljeta-Malaj",
+    "firstName": "Xheljeta",
+    "lastName": "Malaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Xhesilda-Minga",
+    "firstName": "Xhesilda",
+    "lastName": "Minga",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "iris-debrova",
+    "firstName": "Iris",
+    "lastName": "Debrova",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "Ergersa-Gjika",
+    "firstName": "Ergersa",
+    "lastName": "Gjika",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Anita-Mance",
+    "firstName": "Anita",
+    "lastName": "Mance",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Dorina-Hasanllari",
+    "firstName": "Dorina",
+    "lastName": "Hasanllari",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "elsa-pashaj",
+    "firstName": "Elsa",
+    "lastName": "Pashaj/Docaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ervisa-kico",
+    "firstName": "Ervisa",
+    "lastName": "Kico",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "Admira-Beci",
+    "firstName": "Admira",
+    "lastName": "Beci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sonila-baci",
+    "firstName": "Sonila",
+    "lastName": "Baci",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "fatma-saraci",
+    "firstName": "Fatma",
+    "lastName": "Saraçi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "Rajmonda-boshnjaku",
+    "firstName": "Rajmonda",
+    "lastName": "Boshnjaku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jonilda-gremi",
+    "firstName": "Jonilda",
+    "lastName": "Gremi",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "Teuta-Shijaku",
+    "firstName": "Teuta",
+    "lastName": "Shijaku",
+    "city": "Krujë"
+  },
+  {
+    "detailSlug": "mimoza-prengzaj",
+    "firstName": "Mimoza",
+    "lastName": "Prengzaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besmira-balla",
+    "firstName": "Besmira",
+    "lastName": "Balla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elida-shehu",
+    "firstName": "Elida",
+    "lastName": "Shehu",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "marsela-shera",
+    "firstName": "Marsela",
+    "lastName": "Shera",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elfrida-hysa",
+    "firstName": "Elfrida",
+    "lastName": "Hysa",
+    "city": "Librazhd"
+  },
+  {
+    "detailSlug": "livia-kyvyku",
+    "firstName": "Livja",
+    "lastName": "Kyçyku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "gentjana-shehaj",
+    "firstName": "Gentjana",
+    "lastName": "Shehaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dorisa-zogu",
+    "firstName": "Dorisa",
+    "lastName": "Zogu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "franceska-hila",
+    "firstName": "Franceska",
+    "lastName": "Hila",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "adelajda-hyka",
+    "firstName": "Adelajda",
+    "lastName": "Hyka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ticiana-docaj",
+    "firstName": "Ticiana",
+    "lastName": "Docaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "edlira-zuna",
+    "firstName": "Edlira",
+    "lastName": "Zuna",
+    "city": "Peshkopi"
+  },
+  {
+    "detailSlug": "gonxhe-shehaj",
+    "firstName": "Gonxhe",
+    "lastName": "Shehaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dorina-lulaj",
+    "firstName": "Dorina",
+    "lastName": "Lulaj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "semiramida-manaj",
+    "firstName": "Semiramida",
+    "lastName": "Manaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ina-canaj",
+    "firstName": "Ina",
+    "lastName": "Canaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rovena-islami",
+    "firstName": "Rovena",
+    "lastName": "Islami",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "arban-shehu",
+    "firstName": "Arban",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arjana-dengu",
+    "firstName": "Arjana",
+    "lastName": "Dengu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "file-geshtenja",
+    "firstName": "File",
+    "lastName": "Geshtenja",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "anduena-toci",
+    "firstName": "Anduena",
+    "lastName": "Toci",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "armela-qafoku",
+    "firstName": "Armela",
+    "lastName": "Qafoku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arjeta-mani",
+    "firstName": "Arjeta",
+    "lastName": "Mani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elda-ndoja",
+    "firstName": "Elda",
+    "lastName": "Ndoja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eleana-dervishaj",
+    "firstName": "Eleana",
+    "lastName": "Dervishaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besmira-lahi",
+    "firstName": "Besmira",
+    "lastName": "Lahi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arjola-doko",
+    "firstName": "Arjola",
+    "lastName": "Doko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anisa-lusha",
+    "firstName": "Anisa",
+    "lastName": "Lusha",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "klevis-zyba",
+    "firstName": "Klevis",
+    "lastName": "Zyba",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "besmira-carcani",
+    "firstName": "Besmira",
+    "lastName": "Çarçani",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "teuta-llozhi",
+    "firstName": "Teuta",
+    "lastName": "Llozhi/Meksi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "miranda-doksani",
+    "firstName": "Miranda",
+    "lastName": "Doksani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ortenca-kotherja",
+    "firstName": "Ortenca",
+    "lastName": "Kotherja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "genta-hoxha",
+    "firstName": "Genta",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "migena-kecaj",
+    "firstName": "Migena",
+    "lastName": "Kecaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "sadete-shahi",
+    "firstName": "Sadete",
+    "lastName": "Shahi",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "everaldo-toska",
+    "firstName": "Everaldo",
+    "lastName": "Toska",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irida-shamku",
+    "firstName": "Irida",
+    "lastName": "Shamku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "armida-beqo",
+    "firstName": "Armida",
+    "lastName": "Beqo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kristina-cali",
+    "firstName": "Kristina",
+    "lastName": "Cali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anxhelo-nallbani",
+    "firstName": "Anxhelo",
+    "lastName": "Nallbani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "joida-porozaj",
+    "firstName": "Joida",
+    "lastName": "Porozaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "irida-kajushi",
+    "firstName": "Irida",
+    "lastName": "Kajushi",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "sara-gerbi",
+    "firstName": "Sara",
+    "lastName": "Gerbi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arnesta-koci",
+    "firstName": "Arnesta",
+    "lastName": "Koci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhesika-mone",
+    "firstName": "Xhesika",
+    "lastName": "Mone",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fjoralda-mecollari",
+    "firstName": "Fjoralda",
+    "lastName": "Mecollari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ilda-lami",
+    "firstName": "Ilda",
+    "lastName": "Lami",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "adjana-halili",
+    "firstName": "Adjana",
+    "lastName": "Halili",
+    "city": "Milot"
+  },
+  {
+    "detailSlug": "manjola-laloshi",
+    "firstName": "Manjola",
+    "lastName": "Laloshi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "erinda-tola",
+    "firstName": "Erinda",
+    "lastName": "Tola",
+    "city": "None"
+  },
+  {
+    "detailSlug": "elisa-memia",
+    "firstName": "Elisa",
+    "lastName": "Memia",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "almandina-guma",
+    "firstName": "Almandina",
+    "lastName": "Guma",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ardita-prendi",
+    "firstName": "Ardita",
+    "lastName": "Prendi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xheni-dedi",
+    "firstName": "Xheni",
+    "lastName": "Dedi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arba-rroji",
+    "firstName": "Arba",
+    "lastName": "Rroji",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eva-nikolli",
+    "firstName": "Eva",
+    "lastName": "Nikolli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alma-paspali",
+    "firstName": "Alma",
+    "lastName": "Paspali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "marsuela-keri",
+    "firstName": "Marsuela",
+    "lastName": "Keri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "redona-saklui",
+    "firstName": "Redona",
+    "lastName": "Sakuli",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "nalvema-kraja",
+    "firstName": "Nalvema",
+    "lastName": "Kraja",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "mira-prekperaj",
+    "firstName": "Mira",
+    "lastName": "Prekperaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "julinda-hasa",
+    "firstName": "Julinda",
+    "lastName": "Hasa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klodiana-bardhoshi",
+    "firstName": "Klodiana",
+    "lastName": "Bardhoshi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sara-lelaj",
+    "firstName": "Sara",
+    "lastName": "Lelaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "gentian-oshafi",
+    "firstName": "Gentian",
+    "lastName": "Oshafi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhevahire-gucija",
+    "firstName": "Xhevahire",
+    "lastName": "Gucija",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "kaline-zaka",
+    "firstName": "Kalinë",
+    "lastName": "Zaka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "vilma-sinoimeri",
+    "firstName": "Vilma",
+    "lastName": "Sinoimeri",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "kejsi-bejtja",
+    "firstName": "Kejsi",
+    "lastName": "Bejtja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "blerta-zeneli",
+    "firstName": "Blerta",
+    "lastName": "Zeneli",
+    "city": "Delvinë"
+  },
+  {
+    "detailSlug": "matilda-vora",
+    "firstName": "Matilda",
+    "lastName": "Vora",
+    "city": "Shijak"
+  },
+  {
+    "detailSlug": "kaljonacili",
+    "firstName": "Kaljona",
+    "lastName": "Cili",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "rigerta-pisqolli",
+    "firstName": "Rigerta",
+    "lastName": "Pisqolli",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "brunilda-dine",
+    "firstName": "Brunilda",
+    "lastName": "Dine",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "griselda-neli",
+    "firstName": "Griselda",
+    "lastName": "Neli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "tea-kerbizi",
+    "firstName": "Tea",
+    "lastName": "Kërbizi",
+    "city": "Rrogozhinë"
+  },
+  {
+    "detailSlug": "qemal-qoku",
+    "firstName": "Qemal",
+    "lastName": "Qoku",
+    "city": "Peshkopi"
+  },
+  {
+    "detailSlug": "elidona-lamnica",
+    "firstName": "Elidona",
+    "lastName": "Lamnica",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "anxhela-shaba",
+    "firstName": "Anxhela",
+    "lastName": "Shaba",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "doris-pojani",
+    "firstName": "Doris",
+    "lastName": "Pojani",
+    "city": "None"
+  },
+  {
+    "detailSlug": "valdete-nikshiqi",
+    "firstName": "Valdete",
+    "lastName": "Nikshiqi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "ersilda-ismaili",
+    "firstName": "Ersilda",
+    "lastName": "Ismaili",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elisabeta-bardho",
+    "firstName": "Elisabeta",
+    "lastName": "Bardho",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "enxhi-ceca",
+    "firstName": "Enxhi",
+    "lastName": "Ceca",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "armira-llanaj",
+    "firstName": "Armira",
+    "lastName": "Llanaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fari-musta",
+    "firstName": "Fari",
+    "lastName": "Musta",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "brunilda-mara",
+    "firstName": "Brunilda",
+    "lastName": "Mara/Beqiri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elerda-reci",
+    "firstName": "Elerda",
+    "lastName": "Reci",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "edisona-rika",
+    "firstName": "Edisona",
+    "lastName": "Rika",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kletias-bilaj",
+    "firstName": "Kletias",
+    "lastName": "Bilaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lediana-hoxha",
+    "firstName": "Lediana",
+    "lastName": "Hoxha",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "eris-xhihani",
+    "firstName": "Eris",
+    "lastName": "Xhihani",
+    "city": "Kavajë"
+  },
+  {
+    "detailSlug": "marsela-bello",
+    "firstName": "Marsela",
+    "lastName": "Bello",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "olta-zylfo",
+    "firstName": "Olta",
+    "lastName": "Zylfo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "lizabeta-marku",
+    "firstName": "Lizabeta",
+    "lastName": "Marku",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "alkida-duraj",
+    "firstName": "Alkida",
+    "lastName": "Duraj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "errmira-psatha",
+    "firstName": "Ermina",
+    "lastName": "Psatha",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "sentiliana-mukaj",
+    "firstName": "Sentiliana",
+    "lastName": "Mukaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "alda-marku",
+    "firstName": "Alda",
+    "lastName": "Marku",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "ana-uka",
+    "firstName": "Ana",
+    "lastName": "Uka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "amarilda-garuli",
+    "firstName": "Amarilda",
+    "lastName": "Garuli",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "edlira-zdralla",
+    "firstName": "Edlira",
+    "lastName": "Zdralla",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "stela-barxhaj",
+    "firstName": "Stela",
+    "lastName": "Barxhaj/Kanani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "etleva-kaliqi",
+    "firstName": "Etleva",
+    "lastName": "Kaliqi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "borjana-dine",
+    "firstName": "Borjana",
+    "lastName": "Dine",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erisana-mbroci",
+    "firstName": "Erisana",
+    "lastName": "Mbroci",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "alerda-cani",
+    "firstName": "Alerda",
+    "lastName": "Cani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ana-ramo",
+    "firstName": "Ana",
+    "lastName": "Ramo",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "brunilda-abdyli",
+    "firstName": "Brulinda",
+    "lastName": "Abdyli",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "feride-noka",
+    "firstName": "Feride",
+    "lastName": "Noka",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "matea-bregasi",
+    "firstName": "Matea",
+    "lastName": "Bregasi/Koci",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "artjola-vataj",
+    "firstName": "Artjola",
+    "lastName": "Vataj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "fatjeta-shehu",
+    "firstName": "Fatjeta",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "bora-skreli",
+    "firstName": "Bora",
+    "lastName": "Skreli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ardian-gjergjaj",
+    "firstName": "Ardian",
+    "lastName": "Gjergjaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "liljana-shahini",
+    "firstName": "Liljana",
+    "lastName": "Shahini",
+    "city": "Gramsh"
+  },
+  {
+    "detailSlug": "albana-delilaj",
+    "firstName": "Albana",
+    "lastName": "Delilaj",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "sara-canka",
+    "firstName": "Sara",
+    "lastName": "Canka",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "ana-troka",
+    "firstName": "Ana",
+    "lastName": "Troka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ambra-doku",
+    "firstName": "Ambra",
+    "lastName": "Doku",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "kledisa-malaj",
+    "firstName": "Kledisa",
+    "lastName": "Malaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "desantila-voci",
+    "firstName": "Desantila",
+    "lastName": "Voci",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "ejona-grozha",
+    "firstName": "Ejona",
+    "lastName": "Grozha",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "lumanie-shabani",
+    "firstName": "Lumanie",
+    "lastName": "Shabani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klodiana-tafa",
+    "firstName": "Klodjana",
+    "lastName": "Tafa/Jata",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "regerta-zuna",
+    "firstName": "Regerta",
+    "lastName": "Zuna/ Bushi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ilva-mile",
+    "firstName": "Ilva",
+    "lastName": "Mile",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "malvina-goduni",
+    "firstName": "Malvina",
+    "lastName": "Goduni",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "albana-baze",
+    "firstName": "Albana",
+    "lastName": "Baze",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mimoza-kurti",
+    "firstName": "Mimoza",
+    "lastName": "Kurti",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "blerina-asllanaj",
+    "firstName": "Blerina",
+    "lastName": "Asllanaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jonida-rama",
+    "firstName": "Jonida",
+    "lastName": "Rama",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "shero-gerveshi",
+    "firstName": "Shero",
+    "lastName": "Gërveshi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "dajana-frroku",
+    "firstName": "Dajana",
+    "lastName": "Frroku",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "blerta-tafani",
+    "firstName": "Blerta",
+    "lastName": "Tafani",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "emanuela-mashnori",
+    "firstName": "Emanuela",
+    "lastName": "Mashnori / HAXHARI",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "ejona-vila",
+    "firstName": "Ejona",
+    "lastName": "Aliu/Vila",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ana-semini",
+    "firstName": "Ana",
+    "lastName": "Semini",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "denis-mema",
+    "firstName": "Denis",
+    "lastName": "Mema",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "besa-cela",
+    "firstName": "Besa",
+    "lastName": "Çelaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jurena-lekaj",
+    "firstName": "Jurena",
+    "lastName": "Lekaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alba-rama",
+    "firstName": "Alba",
+    "lastName": "Rama",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aina-duka",
+    "firstName": "Aina",
+    "lastName": "Duka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "fjora-biba",
+    "firstName": "Fjora",
+    "lastName": "Biba",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "xheka-xhemali",
+    "firstName": "Xheka",
+    "lastName": "Xhemali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elisabeta-qerimi",
+    "firstName": "Elisabeta",
+    "lastName": "Qerimi",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "dajana-kura",
+    "firstName": "Dajana",
+    "lastName": "Kura",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "urani-cobo",
+    "firstName": "Urani",
+    "lastName": "Çobo",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "ersilda-kadiu",
+    "firstName": "Ersilda",
+    "lastName": "Kadiu",
+    "city": "Mat"
+  },
+  {
+    "detailSlug": "greta-kraja",
+    "firstName": "Greta",
+    "lastName": "Kraja",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "enkeleda-koci",
+    "firstName": "Enkeleda",
+    "lastName": "Koçi",
+    "city": "Bulqizë"
+  },
+  {
+    "detailSlug": "elva-shehu",
+    "firstName": "Elva",
+    "lastName": "Shehu",
+    "city": "Kukës"
+  },
+  {
+    "detailSlug": "melisa-ismaili",
+    "firstName": "Melisa",
+    "lastName": "Ismaili",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rei-llakmani",
+    "firstName": "Rei",
+    "lastName": "Llakmani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirela-gjoni",
+    "firstName": "Mirela",
+    "lastName": "Gjoni",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "xhoana-nezha",
+    "firstName": "Xhoana",
+    "lastName": "Nezha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "eduart-tafa",
+    "firstName": "Eduart",
+    "lastName": "Tafa",
+    "city": "None"
+  },
+  {
+    "detailSlug": "kristjana-gjikolaj",
+    "firstName": "Kristjana",
+    "lastName": "Gjikolaj",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "egzona-latifllari",
+    "firstName": "Egzona",
+    "lastName": "Latifllari",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "dalina-shehu",
+    "firstName": "Dalina",
+    "lastName": "Shehu",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "orsela-preka",
+    "firstName": "Orsela",
+    "lastName": "Preka",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "anxhela-dauti",
+    "firstName": "Anxhela",
+    "lastName": "Dauti/Tanasica",
+    "city": "Përmet"
+  },
+  {
+    "detailSlug": "suela-mazari",
+    "firstName": "Suela",
+    "lastName": "Mazari",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "almaida-zenelaj",
+    "firstName": "Almaida",
+    "lastName": "Zenelaj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "Valbona-Treska",
+    "firstName": "Valbona",
+    "lastName": "Treska",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ana-zylali",
+    "firstName": "Ana",
+    "lastName": "Zylali",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "elisabeta-hoxha",
+    "firstName": "Elisabeta",
+    "lastName": "Hoxha",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "erilda-hasa",
+    "firstName": "Erilda",
+    "lastName": "Hasa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "armela-elezi",
+    "firstName": "Armela",
+    "lastName": "Elezi",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "elida-nebiaj",
+    "firstName": "Elida",
+    "lastName": "Nebiaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klodiana-mustafa",
+    "firstName": "Klodiana",
+    "lastName": "Mustafa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "romelda-arifi",
+    "firstName": "Romelda",
+    "lastName": "Arifi",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "nevila-ceka",
+    "firstName": "Nevila",
+    "lastName": "Çeka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "denisa-taullahu",
+    "firstName": "Denisa",
+    "lastName": "Taullahu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "havo-qendra",
+    "firstName": "Havo",
+    "lastName": "Qëndra",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erzika-beqiraj",
+    "firstName": "Erzika",
+    "lastName": "Beqiraj",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "nevila-mbrice",
+    "firstName": "Nevila",
+    "lastName": "Mbrice",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhensilda-vathi",
+    "firstName": "Xhensilda",
+    "lastName": "Vathi",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "insilda-vulka",
+    "firstName": "Insilda",
+    "lastName": "Vulka",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "jesmina-xhafaj",
+    "firstName": "Jesmina",
+    "lastName": "Xhafaj / Pellumbaj",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "elmira-tanuzi",
+    "firstName": "Elmira",
+    "lastName": "Tanuzi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arjola-topalli",
+    "firstName": "Arjola",
+    "lastName": "Topalli",
+    "city": "Fushë-Krujë"
+  },
+  {
+    "detailSlug": "silvana-pashaj",
+    "firstName": "Silvana",
+    "lastName": "Pashaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "elisabeta-bera",
+    "firstName": "Elisabeta",
+    "lastName": "Bera",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klaudia-xhelili",
+    "firstName": "Klaudia",
+    "lastName": "Xhelili",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "kristjana-pepa",
+    "firstName": "Kristjana",
+    "lastName": "Pepa",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "skender-ravolli",
+    "firstName": "Skender",
+    "lastName": "Ravolli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "gabriel-manoku",
+    "firstName": "Gabriel",
+    "lastName": "Manoku",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhovana-kordha",
+    "firstName": "Xhovana",
+    "lastName": "Kordha",
+    "city": "Ura Vajgurore"
+  },
+  {
+    "detailSlug": "anisa-hyka",
+    "firstName": "Anisa",
+    "lastName": "Hyka",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "xhulia-xhanaj",
+    "firstName": "Xhulia",
+    "lastName": "Xhanaj/Peci",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "xhorxhina-kasmi",
+    "firstName": "Xhorxhina",
+    "lastName": "Kasmi",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "altea-sheme",
+    "firstName": "Altea",
+    "lastName": "Sheme",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "brikelda-nuhu",
+    "firstName": "Brikelda",
+    "lastName": "Nuhu",
+    "city": "Berat"
+  },
+  {
+    "detailSlug": "katerina-kuka",
+    "firstName": "Katerina",
+    "lastName": "Kuka",
+    "city": "Burrel"
+  },
+  {
+    "detailSlug": "irena-bakiasi",
+    "firstName": "Irena",
+    "lastName": "Bakiasi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "danjela-idrizi",
+    "firstName": "Danjela",
+    "lastName": "Idrizi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alma-brama",
+    "firstName": "Alma",
+    "lastName": "Brama",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "adeline-mrina",
+    "firstName": "Adelinë",
+    "lastName": "Mrina",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "erlinda-vucini",
+    "firstName": "Erlinda",
+    "lastName": "Vuçini",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "silvana-tafa",
+    "firstName": "Silvana",
+    "lastName": "Tafa",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "liridona-tobli",
+    "firstName": "Liridona",
+    "lastName": "Tobli",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Sara-Korca",
+    "firstName": "Sara",
+    "lastName": "Korca",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "Sonila-Hoxha",
+    "firstName": "Sonila",
+    "lastName": "Hoxha",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "milena-nina",
+    "firstName": "Milena",
+    "lastName": "Nina",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "mirela-bogdani",
+    "firstName": "Mirela",
+    "lastName": "Bogdani",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "klea-mullaj",
+    "firstName": "Klea",
+    "lastName": "Mullaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "samanta-gjini",
+    "firstName": "Samanta",
+    "lastName": "Gjini",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "joana-sina",
+    "firstName": "Joana",
+    "lastName": "Sina",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "flavia-shehu",
+    "firstName": "Flavia",
+    "lastName": "Shehu",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "alfred-hasani",
+    "firstName": "Alfred",
+    "lastName": "Hasani",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "greta-tuci",
+    "firstName": "Greta",
+    "lastName": "Tuci",
+    "city": "Mirditë"
+  },
+  {
+    "detailSlug": "gjerovica-celaj",
+    "firstName": "Gjerovica",
+    "lastName": "Çelaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "armela-hasmujaj",
+    "firstName": "Armela",
+    "lastName": "Hasmujaj",
+    "city": "Koplik"
+  },
+  {
+    "detailSlug": "marketa-jella",
+    "firstName": "Marketa",
+    "lastName": "Jella",
+    "city": "Dibër"
+  },
+  {
+    "detailSlug": "nerinda-gjylbegaj",
+    "firstName": "Nerinda",
+    "lastName": "Gjylbegaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erjeta-elmasllari",
+    "firstName": "Erjeta",
+    "lastName": "Elmasllari",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "anisa-zeqja",
+    "firstName": "Anisa",
+    "lastName": "Zeqja",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "anxhela-imeraj",
+    "firstName": "Anxhela",
+    "lastName": "Imeraj",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "rovena-isufi",
+    "firstName": "Rovena",
+    "lastName": "Isufi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "rossella-pulitano",
+    "firstName": "Rossella",
+    "lastName": "Pulitano",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "pashako-xhafa",
+    "firstName": "Pashako",
+    "lastName": "Xhafa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "violeta-ndini",
+    "firstName": "Violeta",
+    "lastName": "Ndini",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "enerjeta-bego",
+    "firstName": "Enerjeta",
+    "lastName": "Bego",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "klaudia-halahula",
+    "firstName": "Klaudia",
+    "lastName": "Halahula",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermando-volaj",
+    "firstName": "Ermando",
+    "lastName": "Volaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "anduela-vuka",
+    "firstName": "Anduela",
+    "lastName": "Vuka",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "klaudja-tafa",
+    "firstName": "Klaudja",
+    "lastName": "Tafa",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "shpresa-jaku",
+    "firstName": "Shpresa",
+    "lastName": "Jaku",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "irva-rama",
+    "firstName": "Irva",
+    "lastName": "Rama",
+    "city": "Tepelenë"
+  },
+  {
+    "detailSlug": "shpresa-kenga",
+    "firstName": "Shpresa",
+    "lastName": "Kenga",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "imelda-ruci",
+    "firstName": "Imelda",
+    "lastName": "Ruçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "blerina-maci",
+    "firstName": "Blerina",
+    "lastName": "Maçi",
+    "city": "Durrës"
+  },
+  {
+    "detailSlug": "armida-halili",
+    "firstName": "Armida",
+    "lastName": "Halili",
+    "city": "Elbasan"
+  },
+  {
+    "detailSlug": "merushe-axhiaj",
+    "firstName": "Merushe",
+    "lastName": "Axhiaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "siciljana-gremi",
+    "firstName": "Siçiljana",
+    "lastName": "Gremi",
+    "city": "Fier"
+  },
+  {
+    "detailSlug": "joniana-merjo",
+    "firstName": "Joniana",
+    "lastName": "Merjo",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "sara-pekmezi",
+    "firstName": "Sara",
+    "lastName": "Pekmezi",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "ruthi-poci",
+    "firstName": "Ruthi",
+    "lastName": "Poçi/Taja",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "xhulia-orhan",
+    "firstName": "Xhulia",
+    "lastName": "Orhan",
+    "city": "Ersekë"
+  },
+  {
+    "detailSlug": "aida-koroveshi",
+    "firstName": "Aida",
+    "lastName": "Koroveshi",
+    "city": "Korçë"
+  },
+  {
+    "detailSlug": "xhensila-baku",
+    "firstName": "Xhensila",
+    "lastName": "Baku",
+    "city": "Mat"
+  },
+  {
+    "detailSlug": "anja-hodaj",
+    "firstName": "Anja",
+    "lastName": "Hodaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "daniela-hyseni",
+    "firstName": "Daniela",
+    "lastName": "Hyseni",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "erjona-berdica",
+    "firstName": "Erjona",
+    "lastName": "Berdica",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "mark-gjoka",
+    "firstName": "Mark",
+    "lastName": "Gjoka",
+    "city": "Lezhë"
+  },
+  {
+    "detailSlug": "isida-elezi",
+    "firstName": "Isida",
+    "lastName": "Elezi",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "iris-gjeci",
+    "firstName": "Iris",
+    "lastName": "Gjeçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "aida-muca",
+    "firstName": "Aida",
+    "lastName": "Muça",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "entela-isufi",
+    "firstName": "Entela",
+    "lastName": "Isufi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "suela-kameri",
+    "firstName": "Suela",
+    "lastName": "Kameri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "bruna-lufi",
+    "firstName": "Bruna",
+    "lastName": "Lufi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "arlinda-lepuri",
+    "firstName": "Arlinda",
+    "lastName": "Lepuri",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ergresa-sejdiraj",
+    "firstName": "Ergresa",
+    "lastName": "Sejdiraj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ilda-hysko",
+    "firstName": "Ilda",
+    "lastName": "Hysko",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "nunzio-bonaventura",
+    "firstName": "Nunzio",
+    "lastName": "Bonaventura",
+    "city": "Vlorë"
+  },
+  {
+    "detailSlug": "elena-trucco",
+    "firstName": "Elena",
+    "lastName": "Trucco",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ditjola-salja",
+    "firstName": "Ditjola",
+    "lastName": "Salja",
+    "city": "Shkodër"
+  },
+  {
+    "detailSlug": "elisabeta-koza",
+    "firstName": "Elisabeta",
+    "lastName": "Koza",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "flora-batusha",
+    "firstName": "Flora",
+    "lastName": "Batusha",
+    "city": "Kamëz"
+  },
+  {
+    "detailSlug": "mehmet-durishti",
+    "firstName": "Mehmet",
+    "lastName": "Durishti",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "angjeline-hada",
+    "firstName": "Angjelinë",
+    "lastName": "Hada",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "brikena-bali",
+    "firstName": "Brikena",
+    "lastName": "Bali",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "migen-sulaj",
+    "firstName": "Migen",
+    "lastName": "Sulaj",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "ermald-meko",
+    "firstName": "Ermald",
+    "lastName": "Meko",
+    "city": "Pogradec"
+  },
+  {
+    "detailSlug": "klotilda-kareci",
+    "firstName": "Klotilda",
+    "lastName": "Kareçi",
+    "city": "Tiranë"
+  },
+  {
+    "detailSlug": "adela-kalluci",
+    "firstName": "Adela",
+    "lastName": "Kalluçi",
+    "city": "Tiranë"
+  }
+]

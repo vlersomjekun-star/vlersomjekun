@@ -52,3 +52,31 @@ export function fixMojibake(s: string): { fixed: string; changed: boolean } {
   }
   return { fixed, changed: fixed !== s };
 }
+
+/**
+ * Ndan një mbiemër/emër të dyfishtë → [kryesori, alternativi|null].
+ * Format të verifikuara nga burimet reale (USSH, Urdhri i Psikologut):
+ * "Aga (Xharo)", "(Vrapi) Gjika", "Guza/Nano", "Bajrami//Muhollari",
+ * "Hykaj(Dervishaj)", "Dervishi Shala", "Sula / Tosku".
+ */
+export function splitDoubleSurname(raw: string): [string, string | null] {
+  const s = raw.replace(/\/{2,}/g, "/").replace(/\s+/g, " ").trim();
+
+  // "(Vrapi) Gjika" — kllapa në fillim → alternativi është në kllapa
+  const leadParen = s.match(/^\(([^)]+)\)\s*(.+)$/);
+  if (leadParen) return [leadParen[2].trim(), leadParen[1].trim()];
+
+  // "Aga (Xharo)" / "Hykaj(Dervishaj)"
+  const trailParen = s.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
+  if (trailParen) return [trailParen[1].trim(), trailParen[2].trim()];
+
+  // "Guza/Nano" / "Sula / Tosku"
+  const slash = s.split("/");
+  if (slash.length > 1) return [slash[0].trim(), slash.slice(1).join(" ").trim() || null];
+
+  // "Dervishi Shala" — dy fjalë me hapësirë → i pari kryesor, i dyti alternativ
+  const words = s.split(" ");
+  if (words.length > 1) return [words[0], words.slice(1).join(" ")];
+
+  return [s, null];
+}
