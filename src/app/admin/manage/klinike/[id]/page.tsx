@@ -64,6 +64,14 @@ export default async function EditClinicPage({
             <option value="REJECTED">REJECTED</option>
           </select>
         </div>
+        <div>
+          <label className={label}>Sektori</label>
+          <select name="sectorType" defaultValue={clinic.sectorType ?? ""} className={input}>
+            <option value="">— i papërcaktuar —</option>
+            <option value="PUBLIC">PUBLIC (QSH, spital publik)</option>
+            <option value="PRIVATE">PRIVATE</option>
+          </select>
+        </div>
         <button className="w-full rounded-lg bg-primary py-2.5 text-sm font-semibold text-white hover:bg-primary-dark">
           Ruaj ndryshimet
         </button>

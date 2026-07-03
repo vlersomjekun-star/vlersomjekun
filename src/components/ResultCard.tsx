@@ -10,6 +10,7 @@ export default function ResultCard({
   avgRating,
   reviewCount,
   photoUrl,
+  publicBadge,
 }: {
   href: string;
   name: string;
@@ -18,6 +19,8 @@ export default function ResultCard({
   avgRating: number;
   reviewCount: number;
   photoUrl?: string | null;
+  /** Etiketë "Publike" për QSH/spitale publike (Faza 6) — dallon nga klinikat private. */
+  publicBadge?: string;
 }) {
   return (
     <Link
@@ -26,7 +29,14 @@ export default function ResultCard({
     >
       <Avatar name={name} photoUrl={photoUrl} size={52} />
       <div className="min-w-0 flex-1">
-        <p className="truncate font-semibold text-gray-900">{name}</p>
+        <p className="flex items-center gap-1.5 truncate font-semibold text-gray-900">
+          {name}
+          {publicBadge && (
+            <span className="shrink-0 rounded-full bg-trust-light px-1.5 py-0.5 text-[10px] font-semibold text-trust">
+              {publicBadge}
+            </span>
+          )}
+        </p>
         <p className="truncate text-sm text-gray-600">{subtitle}</p>
         {meta && <p className="truncate text-xs text-gray-400">{meta}</p>}
       </div>

@@ -11,6 +11,7 @@ import {
   MatchStatus,
   ReportStatus,
   ReviewStatus,
+  SectorType,
   TargetType,
   UserStatus,
 } from "@prisma/client";
@@ -485,6 +486,7 @@ export async function updateClinic(formData: FormData): Promise<void> {
       address: String(formData.get("address") || "").trim() || null,
       phone: String(formData.get("phone") || "").trim() || null,
       status: String(formData.get("status")) as ContentStatus,
+      sectorType: (String(formData.get("sectorType") || "") || null) as SectorType | null,
     },
   });
   revalidatePath("/admin/manage");
@@ -567,4 +569,34 @@ export async function deleteCity(formData: FormData): Promise<void> {
     // ka mjekë/klinika të lidhura — nuk fshihet
   }
   revalidatePath("/admin/manage");
+}
+
+// ---------- Faza 6: Mjekë Familjes — lidhja me QSH ----------
+
+/**
+ * Lidh një grup mjekësh familjes të zgjedhur (checkbox) me një QSH të vetme.
+ * Vendim gjithmonë njerëzor — asnjë guess automatik mjek→QSH (shih koment
+ * në scripts/family-doctors/mark-unlinked.ts).
+ */
+export async function bulkAssignQsh(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const clinicId = String(formData.get("clinicId") || "");
+  const doctorIds = formData.getAll("doctorIds").map(String);
+  if (!clinicId || doctorIds.length === 0) return;
+
+  await prisma.doctor.updateMany({
+    where: { id: { in: doctorIds } },
+    data: { clinicId, familyLinkStatus: "LINKED" },
+  });
+  revalidatePath("/admin/family-doctors");
+}
+
+export async function unlinkFamilyDoctor(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  await prisma.doctor.update({
+    where: { id },
+    data: { clinicId: null, familyLinkStatus: "UNLINKED_FAMILY_DOCTOR" },
+  });
+  revalidatePath("/admin/family-doctors");
 }

@@ -30,6 +30,7 @@
     "title": "Search results",
     "doctors": "Doctors",
     "clinics": "Clinics",
+    "publicSector": "Public",
     "specialty": "Specialty",
     "city": "City",
     "minRating": "Minimum rating",
@@ -44,6 +45,7 @@
   "profile": {
     "leaveReview": "Leave a review",
     "verified": "Verified",
+    "publicSector": "Public",
     "visit": "Visit: {month} {year}",
     "report": "Report",
     "reviewsTitle": "Reviews",

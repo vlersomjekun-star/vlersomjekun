@@ -30,6 +30,7 @@
     "title": "Risultati della ricerca",
     "doctors": "Medici",
     "clinics": "Cliniche",
+    "publicSector": "Pubblica",
     "specialty": "Specialità",
     "city": "Città",
     "minRating": "Valutazione minima",
@@ -44,6 +45,7 @@
   "profile": {
     "leaveReview": "Lascia una recensione",
     "verified": "Verificata",
+    "publicSector": "Pubblica",
     "visit": "Visita: {month} {year}",
     "report": "Segnala",
     "reviewsTitle": "Recensioni",

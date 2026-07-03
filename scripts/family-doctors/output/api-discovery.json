@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://api.portaliimjekut.gov.al/api/doctors",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://api.portaliimjekut.gov.al/api/facilities",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://api.portaliimjekut.gov.al/api/centers",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://api.portaliimjekut.gov.al/api/search",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://portaliimjekut.gov.al/api/doctors",
+    "status": 200,
+    "contentType": "text/html",
+    "bodyPreview": "<html style=\"height:100%\"><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\"><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\" content=\"initial-scale=1.0\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><script type=\"text/javascript\" src=\"/_Incapsula_Resourc"
+  },
+  {
+    "url": "https://portaliimjekut.gov.al/api/facilities",
+    "status": 200,
+    "contentType": "text/html",
+    "bodyPreview": "<html style=\"height:100%\"><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\"><meta name=\"format-detection\" content=\"telephone=no\"><meta name=\"viewport\" content=\"initial-scale=1.0\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><script type=\"text/javascript\" src=\"/_Incapsula_Resourc"
+  },
+  {
+    "url": "https://shendeti.gov.al/api/doctors",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://shendeti.gov.al/api/facilities",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://fsdksh.gov.al/api/doctors",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://fsdksh.gov.al/api/facilities",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://api.shendeti.al/doctors",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://api.shendeti.al/facilities",
+    "status": "ERROR"
+  },
+  {
+    "url": "https://shendeti.al/api/facilities",
+    "status": 404,
+    "contentType": "text/html; charset=UTF-8",
+    "bodyPreview": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<meta name='robots' content='max-image-preview:large' />\n<title>Page not found &#8211; shendeti.al</title>\n<link rel=\"alternate\" type=\"application/rss+xml\" tit"
+  }
+]

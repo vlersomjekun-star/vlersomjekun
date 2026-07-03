@@ -1,0 +1,3926 @@
+1
+Raport Vjetor
+2024
+
+-- 1 of 89 --
+
+2
+PARATHËNIE
+Raporti vjetor është një botim i Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor.
+Synimi i këtij botimi është informimi i publikut mbi menaxhimin e skemës së sigurimit të
+detyrueshëm të kujdesit shëndetësor, në përputhje me politikat kombëtare të kujdesit shëndetësor
+të paraqitura përgjatë aktivitetit vjetor të institucionit.
+Materialet në këtë botim mbrohen nga e drejta e autorit dhe nuk mund të riprodhohen pa bërë të
+ditur me saktësi burimin dhe autorësinë.
+Mars 2025
+
+-- 2 of 89 --
+
+3
+TABELA E PËRMBAJTJES
+Shkurtimet e përdorura .................................................................................................................................... 5
+1. Rreth Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor......................................................... 7
+1.1 Vizioni ...................................................................................................................................................... 7
+1.2 Misioni ..................................................................................................................................................... 7
+1.3 Baza Ligjore ............................................................................................................................................. 7
+2. Menaxhimi i Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor ............................................. 8
+2.1 Drejtimi i Fondit ....................................................................................................................................... 8
+2.2 Struktura organizative e Fondit gjatë vitit 2024 ....................................................................................... 9
+2.3 Vendimet e Këshillit Administrativ gjatë vitit 2024 .............................................................................. 10
+3. Zbatimi i Skemës së Sigurimeve Shëndetësore ...................................................................................... 12
+3.1 Panoramë e përgjithshme e skemës së sigurimeve shëndetësore ........................................................... 12
+3.2 Parimet e skemës së sigurimeve shëndetësore në Shqipëri .................................................................... 12
+3.3 Kategoritë përfituese nga skema e sigurimeve ....................................................................................... 13
+3.4 Sigurimi vullnetar................................................................................................................................... 13
+3.5 Baza për llogaritjen e kontributeve ........................................................................................................ 13
+3.6 Masa e kontributit .................................................................................................................................. 14
+4. Burimet Financiare ................................................................................................................................. 14
+4.1 Burimet financiare të skemës gjatë vitit 2024 ........................................................................................ 14
+4.2 Të ardhurat nga kontributi i sigurimeve shëndetësore (DPT, ISSH)...................................................... 17
+4.3 Transferta nga buxheti i shtetit ............................................................................................................... 17
+4.4 Të ardhura të tjera .................................................................................................................................. 17
+5. Financimi i Shërbimeve të Kujdesit Shëndetësor................................................................................... 18
+5.1 Financimi i listës së barnave të rimbursueshme dhe pajisjeve ............................................................... 20
+5.2 Financimi i shërbimit të kujdesit shëndetësor parësor ........................................................................... 21
+5.3 Financimi i shërbimit spitalor ................................................................................................................ 21
+6. Shpenzime të tjera të Fondit ................................................................................................................... 23
+6.1 Shpenzimet administrative ..................................................................................................................... 23
+6.2 Shpenzimet për investime ...................................................................................................................... 23
+7. Përfitimet e Popullatës ........................................................................................................................... 23
+7.1 Paketa e shërbimeve në kujdesin shëndetësor parësor ........................................................................... 24
+7.2 Kontrolli mjekësor bazë ......................................................................................................................... 27
+7.3 Paketa e shërbimeve në shërbimin spitalor ............................................................................................ 31
+7.4 Paketat shëndetësore .............................................................................................................................. 48
+7.5 Shërbimi i sterilizimit të instrumenteve kirurgjikalë .............................................................................. 55
+
+-- 3 of 89 --
+
+4
+7.6 Lista e barnave të rimbursueshme dhe e pajisjeve mjekësore të rimbursueshme .................................. 58
+8. Zhvillimi i sistemit të informacionit....................................................................................................... 66
+8.1 Sistemi elektronik për formularët e vizitave të mjekut të familjes ......................................................... 66
+8.2 Përditësim i sistemit të menaxhimit të Depove Farmaceutike ............................................................... 68
+8.3 Sistemi i recetës elektronike ................................................................................................................... 69
+8.4 Zbatimi i sistemit eKontroll: sistemi i kontrollit të subjekteve që kanë kontratë me Fondin................. 69
+8.5 Sistemi Regjistri i të Siguruarve............................................................................................................. 70
+8.6 Përmirësimi i rrjetit të FSDKSH ............................................................................................................ 70
+9. Monitorimi i Kontratave me Dhënësit e Shërbimeve Shëndetësore ...................................................... 70
+9.1 Monitorimi i zbatimit të kontratave ....................................................................................................... 71
+9.2 Monitorimi i zbatimit të kontratave nga Qendrat Shëndetësore............................................................. 71
+9.3 Monitorimi i zbatimit të kontratave nga Farmacitë dhe Depot Farmaceutike........................................ 72
+9.4 Monitorimi i zbatimit të kontratave me Spitalet .................................................................................... 75
+9.5 Problematikat Kryesore .......................................................................................................................... 77
+10. Përmirësimi i Administrimit të Fondit ................................................................................................... 77
+10.1 Misioni i auditimit të brendshëm ........................................................................................................... 78
+10.2 Aktiviteti i auditimit të brendshëm të Fondit ......................................................................................... 78
+10.3 Fushat me risk të lartë dhe trajtimi i tyre................................................................................................ 78
+10.4 Rekomandime ........................................................................................................................................ 80
+10.5 Konkluzione ........................................................................................................................................... 81
+11. Komunikimi dhe Informimi i Publikut................................................................................................... 82
+12. Bashkëpunimi me Institucionet .............................................................................................................. 84
+12.1 Bashkëpunimi ndërinstitucional ............................................................................................................. 84
+12.2. Marrëveshjet Ndërkombëtare ................................................................................................................ 85
+13. Prioritetet Strategjike dhe Objektivat ..................................................................................................... 87
+13.1 Prioritetet strategjike .............................................................................................................................. 87
+13.2 Objektivat vjetore 2025 .......................................................................................................................... 88
+
+-- 4 of 89 --
+
+5
+Shkurtimet e përdorura
+FSDKSH Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor
+FONDI Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor
+MSHMS Ministria e Shëndetësisë dhe Mbrojtjes Sociale
+MFE Ministria e Financave dhe Ekonomisë
+ISSH Instituti i Sigurimeve Shoqërore
+DPT Drejtoria e Përgjithshme e Tatimeve
+BSH Banka e Shqipërisë
+VKM Vendim i Këshillit të Ministrave
+AKSHI Agjencia Kombëtare e Shoqërisë së Informacionit
+SHISH Shërbimi Informativ i Shtetit
+INSTAT Instituti i Statistikave
+KA Këshilli Administrativ i Fondit të Sigurimit të Detyrueshëm të
+Kujdesit Shëndetësor
+LBR Lista e Barnave të Rimbursueshme
+QSH Qendër Shëndetësore
+MPF Mjek i Përgjithshëm dhe i Familjes
+QSUNT Qendra Spitalore Universitare “Nënë Tereza” Tiranë
+INN Klasifikimi Ndërkombëtar i Barnave
+ATC Klasifikimi Anatomik Terapeutik Kimik
+RMI Rezonanca magnetike
+EKG Elektrokardiogramë
+IEVP Institucione të Ekzekutimit të Vendimeve Penale
+PSK Person me Sëmundje Kronike
+PAK Person me Aftësi të Kufizuara
+DRF Drejtori Rajonale e Fondit të Sigurimit të Detyrueshëm të
+Kujdesit Shëndetësor
+PKI Infrastruktura e Çelësit Publik
+e-RX Receta Elektronike
+e-RM Sistemi i Raportit Elektronik
+SISHP Sistemi i Formularit të Vizitës
+AHIS Sistemi i Regjistrit Elektronik i të Siguruarve
+RSS Nënshkrimi Elektronik Online
+KSH Karta e Shëndetit
+PKIE Plani Kombëtar për Integrimin Europian
+SHISH Shërbimi Informativ i Shtetit
+HAP Health for All Project
+SQDNE Sistemi i Qarkullimit të Dokumenteve me Nënshkrim Elektronik
+
+-- 5 of 89 --
+
+6
+KDI Koordinatori për të Drejtën e Informimit
+PB Platforma e Bashkëqeverisjes
+SMP Sektori i Marrëdhënieve me Publikun
+FB Facebook
+
+-- 6 of 89 --
+
+7
+1. Rreth Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor
+1.1 Vizioni
+Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor (FSDKSH), ka si vizion krijimin e
+ndjenjës së sigurisë në përmbushjen e nevojave të popullatës për shërbime shëndetësore dhe për
+të bërë skemën e shërbimeve shëndetësore më të aksesueshme.
+E drejta për kujdes shëndetësor sanksionohet në ligjet ndërkombëtare dhe sigurisht edhe në ligjin
+themeltar të shtetit shqiptar. Kushtetuta e Republikës së Shqipërisë e njeh të drejtën për kujdes
+shëndetësor për të gjithë shtetasit e saj, duke sanksionuar parimet e mbulimit universal. Më
+konkretisht, në nenin 55 të saj thuhet: “Shtetasit gëzojnë në mënyrë të barabartë të drejtën për
+kujdes shëndetësor nga shteti. Kushdo ka të drejtë për sigurim shëndetësor sipas proçedurës së
+caktuar me ligj”.
+FSDKSH-ja në funksion të rritjes së aksesit dhe përmirësimit të cilësisë së shërbimit shëndetësor
+për popullatën, fokusohet në prirje të rëndësishme që lidhen me ndryshimet demografike dhe
+epidemiologjike, zhvillimet teknologjike, si dhe pritshmëritë në rritje të konsumatorit për akses
+në trajtimet mjekësore cilësore dhe bashkëkohore.
+1.2 Misioni
+FSDKSH është i vetmi organ autonom publik, i cili administron dhe zhvillon skemën e sigurimit
+të detyrueshëm të kujdesit shëndetësor në Republikën e Shqipërisë. Nisur nga kompetencat e
+parashikuara nga ligji, FSDKSH-ja, menaxhon skemën e sigurimeve shëndetësore, duke synuar
+në mbulimin e popullsisë në përfitimin e shërbimeve të kujdesit shëndetësor, të financuara nga
+sektori publik dhe privat, në bazë të legjislacionit, duke siguruar fleksibilitet në financimin e
+shërbimeve shëndetësore, transparencë në administrim dhe besueshmëri maksimale të popullatës,
+në përputhje me politikat kombëtare të kujdesit shëndetësor. FSDKSH-ja, garanton përfitimet e
+sigurimeve shëndetësore për popullatën dhe qëndrueshmërinë e skemës së sigurimeve, e cila
+vepron në bazë të parimit të solidaritetit dhe barazisë.
+1.3 Baza Ligjore
+FSDKSH ushtron veprimtarinë e tij në bazë të ligjit nr. 10383, datë 24.02.2011, “Për sigurimin e
+detyrueshëm të kujdesit shëndetësor në Republikën e Shqipërisë”, i ndryshuar dhe akteve
+nënligjore të dala në zbatim të tij, i cili përcakton statusin ligjor, strukturën, funksionet dhe
+veprimtarinë e Fondit.
+
+-- 7 of 89 --
+
+8
+Gjithashtu FSDKSH organizohet dhe funksionon në bazë të vendimit të Këshillit të Ministrave
+nr. 124, datë 5.3.2014, “Për miratimin e statutit të Fondit të Sigurimit të Detyrueshëm të Kujdesit
+Shëndetësor në Republikën e Shqipërisë”, i ndryshuar.
+FSDKSH menaxhon financimin e shërbimeve të kujdesit shëndetësor në skemën e sigurimeve të
+detyrueshme të kujdesit shëndetësor, në përputhje me politikat kombëtare të kujdesit
+shëndetësor, të vendosura nga Ministria e Shëndetësisë dhe Mbrojtjes Sociale.
+Legjislacioni parashikon se sigurimi i detyrueshëm shëndetësor bazohet në pagesën e
+kontributeve përkatëse për të gjithë personat ekonomikisht aktivë me banim të përhershëm në
+Shqipëri dhe kategorinë e personave ekonomikisht joaktivë, pagesa e kontributeve të të cilëve
+financohet nga Buxheti i Shtetit ose burime të tjera të përcaktuara me ligj.
+FSDKSH menaxhon veprimtarinë e tij brenda burimeve të vlefshme financiare dhe nuk hyn në
+borxhe. Nëpërmjet organeve të saj drejtuese, FSDKSH ka të drejtë të hartojë dhe të nxjerrë
+vendime, udhëzime, urdhëresa, rregullore dhe akte të tjera administrative, në mbështetje dhe
+zbatim të akteve ligjore e nënligjore si dhe të kompetencave që i janë dhënë.
+2. Menaxhimi i Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor
+2.1 Drejtimi i Fondit
+Drejtimi i FSDKSH-së organizohet dhe funksionon mbi bazën e statutit të tij, të miratuar nga
+Këshilli i Ministrave. Organet drejtuese të Fondit janë: Këshilli Administrativ dhe Drejtori i
+Përgjithshëm.
+▪ Këshilli Administrativ është organi më i lartë vendimmarrës i FSDKSH-së dhe ka në
+përbërjen e tij 7 (shtatë) anëtarë, përkatësisht:
+• Ministri i Shëndetësisë ose përfaqësuesi i tij;
+• Ministri i Financave ose përfaqësuesi i tij;
+• Ministri i Mirëqenies Sociale dhe Rinisë ose përfaqësuesi i tij;
+• Drejtori i Përgjithshëm i Fondit ose përfaqësuesi i tij;
+• Drejtori i Institutit të Sigurimeve Shoqërore ose përfaqësuesi i tij;
+• Një përfaqësues i sindikatës së të punësuarve të përcaktuar nga Këshilli i Ministrave;
+• Një përfaqësues i organizatës së profesionistëve të shëndetësisë, të përcaktuar nga
+Këshilli i Ministrave.
+▪ Në kuadër të ndryshimeve të ministrive dhe emërtimeve të tyre, aktualisht përbërja e
+Këshillit Administrativ është si më poshtë:
+
+-- 8 of 89 --
+
+9
+• Ministri i Shëndetësisë ose përfaqësuesi i tij (2 përfaqësues);
+• Ministri i Financave ose përfaqësuesi i tij;
+• Drejtori i Përgjithshëm i Fondit ose përfaqësuesi i tij;
+• Drejtori i Institutit të Sigurimeve Shoqërore ose përfaqësuesi i tij;
+• Presidenti i Urdhrit të Mjekut të Shqipërisë ose përfaqësuesi i tij;
+• Një përfaqësues i sindikatës së profesionistëve të shëndetësisë, të përcaktuar nga Këshilli
+i Ministrave.
+Koha e shërbimit të anëtarëve në Këshillin Administrativ është 4 vjet, me të drejtë rizgjedhjeje
+ose për aq kohë sa anëtari është përfaqësues i organit përkatës.
+▪ Drejtori i Përgjithshëm zgjidhet nga Këshilli Administrativ mes jo më pak se tre
+kandidaturave të paraqitura nga anëtarët e Këshillit Administrativ. Koha e ushtrimit të
+detyrës së Drejtorit të Përgjithshëm është 5 vjet.
+2.2 Struktura organizative e Fondit gjatë vitit 2024
+
+-- 9 of 89 --
+
+10
+2.3 Vendimet e Këshillit Administrativ gjatë vitit 2024
+• VKA nr.1, datë 31.01.2024, “Për miratimin e buxhetit të Fondit të Sigurimit të Detyrueshëm
+të Kujdesit Shëndetësor për vitin 2024”.
+• VKA nr.2, datë 31.01.2024, “Për financimin shtesë të spitaleve publike për realizimin e
+paketave të shërbimeve të miratuara me Vendim të Këshillit të Ministrave, të ofruara nga
+shërbimet spitalore publike për vitin 2024”.
+• VKA nr. 3, datë 28.02.2024, “Për krijimin e Komisionit teknik të Listës së Barnave të
+Rimbursuara për vitin 2024”.
+• VKA nr.4, datë 28.02.2024, “Për disa ndryshime në vendimin nr. 1 datë 11.01.2019 “Për
+funksionimin e Komisionit teknik të barnave të rimbursuara”.
+• VKA nr.5, datë 18.03.2024, "Për një ndryshim në vendimin nr.489 datë 30.07.2021 të
+Këshillit të Ministrave "Për miratimin e Listës së Barnave që rimbursohen nga Fondi i
+Sigurimit të Detyrueshëm të Kujdesit Shëndetësor dhe masën e mbulimit të çmimit të tyre",
+të ndryshuar.
+• VKA nr.6, datë 11.04.2024, “Për miratimin e raportit financiar dhe bilancit vjetor 2023 të
+Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor”.
+• VKA nr.7, datë 11.04.2024, “Për mënyrën e përdorimit të fondit rezervë për vitin 2024”.
+• VKA nr.8, datë 11.04.2024, “Për rishpërndarje të buxhetit të shërbimit spitalor për vitin
+2024”.
+• VKA nr.9, datë 11.04.2024, “Për miratimin e Raportit Vjetor 2023 të Fondit të Sigurimit të
+Detyrueshëm të Kujdesit Shëndetësor.
+• VKA nr.10, datë 31.05.2024, “Për rishpërndarje nga rezerva e buxhetit të shërbimit spitalor
+për vitin 2024”.
+• VKA nr. 11, datë 31.05.2024, “Për miratimin e një ndryshimi në Udhëzimin për mënyrën e
+pagesës dhe shpërblimit për punonjësit e Qendrave Shëndetësore nga skema e detyrueshme e
+sigurimeve të kujdesit shëndetësor”.
+• VKA nr.12, datë 07.06.2024, “Për një ndryshim në Vendimin e Këshillit Administrativ nr.3
+datë 28.02.2024 “Për krijimin e Komisionit teknik të Listës së Barnave të Rimbursueshme
+për vitin 2024”.
+• VKA nr.13, datë 04.07.2024, “Për miratimin e propozimit të Projekt-Vendimit të Këshillit të
+Ministrave, për një ndryshim në Vendimin e Këshillit të Ministrave nr.61 datë 03.02.2017
+“Për miratimin e paketave te pajisjeve mjekësore të rimbursueshme”, të ndryshuar.
+• VKA nr.14, datë 04.07.2024, “Për miratimin e propozimit të Projekt-Vendimit të Këshillit të
+Ministrave, për disa ndryshime në vendimin nr. 308, datë 21.05.2014, të Këshillit të
+Ministrave, “Për miratimin e paketave të shërbimeve shëndetësore që do të financohen nga
+Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor në shërbimin spitalor”, të
+ndryshuar.
+• VKA nr.15, datë 04.07.2024, “Për miratimin e kontratës me dhënësin e shërbimeve në
+kujdesin shëndetësor spitalor, Qendrës Spitalore Rajonale Berat, për vitin 2024”.
+• VKA nr.16 datë 04.07.2024, “Për miratimin e propozimit të Projekt-Vendimit të Këshillit të
+Ministrave, për një ndryshim në Vendimin nr.737, datë 5.11.2014 të Këshillit të Ministrave,
+“Për financimin e shërbimeve shëndetësore publike të kujdesit shëndetësor parësor nga
+skema e detyrueshme e sigurimeve të kujdesit shëndetësor“ të ndryshuar.
+• VKA nr.17, datë 04.07.2024, “Për miratimin e propozimit të Projekt-Vendimit të Këshillit të
+
+-- 10 of 89 --
+
+11
+Ministrave, për disa ndryshime në Vendimin nr.124, datë 05.03.2014 të Këshillit të
+Ministrave, “Për miratimin e Statutit të Fondit të Sigurimit të detyrueshëm të Kujdesit
+Shëndetësor në Republikën e Shqipërisë“, të ndryshuar.
+• VKA nr.18, datë 11.07.2024, “Për miratimin e Listës së Barnave që rimbursohen nga Fondi i
+Sigurimit të Detyrueshëm të Kujdesit Shëndetësor dhe masën e mbulimit të çmimit të tyre”.
+• VKA nr.19, datë 31.07.2024, “Për miratimin e kontratave me subjektet farmaceutike”.
+• VKA nr.20, datë 31.07.2024, "Për emërimin e Z. Spartak Zekja në detyrën e Drejtorit të
+Përgjithshëm të Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor".
+• VKA nr.21, datë 30.08.2024, “Për një ndryshim në Vendimin nr.1, datë 31.01.2024 të
+Këshillit Administrativ, “Për miratimin e buxhetit të Fondit të Sigurimit të Detyrueshëm të
+Kujdesit Shëndetësor për vitin 2024””.
+• VKA nr.22, datë 30.08.2024, “Për propozimin për një ndryshim në Vendimin nr. 26, datë
+17.01.2024, të Këshillit të Ministrave, “Për financimin e shërbimeve shëndetësore spitalore
+nga skema e detyrueshme e sigurimeve të kujdesit shëndetësor për vitin 2024”.
+• VKA nr.23, datë 30.08.2024, “Për miratimin e programit buxhetor afatmesëm 2025 - 2027 të
+Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor”.
+• VKA nr.24, datë 09.09.2024, “Për kriteret që duhet të plotësojnë farmacitë dhe agjencitë
+farmaceutike për lidhjen e kontratës me Fondin dhe procedurat për lidhjen e kontratës”.
+• VKA nr.25, datë 09.09.2024, “Për kriteret që duhet të plotësojnë importuesit/shpërndarësit
+farmaceutik për lidhjen e kontratës me Fondin dhe procedurat për lidhjen e kontratës”.
+• VKA nr.26, datë 31.10.2024, “Për disa ndryshime në Rregulloren e burimeve njerëzore të
+Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor, në kapitullin “Paga”.
+• VKA nr.27, datë 31.10.2024, “Për rishpërndarje të buxhetit dhe shpërndarje nga rezerva e
+buxhetit të shërbimit spitalor për vitin 2024”.
+• VKA nr.28, datë 31.10.2024, “Për propozimin e ndryshimit të transfertës së buxhetit midis
+programeve, brenda buxhetit të miratuar të Fondit për vitin 2024”.
+• VKA nr.29, datë 31.10.2024, “Për ngritjen e Komisionit teknik të hartimit të Listës së
+Pajisjeve Mjekësore të Rimbursuara për vitin 2025”.
+• VKA nr.30, datë 04.12.2024, “Për një ndryshim në Vendimin nr.1, datë 31.01.2024 të
+Këshillit Administrativ, “Për miratimin e buxhetit të Fondit të Sigurimit të Detyrueshëm të
+Kujdesit Shëndetësor për vitin 2024”, të ndryshuar”.
+• VKA nr.31, datë 04.12.2024, “Për shpërndarje nga rezerva e buxhetit të shërbimit spitalor për
+vitin 2024”.
+• VKA nr.32, datë 04.12.2024, “Për rregullat dhe mënyrën e organizimit të Regjistrit
+Kombëtar të Paketave, monitorimin dhe financimin e paketave shëndetësore nga Fondi i
+Sigurimit të Detyrueshem të Kujdesit Shëndetësor në Institucionet Shëndetësore të
+kontraktuara dhe Qendrat e ofrimit të hemodializës nga kontrata e partneritetit publik/privat”.
+• VKA nr.33, datë 04.12.2024, “Për miratimin e kontratave me dhënësit e shërbimeve në
+kujdesin shëndetësor parësor dhe spitalor për vitin 2025”.
+• VKA nr.34, datë 30.12.2024, “Për rishpërndarje nga rezerva e buxhetit të shërbimit spitalor
+për vitin 2024”.
+• VKA nr.35, datë 30.12.2024, “Për një ndryshim në Vendimin nr.1, datë 31.01.2024 të
+Këshillit Administrativ, “Për miratimin e buxhetit të Fondit të Sigurimit të Detyrueshëm të
+Kujdesit Shëndetësor për vitin 2024”, të ndryshuar”.
+• VKA nr.36, datë 30.12.2024,” Për disa ndryshime në Rregulloren e burimeve njerëzore të
+
+-- 11 of 89 --
+
+12
+Fondit të Sigurimit të Detyrueshëm të Kujdesit Shëndetësor, në kapitullin “Paga”.
+3. Zbatimi i Skemës së Sigurimeve Shëndetësore
+3.1 Panoramë e përgjithshme e skemës së sigurimeve shëndetësore
+Skema e sigurimeve shëndetësore është ngritur dhe funksionon që nga viti 1995. Ajo rregullohet
+me ligjin nr. 10383, datë 24.02.2011 “Për sigurimin e detyrueshëm të kujdesit shëndetësor në
+Republikën e Shqipërisë”, i ndryshuar. Që nga krijimi mbuloi një listë bazë barnash të
+rimbursueshme, si dhe pagesën e mjekut të familjes në sistemin publik. Skema evoluoi
+gradualisht, me zgjerimin e gamës së shërbimeve të mbuluara, duke kaluar nga financimi i
+padiferencuar, në pagesa për paketa shërbimesh shëndetësore. Modeli i skemës së sigurimeve
+shëndetësore në Republikën e Shqipërisë, është një model mix (Bismark dhe Beveridge), i cili
+bazohet në kontributet e detyrueshme dhe ato vullnetare, si dhe në financimin nga buxheti i
+shtetit.
+Popullsia ekonomikisht aktive paguan sigurime shëndetësore, ndërsa fondet e buxhetit të shtetit
+(që vijnë nga taksimi i përgjithshëm), mbulojnë popullatën joaktive dhe kategoritë në nevojë,
+duke i dhënë kështu skemës qasje solidare. Skema e sigurimeve shëndetësore bazohet në modelin
+e paguesit të vetëm, që është FSDKSH, i cili e menaxhon atë në përputhje me politikat
+kombëtare të kujdesit shëndetësor.
+FSDKSH përdor metodat e pagesës së shërbimeve shëndetësore, për të influencuar në rritjen e
+aksesit, parandalimin dhe përmirësimin e treguesve shëndetësorë të popullatës. Mekanizmi i
+implementimit të skemës së sigurimeve shoqërore janë kontratat vjetore me dhënësit publikë dhe
+privatë të shërbimeve shëndetësore për ofrimin e paketave të shërbimeve shëndetësore.
+Sigurimi i detyrueshëm financon paketat e shërbimeve të sigurimit të detyrueshëm, ku
+përfshihen:
+▪ vizitat, ekzaminimet dhe trajtimet mjekësore në qendrat e kujdesit shëndetësor parësor
+publik dhe në spitalet publike;
+▪ vizitat, ekzaminimet dhe trajtimet mjekësore në dhënës privat të kujdesit parësor dhe
+spitale private;
+▪ barnat, produktet dhe trajtimet mjekësore nga dhënës të kontraktuar shërbimesh
+shëndetësore.
+3.2 Parimet e skemës së sigurimeve shëndetësore në Shqipëri
+Skema e sigurimit të detyrueshëm të kujdesit shëndetësor synon mbulimin shëndetësor të
+popullatës, përmes këtyre parimeve:
+
+-- 12 of 89 --
+
+13
+▪ Sigurimit të detyrueshëm dhe vullnetar;
+▪ Solidaritetit;
+▪ Aksesit të barabartë për të gjithë shtetasit;
+▪ Efikasitetit dhe cilësisë në financimin e shërbimeve shëndetësore;
+▪ Zgjedhjes së lirë të mjekut;
+▪ Partneritetit (blerës-dhënës-përfitues).
+3.3 Kategoritë përfituese nga skema e sigurimeve
+Çdo shtetas që paguan kontribut për sigurim shëndetësor, ose për të cilin paguan shteti, është i
+siguruar dhe përfiton nga skema e sigurimeve shëndetësore. Personat e siguruar në skemën e
+sigurimit të detyrueshëm të kujdesit shëndetësor regjistrohen në regjistrin elektronik të të
+siguruarve, i krijuar dhe i menaxhuar nga FSDKSH. Identifikimi i personave të siguruar bëhet
+me anë të dokumentit të identifikimit, nëpërmjet shërbimit të regjistrit elektronik ose portalit e-
+Albania. Regjistri i të siguruarve përmban të dhëna lidhur me kategoritë e personit të siguruar
+ekonomisht aktiv, jo aktiv ose me sigurim vullnetar, si dhe kohëzgjatjen e sigurimit. Për
+shërbime të ndryshme shëndetësore që mbulohen nga skema e sigurimit shëndetësor, personat e
+siguruar, mund të bashkëpaguajnë një pjësë të çmimit.
+3.4 Sigurimi vullnetar
+Personat kanë të drejtë të bashkohen vullnetarisht me skemën e detyrueshme. Personat e siguruar
+vullnetarisht kanë të njëjtat të drejta dhe detyrime si personat, subjekte të sigurimit të detyruar,
+nëse përmbushin kushtin e periudhës pritëse 6 mujore nga data e regjistrimit dhe e derdhjes së
+kontributit deri në datën e lindjes së të drejtës për të përfituar. Pas përfundimit të periudhës së
+sigurimit të detyrueshëm ose sigurimit vullnetar, personat që nuk përfshihen në kategoritë, për të
+cilat kontribuon shteti, duhet të regjistrohen pranë FSDKSH për sigurim vullnetar brenda 3
+muajve. Për regjistrime të vonuara, periudha pritëse do të jetë 1 vit nga data e regjistrimit dhe e
+derdhjes së kontributit vjetor. Sigurimi shëndetësor vullnetar paguhet nga vetë personi, i cili lidh
+me Fondin kontratë sigurimi shëndetësor vullnetar.
+3.5 Baza për llogaritjen e kontributeve
+Baza për llogaritjen e kontributit është paga bruto e personit të siguruar, ndërsa baza për
+llogaritjen e kontributit për punonjësit e vetëpunësuar është dyfishi i pagës minimale për efekt të
+llogaritjes së kontributeve. Paga minimale, për efekt të llogaritjes së kontributeve për të
+vetëpunësuarit në qytet dhe në fshat, përcaktohet me vendim të Këshillit të Ministrave. Për
+sigurimet shëndetësore vullnetare baza e llogaritjes së kontributit është dyfishi i pagës minimale,
+për efekt të llogaritjes së kontributeve.
+
+-- 13 of 89 --
+
+14
+Kontributi i shtetit për personat ekonomikisht joaktivë bazohet në konsumin për frymë të
+shërbimit shëndetësor, indeksuar me koefiçientin e inflacionit. Konsumi për frymë për shërbimin
+shëndetësor përcaktohet nga FSDKSH dhe miratohet nga Kuvendi, së bashku me miratimin e
+buxhetit vjetor.
+Personat e punësuar me profesion në fushën e teknologjisë së informacionit (IT) dhe të
+regjistruar në subjektet me aktivitet kryesor në fushën e teknologjisë së informacionit, të cilët
+ushtrojnë aktivitetin e tyre sipas ligjit nr. 58/2022, “Për krijimin, organizimin dhe funksionimin e
+parqeve teknologjike dhe shkencore”, të miratuara sipas legjislacionit në fuqi për këtë kategori,
+paguajnë kontributet e sigurimeve shëndetësore në nivelin e pagës minimale mujore në shkallë
+vendi, me miratimin paraprak të punëmarrësit, të evidentuar në kontratën e punës, pavarësisht
+pagës bruto të deklaruar.
+3.6 Masa e kontributit
+Masa e kontributit të sigurimit të detyruar shëndetësor është 3.4 për qind e bazës për llogaritjen e
+kontributeve sipas pikave 1, 3, 4 dhe 5 të nenit 7, të ligjit nr. 10383, datë 24.02.2011 “Për
+sigurimin e detyrueshëm të kujdesit shëndetësor në Republikën e Shqipërisë”, të ndryshuar.
+Për të punësuarit, kontributet paguhen, në masën 50% (për qind) nga punëdhënësi dhe në masën
+50% (për qind) nga i punësuari.
+4. Burimet Financiare
+4.1 Burimet financiare të skemës gjatë vitit 2024
+Buxheti fillestar i Fondit:
+Buxheti i miratuar me Ligjin nr. 97/2023 “Për buxhetin e vitit 2024”, për Fondin e Sigurimit të
+Detyrueshëm të Kujdesit Shëndetësor, është 58,052 milionë lekë. Fondi pёr rimbursimin e
+medikamenteve nuk e tejkalon tavanin prej 12,000 milionë lekësh. Fondi për shërbimin spitalor
+detajohet dhe përdoret me vendim të Këshillit të Ministrave.
+Me Vendim të Këshillit të Ministrave nr. 26, datë 17.01.2024, “Për financimin e shërbimeve
+shëndetësore spitalore nga skema e detyrueshme e sigurimeve të kujdesit shëndetësor për vitin
+2024”, është detajuar buxheti për shërbimin spitalor.
+
+-- 14 of 89 --
+
+15
+Ndryshimet e buxhetit fillestar:
+Me shkresë të Ministrisë së Financave nr. 10079/1, datë 29.07.2024, janë akorduar transfertë nga
+Buxheti i Shtetit 1,244 milionë lekë, përkatësisht 544 milionë lekë në shërbimin spitalor dhe 700
+milionë lekë në shërbimin parësor, për përballimin e efekteve të rritjes së pagave për vitin 2024.
+Me shkresë të Ministrisë së Financave nr. 14419/1, datë 1.11.2024, është akorduar shtesa e dytë
+për përballimin e efektit të rritjes së pagave në shërbimin spitalor, prej 434,801 mijë lekë pas
+kërkesës sonë pranë Ministrisë së Financave dhe Ministrisë së Shëndetësisë e Mbrojtjes Sociale,
+mbi efektet e konstatuara financiare lidhur me këtë shërbim, për periudhën Korrik -Tetor 2024.
+Me Aktin Normativ nr. 5, datë 19.12.2024, ”Për disa ndryshime dhe shtesa në Ligjin nr.97/2023
+“Për buxhetin e vitit 2024”, të ndryshuar”, është realizuar kalimi i vlerës prej 335 milionë lekë të
+transfertës së buxhetit, nga programi i shërbimit parësor në programin e shërbimit spitalor.
+Bazuar në këto akte, si dhe në vendimet e Këshillit Administrativ, buxheti i Fondit ka ndryshuar
+si më poshtë:
+(Në mijë lekë)
+FONDI I SIGURIMIT TE DETYRUESHEM TE KUJDESIT SHENDETESOR
+PERMBLEDHESE E NDRYSHIMEVE BUXHETORE 2024
+Buxheti për vitin 2024 (000
+lekë)
+Ligji
+97/2023
+VKM 26
+(17.1.2024)
+Buxhet
+fillestar (VKA
+nr.1
+(31.01.2024)
+Buxhet
+fillestar behet
+(VKA nr.1
+(31.01.2024)
+NDRYSHIM
+VKA 2
+(31.01.2024)
+(paketat)
+shkresa e
+MFE
+10079/1,
+(29/07/2024)
+AN 3
+(28.08.2024)
+Buxhet behet
+pas VKA 12
+VKA 21
+(30.08.2024)
+Buxheti pas
+VKA 21
+VKM 647
+(16.10.2024)
+shkresa e
+MFE
+14419/1
+(1.11.2024)
+shtese efekte
+pagash
+VKA 27
+(31.10.2024)
+VKA 31
+(4.12.2024)
+AN 5
+(19.12.2024)
+VKA 35
+(30.12.2024)
+Buxheti
+perfundimtar
+I. Te ardhurat gjithsej 	58,051,790 	0 	0 58,051,790 	0 	1,244,000 	0 59,295,790 	0 	59,295,790 	0 	434,801 	0 	0 	0 	59,730,591
+1. Kontributi i sigurimeve
+shendetesore 	20,481,000 	-100,000 	20,381,000 	610,000 	20,991,000 	20,991,000
+2.Kontribut I Buxhetit te
+Shtetit 	37,570,790 	0 	0 	37,570,790 	0 	1,244,000 	-610,000 	0 	0 	38,204,790 	0 	434,801 	0 	0 	0 	38,639,591
+paresor 	5,278,000 	5,278,000 	700,000 	-610,000 	5,368,000 	-335,000 	5,033,000
+spitalor 	32,292,790 	32,292,790 	544,000 	32,836,790 	434,801 	335,000 	33,606,591
+3. Te ardhura te tjera 	100,000 	100,000 	100,000 	100,000
+II. Shpenzimet gjithsej 	58,051,790 	0 	0 	58,051,790 	0 	1,244,000 	0 	59,295,790 	0 	59,295,790 	0 	434,801 	0 	0 	0 	59,730,591
+1. Rimbursimi i barnave e
+pajisjeve 	12,000,000 	0 	200,000 	12,200,000 	0 	0 	0 	12,200,000 	0 	12,200,000 	0 	0 	0 	0 	0 	12,200,000
+Likuidimi i rimbursimit te
+barnave 	12,000,000 	12,000,000 	12,000,000 	12,000,000
+fisha diabeti (0-25) vjec 	200,000 	200,000 	200,000 	200,000
+2. Shpenzime per kujdesin
+shendetesor paresor 	0 	0 	11,964,000 	11,964,000 	0 	700,000 	0 	12,664,000 	0 	12,664,000 	0 	0 	0 	0 	0 	12,664,000
+Financim i QSH (shperndare
++ rezerve) 	11,087,910 	11,087,910 	700,000 	11,787,910 	11,787,910
+Kontrolli baze 	876,090 	876,090 	876,090 	876,090
+3. Shpenzimet
+administrative 	1,445,000 	1,445,000 	-215,000 	1,230,000 	1,230,000
+4. Investime 	150,000 	150,000 	-120,000 	30,000 	30,000
+5. Financimi per sherbimin
+spitalor 	32,292,790 	0 	0 	32,292,790 	0 	544,000 	0 	32,836,790 	0 	32,836,790 	0 	434,801 	0 	0 	335,000 	33,606,591
+spitalet 	23,512,610 	23,512,610 	1,574,274 	25,086,884 	1,410,651 	41,805 	483,259 	335,000 	27,357,599
+rezerve spitalet 	32,292,790 -31,302,849 	989,941 	544,000 	1,533,941 	-1,403,476 	434,801 	-41,805 	-483,259 	40,202
+paketat 	3,204,135 	3,204,135 	-1,574,274 	1,629,861 	-7,175 	1,622,686
+rimbursime VKM 	30,000 	30,000 	30,000 	30,000
+transferta per individe (mjeke
+specialiste) 	30,000 	30,000 	30,000 	30,000
+pagesa e sherbimeve PPP 	0 	4,526,104 	0 	4,526,104 	0 	0 	0 	0 	0 	4,526,104 	0 	0 	0 	0 	4,526,104
+pagesa e sherb. PPP (dialize) 	920,000 	920,000 	920,000 	920,000
+pagesa e sherb. PPP
+(Sterilizim) 	1,756,104 	1,756,104 	1,756,104 	1,756,104
+pagese spitalet PPP
+laboratoret 	1,850,000 	1,850,000 	1,850,000 	1,850,000
+6.Rezerve e padetajuar 	13,759,000 	-13,759,000 	0 	335,000 	335,000 	-335,000 	0
+
+-- 15 of 89 --
+
+16
+TË ARDHURAT
+Të ardhurat e arkëtuara (cash) u realizuan në vlerën 60,266 milionë lekë, ose 100.9% e
+planifikimit, realizuar me tejkalim nga plani për vlerën 535 milionë lekë.
+Në strukturën e të ardhurave, peshën specifike më të madhe e zënë transfertat e buxhetit të shtetit
+me 63.8% (nga të cilat 55.4% për shërbimin spitalor dhe 8.4% për shërbimin parësor), ndjekur
+nga të ardhurat e kontributeve të sigurimeve shëndetësore me 35.7 %. Të ardhurat nga burime të
+tjera zënë një peshë specifike të vogël prej 0.5%.
+Realizimi i të ardhurave
+(Në milionë lekë)
+ZËRAT E TË ARDHURAVE
+Viti 2023 Viti 2024 Realizimi i cash
+/planit viti 2024
+Realizimi i konst
+/planit viti 2024
+Ndryshimi
+konstatuar
+(viti 2024-viti
+2023)
+Peshë
+spec.
+cashi
+v.2024
+Fakti -
+konstatuara Plani
+Fakti -
+cash
+Fakti -
+konstatuara vlerë % vlerë % vlerë %
+TË ARDHURAT GJITHSEJ 56,088 59,731 60,266 59,999 535 100.9% 268 100.4% 3,911 107.0% 100.%
+a Kontributet e sigurimit shëndetësor 18,946 20,991 21,506 21,239 515 102.5% 248 101.2% 2,293 112.1% 35.7%
+nga DPT në BSH 18,886 20,931 21,440 21,173 509 102.4% 242 101.2% 2,287 112.1% 35.6%
+nga ISSH (fermerët) 60 60 66 66 6 110.0% 6 110.0% 6 110.0% 0.1%
+b Transferta e buxhetit të shtetit, nga këto 37,043 38,640 38,418 38,418 -222 99.4% -222 99.4% 1,375 103.7% 63.8%
+Transfertë për shërbimin parësor 6,414 5,033 5,033 5,033 0 100.0% 0 100.0% -1,381 78.5% 8.4%
+Transfertë për shërbimin spitalor 30,629 33,607 33,385 33,385 -222 99.3% -222 99.3% 2,756 109.0% 55.4%
+Spitalet 23,914 26,401 26,179 26,179 -222 99.2% -222 99.2% 2,265 109.5% 43.4%
+Tërheqje nga FSDKSH për paketat, bonus,
+VKM, PPP 6,715 7,206 7,206 7,206 0 100.0% 0 100.0% 491 107.3% 12.0%
+c Të ardhura të tjera 99 100 342 342 242 342.0% 242 342.0% 243 345.5% 0.5%
+35.7% kontribute
+shëndetësore
+8.4% transferta
+parësori 55.4% transferta
+spitalori
+0.5% të tjera
+Struktura e të ardhurave të arkëtuara në vitin 2024
+
+-- 16 of 89 --
+
+17
+4.2 Të ardhurat nga kontributi i sigurimeve shëndetësore (DPT, ISSH)
+Kontributet e sigurimit shëndetësor në total ishin programuar 20,991 milionë lekë. Në fakt u
+transferuan në llogaritë e Fondit 21,506 milionë lekë, ose në masën 102.5%, me tejkalim prej
+515 milionë lekë, përkatësisht sipas organeve përgjegjëse të mbledhjes së kontributeve:
+- Nga organet tatimore (DPT) nga 20,931 milionë lekë kontribute të programuara, u
+transferuan 21,440 milionë lekë, ose në masën 102.4%, me tejkalim 509 milionë lekë.
+- Nga organet e sigurimeve shoqërore (ISSH) nga 60 milionë lekë kontribute të fermerëve të
+programuara, u transferuan 66 milionë lekë, ose 110%, me tejkalim 6 milionë lekë.
+4.3 Transferta nga buxheti i shtetit
+Transfertat nga buxheti i shtetit në total nga 38,640 milionë lekë të programuara u realizuan
+38,418 milionë lekë, ose në masën 99.4%, me mosrealizim 222 milionë lekë, përkatësisht:
+- Transfertat për shërbimin parësor u realizuan në vlerën 5,033 milionë lekë, ose në masën
+100% të planifikimit. Me transfertën e shërbimit parësor mbulohen financimi i Qendrave
+Shëndetësore, si dhe pagesat e kontrollit mjekësor bazë për grupmoshat 35-70 vjeç.
+- Transfertat për shërbimin spitalor (përfshirë edhe spitalet publike) nga 33,607 milionë lekë
+të programuara u realizuan në vlerën 33,385 milionë lekë, ose në masën 99.3% e
+programimit, me mosrealizim 222 milionë lekë.
+Nga transferta totale, vlera prej 26,179 milionë lekë është transferuar për spitalet publike dhe
+vlera prej 7,206 milionë lekë është tërhequr nga Fondi për pagesa të shpenzimeve që përballohen
+nga programi i shërbimit spitalor.
+Tërheqja e Fondit nga llogaria e thesarit përcaktuar për shërbimin spitalor bëhet, sipas
+përcaktimeve në VKM për:
+- financimin e shërbimit spitalor në spitalin rajonal Durrës dhe “Memorial” Fier;
+- financimin e paketave shëndetësore në institucionet jopublike;
+- financimin e kontratave konçesionare të lidhura nga autoriteti qëndror (Ministria e
+Shëndetësisë dhe Mbrojtjes Sociale);
+- pagesat për kujdes shëndetësor në institucione jopublike, brenda e jashtë vendit, sipas
+miratimit, rast pas rasti, me vendim të Këshillit të Ministrave;
+- pagesa të bonusit për mjekë specialistë që kontraktohen për ofrimin e shërbimeve të
+munguara në spitalet rajonale e bashkiake.
+4.4 Të ardhura të tjera
+Nga burime të tjera (interesat e depozitave, të investimeve në bono thesari, dëmet ekonomike,
+etj), u arkëtuan të ardhura në vlerën 342 milionë lekë, në masën 342% e planifikimit, me tejkalim
+242 milionë lekë. Nga shuma e të ardhurave të tjera, rreth 92 milionë lekë u arkëtuan interesa
+
+-- 17 of 89 --
+
+18
+nga investimi i fondit rezervë në bono thesari, si dhe rreth 224 milionë lekë u depozituan për
+pjesëmarrjen në strukturën globale të qasjes në vaksinat COVID-19.
+Grafiku krahasues për të ardhurat e arkëtuara për vitet 2023, 2024, paraqitet si vijon:
+5. Financimi i Shërbimeve të Kujdesit Shëndetësor
+Gjatë vitit 2024, shpenzimet totale të paguara (përfshirë shpenzimet e spitaleve publike) arritën
+në vlerën 58,781 milionë lekë nga 59,731 milionë lekë të programuara, ose 98.4% e planifikimit.
+Shpenzimet e paguara u realizuan më pak 950 milionë lekë. Theksojmë se në fillim të vitit
+buxhetor u paguan të gjitha detyrimet nga viti 2023.
+Gjatë vitit 2024, shpenzimet faktike të konstatuara arritën në vlerën 58,672 milionë lekë.
+Në strukturën e shpenzimeve faktike, peshën specifike më të madhe e zënë shpenzimet e
+shërbimit spitalor me 56.8%, ndjekur nga shpenzimet e kujdesit parësor (financimi i QSH e
+kontrolli mjekësor bazë) me 21.1%, shpenzimet për rimbursimin e barnave e pajisjeve me 20.3%,
+shpenzimet administrative (pagat e shpërblimet, sigurimet shoqërore-shëndetësore, mallra e
+shërbime) me 1.8 % dhe së fundi investimet me një peshë jo të konsiderueshme.
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+Buxheti shtetit për
+Spitalorin
+Buxheti shtetit për
+Parësorin
+Kontributet
+(DPT,ISSH)
+Të tjera
+30,629
+6,414
+18,946
+98
+33,385
+5,033
+21,506
+342
+Realizimi në milionë lekë i të ardhurave të arkëtuara për vitet
+2023, 2024
+Viti 2023 Viti 2024
+
+-- 18 of 89 --
+
+19
+Grafiku krahasues për shpenzimet e paguara, për vitet 2023 dhe 2024, paraqitet si vijon:
+Rimbursime
+(barna&pajisje)
+20.3%
+Kujdesi shëndetësor
+parësor
+21.1%
+Shërbimi spitalor
+56.8%
+Administrative
+1.8%
+Investime
+0%
+Struktura e shpenzimeve të konstatuara për vitin 2024
+Viti 2023
+Viti 2024
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+Shërbimi
+Spitalor
+Rimbursim Shërbimi
+Parësor
+Administrative Investime
+30,510
+12,179 11,346
+1,040 228
+33,316
+11,942 12,354
+1,049 11
+Realizimi i shpenzimeve faktike (të konstatuara) për vitet 2023, 2024
+(Në milionë lekë)
+
+-- 19 of 89 --
+
+20
+Realizimi i shpenzimeve
+(Në milionë lekë)
+ZËRAT E SHPENZIMEVE
+Viti 2023 Viti 2024 Realizimi i cash
+/planit viti 2024
+Realizimi i konst
+/planit viti 2024
+Ndryshimi
+konstatuar
+(viti 2024-viti
+2023)
+Peshë
+spec.
+konsta
+vit.2024
+Fakti-
+konstatuar Plani
+Fakti-
+cash
+Fakti-
+konstatuar
+në
+vlerë në % vlerë %
+në
+vlerë në %
+SHPENZIMET GJITHSEJ 55,303 59,731 58,781 58,672 -950 98.4% -1,059 98.2% 3,369 106.1% 100.0%
+1. Rimbursimi i barnave e pajisjeve 12,179 12,200 12,136 11,942 -64 99.5% -258 97.9% -237 98.1% 20.3%
+2. Shpenzime për kujdesin
+shëndetësor parësor 11,346 12,664 12,352 12,354 -312 97.5% -310 97.6% 1,008 108.9% 21.1%
+Financimi i QSH 10,470 11,788 11,476 11,478 -312 97.4% -310 97.4% 1,008 109.6% 19.6%
+Kontrolli bazë 876 876 876 876 0 100.0% 0 100.0% 0 100.0% 1.5%
+3. Shpenzimet administrative 1,040 1,230 1,058 1,049 -172 86.0% -181 85.3% 9 100.8% 1.8%
+4. Investime 228 30 11 11 -19 35.7% -19 36.7% -217 4.8% 0.02%
+5.Financime për shërbimin spitalor 30,510 33,607 33,224 33,316 -383 98.9% -291 99.1% 2,806 109.2% 56.8%
+Financime për spitalet publike 26,313 29,248 29,026 29,026 -222 99.2% -222 99.2% 2,713 110.3% 49.5%
+Shpenzime për paketat spitalore në
+privat 1,539 1,623 1,534 1,547 -89 94.5% -76 95.3% 8 100.5% 2.6%
+Shpenzime për trajtim pacienti me
+VKM 11 30 10 10 -20 33.3% -20 33.3% -1 94.9% 0.0%
+Shpenzimet –Bonusi për mjekët
+specialistë 13 30 4 4 -26 13.3% -26 13.3% -9 30.1% 0.0%
+Shpenzimet- PPP (dializa,sterilizimi) 2,634 2,676 2,650 2,729 -26 99.0% 53 102.0% 95 103.6% 4.7%
+Gjatë vitit 2024, u konstatuan shpenzime rreth 58,672 milionë lekë, ose 98.2% e programimit,
+më pak për vlerën 1,059 milionë lekë.
+5.1 Financimi i listës së barnave të rimbursueshme dhe pajisjeve
+- Plani vjetor: 12,200 milionë lekë,
+- Pagesat vjetore: 12,136 milionë lekë (ose 99.5% e planit vjetor).
+- Shpenzuar më pak nga plani rreth 64 milionë lekë.
+Në shumën totale të pagesave përfshihen edhe likujdimet e detyrimeve nga viti i mëparshëm.
+Pavarësisht shtimit të barnave në listë, faktorë të tjerë si ndryshimi i kurseve të këmbimit dhe
+ulja e çmimeve kanë ndikuar pozitivisht në efektet financiare lidhur me rimbursimin e barnave të
+listës.
+Në fund të vitit, nga listëtreguesit e pranuar për rimbursimin e barnave & pajisjeve mbetën
+papaguar rreth 604 milionë lekë. Krahasuar me vitin e mëparshëm, detyrimet e fundit të vitit u
+pakësuan me 24.1%, ose rreth 192 milionë lekë.
+
+-- 20 of 89 --
+
+21
+5.2 Financimi i shërbimit të kujdesit shëndetësor parësor
+Shpenzimet e shërbimit të kujdesit shëndetësor parësor (financimi i QSH dhe kontrolli mjekësor
+bazë) arritën në vlerën 12,354 milionë lekë, ose në masën 97.6%, më pak nga plani 310 milionë
+lekë.
+- Shpenzimet për financimin e QSH arritën në shumën 11,478 milionë lekë (përfshirë edhe
+financimi në natyrë me shtypshkrime). Janë financuar qendrat shëndetësore për aktivitetin e tyre
+vjetor, përfshirë financimin shtesë për qendrat që ofrojnë shërbim të pandërprerë gjatë sezonit
+veror, si dhe paketën e barnave e materialeve të mjekimit për qendrat shëndetësore që bllokohen
+gjatë dimrit. U financuan qendrat shëndetësore për përballimin e efektit të rritjes së pagave për
+mjekët, teknikët e shkencave mjekësore, në zbatim të politikave qeveritare për rritjen e pagave në
+sistemin shëndetësor publik. Këtë vit buxhetor ka rritje të pagës me mesatarisht 20 mijë lekë të
+reja për mjekët e përgjithshëm e të famijes, si dhe me rreth 15 mijë lekë teknikët e shkencave
+mjekësore. Gjithashtu, ndryshim rrënjësor pësoi struktura e pagës së mjekëve të përgjithshëm e
+të familjes, duke u unifikuar me strukturën e pagës së mjekëve të tjerë në sistemin shëndetësor
+publik.
+- Shpenzimet për shërbimin e kontrollit bazë shëndetësor të popullsisë nga 35-70 vjeç arritën në
+vlerën 876 milionë lekë, në masën 100% të planit.
+Gjatë periudhës gjithë vjetore u realizuan gjithsej 461,376 raste nga projeksioni prej 475,000
+raste.
+5.3 Financimi i shërbimit spitalor
+Buxheti për shërbimin spitalor parashikohet në ligjin e buxhetit dhe miratohet me vendim të
+Këshillit të Ministrave. Për vitin 2024, spitalet u financuan në zbatim të Vendimit të Këshillit të
+Ministrave nr. 26, datë 17.01.2024, “Për financimin e shërbimeve shëndetësore spitalore nga
+skema e detyrueshme e sigurimeve të kujdesit shëndetësor për vitin 2024”, i ndryshuar.
+Shpenzimet gjithë vjetore për shërbimet spitalore arritën në vlerën 33,316 milionë lekë, ose në
+masën 99.1%, ose më pak nga plani 291 milionë lekë.
+Gjatë vitit buxhetor për shpenzimet spitalore u kryen pagesa në vlerën 33,224 milionë lekë, nga
+33,607 milionë lekë të planifikuara, ose 98.9%, shpenzuar më pak 383 milionë lekë. Në shumën
+totale të pagesës përshihen edhe likujdimet e detyrimeve nga viti i mëparshëm.
+Financimi i Spitaleve Publike
+Financimi vjetor i spitaleve publike ka arritur në shumën 29,026 milionë lekë nga 29,248 milionë
+lekë të planifikuara, ose 99.2% e planit. Shpenzuar më pak nga plani 222 milionë lekë.
+Nëpërmjet financimit janë përballuar nevojat e spitaleve në paga, sigurime shoqërore-
+shëndetësore, mallra e shërbime. Gjithashtu, në vlerën e mësipërme përfshihet financimi i
+paketave spitalore të miratuara me VKM në spitalet publike, si dhe financimi i kontratës
+konçesionare të laboratorëve.
+
+-- 21 of 89 --
+
+22
+U financuan spitalet për përballimin e efektit të rritjes së pagave në zbatim të politikave
+qeveritare për rritjen e pagave në sistemin shëndetësor spitalor.
+Financimi i paketave spitalore në institucionet jopublike
+Për paketat spitalore në dhënës privat të shërbimit (spitalet jopublike) shpenzimet arritën në
+shumën 1,547 milionë lekë, ose 95.3% e planit vjetor, më pak nga plani 76 milionë lekë. Nga
+këto shpenzime, në fund të vitit mbeti palikujduar shuma 149 milionë lekë.
+Gjatë vitit buxhetor për paketat spitalore u kryen pagesa në shumën 1,534 milionë lekë,
+(përfshirë pagesat e detyrimeve nga viti i mëparshëm), nga 1,623 milionë lekë të planifikuara,
+ose u realizuan 94.5%, më pak 89 milionë lekë.
+Financimi i paketave në spitalet jopublike është realizuar nga Drejtoria e Shërbimeve Spitalore
+Universitare dhe nga Drejtoritë Rajonale Berat, Durrës, Gjirokastër, Fier, për paketën e dializës.
+Financimi sipas vendimeve rast pas rasti të Këshillit të Ministrave
+Për trajtimet spitalore miratuar rast pas rasti me VKM shpenzimet e paguara arritën 10 milionë
+lekë, nga 30 milionë lekë të planifikuara, ose 33.3%, më pak nga plani 20 milionë lekë. Pagesa
+bëhet nga drejtoria qëndrore vetëm për rastet që kanë paraqitur dokumetacionin përkatës të
+trajtimit spitalor nga VKM-të e miratuara.
+Financimi i bonusit të mjekëve specialistë
+Për financimin e bonusit për mjekë specialistë të kontraktuar në shërbime të munguara në spitalet
+rajonale e bashkiake shpenzimet e pranuara për pagesë arritën në shumën 4 milionë lekë nga 30
+milionë lekë të planifikuara, ose 13.3% e planit vjetor, më pak nga plani 26 milionë lekë. Nga
+këto shpenzime, në fund të vitit kanë mbetur palikujduar rreth 0.4 milionë lekë.
+Gjatë vitit buxhetor për financimin e mjekëve specialistë të kontraktuar pagesat arritën rreth 4
+milionë lekë, (përfshirë pagesat e detyrimeve nga viti i mëparshëm).
+Pagesa bëhet nga drejtoritë rajonale për mjekët e kontraktuar që paraqesin dokumentacionin për
+shërbimin e kryer.
+Financimi i shërbimeve PPP në shërbimin spitalor (hemodializë, sterilizim dhe laboratorë)
+Për financimin e kontratave PPP në shërbimin spitalor, të nënshkruara nga Autoriteti u
+shpenzuan:
+Për shërbimin e hemodializës dhe sterilizimit, të cilat paguhen nga njësitë e Fondit, kryer përmes
+partneritetit publik-privat (PPP) shpenzimet e pranuara gjithë vjetore arritën 2,729 milionë lekë,
+ose 102% e planit vjetor, më tepër 53 milionë lekë. Nga këto shpenzime, në fund të vitit kanë
+mbetur palikujduar rreth 340 milionë lekë.
+Gjatë vitit buxhetor për shërbimin e hemodializës dhe sterilizimit u kryen pagesa në vlerën 2,650
+milionë lekë, (përfshirë pagesat e detyrimeve nga viti i mëparshëm) nga 2,676 milionë lekë të
+planifikuara, ose 99%. U shpenzuan më pak nga plani 26 milionë lekë.
+
+-- 22 of 89 --
+
+23
+Financimi i hemodializës realizohet nga 5 drejtori rajonale ndërsa financimi i shërbimit të
+sterilizimit realizohet nga 12 drejtori (11 drejtori rajonale dhe Drejtoria e Shërbimeve Spitalore
+Universitare).
+Për kontratën PPP të laboratorëve, e cila paguhet nga vetë spitalet, rezultojnë të paguara nga këta
+të fundit vlera prej 1,843 milionë lekë, nga 1,850 milionë lekë të planifikuara.
+6. Shpenzime të tjera të Fondit
+6.1 Shpenzimet administrative
+Shpenzimet administrative (paga e shpërblime, sigurime shoqërore-shëndetësore, mallra e
+shërbime) arritën 1,049 milionë lekë, ose në masën 85.3% e planifikimit, më pak nga plani 181
+milionë lekë.
+6.2 Shpenzimet për investime
+Shpenzimet për investime u realizuan rreth 11 milionë lekë nga 30 milionë lekë të planifikuara.
+Realizuar në masën 36.7% e planifikimit, më pak nga plani 19 milionë lekë. Investimet janë
+realizuar për zërin e ndërtimeve dhe pajisje zyre dhe informatike.
+7. Përfitimet e Popullatës
+Ligji Nr. 10 383, datë 24.02.2011, “Për sigurimin e detyrueshëm të kujdesit shëndetësor në
+Republikën e Shqipërisë”, i ndryshuar, zgjeroi mundësitë e përfitimit të shërbimeve nga
+popullata, përmes proçesit të kontraktimit nga ana e Fondit, si të shërbimeve publike ashtu edhe
+të atyre private.
+Paketat e shërbimeve të sigurimit të detyrueshëm hartohen duke përcaktuar:
+- vizitat, ekzaminimet dhe trajtimet mjekësore në qendrat shëndetësore të kujdesit parësor
+dhe spitalet publike, të cilat paguhen për këtë shërbim nga sigurimi i detyrueshëm;
+- listën e barnave të rimbursueshme, si dhe masën e mbulimit të barnave të saj. Struktura e
+listës së barnave përcaktohet në bazë të listës së barnave themelore, sipas emërtimit INN
+(principit aktiv të barit), të përcaktuar nga Organizata Botërore e Shëndetësisë, si dhe në
+mbulimin e alternativës më të lirë. Lista e Barnave të Rimbursuara është ndërtuar sipas
+klasifikimit ATC (Anatomik Terapeutik Kimik) të barnave. Sistemi i klasifikimit ATC të
+barnave është i hartuar nën rekomandimin dhe kujdesin e Organizatës Botërore të
+Shëndetësisë dhe Këshillit Nordik të Barnave. Sipas këtij sistem klasifikimi barnat
+
+-- 23 of 89 --
+
+24
+ndahen në grupe të ndryshme në përputhje me sistemin sipas organit në të cilin veprojnë,
+efektin e tyre farmakologjik dhe terapeutik;
+- listën e pajisjeve mjekësore, si dhe masën e mbulimit të tyre.
+7.1 Paketa e shërbimeve në kujdesin shëndetësor parësor
+Paketa e shërbimeve, të cilën Fondi e kontrakton me Qendrat Shëndetësore, përfshin 7 shërbime:
+• Kujdesi në rastet e urgjencës;
+• Kujdesi shëndetësor për fëmijët;
+• Kujdesi shëndetësor për të rriturit;
+• Kujdesi shëndetësor për gratë dhe shëndeti riprodhues;
+• Kujdesi shëndetësor për të moshuarit;
+• Kujdesi shëndetësor mendor;
+• Promocioni dhe edukimi shëndetësor.
+Popullsia e deklaruar nga mjekët e familjes në total është 3,907,055 banorë, ku 2,132,778 banorë
+janë në zonat urbane dhe 1,774,277 banorë në zonat rurale. Numri i Mjekëve të Përgjithshëm dhe
+të Familjes që kanë mbuluar me shërbim shëndetësor gjithë territorin e vendit për muajin Dhjetor
+2024 është 1,483. Numri i mjekëve specialistë është 316. Numri i infermierëve dhe laborantëve
+është 6,636, nga të cilët 1,787 janë infermierë të Mjekut të Përgjithshëm dhe të Familjes. Gjatë
+vitit 2024 nga ana e Qendrave Shëndetësore të Kujdesit Parësor janë kryer 7,302,745 vizita, nga
+këto 6,432,941 vizita janë kryer nga MP/F dhe 869,804 vizita janë kryer nga Mjekët Specialistë
+të Qendrave Shëndetësore të Specialiteteve në Tiranë. Përqindja e realizimit në total të numrit të
+vizitave në rang vendi është 148 % dhe mesatarja ditore e vizitave është rreth 14 vizita/ditë.
+➢ Vizitat e realizuara për periudhën 2023, 2024 nga Qendrat Shëndetësore të Kujdesit
+Parësor.
+7,342,096
+7,302,745
+7,200,000
+7,220,000
+7,240,000
+7,260,000
+7,280,000
+7,300,000
+7,320,000
+7,340,000
+Viti 2023 Viti 2024
+Trendi i numrit të vizitave për vitet 2023, 2024
+
+-- 24 of 89 --
+
+25
+Paraqitja grafike e mësipërme tregon trendin e vizitave të kryera nga qendrat shëndetësore të
+kujdesit parësor gjatë viteve 2023, 2024. Nga krahasimi i numrit të vizitave me vitin 2023 vihet
+re një ulje prej 39,351 vizita ose rreth 1% më pak në vitin 2024.
+➢ Vizitat e kryera sipas zonave urbane dhe rurale për vitin 2024
+5,032,670
+2,270,075
+Numri i vizitave sipas zonave për vitin 2024
+Zona Urbane Zona Rurale
+69%
+31%
+Përqindja e vizitave sipas zonave 2024
+Zona Urbane Zona Rurale
+
+-- 25 of 89 --
+
+26
+➢ Vizitat e kryera sipas zonave urbane dhe rurale për vitet 2023, 2024
+Në grafikun e mësipërm jepen të dhënat sipas zonave urbane/rurale gjatë viteve 2023 dhe 2024.
+Gjatë vitit 2024 kemi ndryshim të dukshëm të vizitave në zonat urbane dhe rurale. Në vitin 2024,
+këto vizita u rritën me rreth 1% për zonat urbane dhe janë ulur me rreth 3% për zonat rurale.
+➢ Vizitat e realizuara sipas zonave gjeografike, Bashki, Komunë Fushore/ Kodrinore,
+Komunë Malore/Thellë malore për vitet 2023, 2024
+4,999,462 5,032,670
+2,342,634 2,270,075
+0
+1,000,000
+2,000,000
+3,000,000
+4,000,000
+5,000,000
+6,000,000
+Nr. Vizitave 2023 Nr. Vizitave 2024
+Numri i vizitave sipas zonave urbane dhe rurale për vitet 2023, 2024
+Zona Urbane Zona Rurale
+4,117,956
+1,869,497
+473,137
+4,162,866
+1,825,287
+444,788
+0
+500,000
+1,000,000
+1,500,000
+2,000,000
+2,500,000
+3,000,000
+3,500,000
+4,000,000
+4,500,000
+Bashki Komuna fushore kodrinore Komuna malore/thellë malore
+Shpërndarja e vizitave sipas zonave gjeografike për vitet 2023, 2024
+Viti 2023 Viti 2024
+
+-- 26 of 89 --
+
+27
+Shpërndarja e vizitave sipas zonave gjeografike të përcaktuara në kontratë, për vitet 2023, 2024
+paraqitet si më poshtë
+• vizitat nga MP/F e Qendrave Shëndetësore në Bashki gjatë vitit 2024 u rrit me rreth 45
+mijë vizita (ose rreth 1%) më shumë.
+• vizitat nga MP/F e Qendrave Shëndetësore në zonat Komunë Fushore/Kodrinore gjatë
+vitit 2024 janë ulur me rreth 44 mijë vizita (ose rreth 2%) më pak.
+• vizitat nga MP/F në Qendrat Shëndetësore të zonave Komunë Malore/Thellë Malore
+gjatë vitit 2024 vizitat janë ulur me rreth 28 mijë vizita (ose 6%) më pak.
+• Në total rezultojnë rreth 28 mijë vizita (ose reth 1%) më pak.
+7.2 Kontrolli mjekësor bazë
+Ofrimi i paketës së Kontrollit Mjekësor Bazë (KMB), realizohet bazuar në Vendimin Nr. 185,
+datë 02.04.2014 “Për përcaktimin e mënyrës së realizimit të kontrollit mjekësor bazë për shtetasit
+e grupmoshës 35-70 vjeç”, të ndryshuar me VKM, Nr. 721, datë 12.10.2016.
+Bazuar në Kontratën e Financimit si dhe Udhëzimin nr.12, datë 18.05.2015 “Për procedurat e
+pagesës së Shoqërisë 3P Life Logisitik sh.p.k”, lidhur me shërbimet për ofrimin e Paketës së
+Kontrollit Mjekësor Bazë, sektori përkatës çdo muaj mbledh, verifikon dhe përpunon të dhënat
+mbi numrin e kontrolleve mjekësore bazë të realizuara nga çdo Drejtori Rajonale e Fondit dhe
+përgatit dosjen për kryerjen e pagesës së Konçensionarit. Verifikimi dhe dorëzimi i kërkesës për
+pagesë të Konçensionarit në çdo rast është bërë brenda afatit dhe mënyrës të përcaktuar në
+udhëzim.
+Për periudhën Janar – Dhjetor 2024, u realizuan 461,376 kontrolle mjekësore bazë, me një
+përqindje realizimi të planit të projeksionit 97%. Ndërkohë që për vitin 2023 janë kryer 467,663
+kontrolle mjekësore bazë, ose e shprehur në përqindje 98%. Pra për vitin 2024 kemi një ulje të
+numrit të kontrolleve mjekësore bazë të kryera me 6,287 kontrolle më pak, ose e shprehur në
+përqindje me një ulje prej rreth 1% më pak kontrolle të kryera krahasuar me një vit më parë.
+Për më shumë grafikët e mëposhtëm:
+
+-- 27 of 89 --
+
+28
+Realizimi i planit të projeksionit të kontrollit mjekësor bazë në përqindje për periudhën Janar-
+Dhjetor 2024:
+45,191 46,603
+41,462 41,250 40,714
+34,380 32,659 34,570
+37,233
+39,928
+33,324 34,062
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+40,000
+45,000
+50,000
+Janar Shkurt Mars Prill Maj Qershor Korrik Gusht Shtator Tetor Nëntor Dhjetor
+Kontrolle mjekësore bazë të kryera krahasuar me Standartin për
+vitin 2024
+Kontrolle mjekësore bazë të kryera 2024 Standarti
+461,376
+467,663
+450,000
+452,000
+454,000
+456,000
+458,000
+460,000
+462,000
+464,000
+466,000
+468,000
+470,000
+Kmb viti 2024 Kmb viti 2023
+Numri i kontrolleve mjekësore bazë të kryera për vitin 2024
+krahasuar me vitin 2023
+
+-- 28 of 89 --
+
+29
+Sipas ndarjes administrative në zona urbane dhe rurale, kontrolli mjekësor bazë për periudhën
+Janar-Dhjetor 2024, paraqitet në grafikun si më poshtë:
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Berat
+Dibër
+Durrës
+Elbasan
+Fier
+Lushnje
+Gjirokastër
+Korçë
+Pogradec
+Kukës
+Tropojë
+Lezhë
+Shkodër
+Tiranë
+Kamëz-vore
+Vlorë
+Sarandë
+101% 96% 103%
+83%
+101% 98% 90%
+103% 103% 106%
+93% 92% 97% 97% 106%
+91%
+77%
+Realizimi në përqindje i planit të projeksionit të KMB për vitin
+2024
+Përqindja e realizimit të planit të projeksionit (%)
+97%
+98%
+95%
+96%
+96%
+97%
+97%
+98%
+98%
+99%
+% Realizimi Kmb viti 2024 % Realizimi Kmb viti 2023
+Trendi i përqindjes së realizimit të projeksionit të KMB për vitin
+2024 krahasuar me vitin 2023
+58%
+42%
+KMB sipas ndarjes administrative për vitin 2024
+Urbane Rurale
+
+-- 29 of 89 --
+
+30
+Për vitin 2024 kontrolle mjekësore bazë rezultojnë të kryera 42% në zonat rurale dhe 58% në
+zonat urbane. Ndërsa për vitin 2023 kontrolle mjekësore bazë sipas ndarjes administrative
+rezultojnë 43% në zonat rurale dhe 57% në zonat urbane.
+Struktura e realizimit të kontrollit mjekësor bazë sipas gjinisë paraqitet në grafikun e
+mëposhtëm:
+Siç shihet nga grafiku, femrat kanë % më të lartë në kryerjen e vizitave të kontrollit mjekësor
+bazë krahasuar me meshkujt.
+267,082 265,952
+194,294 201,711
+0
+50,000
+100,000
+150,000
+200,000
+250,000
+300,000
+Viti 2024 Viti 2023
+KMB sipas ndarjes administrative për vitin 2024 krahasuar me
+vitin 2023
+Urbane Rurale
+39%
+61%
+KMB sipas gjinisë për vitin 2024
+Meshkuj Femra
+
+-- 30 of 89 --
+
+31
+7.3 Paketa e shërbimeve në shërbimin spitalor
+Në kontratën me spitalet publike janë monitoruar indikatorët e performancës dhe cilësisë. Në
+totalin e indikatorëve të monitoruar dhe vlerësuar janë: numri i shtrimeve në spitale, niveli i
+shfrytëzimit të shtratit, ditëqëndrimi mesatar, xhiro e shtratit në spitale, përqindja e numrit të
+pacientëve të shëruar të dalë nga spitali, si dhe përqindja e shtrimeve urgjente në spital.
+Më poshtë janë të pasqyruara aktivitetet e Spitaleve Universitare, Rajonale dhe Bashkiake si
+edhe realizimet e indikatorëve sipas kontratës.
+Shtrimet
+Në total për vitin 2024 numri i shtrimeve për të gjithë spitalet e kontraktuara është 324,000
+pacientë, 16,192 pacientë më shumë se një vit më parë.
+Nga ky numër në Spitalet Universitare janë shtruar 178,864 pacientë, në Spitalet Rajonale janë
+shtruar 117,888 pacientë dhe në Spitalet Bashkiake janë shtruar 27,248 pacientë.
+Spitalet Universitare
+Në Spitalet Universitare numri i shtrimeve për vitin 2024 është 178,864 pacientë, 9,256 pacientë
+më shumë se një vit më parë.
+Numri i shtrimeve në Spitalet Universitare për Vitin 2024:
+Nga krahasimi i numrit të shtrimeve për vitin 2024 në spitalet universitare vihet re se Qendra
+Spitalore Universitare “Nënë Tereza” Tiranë ka numrin më të lartë të shtrimeve me 131,163
+shtrime për vitin 2024.
+16,583 11,960
+131,163
+8,815 10,343
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+Spitali Universitar
+Obstetrik Gjinekologjik
+"Mbretëresha Geraldinë"
+Spitali Universitar
+Obstetrik Ginekologjik
+"Koço Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Numri i shrimeve në Spitalet Universitare për vitin 2024
+
+-- 31 of 89 --
+
+32
+Krahasimi i shtrimeve në Spitalet Universitare për vitet 2023, 2024:
+Nga krahasimi i numrit të shtrimeve në Spitalet Universitare për vitet 2024, 2023 vihet re një
+rritje e numrit të shtrimeve për vitin 2024.
+Numri i shtrimeve gjatë vitit 2024 për Spitalet Universitare në total krahasuar me vitin 2023 ka
+rritje me 9,256 shtrime.
+Spitalet Rajonale
+Numri i shtrimeve për Spitalet Rajonale për vitin 2024 është 117,888 pacientë, 7,382 pacientë
+me shumë se një vit më parë.
+Numri i shtrimeve në Spitalet Rajonale për vitin 2024:
+16,583 11,960
+131,163
+8,815 10,343	
+16,639 11,169
+124,567
+7,546 9,687
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+Spitali Universitar
+Obstetrik Gjinekologjik
+"Mbretëresha Geraldinë"
+Spitali Universitar
+Obstetrik Ginekologjik
+"Koço Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Numri i shtrimeve në Spitalet Universitare për vitet 2023, 2024
+Të shtruar 2024 Të shtruar 2023
+6,629 6,765
+13,002 11,165
+15,394
+10,160 9,166
+5,351 5,475
+12,855
+15,137
+6,789
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+14,000
+16,000
+18,000
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial Fier
+Numri i shtrimeve në Spitalet Rajonale për vitin 2024
+
+-- 32 of 89 --
+
+33
+Me numrin më të lartë të shtrimeve në Spitalet Rajonale rezulton Spitali Rajonal Fier, i ndjekur
+nga Spitali Rajonal Vlorë dhe nga Spitali Rajonal Durrës.
+Krahasimi i numrit të shtrimeve në Spitalet Rajonale për vitet 2023, 2024:
+Nga krahasimi i numrit të shtrimeve për vitin 2024 me vitin 2023 vërehet se numri i shtrimeve
+për vitin 2024 ka rritje me 7,382 shtrime më shumë.
+Spitalet Bashkiake
+Numri i shtrimeve në Spitalet Bashkiake për vitin 2024 është 27,248 pacientë. 446 pacientë të
+shtruar më pak krahasuar me një vit më parë.
+Raporti i shtrimeve urgjente me shtrimet në total
+Për vitin 2024 në total 55.1 % e shtrimeve në spitale janë nëpërmjet shërbimit të urgjencës.
+Për vitin 2024, në Spitalet Universitare janë shtruar nga urgjenca, që zënë 34.2 % të rasteve,
+ndërsa në Spitalet Rajonale janë shtruar nga urgjenca 79 % të totalit të shtrimeve.
+Për sa i përket këtij indikatori vlerat më të larta janë në Spitalet Rajonale Vlorë, Durrës, Shkodër,
+Fier dhe Gjirokastër.
+6,629 6,765
+13,002
+11,165
+15,394
+10,160 9,166
+5,351 5,475
+12,855
+15,137
+6,789	6,866 7,375
+13,420
+11,055 10,813
+9,236 8,259
+5,390 5,676
+12,441
+15,174
+4,801
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+14,000
+16,000
+18,000
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial Fier
+Numri i shtrimeve në Spitalet Rajonale për vitet 2023, 2024
+Të shtruar 2024 Të shtruar 2023
+
+-- 33 of 89 --
+
+34
+Shfrytëzimi i shtratit
+Si një indikator tepër i rëndësishëm i efiçiencës spitalore paraqitet në këto nivele; në Spitalet
+Universitare mesatarja e shfrytëzimit të shtratit është 81.68 % dhe në Spitalet Rajonale mesatarja
+e shfrytëzimit të shtratit është 35.87 %.
+Më poshtë paraqesim grafikët krahasues për shfrytëzimin e shtratit në spitalet rajonale,
+universitare dhe bashkiake.
+Shfrytëzimi i shtratit në Spitalet Universitare
+Në realizimin e këtij indikatori vlerat më të larta janë në Spitalet; Qendra Spitalore Rajonale,
+Tiranë “Shefqet Ndroqi” dhe Qendra Spitalore Universitare “Nënë Tereza” Tiranë.
+Krahasimi i shfrytëzimit të shtratit në Spitalet Universitare për vitet 2023, 2024:
+53.31
+74.17 86.59 91.79
+73.81 81.68
+0
+20
+40
+60
+80
+100
+Spitali Universitar
+Obstetrik
+Gjinekologjik
+"Mbretëresha
+Geraldinë"
+Spitali Universitar
+Obstetrik
+Ginekologjik "Koço
+Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Mesatare
+Shfrytëzimi i shtratit në përqindje në Spitalet Universitare për vitin
+2024
+53.31
+74.17
+86.59 91.79
+73.81 81.68
+57.17 68.85
+81 86.59 92.64
+79.32
+0
+20
+40
+60
+80
+100
+Spitali Universitar
+Obstetrik
+Gjinekologjik
+"Mbretëresha
+Geraldinë"
+Spitali Universitar
+Obstetrik
+Ginekologjik "Koço
+Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Mesatare
+Krahasimi i shfrytëzimit të shtratit në përqindje në Spitalet
+Universitare për vitet 2023, 2024
+Shfytëzim shtrati 2024 Shfrytëzim shtrati 2023
+
+-- 34 of 89 --
+
+35
+Për Spitalin Universitar Obstetrik Gjinekologjik “Koço Gliozheni”, Qendrën Spitalore Rajonale,
+Tiranë “Shefqet Ndroqi”, si dhe Qendrën Spitalore Universitare “Nënë Tereza” Tiranë kemi një
+rritje të indikatorit të shfrytëzimit të shtratit për vitin 2024, ndërsa për Spitalin Universitar
+Obstetrik Gjinekologjik “Mbretëresha Geraldinë” dhe Spitalin Universitar të Traumës vihet re
+një ulje e lehtë e këtij indikatori për vitin 2024.
+Shfrytëzimi i shtratit në Spitalet Rajonale
+Në nivele më të larta për shfrytëzimin e shtratit për vitin 2024 paraqitet Spitali Memorial Fier,
+Durrës, Vlorë, Fier dhe Gjirokaster në vlera më të ulura paraqitet Spitali Berat, Elbasan, Shkodër
+dhe Korçë. Lezhë dhe Dibër.
+Krahasimi i shfrytëzimit të shtratit për Spitalet Rajonale për vitet 2023, 2024:
+Nga krahasimi i mësipërm vihet re një rritje e këtij indikatori në Spitalet Rajonale për vitin 2024.
+30.7 34.7
+49.3
+30.7 37.3 36.6 29.0 32.3 33.7 30.2
+42.8
+71.0
+35.9
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial
+Fier	
+Mesatare
+Shfytëzimi i shtratit në përqindje në Spitalet Rajonale për vitin 2024
+30.7 34.7
+49.3
+30.7
+37.3 36.6 29.0 32.3 33.7 30.2
+42.8
+71.0
+35.9
+29.3
+38.0
+50.0
+30.8 27.1 32.7 26.7 33.1
+41.5
+28.9
+40.6
+61.8
+34.5
+0
+10
+20
+30
+40
+50
+60
+70
+80
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali
+Memorial Fier
+Mesatare
+Krahasimi në përqindje i shfrytëzimit të shtratit në Spitalet Rajonale
+për vitet 2023, 2024
+Shfytëzim shtrati 2024 Shfrytëzim shtrati 2023
+
+-- 35 of 89 --
+
+36
+Ditë qëndrimi mesatar
+Në total mesatarja e ditë qëndrimit mesatar për të gjitha spitalet për vitin 2024 është 3.9 ditë.
+Indikatori i ditë qëndrimit mesatar paraqitet në këto shifra në spitale:
+Në Spitalet Universitare mesatarja e ditë qëndrimit mesatar është 3.7 ditë.
+Në Spitalet Rajonale mesatarja e ditë qëndrimit mesatar është 3.9 ditë.
+Në spitalet Bashkiake mesatarja e ditë qëndrimit mesatar është 4.7 ditë.
+Më poshtë paraqesim grafikët krahasues për ditëqëndrimin mesatar në Spitalet Universitare dhe
+Spitalet Rajonale.
+Ditë qëndrimi mesatar në Spitalet Universitare
+Në Spitalet Universitare ditë qëndrimi mesatar në nivelet më të larta rezulton në Qendrën
+Spitalore Rajonale, Tiranë “Shefqet Ndroqi” përkatësisht 8.1.
+Krahasimi i ditë qëndrimit mesatar në Spitalet Universitare për vitet 2023, 2024:
+2.4
+3.7 3.4
+8.1
+6.4
+3.7
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+Spitali Universitar Obstetrik	
+Gjinekologjik "Mbretëresha
+Geraldinë"
+Spitali Universitar Obstetrik
+Ginekologjik "Koço
+Gliozheni"
+Qendra Spitalore Universitare
+"Nënë Tereza"
+Qendra Spitalore Rajonale,	
+Tiranë "Shefqet Ndroqi"
+Spitali Universitar i Traumës
+Mesatare
+Ditë qëndrimi mesatar në Spitalet Universitare për vitin 2024
+
+-- 36 of 89 --
+
+37
+Nga krahasimi me vitin 2023 rezulton një rritje e lehtë e ditë qëndrimit mesatar për Qendrën
+Spitalore Universitare “Nënë Tereza” Tiranë dhe një ulje e ditë qëndrimit mesatar për Spitalin
+Universitar të Traumës, Spitalin Universitar Obstetrik Gjinekologjik “Mbretëresha Geraldinë”
+dhe Qendrën Spitalore Rajonale, Tiranë “Shefqet Ndroqi”. Në Spitalin Universitar Obstetrik
+Gjinekologjik “Koço Gliozheni” ditë qëndrimi rezulton në vlerë të njëjtë me vitin 2023.
+Për spitalet Universitare indikatori i ditë qëndrimit mesatar për vitin 2024 ka një mesatare 3.7
+ditë.
+Ditë qëndrimi mesatar në Spitalet Rajonale
+Ditë qëndrimi mesatar paraqitet në shifra normale në të gjitha spitalet rajonale ku mesatarja është
+3.9 ditë. Tregues më të lartë kanë spitalet Dibër, Korçë, Kukës dhe Durrës.
+2.4 3.7 3.4
+8.1
+6.4
+3.7
+2.6 3.7 3.2
+8.9
+6.5
+3.6
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+Spitali
+Universitar	
+Obstetrik
+Gjinekologjik	
+"Mbretëresha	
+Geraldinë"
+Spitali
+Universitar	
+Obstetrik
+Ginekologjik
+"Koço
+Gliozheni"
+Qendra Spitalore
+Universitare	
+"Nënë Tereza"
+Qendra Spitalore	
+Rajonale, Tiranë
+"Shefqet	
+Ndroqi"
+Spitali
+Universitar i
+Traumës
+Mesatare
+Krahasimi i ditë qëndrimit mesatar në Spitalet Universitare për vitet
+2023, 2024
+Ditë qëndrimi mesatar 2024 Ditë qëndrimi mesatar 2023
+4.4
+5.6
+4.7 4.2
+2.5 2.4
+5.4 5.2
+3.6 4.1
+2.9
+4.2 3.9
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial Fier
+Mesatare
+Ditë qëndrimi mesatar në Spitalet Rajonale për vitin 2024
+
+-- 37 of 89 --
+
+38
+Krahasimi i ditëqëndrimit mesatar në Spitalet Rajonale për vitet 2023, 2024:
+Në pjesën më të madhe të Spitaleve Rajonale vihet re një ulje e këtij indikatori për vitin 2024.
+Për rajonet Lezhë, Spitali Memorial Fier, Fier, Kukës, Korçë vihet re një ulje e ditë qëndrimit
+mesatar.
+Për rajonet Berat, Durrës, Vlorë vërehet një rritje e këtij indikatori. Për rajonet Dibër, Elbasan
+Gjirokastër, Shkodër nuk ka ndryshime të vlerës së këtij indikatori.
+Vizitat ambulatore
+Vizitat ambulatore në Spitalet Universitare
+Pacientë të konsultuar për vitin 2024 në Spitalet Universitare janë 621,117. 186,002 pacientë më
+shumë se në vitin 2023.
+Në grafikun e mëposhtëm paraqitet numri total i vizitave ambulatore të specializuara në Spitalet
+Universitare për vitin 2024
+4.4
+5.6
+4.7
+4.2
+2.5 2.4
+5.4 5.2
+3.6 4.1
+2.9
+4.2 3.9	4.0
+5.6
+4.6 4.2
+2.6 2.4
+5.5 5.3
+4.3 4.1
+2.7
+4.7
+4.0
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial
+Fier	
+Mesatare
+Krahasimi i ditë qëndrimit mesatar në Spitalet Rajonale për vitet
+2023, 2024
+Ditë qëndrimi mesatar 2024 Ditë qëndrimi mesatar 2023
+
+-- 38 of 89 --
+
+39
+Nga grafiku vihet re se numrin më të lartë të vizitave ambulatore për vitin 2024 e ka realizuar
+Qendra Spitalore Universitare “Nënë Tereza” Tiranë.
+Në grafikun e mëposhtëm jepet krahasimi i numrit total të vizitave ambulatore të specializuara në
+Spitalet Universitare për vitet 2023, 2024:
+Për vitin 2024 rezulton se kemi një rritje të numrit të vizitave ambulatore në realizuara në
+Spitalet Universitare.
+15,668 13,250
+562,397
+11,070 18,732
+0
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+Spitali Universitar
+Obstetrik Gjinekologjik
+"Mbretëresha
+Geraldinë"
+Spitali Universitar
+Obstetrik Ginekologjik
+"Koço Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Numri i vizitave ambulatore në Spitalet Universitare për vitin 2024
+15,668 13,250
+562,397
+11,070 18,732	17,302 12,806
+379,244
+10,411 15,352
+0
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+Spitali Universitar
+Obstetrik Gjinekologjik
+"Mbretëresha
+Geraldinë"
+Spitali Universitar
+Obstetrik Ginekologjik
+"Koço Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza"
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Krahasimi i numrit të vizitave ambulatore në Spitalet Universitare
+për vitet 2023, 2024
+Numri i vizitave ambulatore 2024 Numri i vizitave ambulatore 2023
+
+-- 39 of 89 --
+
+40
+Vizita ambulatore në Spitalet Rajonale
+Pacientë të konsultuar për vitin 2024 në Spitalet Rajonale janë 810,530. Rezultojnë 8,400 vizita
+ambulatore të kryera më pak se në vitin 2023.
+Në grafikun e mëposhtëm jepet numri total i vizitave ambulatore të specializuara në Spitalet
+Rajonale për vitin 2024
+Nga grafiku vihet re se numrin më të lartë të vizitave ambulatore për vitin 2024 e kanë Spitalet
+Rajonale Fier dhe Elbasan.
+Në grafikun e mëposhtëm jepet krahasimi i numrit total të vizitave ambulatore të specializuara në
+Spitalet Rajonale për vitet 2023, 2024:
+66,768
+48,767
+68,366
+117,024 121,117
+42,636
+83,073
+21,025
+43,331
+74,544
+58,582 65,297
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial Fier
+Numri i vizitave ambulatore në Spitalet Rajonale për vitin 2024
+
+-- 40 of 89 --
+
+41
+Nga grafiku rezulton se për vitin 2024 në Spitalet Rajonale kemi një ulje të lehtë të numrit të
+vizitave ambulatore.
+Ekzaminimet Laboratorike
+Ekzaminimet Biokimike-Klinike
+Për vitin 2024 rezulton se në të gjithë spitalet e kontraktuara nga Fondi, janë realizuar 5,831,099
+ekzaminime laboratorike. Në këtë numër ekzaminimesh përfshihen ekzaminimet e realizuara nga
+shërbimi i laboratorit në spitale dhe shërbimi i konçesionarit të laboratorëve me PPP në spitalet e
+caktuara.
+Në Spitalet Universitare janë realizuar 2,381,700 ekzaminime, në Spitalet Rajonale janë realizuar
+2,263,690 ekzaminime, ndërsa Spitalet Bashkiake janë realizuar 1,185,709 ekzaminime
+laboratorike.
+Nga numri total i ekzaminimeve nga shërbimi i konçensionarit të laboratorit në 18 spitale sipas
+kontratës “Për ofrimin e shërbimit laboratorik të spitaleve universitare, rajonale dhe atyre
+bashkiake të Sarandës dhe Lushnjës” për vitin 2024 janë realizuar 4,609,165 ekzaminime.
+66,768
+48,767
+68,366
+117,024 121,117
+42,636
+83,073
+21,025
+43,331
+74,544
+58,582 65,297
+86,157
+48,408
+70,555
+109,870
+120,090
+43,100
+96,648
+18,377
+42,809
+79,605
+54,487 48,824
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Spitali Memorial Fier
+Krahasimi i numrit të vizitave ambulatore në Spitalet Rajonale për
+vitet 2023, 2024
+Numri i vizitave ambulatore viti 2024 Numri i vizitave ambulatore viti 2023
+
+-- 41 of 89 --
+
+42
+Ekzaminime Laboratorike përmes PPP për vitin 2024
+Numri i ekzaminimeve biokimike klinike në total në spitale për vitet 2023, 2024
+Ekzaminimet laboratorike në Spitalet Universitare
+Grafiku me të dhënat mbi numrin e ekzaminimeve klinike biokimike të realizuara në Spitalet
+Universitare për vitin 2024
+155,851 95,745 196,255286,119288,432
+96,489
+229,641
+98,740 189,317122,372 96,081 185,317
+54,827 70,386
+1,825,925
+250,931179,631 187,106
+0
+200,000
+400,000
+600,000
+800,000
+1,000,000
+1,200,000
+1,400,000
+1,600,000
+1,800,000
+2,000,000
+Berat
+Dibër
+Durrës
+Elbasan
+Fier
+Gjirokastër
+Korçë
+Kukës
+Lezhë
+Lushnje
+Sarandë
+Shkodër
+Spitali Universitar Obstetrik	
+Gjinekologjik "Mbretëresha…
+Spitali Universitar Obstetrik
+Ginekologjik "Koço Gliozheni"
+Qendra Spitalore Universitare "Nënë
+Tereza" Tiranë
+Qendra Spitalore Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i Traumës
+Vlorë
+Numri i ekzaminimeve laboratorike PPP në spitale për vitin 2024
+5,831,099
+5,489,543
+5,300,000
+5,400,000
+5,500,000
+5,600,000
+5,700,000
+5,800,000
+5,900,000
+Viti 2024 Viti 2023
+Krahasimi i numrit të ekzaminimeve biokimike klinike në spitale për
+vitet 2023, 2024
+
+-- 42 of 89 --
+
+43
+Nga grafiku vihet re se Qendra Spitalore Universitare “Nënë Tereza” Tiranë ka numrin më të
+lartë të ekzaminimeve klinike biokimike të realizuara për vitin 2024.
+Grafiku me të dhënat mbi numrin e ekzaminimeve klinike biokimike të realizuara në total në
+Spitalet Universitare për vitet 2023, 2024:
+Nga grafiku krahasues për vitet 2023, 2024 vihet re se për vitin 2024 rezulton një rritje e numrit
+të ekzaminimeve klinike të realizuara në total në Spitalet Universitare me 136,271 ekzaminime
+më shumë.
+54,827 70,386
+1,825,925
+250,931 179,631
+0
+200,000
+400,000
+600,000
+800,000
+1,000,000
+1,200,000
+1,400,000
+1,600,000
+1,800,000
+2,000,000
+Spitali Universitar
+Obstetrik Gjinekologjik
+"Mbretëresha
+Geraldinë"
+Spitali Universitar
+Obstetrik Ginekologjik
+"Koço Gliozheni"
+Qendra Spitalore
+Universitare "Nënë
+Tereza" Tiranë
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Universitar i
+Traumës
+Numri i ekzaminimeve klinike biokimike të realizuara në Spitalet
+Universitare për vitin 2024
+2,381,700
+2,245,429
+2,150,000
+2,200,000
+2,250,000
+2,300,000
+2,350,000
+2,400,000
+Viti 2024 Viti 2023
+Krahasimi i numrit të ekzaminimeve laboratorike të realizuara në
+Spitalet Universitare për vitet 2023, 2024
+
+-- 43 of 89 --
+
+44
+Ekzaminimet laboratorike në Spitalet Rajonale
+Grafiku me të dhënat mbi numrin e ekzaminimeve klinike biokimike të realizuara në total në
+Spitalet Rajonale për vitin 2024:
+Nga grafiku vërehet se me numrin më të lartë të ekzaminimeve klinike të realizuara janë Spitalet
+Rajonale Fier, Elbasan dhe Korçë.
+Nga grafiku vihet re se për vitin 2024 kemi një rritje të numrit të ekzaminimeve laboratorike të
+realizuara në total në Spitalet Rajonale krahasuar me vitin 2023.
+155,851
+95,745
+196,255
+286,119 288,432
+96,489
+229,641
+98,740
+189,317 185,317 187,106
+0
+50,000
+100,000
+150,000
+200,000
+250,000
+300,000
+350,000
+Berat	
+Dibër	
+Durrës	
+Elbasan
+Fier
+Gjirokastër
+Korçë	
+Kukës	
+Lezhë
+Shkodër
+Vlorë
+Numri i ekzaminimeve laboratorike në Spitalet Rajonale për vitin
+2024
+2,263,690
+2,094,747
+2,000,000
+2,050,000
+2,100,000
+2,150,000
+2,200,000
+2,250,000
+2,300,000
+Viti 2024 Viti 2023
+Krahasimi i numrit të ekzaminimeve laboratorike të realizuara në
+Spitalet Rajonale për vitet 2023, 2024
+
+-- 44 of 89 --
+
+45
+Ekzaminimet laboratorike në Spitalet Bashkiake
+Grafiku me të dhënat mbi numrin e ekzaminimeve klinike biokimike të realizuara në Spitalet
+Bashkiake për vitin 2024.
+Nga grafiku vihet re se numrin më të lartë të ekzaminimeve klinike biokimike të realizuara e
+kanë spitalet Pogradec, Lushnjë, Sarandë, Laç, Librazhd, Kavajë, Mirditë, etj.
+Grafiku me të dhënat mbi numrin e ekzaminimeve klinike biokimike të realizuara në total në
+Spitalet Bashkiake për vitet 2023, 2024:
+24,75221,877
+10,449
+44,535
+80,313 75,153 81,354
+89,192
+704
+122,372
+12,739
+42,611 46,372
+13,209
+172,122
+28,979
+2,505
+35,753
+86,197
+90,467
+7,470 164
+96,081
+339
+0
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+160,000
+180,000
+200,000
+Kucovë	
+Skrapar	
+Bulqizë
+Mat
+Kavajë
+Krujë
+Gramsh	
+Librazhd
+Peqin
+Lushnjë
+Mallakastër
+Përmet
+Tepelenë
+Devoll
+Pogradec
+Ersekë
+Has
+Tropojë
+Lac
+Mirditë
+Pukë
+Malësi e madhe
+Sarandë	
+Delvinë
+Numri i ekzaminimeve laboratorike të realizuara në Spitalet
+Bashkiake për vitin 2024
+1,185,709
+1,149,367
+1,130,000
+1,140,000
+1,150,000
+1,160,000
+1,170,000
+1,180,000
+1,190,000
+Viti 2024 Viti 2023
+Krahasimi i numrit të ekzaminimeve laboratorike të realizuara në
+Spitalet Bashkiake për vitet 2023, 2024
+
+-- 45 of 89 --
+
+46
+Nga grafiku krahasues për vitet 2023, 2024 vihet re se për vitin 2024 kemi rritje të numrit të
+ekzaminimeve laboratorike të realizuara në Spitalet Bashkiake.
+Ekzaminimet mikrobiologjike dhe imunologjike 2024
+Për vitin 2024 janë kryer në total 14,228 ekzaminime mikrobiologjike dhe imunologjike.
+Grafiku me të dhënat mbi numrin e ekzaminimeve të kryera në spitale për vitet 2023, 2024:
+Nga grafiku vihet re se për vitin 2024 numri i ekzaminimeve mikrobiologjike dhe imunologjike
+të kryera në spitale është më i ulur krahasuar me vitin 2023.
+Ekzaminimet radiologjike dhe endoskopike
+Për vitin 2024 janë realizuar në total 977,935 ekzaminime radiologjike dhe endoskopike për
+spitalet Universitare, Rajonale dhe Bashkiake.
+Nga krahasimi i numrit të ekzaminimeve për vitin 2024 me numrin e ekzaminimeve për vitin
+2023 rezulton se janë realizuar 48,289 ekzaminime radiologjike dhe endoskopike më shumë
+gjatë vitit 2024.
+Më poshtë gjeni paraqitjen grafike për periudhën Janar - Dhjetor 2023 dhe Janar - Dhjetor 2024,
+për numrin e ekzaminimeve radiologjike dhe endoskopike në total, të kryera nga Spitalet
+Universitare, Rajonale dhe Bashkiake.
+14,228
+30,806
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+Viti 2024 Viti 2023
+Krahasimi i numrit të ekzaminimeve mikrobiologjike dhe
+imunologjike për vitet 2023, 2024
+
+-- 46 of 89 --
+
+47
+Më poshtë gjendet paraqitja grafike për vitet 2023, 2024 për numrin e ekzaminimeve
+radiologjike dhe endoskopike të kryera në Spitalet Universitare, Rajonale dhe Bashkiake.
+Ekzaminime në shërbime të ndryshme
+Në lidhje me numrin e ekzaminimeve në shërbime të ndryshme, për periudhën Janar-Dhjetor
+2024 janë realizuar në total 375,630 ekzaminime në spitalet universitare, rajonale dhe bashkiake.
+Më poshtë gjendet paraqitja grafike për vitet 2023, 2024:
+929,646
+977,935
+900,000
+910,000
+920,000
+930,000
+940,000
+950,000
+960,000
+970,000
+980,000
+990,000
+viti 2023 viti 2024
+Krahasimi i numrit të ekzaminimeve radiologjike dhe endoskopike
+për vitet 2023, 2024
+319,883
+464,248
+145,515
+285,606
+537,853
+154,476
+0
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+Universitare Rajonale Bashkiake
+Krahasimi i numrit të ekzaminimeve radiologjike dhe endoskopike
+sipas spitaleve për vitet 2023, 2024
+2023 2024
+
+-- 47 of 89 --
+
+48
+7.4 Paketat shëndetësore
+Monitorimi dhe analizimi i paketave shëndetësore nga institucionet shëndetësore publike dhe
+private të kontraktuara dhe të financuara nga Fondi bëhet në zbatim të Vendimit Nr. 308, datë
+21.05.2014, “Për miratimin e paketave të shërbimeve shëndetësore që do të financohen nga
+Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor në shërbimin spitalor”, i ndryshuar.
+Gjatë vitit 2024 institucionet shëndetësore publike, private dhe shoqëria konçesionare, të
+kontraktuara nga Fondi, kanë ofruar shërbimet për ofrimin e paketave shëndetësore pacientëve.
+Paketa e Dializë s
+Shërbimi i paketës së dializës është ofruar nga 1 spital publik, 8 institucione shëndetësore
+jopublike dhe 1 PPP (Shoqëria Tregtare DiaVita Sh.p.k.).
+Numri total i pacientëve që janë trajtuar me dializë në institucionet shëndetësore publike dhe
+jopublike në muajin Dhjetor 2024 është 1,506 pacientë, nga të cilët 884 pacientë në spitalet
+jopublike, ose 58.7%, 114 pacientë në spitalet publike, ose 7.6% dhe 508 pacientë, ose 33.7% në
+5 qendrat e dializës të Shoqërisë Tregtare “Dia Vita Sh.p.k.” (PPP).
+Në vitin 2024 nga institucionet shëndetësore publike dhe private të kontraktuara nga Fondi për
+ofrimin e shërbimit të hemodializës u kryen 205,633 seanca hemodialize në total, nga të cilat
+9,544 seanca nga institucionet shëndetësore publike, 126,261 seanca nga institucionet
+shëndetësore jopublike, si dhe 69,828 seanca dialize nga kontrata me PPP (konçesionari
+“DiaVita Sh.p.k.”).
+335,586
+375,630
+310,000
+320,000
+330,000
+340,000
+350,000
+360,000
+370,000
+380,000
+2023 2024
+Numri i ekzaminimeve të kryera në shërbime të ndryshme për vitet
+2023, 2024
+
+-- 48 of 89 --
+
+49
+200,245
+205,633
+197,000
+198,000
+199,000
+200,000
+201,000
+202,000
+203,000
+204,000
+205,000
+206,000
+207,000
+Viti 2023 Viti 2024
+Numri i seancave të kryera të dializës për vitet 2023, 2024
+1,397
+1,506
+1,340
+1,360
+1,380
+1,400
+1,420
+1,440
+1,460
+1,480
+1,500
+1,520
+Viti 2023 Viti 2024
+Numri total i pacientëve të dializës për vitet 2023, 2024
+4.64
+61.4
+33.96
+Përqindja e seancave të kryera të dializës sipas institucioneve
+shëndetësore për vitin 2024
+Instit. Publike Instit Jopublike PPP (DiaVita)
+
+-- 49 of 89 --
+
+50
+Paketat e Kardiologjisë
+Shërbimi për Paketat Shëndetësore të Kardiologjisë është mbuluar nga:
+Qendra Spitalore Universitare “Nënë Tereza” Tiranë, e cila ka kryer numrin më të madh të
+proçedurave mjekësore, Qendra Spitalore Rajonale, Tiranë "Shefqet Ndroqi", Spitali Memorial
+Fier, si dhe Spitali Rajonal Shkodër .
+Në paketat e kardiologjisë përfshihen këto proçedura mjekësore:
+• Pacemaker definitiv
+• Angiografi koronare
+• Angioplastikë koronare (PCA)
+• Angiografi + Angioplastikë
+Theksojmë se edhe gjatë vitit 2024 shërbimi i kardiologjisë në QSUNT për proçedurat e
+mësipërme, është ofruar në 24 orë, duke përmirësuar ndjeshëm ofrimin e shërbimit shëndetësor
+për pacientët.
+Për vitin 2024 janë kryer në total 9,345 proçedura të kardiologjisë, të cilat janë kryer të gjitha në
+spitalet publike. Të gjitha nevojat janë mbuluar 100 % nga spitalet publike.
+Paketat shëndetësore të kardiologjisë të realizuara sipas paketave shëndetësore për periudhën
+Janar-Dhjetor 2024 paraqiten si më poshtë:
+a-Pacemaker definitive 591 paketa
+b-Angiografi koronare 5,082 paketa
+c-Angioplastika koronare 174 paketa
+d-Angiografi + Angioplastikë 3,498 paketa
+9,910
+9,345
+9,000
+9,100
+9,200
+9,300
+9,400
+9,500
+9,600
+9,700
+9,800
+9,900
+10,000
+Viti 2023 Viti 2024
+Numri i paketave të kardiologjisë të kryera për vitet 2023, 2024
+
+-- 50 of 89 --
+
+51
+Paketa e Kardiokirurgjisë
+Shërbimi për paketat shëndetësore të Kardiokirurgjisë për vitin 2024, është mbuluar nga Qendra
+Spitalore Universitare “Nënë Tereza” Tiranë dhe Qendra Spitalore Rajonale, Tiranë "Shefqet
+Ndroqi".
+Në paketat e kardiokirurgjisë përfshihen këto proçedura mjekësore:
+1 By Pass aorto koronar
+1.1. By Pass + Plastikë e Valvulës
+1.2. By Pass + Zëvendësim me Valvul Mekanike
+1.3. By Pass + Zëvendësim me Valvul Biologjike
+2. Valvular
+2.1. Mono Valvular me Protezë Mekanike
+2.2. Mono Valvular me Protezë Biologjike
+2.3. BI Valvular me Protezë Mekanike
+2.4. BI Valvular me Protezë Biologjike
+3. Interventi Kongenital
+Për vitin 2024, janë kryer 1,108 proçedura mjekësore, të cilat janë kryer të gjitha në institucionet
+shëndetësore publike, përkatësisht 751 proçedura janë kryer në Qendrën Spitalore Universitare
+“Nënë Tereza” Tiranë, ose 67.77 % dhe 357 procedura janë kryer në Qendrën Spitalore
+Rajonale, Tiranë "Shefqet Ndroqi", ose 32.23 %.
+0
+1,000
+2,000
+3,000
+4,000
+5,000
+6,000
+Qendra Spitalore
+Universitare "Nënë
+Tereza" Tiranë
+Qendra Spitalore
+Rajonale, Tiranë
+"Shefqet Ndroqi"
+Spitali Memorial Fier Spitali Rajonal
+Shkodër
+3,948
+2,519 2,114
+764
+5,671
+1,765 1,775
+699
+Numri i paketave të kardiologjisë të kryera sipas spitaleve publike
+për vitet 2023, 2024
+Viti 2024 Viti 2023
+
+-- 51 of 89 --
+
+52
+Paketa e Transplantit Renal të Veshkë s dhe Paketa e Terapisë së Flakjes Akute
+Paketa e Transplantit Renal të Veshkës dhe Paketa e Terapisë së Flakjes Akute është mbuluar
+nga institucionet shëndetësore jopublike të kontraktuara me Fondin.
+Gjatë vitit 2024, janë kryer gjithsej 14 transplante dhe asnjë proçedurë e terapisë së flakjes akute
+të veshkës nga të cilat:
+7 transplante renale janë kryer në spitalin jopublik “Amerikan”;
+7 transplante renale janë kryer në spitalin jopublik “Hygeia”.
+Në spitalet universitare publike nuk ofrohet ende paketa e transplantit të veshkës dhe paketa e
+terapisë së flakjes akute të veshkës.
+998
+1,108
+940
+960
+980
+1,000
+1,020
+1,040
+1,060
+1,080
+1,100
+1,120
+Viti 2023 Viti 2024
+Numri i paketave të kardiokirurgjisë të kryera për vitet 2023,
+2024
+26
+14
+0
+5
+10
+15
+20
+25
+30
+Viti 2023 Viti 2024
+Numri i Transplanteve të veshkës të kryera për vitet 2023, 2024
+
+-- 52 of 89 --
+
+53
+Paketa e Implantit Koklear
+Paketa e Implantit Koklear gjatë vitit 2024 është ofruar nga Qendra Spitalore Universitare “Nënë
+Tereza” Tiranë. Gjatë vitit 2024, janë realizuar 3 paketa të implantit koklear në Qendrën
+Spitalore Universitare “Nënë Tereza” Tiranë.
+Paketa e vendosjes së Fistulës dhe Graftit
+Paketa e vendosjes së Fistulës dhe Graftit te pacientët e dializës për vitin 2024 është ofruar nga
+Qendra Spitalore Universitare “Nënë Tereza” Tiranë, si dhe spitali jopublik “Amerikan 1” e
+spitali jopublik “Hygeia”.
+Gjatë vitit 2024 janë realizuar në total 218 vendosje fistule, nga të cilat në Qendrën Spitalore
+Universitare “Nënë Tereza” Tiranë, janë vendosur 103 fistula, në spitalin jopublik “Amerikan”
+janë vendosur 50 fistula dhe në spitalin jopublik “Hygeia” janë vendosur 65 fistula.
+Gjithashtu në pacientët e dializës në vitin 2024 janë vendosur gjithsej 26 grafte, nga të cilat 11
+grafte në Qendrën Spitalore Universitare “Nënë Tereza” Tiranë, 8 grafte në spitalin jopublik
+“Amerikan” dhe 7 grafte në spitalin jopublik “Hygeia”.
+2
+3
+0
+1
+2
+3
+4
+Viti 2023 Viti 2024
+Numri i paketave të Implantit Koklear të kryera për vitet 2023,
+2024
+
+-- 53 of 89 --
+
+54
+Paketa e Kataraktës
+Paketa e Kataraktës është ofruar nga spitalet publike të kontraktuar nga Fondi si Qendra
+Spitalore Universitare “Nënë Tereza” Tiranë, Spitali Universitar i Traumës, si dhe Spitalet
+Rajonale Fier, Vlorë, Elbasan dhe Durrës.
+Gjatë vitit 2024 janë trajtuar në total 4,090 pacientë me paketën e kataraktës, nga të cilët në
+Qendrën Spitalore Universitare “Nënë Tereza” Tiranë 3,245 pacientë, në Spitalin Rajonal Fier 87
+pacientë, në Spitalin Rajonal Vlorë 343 pacientë, në Spitalin Rajonal Durrës 197 pacientë, në
+Spitalin Rajonal Elbasan 2 pacientë, si dhe në Spitalin Universitar të Traumës 216 pacientë.
+162
+218
+0
+50
+100
+150
+200
+250
+Viti 2023 Viti 2024
+Numri i paketave të vendosjes së fistulës së thjeshtë të kryera për
+vitet 2023, 2024
+28
+26
+24
+25
+26
+27
+28
+29
+Viti 2023 Viti 2024
+Numri i paketave të Graftit të kryera për vitet 2023, 2024
+
+-- 54 of 89 --
+
+55
+Paketa e Radioterapisë, Trajtimi me akselerator linear
+Paketat e Radioterapisë, trajtimi me akselerator linear është ofruar vetëm nga Qendra Spitalore
+Universitare “Nënë Tereza” Tiranë. Në vitin 2024, janë realizuar gjithsej 29,665 seanca
+radioterapie sipas llojit të paketave të radioterapisë.
+Këto paketa shëndetësore ofrohen nga Qendra Spitalore Universitare “Nënë Tereza” Tiranë.
+7.5 Shërbimi i sterilizimit të instrumenteve kirurgjikalë
+Shoqëria konçesionare “Sani Service” ka ofruar në spitalet publike shërbimet e integruara të
+furnizimit të setit të personalizuar të instrumenteve kirurgjikale sterile, furnizimin me material
+mjekësor steril njëpërdorimësh në sallat kirurgjikale, trajtimin e mbetjeve biologjike dhe
+dezinfektimin e sallave kirurgjikale.
+4,138
+4,090
+4,060
+4,070
+4,080
+4,090
+4,100
+4,110
+4,120
+4,130
+4,140
+4,150
+Viti 2023 Viti 2024
+Numri i paketave të kataraktës të kryera për vitet 2023, 2024
+26,686
+29,665
+25,000
+25,500
+26,000
+26,500
+27,000
+27,500
+28,000
+28,500
+29,000
+29,500
+30,000
+Viti 2023 Viti 2024
+Numri i seancave të radioterapisë të kryera për vitet 2023, 2024
+
+-- 55 of 89 --
+
+56
+Në vitin 2024 , shërbimet e sterilizimit janë ofruar nga Shoqëria konçesionare “Sani Service në
+29 spitale publike (5 Spitale Universitare në Tiranë, 11 Spitale Rajonale dhe 13 Spitale
+bashkiake).
+Në Qendrën Spitalore Rajonale, Tiranë "Shefqet Ndroqi" në vitin 2024 është zgjeruar gama e
+procedurave të ndërhyrjeve kardiokirurgjikale nga Shërbimi Universitar i Kardiokirurgjisë.
+Në vitin 2024 janë kryer një numër më i lartë i ndërhyrjeve kirurgjikale krahasuar me të njëjtën
+periudhë të vitit të kaluar, faktorë që kanë ndikuar në përdorimin e më shumë seteve
+kirurgjikale në spital.
+Ndërhyrjet kirurgjikale sipas kompleksitetit të ndërhyrjeve rezultojnë:
+1- Kompleksitet i lartë 16,984 ndërhyrje kirurgjikale
+2- Kompleksitet i mesëm 23,109 ndërhyrje kirurgjikale
+3- Kompleksitet i ulët 25,209 ndërhyrje kirurgjikale
+Totali (1+2+3) 65,302
+4- Paketime me avull e me temp të ulët 100,725
+5- Sterilizimi me temperaturë të ulët 6,404
+__________________________________________________________________
+Totali (1+2+3+4+5) 172,431 ndërhyrje kirurgjikale, paketime me avull
+e sterilizim me temp. të ulët
+63,409
+65,302
+62,000
+62,500
+63,000
+63,500
+64,000
+64,500
+65,000
+65,500
+Viti 2023 Viti 2024
+Numri total i ndërhyrjeve kirurgjikale të kryera për vitet
+2023, 2024
+
+-- 56 of 89 --
+
+57
+15,962
+23,344 24,103
+16,984
+23,109 25,209
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+Kompleksitet i Lartë Kompleksiteti i Mesëm Kompleksiteti i Ulët
+Numri i ndërhyrjeve kirurgjikale sipas kompleksitetit për
+vitet 2023, 2024
+Viti 2023 Viti 2024
+92,858
+100,725
+88,000
+90,000
+92,000
+94,000
+96,000
+98,000
+100,000
+102,000
+Viti 2023 Viti 2024
+Numri i paketimeve me avull për vitet 2023, 2024
+5,052
+6,404
+0
+1,000
+2,000
+3,000
+4,000
+5,000
+6,000
+7,000
+Viti 2023 Viti 2024
+Numri i instrumenteve të sterilizuara me temperaturë të ulët
+për vitet 2023, 2024
+
+-- 57 of 89 --
+
+58
+7.6 Lista e barnave të rimbursueshme dhe e pajisjeve mjekësore të rimbursueshme
+Lista e barnave të rimbursueshme dhe e pajisjeve mjekësore të rimbursueshme është një nga
+paketat e rëndësishme që financohen nga Fondi i Sigurimit të Detyrueshëm të Kujdesit
+Shëndetësor.
+Mbi bazën e kontratave të Fondit me subjektet farmaceutike, realizohet rimbursimi i barnave,
+sipas Listës së Barnave të Rimbursuara dhe referuar masës së mbulimit sipas kategorive të
+caktuara me Vendim të Këshillit të Ministrave.
+Lista e barnave të rimbursueshme e cila ka hyrë në fuqi në datën 01.08.2024 me Vendimin Nr.
+491 datë 24.07.2024 të Këshillit të Ministrave është zgjeruar me 1,345 barna alternativa mjekimi
+në total.
+Listës i janë shtuar 50 barna të reja, nga të cilat 38 principe aktive të reja dhe 18 formë doza të
+reja.
+Barnat e reja të shtuara në Listën e Barnave të Rimbursueshme i përkasin grupit të barnave
+spitalore dhe grupit të barnave ambulatore, janë barna të cilat mbështesin akoma më shumë të
+gjitha diagnozat dhe patologjitë e sëmundjeve onkologjike, sëmundje kardiovaskulare, diabetin,
+sëmundje të veshkave, astmën bronkiale, sëmundje pulmonare, etj.
+Realizimi i planit të shpenzimeve të rimbursimit:
+Periudha Plani
+(000/lekë)
+Fakti
+(000/lekë) Tejkalimi (në 000/lekë) Realizimi në %
+Viti 2024 12,000,000 11,836,833 -163,167 98.6%
+Shpenzimet e rimbursimit për vitin 2023 rezultojnë në vlerën 11,836,833 mijë lekë, rreth 163.2
+milion lekë më pak se plani, rreth 1.4 % më pak se plani.
+
+-- 58 of 89 --
+
+59
+Situata e shpenzimeve të rimbursimit në nivel Fondi e krahasuar me rimbursimin e vitit 2024 dhe
+vitit 2023:
+Periudha Fakti (në 000/lekë) Recetat Rimb/recetë Rimb.mes./pacient
+Viti 2024 11,836,833 4,103,437 2,884 30,940
+Viti 2023 12,060,797 3,994,339 3,019 31,535
+0
+500,000
+1,000,000
+1,500,000
+2,000,000
+2,500,000
+3,000,000
+3,500,000
+Berat
+Dibër
+Durrës
+Elbasan
+Fier
+Gjirokastër
+Korçë
+Kukës
+Lezhë
+Shkodër
+Tiranë
+Vlorë
+Sarandë
+Tropojë
+Kamëz Vorë
+Lushnje
+Pogradec
+QSUT
+Rimbursimi Plan/Fakt për vitin 2024
+PLANI FAKTI
+0
+2,000,000
+4,000,000
+6,000,000
+8,000,000
+10,000,000
+12,000,000
+14,000,000
+Fakti (në 000/lekë) Recetat Rimb/recetë Rimb.mes./pacient
+11,836,833
+4,103,437
+2,884 30,940
+12,060,797
+3,994,339
+3,019 31,535
+Treguesit e rimbursimit për vitet 2023, 2024
+Viti 2024 Viti 2023
+
+-- 59 of 89 --
+
+60
+0
+1,000,000
+2,000,000
+3,000,000
+4,000,000
+5,000,000
+6,000,000
+7,000,000
+8,000,000
+9,000,000
+Viti 2017 Viti 2018 Viti 2019 Viti 2020 Viti 2021 Viti 2022 Viti 2023 Viti 2024
+3,684,293 3,841,537 3,434,182 3,334,102 3,423,541 3,694,117 3,720,452 3,681,078
+6,732,538 7,185,517 7,052,410 7,375,524 7,637,640 7,802,770
+8,340,345 8,155,755
+Ecuria e rimbursimit të barnave sipas grupeve për vitet 2017-2024
+Barnat Spitalore Barnat e farmacive te rrjetit te hapur
+Nga të dhënat konstatohet se:
+✓ Për vitin 2024 krahasuar me vitin 2023, shpenzimet e rimbursimit janë ulur me 223.9 milion
+lekë më pak.
+✓ Vlera mesatare e recetës është ulur me 135 lekë më pak.
+✓ Numri i recetave të rimbursuara është rritur me 109,098 receta më shumë.
+✓ Vlera e rimbursimit për pacient është ulur me 595 lekë më pak se një vit më parë.
+Ulja e shpenzimeve të rimbursimit, në krahasim me 1 vit më parë ka ardhur si pasojë e zbatimit
+të përcaktuar në Vendimin e Këshillit të Ministrave Nr. 491, datë 24.07.2024 “Për miratimin e
+listës së barnave që rimbursohen dhe masën e mbulimit të tyre”, hyrë në fuqi më datë
+01.08.2024.
+Në tabelën e mëposhtme paraqitet ecuria e shpenzimeve të rimbursimit gjatë viteve të fundit, e
+ndarë sipas barnave spitalore dhe barnave që tregtohen në rrjetin e hapur farmaceutik, paraqitur
+në mijë lekë:
+Grupet e
+barnave të
+LBR
+Viti 2017 Viti 2018 Viti 2019 Viti 2020 Viti 2021 Viti 2022 Viti 2023 Viti 2024
+Barnat
+Spitalore 3,684,293 3,841,537 3,434,182 3,334,102 3,423,541 3,694,117 3,720,452 3,681,078
+Barnat e
+farmacive të
+rrjetit të hapur
+6,732,538 7,185,517 7,052,410 7,375,524 7,637,640 7,802,770 8,340,345 8,155,755
+Barnat në total 10,416,831 11,027,054 10,486,592 10,709,626 11,061,181 11,496,887 12,060,797 11,836,833
+% e barnave
+Spitalore ndaj
+totalit
+35 34.8 32.7 31.1 30.95 32.1 30.8 31
+
+-- 60 of 89 --
+
+61
+Nga tabela dhe grafiku i mësipërm evidentohet se, gjatë Vitit 2024 ka një ulje të shpenzimeve të
+rimbursimit për grupin e barnave spitalore dhe si përqindje ndaj shpenzimeve totale të
+rimbursimit evidentohet një rritje gjatë këtij viti me 0.2%. Konkretisht për vitin 2024 shpenzimet
+e rimbursimit për barnat spitalore zënë rreth 31%, ndërsa një vit më parë zinin rreth 30.8 % të
+shpenzimeve totale të rimbursimit.
+Shpenzimet e rimbursimit sipas grupeve ATC (anatomik, terapeutik, kimik) të barnave
+Krahasimi grafik i ecurisë së rimbursimit sipas grupeve ATC për vitet 2023, 2024:
+Krahasuar me vitin 2023, ulja e shpenzimeve të rimbursimit ka ardhur për shkak se grupet me
+impakt te lartë financiar kanë ulje të vlerës së rimbursimit.
+Ulja më e madhe në shpenzimet e rimbursimit vërehet në grupet e mëposhtme:
+• Barnat e grupit C “Sistemi Cardiovascular” me rreth 25.5 milion lekë më pak se në vitin
+2023. Për vitin 2024 grupi C, zë 24.2% të shpenzimeve të rimbursimit. Tek ky grup ulja më e
+madhe krahasuar me vitin 2023 konstatohet te barnat e nëngrupit të “Barnat vepruese në
+Sistemin Renin-Angiotensin”.
+0
+500,000,000
+1,000,000,000
+1,500,000,000
+2,000,000,000
+2,500,000,000
+3,000,000,000
+3,500,000,000
+Trakti digjestiv dhe metabolizmi	
+Gjaku dhe organet e hemopojezes
+Sistemi kardiovaskular
+Dermatologjiket
+Sistemi urogjenital dhe hormonet
+seksuale
+Preparatet hormonale sistemike
+Antiinfetkivet e pergjithshem
+Barnat antineoplazike dhe
+imunosupresoret
+Sistemi Muskolo skeletik
+Sistemi Nervor
+Barnat Aniparazitare
+Sistemi Respirator	
+Organet e shqisave
+Te ndryshme
+Rimbursimi sipas grupeve ATC për vitet 2023, 2024
+Rimbursimi Janar-Dhjetor 2024 Rimbursimi Janar-Dhjetor 2023
+
+-- 61 of 89 --
+
+62
+• Grupi A “Trakti digjestiv dhe metabolizmi” me 65.2 milion lekë më pak, i cili zë rreth 20.3%
+të shpenzimeve totale të rimbursimit krahasuar me 18.5% që zinte vitin e kaluar se e njëjta
+periudhë. Nëngrupi me peshën specifike më të madhe është nëngrupi i “Antidiabetikëve” të
+cilët zënë 97 % të shpenzimeve të gjithë grupit A, (grupi i insulinave).
+Ecuria e shpenzimeve të fishave të diabetit
+Duke filluar nga data 27.02.2023, Fishat e Diabetit rimbursohen në të gjithë farmacitë e rrjetit të
+hapur farmaceutik, të cilat kanë kontratë me Drejtoritë Rajonale të Fondit.
+Fishat e diabetit përshkruhen në recetat elektronike të rimbursuara nga mjekët e familjes për të
+gjithë pacientët, të cilët i përkasin dy kategorive të veçanta. Konkretisht, kategoria “Diabetike 0-
+25 vjeç” si dhe kategoria “Diabetike mbi 65 vjeç”.
+2,940,000,000
+2,950,000,000
+2,960,000,000
+2,970,000,000
+2,980,000,000
+2,990,000,000
+Rimb. Janar-Dhjetor 2024 Rimb. Janar-Dhjetor 2023
+2,961,343,983
+2,986,858,220
+Shpenzimet e rimbursimit (mijë lekë) për grupin C "Sistemi
+kardiovaskular" për vitet 2023, 2024
+-500,000,000
+0
+500,000,000
+1,000,000,000
+1,500,000,000
+2,000,000,000
+2,500,000,000
+Rimb. Janar-Dhjetor 2024 Rimb. Janar-Dhjetor 2023 Diferenca
+2,410,354,496 2,475,626,837
+-65,272,341
+Shpenzimet e rimbursimit (mijë lekë) për grupin A "Trakti digjestiv dhe
+metabolizmi" për vitet 2023, 2024
+
+-- 62 of 89 --
+
+63
+Përveç grupmoshës nga 0 deri në 25 vjeç dhe pensionistëve mbi 65 vjeç, në zbatim të VKM
+Nr.492, datë 24.07.2024 “Për një ndryshim në vendimin Nr.61 datë 03.02.2017 të Këshillit të
+Ministrave "Për miratimin e paketave të pajisjeve mjekësore"” edhe invalidët e punës dhe
+personat me aftësi të kufizuar të grupmoshës nga 25 vjeç deri në 65 vjeç i përfitojnë 100% falas
+këto fisha. Duke filluar nga data 1 Gusht 2024, këto kategori të popullatës të diagnostikuar me
+Diabet Mellitus nga mjeku i familjes, përfitojnë falas fishat e diabetit për matjen e glicemisë.
+Vlera e rimbursuar për fishat e diabetit për periudhën Janar-Dhjetor 2024 është rreth 147.1
+milion lekë për pacientët me Diabet Mellitus që i përkasin katër kategorive të sipërcituara.
+0
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+Berat
+Dibër
+Durrës
+Elbasan
+Fier
+Gjirokastër
+Korçë
+Kukës
+Lezhë
+Shkodër
+Tiranë
+Vlorë
+Sarandë
+Tropojë
+Kamëz Vorë
+Lushnje
+Pogradec
+6,820
+3,887
+14,357 12,556 11,114
+3,921
+11,416
+1,420
+4,966
+8,768
+42,749
+7,121
+2,083 665
+7,045
+4,500 3,754
+8,729
+5,453
+24,967
+16,801 16,240
+4,679
+15,031
+1,989
+6,821
+11,802
+53,185
+10,516
+2,327
+635
+9,161 7,830
+5,319
+Ecuria e fishave të diabetit për vitin 2024
+Rimbursimi viti 2024 Nr.recetave të rimbursuara 2024
+
+-- 63 of 89 --
+
+64
+Rimbursimi sipas kategorive të popullsisë për vitin 2024 krahasuar me vitin 2023
+Emërtimi i kategorisë Rimbursimi
+2024
+Rimbursimi
+2023
+Diferenca
+Nr. i
+recetave
+2024
+Nr. i
+recetave
+2023	
+Diferenca
+Nr. i
+Pacienteve
+Nr. i
+Pacienteve
+Diferenca
+ Treguesi
+Rimb.
+per
+recetë/lek
+2024
+Treguesi
+Rimb.
+per
+recetë/lek
+2023	
+Diferenca
+Femije 0-12 muajsh 267 189 78 204 212 -8 112 152 -40 1,308 892 416
+Invalid i plote 1,898,725 1,946,365 -47,640 495,876 483,072 12,804 35,627 35,595 32 3,829 4,029 -200
+Invalid i pjesshem 1,955 1,927 29 936 966 -30 207 190 17 2,089 1,995 95
+Invalid lufte 142 213 -72 63 108 -45 8 9 -1 2,253 1,977 276
+Veteran 16,591 21,849 -5,259 5,952 7,829 -1,877 395 519 -124 2,787 2,791 -3
+Pensionist pa afat 5,691,848 5,561,150 130,698 2,467,594 2,373,281 94,313 209,701 208,633 1,068 2,307 2,343 -37
+Paafte menderisht ose
+fizikisht 73,548 91,130 -17,581 24,050 26,742 -2,692 3,508 3,679 -171 3,058 3,408 -350
+Leje lindje/ Raport
+Mjekesor 48 161 -113 34 70 -36 19 24 -5 1,410 2,299 -889
+Sigurim vullnetar 287 150 137 209 114 95 89 23 66 1,375 1,319 56
+I verber 4,187 5,420 -1,232 1,583 2,038 -455 184 251 -67 2,645 2,659 -14
+IEVP 11,626 12,767 -1,141 11,356 11,178 178 2,532 2,672 -140 1,024 1,142 -118
+Pension social 42,507 69,827 -27,320 24,531 30,709 -6,178 2,861 3,730 -869 1,733 2,274 -541
+Student 18-25 vjec 404 532 -128 116 178 -62 57 76 -19 3,480 2,988 492
+Ndihme ekonomike 13,382 11,091 2,290 12,108 9,584 2,524 3,588 2,826 762 1,105 1,157 -52
+Grua shtatzene 126 333 -207 28 52 -24 16 31 -15 4,493 6,408
+-
+1,915
+Azilkerkues 7,530 9,621 -2,090 2,471 2,494 -23 380 311 69 3,047 3,858 -810
+Viktime trafikimi 2 0 2 1 0 1 1 0 1 2,009 0 2,009
+I punesuar 28,995 27,371 1,624 21,949 19,004 2,945 6,333 4,730 1,603 1,321 1,440 -119
+I vetepunesuar 2,186 3,114 -928 1,677 2,111 -434 499 734 -235 1,303 1,475 -172
+Femije 1-18 vjec 171,019 203,208 -32,189 22,151 24,195 -2,044 5,498 6,636
+-
+1,138 7,721 8,399 -678
+I papune/punekerkues 326 2,962 -2,635 416 3,041 -2,625 234 1,064 -830 784 974 -190
+Te perndjekur politike 571 634 -63 174 262 -88 29 67 -38 3,282 2,421 861
+Pension me afat 2,305 3,358 -1,053 2,075 2,347 -272 533 529 4 1,111 1,431 -320
+Perfitues te tjere nga
+ISSH 148 199 -51 82 121 -39 16 19 -3 1,804 1,644 161
+Anetar i papaguar i
+familjes 561 57 504 668 56 612 284 25 259 840 1,016 -176
+I vetpunesuar ne
+bujqesi 7 283 -276 8 195 -187 5 46 -41 846 1,450 -604
+Invalid i pjesshem
+jashte kategorie 110 412 -302 115 312 -197 37 94 -57 957 1,320 -363
+Semundje Kronike 3,861,402 4,077,059 -215,657 1,005,417 992,361 13,056 112,068 109,482 2,586 3,841 4,108 -268
+Invalid/Tetraplegjik 5,920 8,965 -3,045 1,570 1,606 -36 232 210 22 3,771 5,582
+-
+1,812
+Persona te
+diagnostikuar me
+Sars-Cov2 107 447 -341 23 101 -78 22 99 -77 4,641 4,430 211
+Total Barna 11,836,833 12,060,797 -223,964 4,103,437 3,994,339 109,098 385,075 382,456 2,619 2,885 3,019 -135
+Diabetik 0-25 vjec 4,400 4,687 -287 3,546 2,833 713 595 599 -4 1,241 1,654 -413
+Diabetik > 65 vjec 141,396 113,699 27,697 196,006 170,098 25,908 55,939 54,793 1,146 721 668 53
+Diabetik Invalid i
+punes (25- 65) vjec 989 0 989 1,411 0 1,411 687 0 687 701 0 701
+Diabetik I paafte
+menderisht ose
+fizikisht (25- 65) vjec 356 0 356 522 0 522 290 0 290 683 0 683
+Total Fisha 147,141 118,385 28,756 201,485 172,931 28,554 57,511 55,392 2,119 730 685 46
+TOTAL 11,983,974 12,179,181 -195,207 4,304,922 4,167,270 137,652 442,586 437,848 4,738 3,615 3,704 -89
+
+-- 64 of 89 --
+
+65
+Nga krahasimi i treguesve të rimbursimit të vitit 2024 me treguesit e një viti më parë konstatohet
+se ulje totale e shpenzimeve të rimbursimit prej rreth 223.9 milion lekë, ka ardhur për shkak të
+uljes tek disa kategori të veçanta dhe uljes se vlerës mesatare për recetë me 89 lekë më pak, ku
+specifikojmë:
+➢ Sëmundje kronike – me një ulje prej 215.6 milion lekë më pak se viti paraardhës ose rreth
+96.4% e uljes totale të shpenzimeve. Për këtë kategori është rritur numri i recetave të
+rimbursuara me 13,056 receta më shumë dhe është ulur vlera mesatare për recetë me 268
+lekë.
+➢ Pensionist pa afat - me një rritje prej 130.6 milion lekë më shumë se viti paraardhës,
+shoqëruar me 94,313 receta më shumë, është ulur vlera mesatare për recetës 37 lekë dhe janë
+trajtuar 1,068 pacientë më shumë, krahasuar me vitin 2023.
+• Fishat e diabetit përshkruhen në recetat elektronike të rimbursuara nga mjekët e familjes për
+të gjithë pacientët, të cilët i përkasin dy kategorive të veçanta; kategoria Diabetike 0-25 vjeç
+si dhe kategoria Diabetike mbi 65 vjec (për vitin 2023 deri më 31.07.2024).
+Në zbatim të VKM Nr.492, datë 24.07.2024 „Për një ndryshim në vendimin Nr.61 datë
+03.02.2017 të Këshillit të Ministrave "Për miratimin e paketave të pajisjeve mjekësore"“,
+ndryshohet pika 9.1 e Vendimit Nr.61, në të cilën shtohen dy kategori të reja përfituese,
+konkretisht: „Diabetik Invalid i punës 25- 65 vjeç“, „Diabetik i paaftë mendërisht ose fizikisht
+25- 65 vjeç“.
+Vlera e rimbursuar për fishat e diabetit për periudhën Janar-Dhjetor 2024 është rreth 147.1
+milion lekë, duke përfituar rreth 57,511 pacientë që i përkasin katër kategorive të sipërcituara.
+Identifikimi i barnave me impaktin më të lartë në shpenzimet e rimbursimit
+➢ Për vitin 2024, 20 barnat spitalore me impaktin më të lartë financiar kanë shpenzime
+rimbursimi në vlerë rreth 2.8 miliardë lekë duke zënë rreth 23.3% të shpenzimeve totale të
+rimbursimit.
+➢ Ndërsa 20 barnat ambulatore me impaktin më të lartë financiar kanë shpenzime rimbursimi
+në vlerë rreth 4.2 miliard lekë duke zënë rreth 35 % të shpenzimeve totale të rimbursimit.
+• Bari spitalor me rimbursimin më të lartë është Ribociclib 200 mg.
+• Bari ambulator me rimbursimin me të lartë është Insuline Aspart solution 100 Nj.N/ml.
+
+-- 65 of 89 --
+
+66
+8. Zhvillimi i sistemit të informacionit
+8.1 Sistemi elektronik për formularët e vizitave të mjekut të familjes
+Ky projekt mundëson raportimin online të vizitave të pacientëve pranë mjekëve në Qendrat
+Shëndetësore e Poliklinikat.
+0
+50,000,000
+100,000,000
+150,000,000
+200,000,000
+250,000,000
+300,000,000
+350,000,000
+400,000,000
+Ribociclib 200 mg	
+Ruxolitinib 20 mg	
+Nilotinib 150 mg
+Pembrolizumab 25mg/ml - 4ml
+Palbociclib 125 mg	
+Enzalutamide 40 mg	
+IBRUTINIB 140 mg
+Dabrafenib 75 mg
+Trastuzumab 600 mg / 5 ml
+Methoxy Polyethylene Glycol -	
+epoetin beta 100 mcg/0.3 ml
+Aflibercept 40mg/ml
+Somatropine 12 mg(36 Nj.N)
+Trametinib 2 mg
+Interferon Beta - 1a 44 mcg (12
+MIU)
+Palbociclib 100 mg
+Omalizumab 150mg/2ml
+Ranibizumab 10mg/ml
+Sorafenib 200 mg	
+Palbociclib 75 mg	
+Pazopanib 400 mg
+Rimbursimi i Top 20 barnave spitalore për vitin 2024
+0
+100,000,000
+200,000,000
+300,000,000
+400,000,000
+500,000,000
+600,000,000
+Insuline Aspart solution 100
+Nj.N/ml - 3 ml
+Insulin Glargine 300 Nj.N./ml	
+Insuline Glargine solution 100
+Nj.N/ml - 3 ml
+Rivaroxaban 20 mg
+Sacubitril + Valsartan 24 + 26 mg	
+Insuline Glulisine 100 N.Nj - 3 ml
+Ranolazine 500 mg
+Vildagliptin+Metformine 50mg +
+850mg
+Sacubitril + Valsartan 49 + 51 mg
+Insuline Detemir solution 100 Nj.N/
+ml - 3 ml
+APIXABAN 5 mg	
+Ranolazine 375 mg
+Indacaterol + Glycopyrronium
+110mcg +50mcg
+Beclomethasone + Formoterol
+100/6 mcg - 120 doza
+Edoxaban 60 mg
+Beclometasone + Formoterol +	
+Glycopyrronium (87 mcg + 5…	
+Olmesartan + Amlodipine +	
+Hydrochlorothiazide 20 + 5 +…
+Methyldopa 250 mg	
+Liraglutide 6 mg/ml
+Sacubitril + Valsartan 97 + 103 mg
+Rimbursimi i Top 20 barnave të rrjetit të hapur për vitin 2024
+
+-- 66 of 89 --
+
+67
+Në vijim të zbatimit të kontratës me objekt “Regjistri elektronik për formularët e vizitave të
+mjekut të familjes”, me Nr. 1381 Prot., datë 18.03.2019, Fondi në bashkëpunim me Agjencinë
+Kombëtare të Shoqërisë së Informacionit ka zhvilluar një sistem informatik për regjistrimin e
+vizitave të pacientëve në shërbimin parësor.
+Projekti konsiston në:
+• Zbatimin e sistemit e-vizita për regjistrimin, administrimin dhe përpunimin e vizitave të
+pacientëve online nga ofruesit e kujdesit shëndetësor parësor që raportojnë pranë FSDKSH
+dhe MSHMS.
+Avantazhet e regjistrimit të vizitave në sistemin e ri:
+• Evitohet regjistrimi manual i vizitave në formularët letër nga mjekët e Kujdesit Shëndetësor
+Parësor.
+• Ndërvepron me sistemet e tjera elektronike dhe rrit saktësinë e të dhënave që regjistrohen.
+• Tashmë në sistem ruhet historiku i vizitave dhe informacionit shëndetësor të pacientit
+(shenjat jetësore, alergjitë, etj).
+• Raporte në kohë reale të qendërzuara mbi të dhënat, të cilat shërbejnë për vendim-marrje
+klinike, menaxheriale dhe administrative.
+Portali i mjekut të familjes dhe moduli “Single Sign On” bën të mundur akses te:
+• Sistemi i Regjistrit Elektronik i të Siguruarve (AHIS);
+• Sistemi i Formularit të Vizitës (SISHP);
+• Sistemi i Referimit Online (e-Referimi);
+• Sistemi i Recetës Elektronike (e-Rx);
+• Sistemi i Raportit Elektronik (e-RM).
+Ky modul lehtëson punën e ofruesve të kujdesit shëndetësor parësor në aksesimin e disa
+sistemeve informatike njëherësh me një logim të vetëm.
+Në zbatim të kontratës Nr. 3, datë 28.02.2022 dhe të kontratës Nr. 107, datë 08.10.2024 me
+objekt: “Mirëmbajta e sistemit formularët e vizitave të mjekut të familjes” gjatë viteve 2023,
+2024 ka vijuar përdorimi i sistemit e-vizita në plotësimin e formularëve përkatës të vizitave nga
+stafi mjekësor. Më konkretisht stafi që plotëson aktualisht formularë vizite paraqitet si më
+poshtë:
+
+-- 67 of 89 --
+
+68
+Staf që plotëson formular vizite
+DRF/DF Numri i
+Agjencive Numri i QSH Mjekë Infermierë
+Berat 3 21 98 555
+Dibër 3 28 77 535
+Durrës 3 32 353 712
+Elbasan 4 46 251 889
+Fier 2 23 162 438
+Gjirokastër 3 18 79 411
+Kamëz-Vorë 1 8 131 192
+Korçë 3 25 113 582
+Kukës 2 16 50 236
+Lezhë 3 18 125 402
+Lushnje 1 17 84 256
+Pogradec 1 8 49 214
+Sarandë 1 13 42 144
+Shkodër 3 31 179 678
+Tiranë 1 27 697 1,028
+Tropojë 1 8 19 131
+Vlorë 1 17 149 443
+Gjatë vitit 2023, janë bërë përditësime të sistemit e-vizita dhe të webservice-ve të tij, në kuadër
+të vënies në punë të sistemit të përmirësuar AHIS për të mundësuar aksesimin e sistemit AHIS të
+ri, nëpërmjet portalit të mjekut me SSO. Gjithashtu, janë shtuar disa raporte të reja dhe janë
+përmirësuar raporte ekzistuese sipas kërkesave, si dhe është mundësuar në sistem regjistrimi i
+vizitave të banorëve tek mjeku i familjes kur banori referohet tek psikologu/punonjësi social.
+Gjatë vitit 2024 është realizuar në sistemin e-vizita digjitalizimi i 6 mjeteve për vendim-marrje
+klinike. Janë kryer përditësime të ndërveprimit të sistemit me sistemin e ri AHIS, janë shtuar disa
+raporte të reja dhe janë përmirësuar raporte ekzistuese sipas kërkesave.
+8.2 Përditësim i sistemit të menaxhimit të Depove Farmaceutike
+Ky projekt i realizuar në vitin 2019 mundëson raportimin online të depove farmaceutike mbi
+qarkullimin e barnave të Listës së Barnave të Rimbursueshme midis distributorëve të ndryshëm,
+duke mundësuar shmangien e fiktivitetit.
+Në zbatim të kontratave të shërbimit me Nr. 8358 Prot., datë 06.12.2021 dhe me Nr 98 Prot, datë
+10/06/2024 me objekt “Mirëmbajtje e sistemit të depove farmaceutike (e-Depo) për FSDKSH”,
+gjatë viteve 2023 dhe 2024, ka vijuar përdorimi i këtij sistemi, si i vetmi sistem zyrtar i njohur
+nga Fondi, i cili përdoret nga rreth 65 depo farmaceutike.
+
+-- 68 of 89 --
+
+69
+Gjatë vitit 2023, me hyrjen në fuqi të VKM–së për rimbursimin e fishave të diabetit për
+kategorinë Diabetikë mbi 65 vjeç, është realizuar proçesi i inventarizimit të këtyre pajisjeve
+mjekësore në sistemin e-depo, si dhe transaksionet hyrje-dalje midis depove farmaceutike dhe
+farmacive të rrjetit të hapur, të kontraktuara me Fondin për rimbursimin e fishave të diabetit.
+Sistemi e-Depo mundëson një pasqyrë të konsoliduar të informacionit mbi inventarin e depove
+farmaceutike për barnat e rimbursueshme dhe fishat e diabetit të rimbursueshme, duke trajtuar
+gjendjen e inventarit, fletë hyrjet nga importi si dhe fletë daljet drejt depove të tjera shpërndarëse
+apo subjekteve farmaceutike.
+8.3 Sistemi i recetës elektronike
+Gjatë vitit 2023, FSDKSH në bashkëpunim me AKSHI-n ka vijuar me mirëmbajtjen e sistemit të
+recetës elektronike. Në zbatim të kontratës me Nr. 3497 Prot., datë 21.05.2021, me qëllim
+përmirësimin e shërbimeve publike është realizuar në sistemin e recetës elektronike integrimi i
+teknologjisë së re të nënshkrimit elektronik nëpërmjet platformës së nënshkrimit elektronik të
+zhvilluar nga AKSHI. Ky sistem përdoret nga rreth 1,800 mjekë dhe rreth 1,600 farmacistë të
+cilët gjenerojnë, ekzekutojnë dhe nënshkruajnë elektronikisht receta me rimbursim.
+Gjatë vitit 2024, me hyrjen në fuqi të VKM-së Nr. 492 datë 24.07.2024 “Për një ndryshim në
+Vendimin nr. 61 datë 03.02.2017 të Këshillit të Ministrave “Për miratimin e paketave të pajisjeve
+mjekësore të rimbursueshme”, të ndryshuar, për rimbursimin e fishave të diabetit, që do të
+rimbursohen nga Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor. Fishat e Diabetit
+rimbursohen në të gjitha farmacitë e rrjetit të hapur farmaceutik, të cilat kanë kontratë me
+drejtoritë rajonale të Fondit. Fishat e diabetit përshkruhen në recetat elektronike të rimbursuara
+nga mjekët e familjes për të gjithë pacientët, të cilët i përkasin kategorive të veçanta, konkretisht
+kategorive “Diabetik 0-25 vjeç”, “Diabetik ≥ 65 vjeç”, “Diabetik Invalid i punës 25 - 65 vjeç”
+dhe “Diabetik i paaftë mendërisht ose fizikisht 25 – 65 vjeç”.
+8.4 Zbatimi i sistemit eKontroll: sistemi i kontrollit të subjekteve që kanë kontratë me
+Fondin
+Gjatë vitit 2024 është vijuar me mirëmbajtjen dhe zbatimin e sistemit e-Kontoll, i cili:
+• Mundëson digjitalizimin dhe automatizimin e proçesit të lidhjes së kontratës me subjektet që
+kanë kontratë me FSDKSH, që nga aplikimi nëpërmjet platformës e-Albania nga ana e
+subjektit, deri në lidhjen përfundimtare të kontratës.
+• Mundëson menaxhimin elektronik të proçeseve të punës për kontrollin e përmbushjeve të
+detyrimeve kontraktuale të subjekteve që kanë kontratë me FSDKSH.
+• Përmirëson dhe garanton transparencë, si dhe monitoron aktivitetin e Drejtorisë së Kontrollit
+dhe sektorëve të kontrollit në zbatim të objektivave të Fondit.
+
+-- 69 of 89 --
+
+70
+• Ndihmon në përshpejtimin e proçedurave për trajtimin e aplikimeve, inspektimin e
+subjekteve që kanë kontratë me FSDKSH dhe informimin online të këtyre subjekteve mbi
+statusin e aplikimit të tyre.
+Në vitin 2024 Fondi ka ofruar të gjithë shërbimet nëpërmjet platformës e-Albania. Shërbimet
+online të ofruara gjatë vitit 2024 paraqiten si më poshtë vijon:
+1. Aplikim për lidhje kontrate me Importuesit/ Shpërndarësit Farmaceutik/ Importuesit e
+Fishave të Diabetit.
+2. Aplikim për lidhje/rilidhje kontrate me Institucionet Shëndetësore Jo Publike.
+3. Aplikim për lidhje kontrate për herë të parë me Agjencitë dhe Farmacitë e rrejtit të hapur.
+4. Aplikim për rilidhje kontrate me Importuesit/ Shpërndarësit Farmaceutik.
+5. Aplikim për rilidhje kontrate vjetore me Agjencitë dhe Farmacitë e rrjetit të hapur
+8.5 Sistemi Regjistri i të Siguruarve
+Gjatë vitit 2023, në zbatim të kontratës me Nr. 53 Prot., datë 11.04.2023, me objekt "Përmirësimi
+i sistemit të regjistrit të të siguruarve", në bashkëpunim me AKSHI-n dhe Bashkimin e
+Operatorëve Ekonomikë, është realizuar implementimi i këtij sistemi, i cili ka në fokus zgjidhjen
+e të gjitha problematikave të mbartura dhe hasura përgjatë gjithë viteve të përdorimit të këtij
+sistemi, si dhe një menaxhim më të mirë të regjistrimit dhe lëvizshmërisë së banorëve.
+Gjithashtu, gjatë vitit 2024, në zbatim të kontratës, ka vijuar mirëmbajtja e sistemit Regjistri i të
+Siguruarve (AHIS).
+8.6 Përmirësimi i rrjetit të FSDKSH
+Në zbatim të kontratës me Nr. 54 Prot., datë 11.04.2023 me objekt “Përmirësimi i rrjetit të
+FSDKSH”, është realizuar përmirësimi i infrastrukturës, duke zëvendësuar pajisjet e rrjetit end-
+of-life dhe jofunksionale (Zyra Qëndrore dhe Degët në varësi). Pajisjet e rrjetit në degët dhe
+zyrën qëndrore janë të aksesueshme dhe monitorojnë në mënyrë të qendërzuar aktivitetin dhe
+disponibilitetin e shërbimeve. Sistemet e brendshme dhe ato të rimbursimit që aksesohen nga
+sektorë të ndryshëm të drejtorive rajonale janë plotësisht të aksesueshme nëpërmjet pajisjeve të
+reja të rrjetit.
+9. Monitorimi i Kontratave me Dhënësit e Shërbimeve Shëndetësore
+Monitorimi i kontratave me dhënësit e shërbimeve shëndetësore, është element shumë i
+rëndësishëm i punës së FSDKSH, në mënyrë që financimi publik për shërbimet shëndetësore, të
+shkojë në të mirë të popullatës, duke shmangur abuzimet.
+
+-- 70 of 89 --
+
+71
+9.1 Monitorimi i zbatimit të kontratave
+Drejtoria e Kontrollit gjatë vitit 2024, ka ushtruar kontrolle në 805 subjekte ose rreth 26% e
+totalit të subjekteve të cilat kanë lidhur kontratë me Fondin. Konkretisht, është ushtruar kontroll
+në këto subjekte:
+• 161 Qendra Shëndetësore;
+• 412 Mjekë të përgjithshëm e të familjes;
+• 184 Farmaci (134 të plotë dhe 50 tematikë);
+• 27 Depo farmaceutike (12 farmaci të spitaleve 15 depo inventarë);
+• 21 Spitale (20 të plotë dhe 1 tematik).
+Në përfundim të kontrolleve janë rekomanduar masat si më poshtë:
+• Shpërblim Dëmi ekonomik në vlerën totale 3,898,805.16 lekë;
+• Masë administrative Gjobë , në vlerën totale 314,000 lekë;
+• Masë administrative Kushte penale, në vlerën totale 833,799.16 lekë;
+9.2 Monitorimi i zbatimit të kontratave nga Qendrat Shëndetësore
+Bazuar në planin vjetor të miratuar nga Drejtori i Përgjithshëm, për periudhën Janar-Dhjetor
+2024 nga Sektori i Kontrollit Parësor janë planifikuar për kontroll dhe realizuar kontrollet në
+rajonet si më poshtë vijon:
+Nr. DRSKSH Total
+Q.Sh
+Total
+mjekë
+Subjektet e
+kontrolluara Lloji i
+kontrollit
+Sanksione
+Dëmi
+ekonomik
+Kushte
+penale Gjoba
+Q.SH MPF/MS
+1 Kamëz-Vorë 8 68 7 35 I plotë 56,679 6,000
+2 Durrës 32 190 16 45 I plotë 51,326 26,000
+3 Berat 21 66 16 32 I plotë 44,742 17,000
+4 Elbasan 46 159 17 46 I plotë 57,629 26,000
+5 Tiranë 27 318 10 49 I plotë 125,626 35,000
+6 Gjirokastër 18 45 8 22 I plotë 14,432 5,000
+7 Kukës 16 36 6 15 I plotë 24,838 14,000
+8 Tropojë 8 10 4 6 I plotë 5,000
+9 Korçë 25 62 14 29 I plotë 31,294 14,000
+10 Vlorë 17 79 10 28 I plotë 18,489 12,000
+11 Fier 23 93 14 29 I plotë 32,838 14,000
+12 Dibra 28 50 14 19 I plotë 46,451 3,000
+13 Komsi 1 1 1 1 Tematik 159,760 10,000
+14 Shkodër 31 102 11 24 I plotë 30,016 5,000
+15 Tiranë 13 32 I plotë
+TOTAL 301 1,279 161 412 694,120 192,000
+
+-- 71 of 89 --
+
+72
+Nga kontrollet e ushtruara, janë konstatuar problematikat kryesore, si vijojnë:
+-Kanë rezultuar shkelje të kufizimeve të listës së barnave të rimbursuara, protokolleve të
+përdorimit të barnave dhe akteve të Fondit për mirëadministrimin e shpenzimeve të rimbursimit
+për mjekimin e të sëmurëve dhe administrimin e kartelave të pacientëve.
+Në përfundim të kontrolleve sipas evidencave të Drejtorisë janë marrë këto masa:
+● Masa administrative “Detyrim shpërblim dëmi” në vlerën totale prej 694,120 lekë.
+● Masa administrative “Gjobë” në vlerën totale prej 192,000 lekë.
+Krahasimi i kontrolleve si 12 mujor, si dhe masat e marra për vitin 2024 krahasuar me vitin 2023
+Viti DRF/Rajone Kontroll
+QSH
+Lloji i
+kontrollit
+Sanksione
+Kontroll
+MPF Dëmi
+ekonomik
+Kushte
+penale Gjoba
+2024 15 Rajone 161 412 I plotë,
+Tematik 694,120 0 192,000
+2023 16 Rajone 155 379 I plotë,
+Tematik 338,539 75,000 299,000
+9.3 Monitorimi i zbatimit të kontratave nga Farmacitë dhe Depot Farmaceutike
+a) Për subjektet Farmaci dhe Agjenci Farmaceutike
+Sektori i Farmacive dhe agjencive farmaceutike kontrollon përmbushjen e detyrimeve
+kontraktuale, në zbatim të skemës së Sigurimit të Detyrueshëm të Kujdesit shëndetësor në
+subjektet farmaceutike të kontraktuara nga Fondi, duke u bazuar në planin mujor të Drejtorisë së
+Kontrollit si dhe sa herë që paraqiten problematika të veçanta.
+Sektori i Kontrollit të Farmacive dhe Agjencive Farmaceutike, për periudhen Janar-Dhjetor
+2024, ka ushtruar kontrolle në 184 subjekte me kontratë me drejtorinë Rajonale, që përbëjnë
+71.5% të shpenzimeve të rimbursimit në Fondm referuar të dhënave nga Drejtoria e
+Informacionit dhe Analizës Statistikore për vitin 2024 (këtu nuk përfshihet DSHSU) dhe 100 % e
+Planit vjetor të miratuar nga Drejtori i Përgjithshëm.
+Rezultatet paraqiten si më poshtë:
+
+-- 72 of 89 --
+
+73
+Nr.
+Farmaci/Agjenci Numri i subjekteve të
+kontrolluara
+Lloji i kontrollit
+Sanksione Totali i
+rimbursimit
+të rajoneve
+në raport
+me
+rimbursimin
+e subjekteve
+të
+kontrolluara
+Totali i
+subjekteve
+me kontratë
+në raport
+me numrin e
+subjekteve
+të
+kontrolluara
+Dëmi
+ekonomik
+Kushte
+penale Gjoba Zgjidhje
+kontrate
+DRF Farmaci/Agjenci
+Totali Totali Plotë Tematik
+1 Kamez-
+Vore 36 12 8 4 Tematik+inventar 78,488 46% 32%
+2 Fier 50 13 10 3 Tematik+inventar 140,049 42% 26%
+3 Durres 93 15 10 5 Tematik+inventar 227,539 28% 16%
+4 Gjirokaster 15 6 3 3 Tematik+inventar 50,143 30,000 43% 40%
+5 Sarande 14 4 2 2 Tematik+inventar 39,847 34% 31%
+6 Tirane 268 31 26 5 Tematik+inventar 494,936 22,400 40% 12%
+7 Elbasan 82 15 10 5 Tematik+inventar 178,565 32% 19%
+8 Kukes 9 3 3 Tematik+inventar 27,704 43% 30%
+9 Tropoje 3 1 1 Tematik+inventar 5,357 61% 33%
+10 Berat 39 8 4 4 Tematik+inventar 50,344 24% 21%
+11 Pogradec 17 6 4 2 Tematik+inventar 13,428 52% 35%
+12 Vlore 54 6 6 - Tematik+inventar 52,551 58% 10%
+13 Diber 22 10 7 3 Tematik+inventar 100,574 65% 43%
+14 Korce 39 15 12 3 Tematik+inventar 131,676 4,000 65% 38%
+15 Shkoder 62 13 10 3 Tematik+inventar 115,530 10,000 45% 21%
+16 Lushnje 40 13 10 3 Tematik+inventar 216,066 8,000 59% 33%
+17 Diber 1 0 1 Tematik+inventar
+18 Lezhe 37 12 8 4 Tematik+inventar 71,130 45% 32%
+Totali 880 184 134 50 1,993,927 52,400 22,000
+Për periudhën Janar –Dhjetor 2024, janë kontrolluar 184 (134 kontrolle të plotë dhe 50 tematikë)
+subjekte dhe janë marrë masat si më poshtë:
+• Detyrim shpërblim dëmi në vlerën 1,993,927 lekë për 133 subjekte farmaceutike;
+• Kushte penale në vlerën 52,400 lekë në 3 subjekte farmaceutike;
+• Gjobë në vlerën 22,000 lekë në 4 subjekte farmaceutike.
+
+-- 73 of 89 --
+
+74
+Krahasimi i kontrolleve si 12 mujor, si dhe masat e marra për vitin 2024 krahasuar me vitin
+2023:
+Viti DRF/Rajone Subjekte të
+kontrolluara
+Lloji i
+kontrollit
+Sanksione
+Dëmi ekonomik Kushte
+penale Gjoba Zgjidhje
+kontrate
+2024 17 Rajone 184 Inventar dhe
+Tematik 1,993,927 52,400 22,000
+2023 17 Rajone 183 Inventar dhe
+Tematik 1,592,181 4,000 250,200
+b) Për subjektet Depo Farmaceutike
+Sektori i Kontrollit të Depove Farmaceutike gjatë periudhës Janar-Dhjetor 2024 ka kryer
+kontrolle me inventar në 15 Depo Farmaceutike Importuese dhe në 12 farmacitë e spitalit për
+barnat e shtrenjta, ku u konstatuan mungesa të barnave të listës së rimbursueshme.
+Rezulatet e kontrolleve praqiten si më poshtë:
+Kontrolli
+Sanksione
+Dëm
+ekonomik Kusht Penal Gjobë
+Kontroll i plotë me inventarizim 56,011.96 100,000
+Kontroll i Farmacive te Spitaleve Rajonale 2,128 30,367.04
+Totali 2,128 86,379 100,000
+Problematikat kryesore të evidentuara nga kontrollet janë si më poshtë vijojnë:
+• Nga kontrolli me inventar i farmacive të spitalit dhe të depove importuese rezultuan mangësi
+në lidhje me barnat e listës së rimbursueshme.
+
+-- 74 of 89 --
+
+75
+Krahasimi i kontrolleve si 12 mujor, si dhe masat e marra për vitin 2024 krahasuar me vitin
+2023:
+Viti Depo Subjekte të
+kontrolluara Lloji i kontrollit
+Sanksione
+Dëm
+ekonomik
+Kusht
+penal Gjobë Zgjidhje
+kontrate
+2024 Depo 27
+12 farmaci të
+spitaleve Rajonale,
+15 depo me inventar
+2,128 86,379 100,000
+2023 Depo 31
+9 farmaci të
+spitaleve Rajonale,
+3 depo për
+disponibilitet dhe19
+depo me inventar
+315,030.04 2,000,000
+9.4 Monitorimi i zbatimit të kontratave me Spitalet
+Nga Sektori i Kontrollit Spitalor, për vitin 2024, janë kryer kontrolle të plota në Spitalet: Qendra
+Spitalore Rajonale “Shefqet Ndroqi” + Kavajë, Spitali Rajonal Lezhë, Spitali Rajonal Berat,
+Spitali Universitar Obstetrik Gjinekologjik “Koço Gliozheni”, Spitali Rajonal Fier, Spitali
+Bashkiak Pukë, Spitali Bashkiak Mat, Spitali Bashkiak Lushnje, Spitali Bashkiak Mallakastër,
+Spitali Rajonal Korçë, Spitali Bashkiak Gramsh, Spitali Bashkiak Librazhd, Spitali Bashkiak
+Tropojë, Spitali Bashkiak Pogradec, Spitali Rajonal Vlorë, Spitali Rajonal Shkodër, Spitali
+Rajonal Elbasan, Spitali Universitar Obstetrik Gjinekologjik “Mbretëresha Geraldinë”, si edhe
+kontroll tematik në Spitalin Bashkiak të Krujës.
+Në tabelën e mëposhtme pasqyrohen të dhënat e detajuara mbi kontrollet në Spitalet
+Universitare, Rajonale dhe Bashkiake:
+
+-- 75 of 89 --
+
+76
+Nr Spitalet Masa
+organizative
+Masa
+disiplinore
+Masa
+administrative
+(gjoba)
+Masa
+detyrim për
+shpërblim
+dëmi (Vlerë)
+Kushte
+Penale
+Ndërprerje
+kontrate
+1 QSU "Nene
+Tereza" Tiranë 6 0 0 0 0 0
+2 S.U.Trauma 11 0 0 0 0 0
+3
+Q.S.R.”Shefqet
+Ndroqi” +
+Kavajë
+12 + 9
+Kavajë 0 0 98,512 0 0
+4 S.B.Krujë
+(Tematik) 2 0 0 0 0 0
+5 S.R.Lezhë 14 0 1 Pagë 0 35,000 0
+6 S.R.Berat 14 0 0 0 320,000 0
+7 S.U.Obs.Gjin
+Koço Gliozheni 7 0 0 0 0 0
+8 S.R.Fier 18 0 0 45,115 20,000 0
+9 S.B.Pukë 9 0 0 76,244 25,000 0
+10 S.B.Mat 15 0 0 755,396 0 0
+11 S.B.Lushnje 3 0 0 13,764 45,000 0
+12 S.B.Mallakastër 8 0 0 0 0 0
+13 S.R.Korçë 12 0 0 8,283 45,000 0
+14 S.B.Gramsh 9 0 0 32,754 25,000 0
+15 S.B.Librazhd 9 0 0 0 5,000 0
+16 S.B.Tropojë 15 0 0 85,716 10,000 0
+17 S.B.Pogradec 5 0 0 0 0 0
+18 S.R.Vlorë 36 6 0 85,506 25,000 0
+19 S.R.Shkodër 22 0 0 7,341 140,000 0
+20 S.R.Elbasan Në proces
+21
+S.U.Obs.Gjin
+“Mbretëresha
+Geraldinë” Në proces
+Total 236 6 1 Pagë 1,208,631 695,000 0
+Siç vërehet në tabelën e mësipërme shkeljet e konstatuara për vitin 2024 janë:
+▪ Masa detyrim shpërblim dëmi në vlerën 1,208,631 lekë.
+▪ Kushte penale në vlerën 695,000 lekë.
+▪ Masa organizative 236 masa.
+▪ Masa Disiplinore 6.
+▪ Masa administrative 1 pagë
+Qendra Spitalore Universitare “Nënë Tereza” Tiranë dhe Spitali Universitar i Traumës janë
+planifikuar dhe realizuar në vitin 2023, por Vendimi për këto spitale ka dalë në vitin 2024 dhe
+për këtë arsye dhe masat organizative, disiplinore, administrative dhe kushtet penale janë
+pasqyruar në tabelën e mësipërme.
+
+-- 76 of 89 --
+
+77
+9.5 Problematikat Kryesore
+• Kushti penal është vendosur për mosplotësimin e kartelave sipas elementeve, në kundërshtim
+me Nenin 6 “Detyrime të spitalit në shërbimet me shtretër”, pika 5 citohet si vijon: “Të
+përdorë kartelat klinike tip të miratuara nga MSHMS. Plotësimi i tyre nga mjeku specialist të
+bëhet me shkrim të qartë dhe konform të gjitha rubrikave që kartela përmban. Vendosja e
+diagnozës klinike të bëhet brenda afateve kohore të kërkuara, si dhe të shkruhet e plotë”.
+• Dëmi ekonomik është vënë për mangësitë e konstatuara në dokumentacionin e bankës,
+kontrollin e pagave, të shpenzimeve për udhëtime e dieta, shpenzimeve të karburantit, si dhe
+në farmacinë e spitalit për barnat e skaduara dhe diferenca. Në bazë të Nenit 17 “Dëmi
+ekonomik”, pika 4, gërma a. citohet si vijon: “Spitali zhdëmton Fondin/DRF në vlerën
+përkatëse kur në rast se: a) lejon skadencën e barnave, reagentëve, filmave, materialeve për
+përdorim spitalor dhe mallrave të ndryshëm ushqimor dhe/ose industrial për shkak të
+mosruajtjes së tyre në parametrat e duhur, si dhe keqadministrimit të tyre si dhe mangësi në
+moszbatimin e kontratës”.
+Në tabelën e mëposhtme paraqiten të dhënat e detajuara për vitet 2023 dhe 2024 për spitalet
+Universitarë, Rajonalë, Bashkiakë dhe Spitalet privatë:
+Viti
+Numri i
+subjekteve të
+kontrolluara
+Sanksione
+Dëm
+ekonomik
+Kusht
+penal
+Masa
+disiplinore
+Masa
+administrative
+Masa
+organizative
+2024 21 1,208,631 695,000 6 1 236
+2023 32 845,830 605,000 2 1 234
+10. Përmirësimi i Administrimit të Fondit
+Veprimtaria audituese e vitit 2024 ka funksionuar në përputhje me aktet ligjore që rregullojnë
+shërbimin e auditimit të brendshëm me fokus përgjegjshmërinë e realizimit të programit të
+miratuar në pajtueshmëri me standardet e përcaktuara si dhe komunikimin e rezultateve
+përfundimtare.
+Veprimtaria audituese përfshin Drejtorinë e Përgjithshme, Drejtoritë Rajonale, Degët, Spitalin
+Rajonal Durrës dhe Spitalin Memorial Fier.
+Në përfundim të vitit 2024 rezulton se janë kryer 20 (njëzet) misione angazhim auditimi të
+kombinuara dhe 1 (një) mision për zbatim rekomandimesh të lëna nga auditimet e realizuara në
+vitin 2023. Gjatë vitit 2024, veprimtaria audituese nuk ka patur problematika të qënësishme
+përveç synimit të vazhdueshëm e të pandërprerë, në rritjen e performancës së këtij shërbimi duke
+
+-- 77 of 89 --
+
+78
+i dhënë siguri objektive titullarit në funksionimin e sistemeve të kontrollit të brendshëm, në
+arritjen e objektivave strategjikë të institucionit.
+10.1 Misioni i auditimit të brendshëm
+Misioni i auditimit është kryerja e çdo angazhimi në përputhje me dispozitat ligjore e nënligjore
+në fuqi, standardet ndërkombëtare të auditimit të brendshëm të shpallura dhe pranuara, në Planin
+Strategjik e Vjetor të veprimtarisë së auditimit të brendshëm.
+Auditimi i brendshëm ka asistuar të gjitha nivelet e menaxhimit, nëpërmjet analizave,
+vlerësimeve, këshillimeve dhe rekomandimeve.
+Objekti i veprimtarisë është kryerja e auditimit të brendshëm i të gjitha strukturave,
+programeve, veprimtarive dhe proçeseve të Fondit dhe të strukturave vartëse, me qëllim rritjen e
+besimit të publikut tek institucioni, realizuar përmes:
+- Forcimit të pavarësisë në përmbushjen e misionit dhe objektivave ligjorë, në përputhje me
+detyrimet që rrjedhin nga procesi i përafrimit gradual të legjislacionit dhe politikave tona me
+legjislacionin e BE-së;
+- Adoptimin e standardeve më të mira të kontabilitetit dhe auditimit, publikimin e raporteve të
+rregullta, si dhe sigurimin e integritetit të proceseve të auditimit të brendshëm, si elemente
+kyçe të llogaridhënies publike;
+- Rritjes së transparencës mbi veprimtarinë e DAB përmes një komunikimi të hapur dhe të
+qartë me publikun.
+10.2 Aktiviteti i auditimit të brendshëm të Fondit
+Aktiviteti i auditimit të brendshëm është realizuar nga njësia e auditit të brendshëm e organizuar
+në nivel Drejtorie me mision mbështetjen e menaxhimit të lartë në realizimin e objektivave në
+zbatim të Planit Strategjik dhe Vjetor të miratuar nga titullari, ku përcaktohen qartë objektivat
+për t’u arritur, kapacitetet në dispozicion si dhe vlerësimi e menaxhimi i riskut.
+Misionet e auditimit të realizuara mbi bazë sistemi kanë qenë të kombinuara dhe verifikimi i
+zbatimit të rekomandimeve të lëna nga auditimet e mëparshme.
+Për vitin 2024, Drejtoria e Auditit të Brendshëm është e organizuar në tre sektorë dhe ka në
+strukturën organike 13 (trembëdhjetë) punonjës.
+10.3 Fushat me risk të lartë dhe trajtimi i tyre
+Metodologjia e përdorur për vlerësimin e riskut është ajo përcaktuar në Ligjin për Auditimin e
+Brendshëm dhe Manualin e Auditimit të Brendshëm dhe pikërisht bazuar në këtë sistem të
+vlerësimit të riskut, është programuar dhe auditimi i fushave dhe subjekteve që paraqiten me një
+nivel të lartë apo të mesëm risku.
+
+-- 78 of 89 --
+
+79
+Nga analiza e të dhënave vjetore sipas subjekteve të audituara, nga struktura e auditimit
+përcaktimi i nivelit të riskut është bërë duke marrë në konsideratë faktorët e riskut, të cilët në
+mënyrë të përmbledhur do ti përgjithësonim në kategoritë e mëposhtme:
+- Organizimi dhe kompleksiteti i subjekteve.
+- Kuadri ligjor dhe rregullator.
+- Kërkesat e raportimit financiar.
+- Mjedisi i kontrollit.
+- Shkalla e ndryshimeve organizative dhe të sistemit të menaxhimit.
+- Materialiteti sipas natyrës, çështje ndaj të cilave ka interes të lartë publik.
+- Risku i brendshëm i fushës apo subjektit që auditohet.
+- Mbulimi i pamjaftueshëm me auditime në të kaluarën.
+Në auditimet e vitit 2024 janë konstatuar 151 gjetje, nga të cilat: 25 gjetje janë me risk të lartë,
+104 gjetje janë me risk të mesëm dhe 22 gjetje janë me risk të ulët, sikurse paraqiten në grafikun
+në vijim:
+Drejtoria e Auditit të Brendshëm që në fazën e planifikimit vjetor është mbështetur në auditimin
+e sistemeve apo subjekteve që kanë risk të lartë dhe risk të mesëm. Është kërkuar që gjatë vitit
+2024 të gjitha drejtoritë në qendër dhe rajone të përditësojnë listat e proçeseve, regjistrin e riskut
+dhe gjurmët e auditit.
+Mbi bazën e përvojës së fituar janë vlerësuar risqet sipas sistemeve dhe subjekteve. Nisur nga
+fakti që strukturat e Fondit duke përfshirë dhe Drejtorinë e Përgjithshme përdorin fonde të
+konsiderueshme publike, niveli i riskut është vlerësuar si i lartë, i mesëm dhe i ulët.
+25
+104
+22
+0
+20
+40
+60
+80
+100
+120
+Lartë Mesëm Ulët
+Gjetjet e klasifikuara sipas riskut për vitin 2024
+
+-- 79 of 89 --
+
+80
+10.4 Rekomandime
+Një aspekt mjaft i rëndësishëm i aktivitetit auditues është dhënia e rekomandimeve në përfundim
+të çdo misioni angazhim auditimi. Rekomandimet janë mbeshtetur në gjetjet e rezultuara dhe
+kanë si qëllim përmirësimin e punës së subjekteve të audituara.
+Në përfundim të auditimeve gjatë vitit 2024, DAB ka rekomanduar 151 masa organizative.
+Analiza e detajuar e rekomandimeve sipas sistemeve, nënsistemeve të audituara për vitin 2024
+paraqitet në tabelën në vijim:
+Sistemi Nënsistemi Numri
+rekomandimeve
+Aktivet e qëndrueshme Amortizimi 1
+Inventaret 5
+Menaxhimi i burimeve njerëzore
+Etika 1
+Largimi apo lirimi 1
+Rekrutimi 2
+Pagat e shpërblimet Efektiviteti kohës punës 1
+Planifikimi e buxhetimi
+Monitorimi zbatimit buxhetit 8
+Planifikimi buxhetor 4
+Zbatimi buxhetit 1
+Prokurimi
+Dorëzimi 2
+Planifikimi 3
+Procesi tenderimit 4
+Qeverisja e administrimi Menaxhimi riskut 4
+Vendimarrja dhe mbikqyrja 1
+Raportimi financiar e kontabiliteti
+Kontrollet, rregullat e procedurat e angazhimit 4
+Pagesat 2
+Regjistrimet në kontabilitet 3
+Saktësia e raportimit 1
+Sisteme specifike operacionale
+Drejtoria operacionale, Laboratori 2
+Drejtoria operacionale, Sterilizimi 2
+Drejtoria operacionale, Farmaceutika 12
+Drejtoria operacionale, Kujdesi Parësor 40
+Drejtoria operacionale, Rimbursimi 2
+Drejtoria operacionale, Shërbimi Spitalor 39
+Drejtoria operacionale, Shërbimi Spitalor Universitar 4
+Të tjera Zbatim i rekomandimeve të lëna 2
+Total 151
+Në zbatimin e rekomandimeve të lëna nga auditimet e mëparshme
+Për vitin 2024 është verifikuar niveli i zbatimit të 211 rekomandimeve të lëna nga viti 2023.
+Analiza e detajuar e nivelit të zbatimit të rekomandimeve evidentohet në tabelën në vijim:
+
+-- 80 of 89 --
+
+81
+Statusi i rekomandimit Numri rekomandimeve Pesha specifike
+I zbatuar plotësisht 188 89.10
+Në proces zbatimi 22 10.43
+I pazbatuar 1 0.47
+10.5 Konkluzione
+Fondi i Sigurimit të Detyrueshëm të Kujdesit Shëndetësor ka të organizuar sistemin e kontrollit
+të brendshëm, por ky sistem duhet përmirësuar në drejtimet e mëposhtme:
+- Përgatitjen e metodologjisë për hartimin e listës së barnave të rimbursueshme, mënyrën e
+hartimit të kufizimeve të listës së barnave, hartimin e kontratave tip të veçanta për qendrat
+shëndetësore.
+- Përgatitjen e rregulloreve e udhëzimeve për kontrollin e subjekteve jo publike (shpenzimeve
+konçensionare të sterilizimit të pajisjeve mjekësore e dializës, kontrollit mjekësor bazë,
+laboratorit dhe paketave të shërbimeve shëndetësore) të kontraktuara.
+- Analizën e riskut dhe përqëndrimin e kontrolleve në subjektet me riskt të lartë.
+- Përmirësimin e cilësisë së supervizimeve e kontrolleve në të gjitha hallkat duke zbatuar me
+rigorizitet udhëzimet si dhe duke kërkuar zbatimin e pikave të kontratave me ofruesit e
+shërbimeve.
+- Përmirësimin e cilësisë të kontrollit në spitale, dhe mbulimi me kontroll i të gjitha
+problematikave të aktivitetit të spitalit.
+- Rritjen e nivelit të realizimit të detyrave të lëna nga auditimi i mëparshëm.
+Opinion i përgjithshëm
+Bazuar në vlerësimin e fushave apo sistemeve të njësisë publike në zbatim të standardeve,
+Drejtoria e Auditit të Brendshëm në Fond, ka marrë në konsideratë strategjitë, objektivat dhe
+risqet e njësisë publike, si dhe pritshmëritë e menaxhimit të lartë dhe palëve të tjera të
+interesuara. Opinioni i përgjithshëm mbështetet në informacionin e mjaftueshëm, të besueshëm,
+të duhur dhe të dobishëm trajtuar në këtë raport. Të gjitha gjetjet dhe rekomandimet i janë
+raportuar menaxhimit si një pjesë e rëndësishme e procesit të auditimit të brendshëm për të
+përmirësuar funksionimin e njësisë në të ardhmen. Sistemi i kontrollit të brendshëm funksionon
+në mënyrë efektive, por ka disa mangësi, të cilat kanë apo mund të kenë ndikim të moderuar në
+objektivat e njësisë publike. Ka nevojë për marrjen e veprimeve për përmirësime në disa
+drejtime.
+
+-- 81 of 89 --
+
+82
+11. Komunikimi dhe Informimi i Publikut
+Njësia e marrëdhënieve me publikun, gjatë angazhimit të saj në zbatim të detyrave brenda
+përgjegjësisë dhe fushëveprimit të saj, është angazhuar edhe në çdo aspekt tjetër të komunikimit
+me qëllimin e vetëm që publiku, mediat dhe palët e interesuara për veprimtarinë e Fondit, të jenë
+të informuar në kohë dhe me transparencë.
+Komunikimi dhe informimi për shërbimet e institucionit, është zhvilluar nëpërmjet kanaleve të
+informacionit, si vijojnë:
+- Adresa elektronike info@fsdksh.gov.al - Në zbatim të VKM nr. 252, dt. 29.04.2022 "Për
+Proçedurat e Shërbimit Online", gjatë vitit 2024, komunikimi me publikun është kryer
+nëpërmjet adresës elektronike info@fsdksh.gov.al, ku janë pranuar dhe shqyrtuar pjesa
+më e madhe e kërkesave/ankesave nga qytetarët, si edhe është përcjellë informacioni i
+nevojshëm. Gjithashtu, përmes postës elektronike zyrtare, janë ndjekur edhe të gjitha
+rastet e përcjella nga Platforma e Bashkëqeverisjes, të cilat janë shqyrtuar me
+transparencë dhe brenda afateve kohore ligjore.
+- Koordinatori për të drejtën për informim - Nëpërmjet adresës elektronike të
+Koordinatorit për të Drejtën per Informim, në zbatim të Ligjit nr. 119/2014 “Për të
+drejtën e informimit”, janë pranuar dhe shqyrtuar të gjitha kërkesat për informacion, të
+dërguara kryesisht nga media, shoqëria civile, e të tjerë.
+- Webfaqja zyrtare www.fsdksh.gov.al – Eshtë administruar me në fokus publikimin e një
+informacioni të plotë mbi veprimtarinë dhe shërbimet që ofron institucioni. Në faqen
+zyrtare është pasqyruar me transparencë çdo aktivitet, informacion apo njoftim, me
+interes për publikun e të tjerë, përmes publikimeve të përditësuara në koherencë me
+punën e Fondit dhe në zbatim të Ligjit nr. 119/2014 “Për të Drejtën e Informimit” dhe të
+Programit të Transparencës, si pjesë e tij.
+- Rrjetet sociale - Është bërë administrimi, monitorimi dhe prezantimi i punës së Fondit në
+kanalet zyrtare sociale specifikisht në: Facebook, Instagram dhe Twitter.
+Gjatë vitit 2024 janë pritur gjithsej 1,199 raste, të cilat janë trajtuar dhe ndjekur me përgjegjësi
+dhe në respektim të afateve kohore ligjore, në bashkëpunim me njësitë teknike në Fond. Të
+dhënat e mbledhura në regjistrat përkatës, janë përpunuar dhe paraqitur në grafikët në vijim.
+
+-- 82 of 89 --
+
+83
+Grafik 1 Numri total i rasteve për vitet 2023, 2024
+*SMP- Sektori i Marrëdhënieve me Publikun
+Grafik 2 Raportim i problematikave sipas mediumit, të krahasuara për vitet 2023, 2024
+*KDI- Kordinatori për të Drejtën e Informimit;*SQDNE- Sistemi i Qarkullimit të Dokumentave me Nënshkrim Elektronik
+Pas hyrjes në fuqi të VKM nr. 252, dt.29.04.2022 "Për Proçedurat e Shërbimit Online", gjatë vitit
+2024 komunikimi me qytetarët për problematika të ndryshme si edhe dhënia e informacionit,
+është realizuar tërësisht nëpërmjet adresës elektronike, Ky proces ka përmirësuar procedimin
+zyrtar të raportimit, shqyrtimit dhe përmbylljes së rasteve në tërësi.
+Grafik 3 Tipologjia e raportimeve për vitin 2024
+*KSH -Karta e Shëndetit;
+0
+20
+40
+60
+80
+100
+120
+140
+Janar Shkurt Mars Prill Maj Qershor Korrik Gusht Shtator Tetor Nentor Dhjetor
+2024 2023
+0
+200
+400
+600
+800
+1,000
+1,200
+Të ndryshme KDI Platforma e Bashkëqeverisjes Media/SQDNE
+2023 2024
+0
+20
+40
+60
+80
+100
+120
+Janar Shkurt Mars Prill Maj Qershor Korrik Gusht Shtator Tetor Nentor Dhjetor
+Kerkese/Info Ankese Denoncim
+
+-- 83 of 89 --
+
+84
+Duke analizuar tipologjinë e raportimeve, gjatë vitit 2024 konstatohen më të shpeshta rastet
+lidhur me informacione e të dhëna për LBR-në si: informacion mbi monitorimin e disponibilitetit
+të barnave; ankesa lidhur me disponibilitetin e barnave ne treg; problematika të lidhura me
+mospërfitimin e barnave me rimbursim. Si edhe: problematika të hasura në procesin e ndryshimit
+të mjekut të përgjithshëm dhe të familjes; kërkesë për asistencë për procesin e pajisjes me
+nënshkrim elektronik; kërkesë për pajisje me formularë, në zbatim të marrëveshjeve në fushën e
+mbrojtjes shoqërore; raportime për problematika lidhur me eRx; problematika lidhur me procesin
+e lidhjes së kontratës me subjektet farmaceutike, etj.
+Grafik 4 Tipologjitë e raportimeve, të krahasuara për vitin 2023 dhe për vitin 2024
+KSH -Karta e Shëndetit;
+Nga krahasimi i të dhënave, frekuencë më të lartë kanë kërkesat për informacion, të cilat
+konsistojnë kryesisht në orientim apo asistencë lidhur me përfitimin apo përdorimin e
+shërbimeve dhe të produkteve që ofron Fondi. Në vitin 2024, vihet re një rritje e numrit të
+ankesave, gjë që përkon me problematikat shoqëruese me hyrjen në fuqi të Listës së Barnave të
+Rimbursueshme.
+12. Bashkëpunimi me Institucionet
+12.1 Bashkëpunimi ndërinstitucional
+FSDKSH bashkëpunon institucionalisht me MSHMS-në për politikat dhe strategjitë që kanë
+lidhje me sistemin shëndetësor, për të dhënat e gjendjes shëndetësore, si dhe informacione të
+tjera që kanë lidhje me funksionimin e FSDKSH-së.
+0
+200
+400
+600
+800
+1,000
+2023 2024
+839 852
+303
+344
+1 3
+Kerkese/Info Ankese Denoncim
+
+-- 84 of 89 --
+
+85
+Këshilli i Ministrave është organi i cili përcakton institucionet ose organizmat e tjerë që duhet të
+ofrojnë të dhëna rregullisht, sipas nevojave të FSDKSH. Në këtë kuadër bashkëpunohet me
+Ministrinë e Financave për treguesit e zhvillimit makroekonomik, të dhënat për prodhimin e
+përgjithshëm bruto dhe informacione të tjera financiare për funksionimin e FSDKSH.
+Gjithashtu, në realizimin e veprimtarisë së tij institucionale, FSDKSH lidh marrëveshje
+ndërinstitucionale për shkëmbimin, në mënyrë të vazhdueshme, të informacionit të hollësishëm
+me entet private dhe publike duke marrë dhe duke analizuar informacionin e tyre, lidhur me
+kategoritë e të siguruarve dhe të dhëna të tjera të domosdoshme për zbatimin e skemës së
+sigurimit të detyrueshëm të kujdesit shëndetësor.
+Përmendim këtu:
+• Memorandumin e Mirëkuptimit midis FSDKSH dhe Institutit të Statistikave (INSTAT), i
+cili rregullon marrëdhënien midis dy institucioneve lidhur me llojin dhe mënyrën e
+raportimit të të dhënave zyrtare. Mbi këtë bazë bashkëpunohet për përgatitjen dhe
+dërgimin e të dhënave sipas standarteve të dakortësuara.
+• Nënshkrimi i Marrëveshjes së lidhur midis Shërbimit Informativ të Shtetit dhe FSDKSH,
+për regjistrimin e punonjësve të SHISH në regjistrin elektronik të të siguruarve.
+• Nënshkrimi i Marrëveshjes me Ambasadën Amerikane për regjistrimin e punonjësve të
+kësaj Ambasade në regjistrin elektronik të të siguruarve.
+• Raportimi dhe përgatitja për proçesin screening mbi zhvillimin e skemës së sigurimit të
+detyrueshëm të kujdesit shëndetësor për kapitujt e PKIE 2024-2026 dhe Raportimet në
+Kuadër të Proçesit të Integrimit Evropian. FSDKSH raporton për Kapitujt 2, 19, 28.
+• Bashkëpunim me AKSHI-n, ne lidhje me Sistemin e Qarkullimit të Dokumenteve me
+Nënshkrim Elektronik.”
+12.2. Marrëveshjet Ndërkombëtare
+Në kuadër të rekomandimeve të Komisionit Evropian, Qeveria Shqiptare ka negociuar dhe lidhur
+një sërë marrëveshjesh, të cilat konsistojnë në ofrimin e mbrojtjes shoqërore, duke përfshirë
+sigurimet shoqërore dhe shëndetësore. Në zbatim të marrëveshjeve, Fondi është institucioni
+përgjegjës për ndjekjen e proçedurave administrative duke aplikuar lëshimin e formularëve të
+sigurimit shëndetësor.
+Me Republikën e Turqisë, marrëveshja është ratifikuar me ligjin nr. 9066, datë 15.05.2003 “Për
+ratifikimin e Marrëveshjes midis Qeverisë së Republikës së Shqipërisë dhe Qeverisë së
+Republikës së Turqisë për Mbrojtjen Shoqërore”. Si pjesë e zbatimit të kësaj marrëveshjeje janë
+19 formularë.
+Me Mbretërinë e Belgjikës, marrëveshja është ratifikuar me ligjin nr. 35/2014, datë 03.04.2014
+“Për ratifikimin e marrëveshjes ndërmjet Republikës së Shqipërisë dhe Mbretërisë së Belgjikës
+
+-- 85 of 89 --
+
+86
+për Mbrojtjen Shoqërore”. Fondi zbaton Marrëveshjen nëpërmjet aplikimit të 14 formularëve të
+miratuar. Kjo Marrëveshje ka hyrë në fuqi në 01 Janar 2016.
+Me Dukatin e Madh të Luksemburgut, marrëveshja është ratifikuar me ligjin nr. 42/2015, datë
+16.04.2015 “Për ratifikimin e marrëveshjes ndërmjet Këshillit të Ministrave të Republikës së
+Shqipërisë dhe Dukatit të Madh të Luksemburgut për Mbrojtjen Shoqërore”. Kjo Marrëveshje ka
+hyrë në fuqi në 01 Korrik 2016. Në këtë marrëveshje, është vendosur vetëm pranimi i sigurimit
+vullnetar ndërmjet dy Shteteve Kontraktuese.
+Me Republikën e Maqedonisë, marrëveshja është ratifikuar me ligjin nr. 123/2015, datë
+12.11.2015 “Për ratifikimin e Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Republikës së
+Maqedonisë për Mbrojtjen Shoqërore”. Me zbatimin e kësaj marrëveshjeje janë miratuar në
+mënyrë reciproke 18 formularë. Kjo marrëveshje ka hyrë në fuqi në 01 Qershor 2016.
+Me Republikën e Hungarisë, marrëveshja është ratifikuar me ligjin nr. 151/2015, datë
+21.12.2015 “Për ratifikimin e Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Hungarisë
+për mbrojtjen shoqërore”. Fondi zbaton Marrëveshjen nëpërmjet aplikimit të 6 formularëve të
+miratuar. Kjo Marrëveshje ka hyrë në fuqi në 01 Korrik 2016.
+Me Republikën e Çekisë marrëveshja është ratifikuar me ligjin nr. 34/2016, datë 24.03.2016
+“Për ratifikimin e Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Republikës Çeke për
+mbrojtjen shoqërore”. Fondi zbaton marrëveshjen nëpërmjet 6 formularëve të miratuar. Kjo
+marrëveshje ka hyrë në fuqi në 01 Shkurt 2017.
+Me Republikën Federale të Gjermanisë marrëveshja është ratifikuar me ligjin nr. 23/2016,
+datë 10.03.2016 “Për ratifikimin e Marrëveshjes ndërmjet Republikës së Shqipërisë dhe
+Republikës Federale të Gjermanisë për Mbrojtjen Shoqërore dhe të Protokollit Përfundimtar të
+saj”. Fondi zbaton marrëveshjen nëpërmjet 1 formulari të miratuar.
+Me Republikën e Rumanisë, marrëveshja është ratifikuar me ligjin nr. 42/2016, datë
+14.04.2016 “Për ratifikimin e Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Republikës
+së Rumanisë për mbrojtjen shoqërore”.
+Me Malin e Zi, marrëveshja është ratifikuar me ligjin nr. 70/2023, “Për ratifikimin e
+Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Malit të Zi për sigurimet shoqërore”.
+Me Republikën e Kroacisë marrëveshja është ratifikuar me ligjin nr. 11/2024, “Për ratifikimin e
+Marrëveshjes ndërmjet Republikës së Shqipërisë dhe Republikës së Kroacisë për mbrojtjen
+shoqërore”.
+
+-- 86 of 89 --
+
+87
+Në grafikun më poshtë paraqitet numri i formularëve të kërkuar nga Fondi për vitet 2023 dhe
+2024:
+13. Prioritetet Strategjike dhe Objektivat
+13.1 Prioritetet strategjike
+Synimi i prioriteteve strategjike të FSDKSH është vazhdimi i përpjekjeve për të përmirësuar dhe
+zgjeruar skemën e sigurimeve shëndetësore, në funksion të shëndetit dhe mirëqënies së
+popullatës duke respektuar të drejtat e tyre për shëndet të mirë.
+Synohet të arrihen objektivat për përmbushjen e nevojave të popullatës për shërbime
+shëndetësore cilësore, duke adresuar nevojat dhe kërkesat kryesore për shërbime shëndetësore
+dhe për përmirësimin e shëndetit të popullatës.
+Në përputhje me Strategjinë Kombëtare të Shëndetësisë, FSDKSH në bazë të misionit të tij, ka si
+prioritete kryesore strategjike:
+• Zhvillimin dhe përmirësimin e skemës së sistemit shëndetësor, duke vendosur në qendër
+qytetarët;
+• Fuqizimin e mekanizmave dhe kapaciteteve të planifikimit strategjik për financimin e
+kujdesit shëndetësor;
+• Monitorimin më efektiv të financimit të kujdesit shëndetësor dhe optimizimin e
+përdorimit të burimeve;
+• Sigurimin e shëndetit të popullatës gjatë gjithë ciklit të jetës dhe mundësimin financiar të
+Mbulimit Shëndetësor Universal për të gjithë;
+204
+14 8 26 4 0
+281
+5 4
+49
+7 1
+0
+50
+100
+150
+200
+250
+300
+Mbretëria e
+Belgjikës
+Republika Çeke Republika e
+Hungarisë
+Republika e
+Maqedonisë së
+Veriut
+Republika e
+Turqisë
+Republika
+Federale e
+Gjermanisë
+Numri i formularëve të kërkuar për vitet 2023, 2024
+Numri i formularëve të kërkuar 2023 Numri i formularëve të kërkuar 2024
+
+-- 87 of 89 --
+
+88
+• Fuqizimin e mëtejshëm të kujdesit shëndetësor parësor, si porta e parë hyrëse e qytetarit
+dhe përmirësimin e aksesit në barna dhe pajisje mjekësore të sigurta e cilësore;
+• Ofrimin e shërbimeve shëndetësore për qytetarët nëpërmjet financimit të paketave
+standarde të shërbimeve në të gjitha nivelet e sistemit shëndetësor;
+• Përmirësimin e cilësisë së sistemeve të teknologjisë shëndetësore të informacionit, të
+shtrirë gjerësisht në mbarë vendin; dhe lehtësimin e aksesit për dhënësit e shërbimit dhe
+qytetarët;
+• Përmirësimin e qeverisjes institucionale dhe bashkëpunimit ndërsektorial për shëndetin;
+• Rritjen e transparencës së veprimtarisë së Fondit dhe përmirësimin e aksesit dhe cilësisë
+së shërbimit ndaj qytetarëve në informacion dhe shërbime;
+• Bashkëpunimin me partnerët ndërkombëtarë, për realizimin me sukses të reformës në
+fushën e sigurimeve shëndetësore, sipas direktivave të BE-së.
+13.2 Objektivat vjetore 2025
+• Qëndrueshmëria dhe përmirësimi i situatës financiare të skemës, nëpërmjet përdorimit
+me efektivitet të burimeve të financimit, forcimit të kontrollit të shpenzimeve.
+• Realizimi i marrëdhënieve kontraktuale korrekte midis FSDKSH dhe ofruesve të
+shërbimit shëndetësor në funksion të përmirësimit të shërbimit ndaj popullatës.
+• Përmirësimi i mënyrës së financimit të institucioneve shëndetësore publike të dhënësve të
+shërbimit shëndetësor, bazuar në rezultate të matshme dhe të targetuara bazuar në
+indikatorët e perfomancës.
+• Financimi i paketave të miratuara të shërbimit spitalor në spitalet publike e jopublike,
+duke mbajtjur nën kontroll kapacitetet financiare të Fondit.
+• Rritja e kosto-efektivitetit të listës së barnave e pajisjeve të rimbursueshme dhe sigurimi i
+trajtimeve të efektshme për pacientët, bazuar në udhërrëfyesit dhe protokollet e praktikës
+klinike të miratuara.
+• Zgjerimi i listës së barnave të rimbursuara, duke siguruar rritjen e përfitimeve të
+popullatës.
+• Monitorimi i shpenzimeve të rimbursimit për barnat e Listës së rimbursuar, duke
+respektuar tavanet buxhetore të miratuara me ligj.
+• Sigurimi i disponibilitetit të barnave të rimbursuara në rrjetin e hapur farmaceutik dhe në
+farmacitë e spitaleve.
+• Realizimi i proçedurave të lidhjes/rilidhjes së kontratave me farmacitë, agjencitë
+farmaceutike, importuesit dhe shpërndarësit farmaceutikë, importuesit e pajisjeve
+mjekësore të rimbursuara, si dhe institucionet shëndetësore jo publike, nëpërmjet
+platformës e-Albania.
+
+-- 88 of 89 --
+
+89
+• Përmirësimi dhe zhvillimi i sistemeve informatike si ai i Regjistrit të të Siguruarve AHIS,
+përmirësimi i rrjetit (WAN/LAN) dhe analizimi dhe vlerësimi i sistemeve dhe rrjetit
+informatik të Fondit me qëllim përcaktimin e ecurisë së tyre.
+• Përmirësimi i metodologjisë së kontrollit në funksion të zbatimit të kontratave që Fondi
+lidh me ofruesit e shërbimeve shëndetësore.
+• Përditësimi i kuadrit ligjor në përputhje me legjislacionin e skemës së sigurimeve
+shëndetësore dhe të akteve të tjera ligjore dhe nënligjore në fuqi.
+• Realizimi i negociatave dhe zbatimi i marrëveshjeve të reja bilaterale në fushën e
+mbrojtjes shoqërore, veçanërisht me vendet e BE dhe sigurimi i asistencës, shkëmbimit të
+përvojës dhe bashkëpunimit me partnerët ndërkombëtarë.
+• Informimi i publikut për veprimtarinë dhe shërbimet e Fondit, në kuadër të rritjes së
+transparancës në marrëdhëniet me qytetarët.
+
+-- 89 of 89 --
+

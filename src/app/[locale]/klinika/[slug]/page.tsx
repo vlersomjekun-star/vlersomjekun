@@ -123,7 +123,14 @@ export default async function ClinicPage({
       <div className="flex items-start gap-4">
         <Avatar name={clinic.name} size={72} />
         <div className="min-w-0">
-          <h1 className="text-2xl font-bold text-gray-900">{clinic.name}</h1>
+          <div className="flex flex-wrap items-center gap-2">
+            <h1 className="text-2xl font-bold text-gray-900">{clinic.name}</h1>
+            {clinic.sectorType === "PUBLIC" && (
+              <span className="rounded-full bg-trust-light px-2.5 py-0.5 text-xs font-semibold text-trust">
+                {t("publicSector")}
+              </span>
+            )}
+          </div>
           <div className="mt-2 space-y-1 text-sm text-gray-600">
             <p className="flex items-center gap-1.5">
               <MapPin size={14} className="shrink-0 text-gray-400" aria-hidden />

@@ -119,6 +119,10 @@ async function main() {
       cityId,
       gender: d.gender ? (d.gender as Gender) : null,
       clinicId: null, // pasurohet më vonë nga scraper-at e klinikave
+      // Faza 6: mjekët familjes (Mjek i Përgjithshëm) pa klinikë shënohen për
+      // linkim manual admini me QSH — shih scripts/family-doctors/
+      familyLinkStatus:
+        d.specialtySlug === "mjek-i-pergjithshem" ? "UNLINKED_FAMILY_DOCTOR" : null,
       source: SOURCE,
       sourceUrl: SOURCE_URL,
       sourceKey,

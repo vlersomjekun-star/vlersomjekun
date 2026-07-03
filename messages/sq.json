@@ -30,6 +30,7 @@
     "title": "Rezultatet e kërkimit",
     "doctors": "Mjekë",
     "clinics": "Klinika",
+    "publicSector": "Publike",
     "specialty": "Specialiteti",
     "city": "Qyteti",
     "minRating": "Vlerësimi minimal",
@@ -44,6 +45,7 @@
   "profile": {
     "leaveReview": "Lër një vlerësim",
     "verified": "I verifikuar",
+    "publicSector": "Publike",
     "visit": "Vizitë: {month} {year}",
     "report": "Raporto",
     "reviewsTitle": "Vlerësimet",

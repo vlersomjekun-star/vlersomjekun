@@ -75,6 +75,7 @@ export default async function SearchPage({
     avgRating: number;
     reviewCount: number;
     photoUrl?: string | null;
+    publicBadge?: string;
   }[] = [];
   let total = 0;
 
@@ -179,6 +180,7 @@ export default async function SearchPage({
       meta: c.address ?? undefined,
       avgRating: c.avgRating,
       reviewCount: c.reviewCount,
+      publicBadge: c.sectorType === "PUBLIC" ? t("publicSector") : undefined,
     }));
   }
 

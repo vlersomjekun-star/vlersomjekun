@@ -14,6 +14,16 @@ enum ContentStatus {
   REJECTED
 }
 
+enum SectorType {
+  PUBLIC
+  PRIVATE
+}
+
+enum FamilyLinkStatus {
+  LINKED
+  UNLINKED_FAMILY_DOCTOR
+}
+
 enum CreatedBy {
   ADMIN
   USER
@@ -137,6 +147,7 @@ model Clinic {
   avgRating   Float         @default(0)
   reviewCount Int           @default(0)
   source      String? // p.sh. "SCRAPER", "OSM"
+  sectorType  SectorType?   // PUBLIC (QSH etj.) / PRIVATE — null për klinika ekzistuese pa klasifikim
   latitude      Float?
   longitude     Float?
   addressSource AddressSource?
@@ -181,6 +192,9 @@ model Doctor {
   longitude      Float?
   addressSource  AddressSource?
   googlePlaceId  String? // e brendshme — e vetmja gjë që ToS i Google lejon të ruhet
+  // Faza 6: mjekë familjes (Mjek i Përgjithshëm) pa QSH ende — kërkon vendim admini,
+  // MOS bëhet guess automatik mjek→QSH pa të dhëna reale (gabim i mundshëm i shumëzuar)
+  familyLinkStatus FamilyLinkStatus?
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
   avgRating      Float         @default(0)
