@@ -18,7 +18,17 @@ export default function Footer() {
             {t("contact")}
           </a>
         </div>
-        <p className="mt-6 text-xs text-gray-400">© {new Date().getFullYear()} VlersoMjekun</p>
+        <p className="mt-6 text-xs text-gray-400">
+          © {new Date().getFullYear()} VlersoMjekun · {/* kërkesë e licencës ODbL */}
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary hover:underline"
+          >
+            © OpenStreetMap contributors
+          </a>
+        </p>
       </div>
     </footer>
   );

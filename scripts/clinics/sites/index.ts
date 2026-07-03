@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import type { ScrapedDoctor, SiteScraper } from "../lib/types";
-import { parseScrapedName } from "../lib/matcher";
+import { parseScrapedName } from "../../lib/matcher";
 
 /**
  * Parser i përbashkët për temën WordPress të Spitalit Amerikan dhe Hygeia-s:

@@ -44,3 +44,5 @@ next-env.d.ts
 
 # probe HTML scratch (faza 2)
 scripts/clinics/probe/
+
+scripts/osm/output/osm-raw.json

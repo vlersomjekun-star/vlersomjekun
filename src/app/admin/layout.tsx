@@ -44,6 +44,9 @@ export default async function AdminLayout({ children }: { children: React.ReactN
                 <Link href="/admin/matches" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Përputhjet
                 </Link>
+                <Link href="/admin/osm" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
+                  OSM
+                </Link>
                 <Link href="/admin/manage" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Menaxho
                 </Link>

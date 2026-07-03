@@ -67,6 +67,15 @@ enum MatchStatus {
   CONFIRMED
   REJECTED
   NEW_DOCTOR
+  UNMATCHED
+}
+
+enum AddressSource {
+  OSM
+  PLACES_VERIFIED
+  USER
+  ADMIN
+  CLINIC_SITE
 }
 
 model User {
@@ -127,11 +136,16 @@ model Clinic {
   createdBy   CreatedBy     @default(USER)
   avgRating   Float         @default(0)
   reviewCount Int           @default(0)
-  source      String? // p.sh. "SCRAPER"
+  source      String? // p.sh. "SCRAPER", "OSM"
+  latitude      Float?
+  longitude     Float?
+  addressSource AddressSource?
+  googlePlaceId String? // e brendshme
   createdAt   DateTime      @default(now())
   doctors     Doctor[]
   reviews     Review[]
   doctorMatches DoctorClinicMatch[]
+  osmCandidates OsmCandidate[]
 
   @@index([cityId, status])
 }
@@ -163,6 +177,10 @@ model Doctor {
   // E BRENDSHME: kurrë e ekspozuar publikisht dhe kurrë e përdorur si filtër —
   // datat e vjetra janë mungesë përditësimi e regjistrit, jo revokim licence
   licenseExpiry  DateTime?
+  latitude       Float?
+  longitude      Float?
+  addressSource  AddressSource?
+  googlePlaceId  String? // e brendshme — e vetmja gjë që ToS i Google lejon të ruhet
   status         ContentStatus @default(PENDING)
   createdBy      CreatedBy     @default(USER)
   avgRating      Float         @default(0)
@@ -171,6 +189,7 @@ model Doctor {
   reviews        Review[]
   clinicMatches  DoctorClinicMatch[]
   locationSuggestions LocationSuggestion[]
+  osmCandidates  OsmCandidate[]
 
   @@index([specialtyId, status])
   @@index([cityId, status])
@@ -271,4 +290,34 @@ model AdminUser {
   id           String @id @default(cuid())
   email        String @unique
   passwordHash String
+}
+
+// Staging për kandidatët nga OpenStreetMap (ODbL — import masiv i ligjshëm me atribuim)
+model OsmCandidate {
+  id               String      @id @default(cuid())
+  osmId            String      @unique // p.sh. "node/123456"
+  osmType          String // node | way
+  name             String
+  amenity          String // dentist | doctors | clinic | hospital | healthcare:*
+  address          String?
+  phone            String?
+  website          String?
+  latitude         Float
+  longitude        Float
+  cityGuess        String? // slug qyteti nga addr:city ose bounding box
+  matchedDoctorId  String?
+  matchedDoctor    Doctor?     @relation(fields: [matchedDoctorId], references: [id])
+  matchedClinicId  String?
+  matchedClinic    Clinic?     @relation(fields: [matchedClinicId], references: [id])
+  matchStatus      MatchStatus @default(UNMATCHED)
+  matchScore       Float?
+  createdAt        DateTime    @default(now())
+
+  @@index([matchStatus])
+}
+
+// Kufiri ditor i kërkesave Google Places (assist-mode) — i qëndrueshëm në DB
+model PlacesQuota {
+  date  String @id // yyyy-mm-dd
+  count Int    @default(0)
 }

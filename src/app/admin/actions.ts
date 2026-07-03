@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
 import {
+  AddressSource,
   CommentStatus,
   ContentStatus,
   MatchStatus,
@@ -311,6 +312,108 @@ export async function createDoctorFromMatch(formData: FormData): Promise<void> {
     data: { matchStatus: MatchStatus.CONFIRMED, doctorId: doctor.id },
   });
   revalidatePath("/admin/matches");
+}
+
+// ---------- Vendndodhjet OSM (Faza 4) ----------
+
+const PROTECTED_SOURCES: (AddressSource | null)[] = [
+  AddressSource.USER,
+  AddressSource.ADMIN,
+  AddressSource.PLACES_VERIFIED,
+];
+
+/** Apliko pasurimin OSM te mjeku/klinika e match-uar (respekton prioritetin e burimeve). */
+async function applyOsmToTarget(candidateId: string): Promise<void> {
+  const m = await prisma.osmCandidate.findUniqueOrThrow({
+    where: { id: candidateId },
+    include: { matchedDoctor: true, matchedClinic: true },
+  });
+  const cities = new Map((await prisma.city.findMany()).map((c) => [c.slug, c.id]));
+
+  if (m.matchedDoctor) {
+    const d = m.matchedDoctor;
+    if (d.createdBy === "USER" || PROTECTED_SOURCES.includes(d.addressSource)) return;
+    await prisma.doctor.update({
+      where: { id: d.id },
+      data: {
+        address: m.address ?? d.address,
+        phone: m.phone ?? d.phone,
+        latitude: m.latitude,
+        longitude: m.longitude,
+        ...(!d.cityId && m.cityGuess && cities.has(m.cityGuess)
+          ? { cityId: cities.get(m.cityGuess) }
+          : {}),
+        addressSource: AddressSource.OSM,
+        enrichedAt: new Date(),
+      },
+    });
+  } else if (m.matchedClinic) {
+    const c = m.matchedClinic;
+    if (PROTECTED_SOURCES.includes(c.addressSource)) return;
+    await prisma.clinic.update({
+      where: { id: c.id },
+      data: {
+        address: c.address ?? m.address,
+        phone: c.phone ?? m.phone,
+        latitude: m.latitude,
+        longitude: m.longitude,
+        addressSource: AddressSource.OSM,
+      },
+    });
+  }
+}
+
+export async function confirmOsmMatch(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  await prisma.osmCandidate.update({
+    where: { id },
+    data: { matchStatus: MatchStatus.CONFIRMED },
+  });
+  await applyOsmToTarget(id);
+  revalidatePath("/admin/osm");
+}
+
+export async function rejectOsmCandidate(formData: FormData): Promise<void> {
+  await requireAdmin();
+  await prisma.osmCandidate.update({
+    where: { id: String(formData.get("id")) },
+    data: { matchStatus: MatchStatus.REJECTED },
+  });
+  revalidatePath("/admin/osm");
+}
+
+/** UNMATCHED → klinikë e re me source OSM. */
+export async function createClinicFromOsm(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const citySlug = String(formData.get("citySlug") || "");
+  const m = await prisma.osmCandidate.findUniqueOrThrow({ where: { id } });
+  const city = await prisma.city.findUnique({
+    where: { slug: citySlug || m.cityGuess || "tirane" },
+  });
+  if (!city) return;
+
+  const clinic = await prisma.clinic.create({
+    data: {
+      name: m.name,
+      slug: await uniqueClinicSlug(m.name),
+      cityId: city.id,
+      address: m.address,
+      phone: m.phone,
+      latitude: m.latitude,
+      longitude: m.longitude,
+      addressSource: AddressSource.OSM,
+      source: "OSM",
+      status: ContentStatus.APPROVED,
+      createdBy: "ADMIN",
+    },
+  });
+  await prisma.osmCandidate.update({
+    where: { id },
+    data: { matchStatus: MatchStatus.CONFIRMED, matchedClinicId: clinic.id },
+  });
+  revalidatePath("/admin/osm");
 }
 
 // ---------- CRUD Mjekë ----------

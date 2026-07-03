@@ -11,7 +11,7 @@ import { writeFileSync, mkdirSync } from "fs";
 import path from "path";
 import { PrismaClient, ContentStatus, CreatedBy, MatchStatus } from "@prisma/client";
 import { fetchHtml } from "./lib/fetcher";
-import { Matcher } from "./lib/matcher";
+import { Matcher } from "../lib/matcher";
 import { SITES } from "./sites";
 
 const DIR = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));

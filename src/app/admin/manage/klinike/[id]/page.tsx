@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
+import { placesEnabled } from "@/lib/places";
+import PlacesAssist from "@/components/admin/PlacesAssist";
 import { updateClinic } from "../../../actions";
 
 export const dynamic = "force-dynamic";
@@ -22,6 +24,16 @@ export default async function EditClinicPage({
   return (
     <div className="mx-auto max-w-lg">
       <h1 className="mb-5 text-xl font-bold text-gray-900">Edito: {clinic.name}</h1>
+      {placesEnabled() && !clinic.address && (
+        <div className="mb-4">
+          <PlacesAssist type="clinic" id={clinic.id} />
+        </div>
+      )}
+      {clinic.addressSource && (
+        <p className="mb-4 text-xs text-gray-400">
+          Burimi i adresës: <b>{clinic.addressSource}</b>
+        </p>
+      )}
       <form action={updateClinic} className="space-y-4 rounded-xl border border-gray-200 bg-white p-5">
         <input type="hidden" name="id" value={clinic.id} />
         <div>
