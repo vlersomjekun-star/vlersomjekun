@@ -44,17 +44,19 @@ Se il servizio PostgreSQL non è attivo: `Start-Service postgresql-x64-17` (Powe
 richiede privilegi admin la prima volta) — ma è impostato su avvio automatico, quindi
 normalmente non serve toccarlo mai.
 
-### Anteprima sempre attiva (watchdog)
+### Avvio del dev server
 
-Il sito è sempre raggiungibile su **http://localhost:3005** grazie a un watchdog automatico:
+Nessun watchdog/task automatico in background (rimosso il 04/07/2026 — non necessario:
+PostgreSQL gira comunque come servizio Windows sempre attivo, l'unica cosa da avviare
+al bisogno è il dev server Next.js).
 
-- **Attività pianificata "VlersoMjekun Dev"** (Task Scheduler, ogni 20 minuti) + **avvio al logon** (`vlersomjekun-dev.vbs` nella cartella Esecuzione automatica): eseguono `scripts/dev-up.ps1`, che verifica il servizio PostgreSQL (raramente serve, essendo un servizio Windows stabile) e riavvia il dev server (porta 3005) se è giù.
-- Lancio **veramente invisibile** tramite `scripts/run-hidden.vbs` (WScript.Shell.Run con finestra nascosta) — evita il lampeggio del terminale che si otteneva con `Start-Process -WindowStyle Hidden` quando lanciava `cmd.exe` come intermediario.
-- Avvio manuale immediato: doppio click su `start-vlersomjekun.cmd` nella root del progetto (apre anche il browser).
-- Log: `scripts/dev-up.log`, `scripts/next-dev.log`.
-- Per rimuovere il watchdog: `schtasks /Delete /TN "VlersoMjekun Dev" /F` + cancella il file `.vbs` da `shell:startup`.
+- Avvio manuale: `npm run dev -- --port 3005`, oppure doppio click su `start-vlersomjekun.cmd`
+  nella root del progetto (avvia anche PostgreSQL se fosse fermo e apre il browser).
+- `scripts/dev-up.ps1` / `scripts/run-hidden.vbs` restano nel repo come logica di supporto
+  di `start-vlersomjekun.cmd` (lancio silenzioso senza finestre che lampeggiano) — non sono
+  più schedulati, si eseguono solo quando lanci lo script manualmente.
 
-I dati del DB sono in PostgreSQL reale (`C:\Program Files\PostgreSQL\17\data`), persistenti come qualunque installazione Postgres standard.
+I dati del DB sono in PostgreSQL reale (`C:\Program Files\PostgreSQL\17\data`), persistenti come qualunque installazione Postgres standard, e restano tali indipendentemente da quando il dev server è acceso o spento.
 
 Admin: `/admin` — credenziali da `ADMIN_SEED_EMAIL` / `ADMIN_SEED_PASSWORD`.
 In dev il **link di verifica email** appare nella console del server (`[MockEmailProvider] Verifikim për ... : http://...`).
