@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
-import { MapPin, Phone, Building2 } from "lucide-react";
-import { CommentStatus, ContentStatus, ReviewStatus } from "@prisma/client";
+import { MapPin, Phone, Building2, BadgeCheck, Settings } from "lucide-react";
+import { ClaimStatus, CommentStatus, ContentStatus, ReviewStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { localName } from "@/lib/locale-name";
 import { hreflangAlternates, localeUrl } from "@/lib/seo";
@@ -13,6 +13,7 @@ import RatingBlock from "@/components/RatingBlock";
 import ReviewCard from "@/components/ReviewCard";
 import BlurGate from "@/components/BlurGate";
 import GatedLink from "@/components/auth/GatedLink";
+import ClaimProfileButton from "@/components/ClaimProfileButton";
 
 export const dynamic = "force-dynamic";
 
@@ -83,6 +84,13 @@ export default async function DoctorPage({
   if (!doctor) notFound();
 
   const loggedIn = Boolean(viewer);
+  const isOwner = Boolean(viewer && doctor.claimedByUserId === viewer.id);
+  const myPendingClaim =
+    viewer && !doctor.claimedByUserId
+      ? await prisma.doctorClaim.findUnique({
+          where: { doctorId_userId: { doctorId: doctor.id, userId: viewer.id } },
+        })
+      : null;
   const name = `Dr. ${doctor.firstName} ${doctor.lastName}`;
   const distribution: Record<number, number> = {};
   for (const r of doctor.reviews) {
@@ -130,7 +138,15 @@ export default async function DoctorPage({
       <div className="flex items-start gap-4">
         <Avatar name={`${doctor.firstName} ${doctor.lastName}`} photoUrl={doctor.photoUrl} size={72} />
         <div className="min-w-0">
-          <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
+          <div className="flex flex-wrap items-center gap-2">
+            <h1 className="text-2xl font-bold text-gray-900">{name}</h1>
+            {doctor.claimedByUserId && (
+              <span className="inline-flex items-center gap-1 rounded-full bg-trust-light px-2.5 py-0.5 text-xs font-semibold text-trust">
+                <BadgeCheck size={12} aria-hidden />
+                {t("profileVerifiedByDoctor")}
+              </span>
+            )}
+          </div>
           <p className="font-medium text-primary">
             {localName(doctor.specialty, locale)}
             {doctor.subSpecialty && (
@@ -260,19 +276,26 @@ export default async function DoctorPage({
       </section>
 
       {/* Linke diskrete */}
-      <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-xs text-gray-400">
+      <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-gray-400">
         <a
           href={`mailto:info@vlersomjekun.al?subject=${encodeURIComponent(`Të dhëna të gabuara: ${name} (${doctor.slug})`)}`}
           className="hover:text-primary hover:underline"
         >
           {t("reportWrongData")}
         </a>
-        <a
-          href={`mailto:info@vlersomjekun.al?subject=${encodeURIComponent(`Claim profili: ${name} (${doctor.slug})`)}`}
-          className="hover:text-primary hover:underline"
-        >
-          {t("areYouThisDoctor")}
-        </a>
+        {isOwner ? (
+          <Link
+            href={`/mjeku/${doctor.slug}/menaxho`}
+            className="inline-flex items-center gap-1 font-medium text-primary hover:underline"
+          >
+            <Settings size={12} aria-hidden />
+            {t("manageProfile")}
+          </Link>
+        ) : doctor.claimedByUserId ? null : myPendingClaim?.status === ClaimStatus.PENDING ? (
+          <span className="italic">{t("claimPending")}</span>
+        ) : (
+          <ClaimProfileButton doctorId={doctor.id} />
+        )}
       </div>
     </div>
   );

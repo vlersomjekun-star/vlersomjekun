@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ContentStatus, ReportStatus, ReviewStatus } from "@prisma/client";
+import { ClaimStatus, ContentStatus, ReportStatus, ReviewStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
@@ -19,6 +19,7 @@ export default async function AdminDashboard() {
     openReports,
     totalUsers,
     newUsersThisWeek,
+    pendingClaims,
   ] = await Promise.all([
     prisma.review.count(),
     prisma.review.count({ where: { createdAt: { gte: weekAgo } } }),
@@ -31,6 +32,7 @@ export default async function AdminDashboard() {
     prisma.report.count({ where: { status: ReportStatus.OPEN } }),
     prisma.user.count(),
     prisma.user.count({ where: { createdAt: { gte: weekAgo } } }),
+    prisma.doctorClaim.count({ where: { status: ClaimStatus.PENDING } }),
   ]);
 
   const removedPct = totalReviews > 0 ? ((removedReviews / totalReviews) * 100).toFixed(1) : "0";
@@ -51,6 +53,7 @@ export default async function AdminDashboard() {
     { label: "Mjekë/Klinika në pritje", value: pendingDoctors + pendingClinics, href: "/admin/pending" },
     { label: "Vlerësime në moderim", value: pendingReviews, href: "/admin/reviews" },
     { label: "Raportime të hapura", value: openReports, href: "/admin/reports" },
+    { label: "Pretendime profili në pritje", value: pendingClaims, href: "/admin/claims" },
   ];
 
   return (

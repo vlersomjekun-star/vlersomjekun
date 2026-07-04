@@ -19,6 +19,7 @@ const PROTECTED: (AddressSource | null)[] = [
   AddressSource.USER,
   AddressSource.ADMIN,
   AddressSource.PLACES_VERIFIED,
+  AddressSource.DOCTOR_VERIFIED,
 ];
 
 async function main() {

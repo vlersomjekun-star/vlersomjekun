@@ -86,6 +86,13 @@ enum AddressSource {
   USER
   ADMIN
   CLINIC_SITE
+  DOCTOR_VERIFIED
+}
+
+enum ClaimStatus {
+  PENDING
+  APPROVED
+  REJECTED
 }
 
 model User {
@@ -102,6 +109,9 @@ model User {
   comments           ReviewComment[]
   verificationTokens VerificationToken[]
   locationSuggestions LocationSuggestion[]
+  doctorClaims       DoctorClaim[]
+  // Mjeku i verifikuar tashmë menaxhon vetë profilin e tij (1 llogari → max 1 profil)
+  claimedDoctor      Doctor?              @relation("ClaimedDoctor")
 }
 
 model VerificationToken {
@@ -204,9 +214,34 @@ model Doctor {
   clinicMatches  DoctorClinicMatch[]
   locationSuggestions LocationSuggestion[]
   osmCandidates  OsmCandidate[]
+  claims         DoctorClaim[]
+  // I vendosur VETËM pas aprovimit admini (DoctorClaim.status APPROVED) —
+  // atëherë, dhe vetëm atëherë, mjeku mund të menaxhojë vetë profilin e tij
+  claimedByUserId String?      @unique
+  claimedByUser   User?        @relation("ClaimedDoctor", fields: [claimedByUserId], references: [id])
 
   @@index([specialtyId, status])
   @@index([cityId, status])
+}
+
+// Kërkesë e një përdoruesi për të pretenduar (claim) profilin e tij si mjek.
+// Miratimi është GJITHMONË njerëzor (admin) — asnjë verifikim automatik i
+// identitetit (nuk kemi akses te API-të qeveritare të urdhrave profesionalë).
+model DoctorClaim {
+  id         String      @id @default(cuid())
+  doctorId   String
+  doctor     Doctor      @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  userId     String
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  // Kontekst nga kërkuesi për adminin: nr. licence, telefon pune, etj.
+  message    String?
+  status     ClaimStatus @default(PENDING)
+  reviewNote String?
+  createdAt  DateTime    @default(now())
+  reviewedAt DateTime?
+
+  @@unique([doctorId, userId])
+  @@index([status])
 }
 
 // Sugjerime vendndodhjeje nga përdoruesit për mjekët pa qytet (USSH):

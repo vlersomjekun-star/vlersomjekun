@@ -59,6 +59,16 @@ I dati del DB sono in PostgreSQL reale (`C:\Program Files\PostgreSQL\17\data`), 
 Admin: `/admin` — credenziali da `ADMIN_SEED_EMAIL` / `ADMIN_SEED_PASSWORD`.
 In dev il **link di verifica email** appare nella console del server (`[MockEmailProvider] Verifikim për ... : http://...`).
 
+## Claim del profilo ("Je ky mjek?")
+
+Un medico può richiedere di gestire la propria scheda, ma solo dopo **approvazione manuale di un admin** — nessuna verifica automatica dell'identità (non abbiamo accesso alle API degli ordini professionali).
+
+- Utente loggato+verificato clicca "Je ky mjek?" sul profilo → `DoctorClaim` PENDING (con messaggio opzionale: nr. licenza, email di lavoro, ecc.)
+- Admin rivede in `/admin/claims` → Aprovo/Refuzo. Approvando: `Doctor.claimedByUserId` = utente, e ogni altra richiesta PENDING per lo stesso medico viene rifiutata automaticamente (1 solo proprietario)
+- Il medico verificato vede "Menaxho profilin" e può modificare: foto, sotto-specialità, clinica, indirizzo, telefono — **non** nome/cognome/specialità (restano controllati dall'admin per evitare abusi)
+- Badge pubblico "Profil i verifikuar nga mjeku" quando il profilo è rivendicato
+- `addressSource: DOCTOR_VERIFIED` è la fonte con priorità massima — mai sovrascritta da OSM/scraper (vedi Fase 4/6)
+
 ## Deploy (Vercel + Neon)
 
 1. Crea un DB Neon, imposta `DATABASE_URL` (pooled) su Vercel.

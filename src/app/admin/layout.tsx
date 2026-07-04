@@ -38,6 +38,9 @@ export default async function AdminLayout({ children }: { children: React.ReactN
                 <Link href="/admin/reports" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Raportime
                 </Link>
+                <Link href="/admin/claims" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
+                  Pretendime
+                </Link>
                 <Link href="/admin/users" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Përdoruesit
                 </Link>

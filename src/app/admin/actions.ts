@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import bcrypt from "bcryptjs";
 import {
   AddressSource,
+  ClaimStatus,
   CommentStatus,
   ContentStatus,
   MatchStatus,
@@ -321,6 +322,7 @@ const PROTECTED_SOURCES: (AddressSource | null)[] = [
   AddressSource.USER,
   AddressSource.ADMIN,
   AddressSource.PLACES_VERIFIED,
+  AddressSource.DOCTOR_VERIFIED,
 ];
 
 /** Apliko pasurimin OSM te mjeku/klinika e match-uar (respekton prioritetin e burimeve). */
@@ -599,4 +601,58 @@ export async function unlinkFamilyDoctor(formData: FormData): Promise<void> {
     data: { clinicId: null, familyLinkStatus: "UNLINKED_FAMILY_DOCTOR" },
   });
   revalidatePath("/admin/family-doctors");
+}
+
+// ---------- Pretendimet e profilit (Doctor Claim) ----------
+
+/**
+ * Aprovon një kërkesë "Je ky mjek?": lidh llogarinë me profilin dhe refuzon
+ * automatikisht çdo kërkesë tjetër PENDING për të njëjtin mjek (1 pronar i vetëm).
+ */
+export async function approveClaim(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const claim = await prisma.doctorClaim.findUniqueOrThrow({ where: { id } });
+
+  await prisma.$transaction([
+    prisma.doctor.update({
+      where: { id: claim.doctorId },
+      data: { claimedByUserId: claim.userId },
+    }),
+    prisma.doctorClaim.update({
+      where: { id },
+      data: { status: ClaimStatus.APPROVED, reviewedAt: new Date() },
+    }),
+    prisma.doctorClaim.updateMany({
+      where: { doctorId: claim.doctorId, id: { not: id }, status: ClaimStatus.PENDING },
+      data: {
+        status: ClaimStatus.REJECTED,
+        reviewNote: "Profili u caktua tashmë te një kërkesë tjetër",
+        reviewedAt: new Date(),
+      },
+    }),
+  ]);
+  revalidatePath("/admin/claims");
+}
+
+export async function rejectClaim(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const reviewNote = String(formData.get("reviewNote") || "").trim() || null;
+  await prisma.doctorClaim.update({
+    where: { id },
+    data: { status: ClaimStatus.REJECTED, reviewNote, reviewedAt: new Date() },
+  });
+  revalidatePath("/admin/claims");
+}
+
+/** Hiq pronësinë e profilit (p.sh. me kërkesë të mjekut ose gabim admini). */
+export async function revokeClaim(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const doctorId = String(formData.get("doctorId"));
+  await prisma.doctor.update({
+    where: { id: doctorId },
+    data: { claimedByUserId: null },
+  });
+  revalidatePath("/admin/claims");
 }
