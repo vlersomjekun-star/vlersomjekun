@@ -1,17 +1,54 @@
 @import "tailwindcss";
 
 @theme {
-  /* Ngjyrat e brendit: blu mjekësor + jeshile besimi (yjet/rating) */
-  --color-primary: #1e6fb8;
-  --color-primary-dark: #175a96;
-  --color-primary-light: #eaf3fb;
-  --color-trust: #16a34a;
-  --color-trust-light: #e9f7ee;
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-primary:       #1a7d5e;
+  --color-primary-dark:  #156b50;
+  --color-primary-light: #EAF3EE;
+  --color-trust:         #1a7d5e;
+  --color-trust-light:   #EAF3EE;
+  --color-amber:         #E8A33D;
+  --color-amber-light:   #FCF1DD;
+  --color-navy:          #16213D;
+  --color-border:        #E8E4DA;
+  --color-warm:          #FAFAF8;
+  --color-section:       #F4F2E9;
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --font-sans:    var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
-  background: #ffffff;
-  color: #171717;
+  background: #FAFAF8;
+  color: #1A2540;
   font-family: var(--font-sans);
+}
+
+@keyframes vm-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes vm-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.45; }
+}
+
+@keyframes vm-dash-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes vm-slide-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+
+.vm-fade-up { animation: vm-fade-up 0.55s ease both; }
+
+/* ── Mobile breakpoints ── */
+@media (max-width: 768px) {
+  .hero-grid { grid-template-columns: 1fr !important; }
+  .hero-grid h1 { font-size: 36px !important; }
+  .specialty-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .counter-strip { gap: 24px !important; }
+  .search-filters-pills { flex-wrap: wrap !important; }
 }

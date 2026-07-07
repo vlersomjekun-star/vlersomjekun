@@ -11,6 +11,7 @@ export default function ResultCard({
   reviewCount,
   photoUrl,
   publicBadge,
+  specialtySlug,
 }: {
   href: string;
   name: string;
@@ -19,38 +20,47 @@ export default function ResultCard({
   avgRating: number;
   reviewCount: number;
   photoUrl?: string | null;
-  /** Etiketë "Publike" për QSH/spitale publike (Faza 6) — dallon nga klinikat private. */
   publicBadge?: string;
+  specialtySlug?: string;
 }) {
+  const safeId = href.replace(/[^a-z0-9]/gi, "-");
   return (
     <Link
       href={href}
-      className="flex items-center gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:border-primary/40 hover:shadow"
+      className="flex items-center gap-5 bg-white border-[1.5px] border-[#E8E4DA] rounded-2xl p-5 sm:p-6 transition hover:shadow-[0_12px_28px_rgba(26,37,64,0.09)] hover:border-[#D8D2C0]"
     >
-      <Avatar name={name} photoUrl={photoUrl} size={52} />
+      <Avatar name={name} photoUrl={photoUrl} size={56} specialtySlug={specialtySlug} />
+
       <div className="min-w-0 flex-1">
-        <p className="flex items-center gap-1.5 truncate font-semibold text-gray-900">
-          {name}
+        <div className="flex items-center gap-2.5 mb-1">
+          <p className="font-display font-bold text-[17px] text-[#16213D] truncate">{name}</p>
           {publicBadge && (
-            <span className="shrink-0 rounded-full bg-trust-light px-1.5 py-0.5 text-[10px] font-semibold text-trust">
+            <span className="shrink-0 bg-amber-light text-[#9A6B14] px-2 py-0.5 rounded-full text-[11px] font-bold">
               {publicBadge}
             </span>
           )}
-        </p>
-        <p className="truncate text-sm text-gray-600">{subtitle}</p>
-        {meta && <p className="truncate text-xs text-gray-400">{meta}</p>}
+        </div>
+        <div className="flex items-center gap-2 mb-2">
+          <span className="bg-primary-light text-primary text-[12.5px] font-bold px-2.5 py-0.5 rounded-full">
+            {subtitle}
+          </span>
+          {meta && <span className="text-[13.5px] text-[#8A8471] truncate">{meta}</span>}
+        </div>
       </div>
-      <div className="flex shrink-0 flex-col items-end gap-0.5">
+
+      <div className="flex flex-col items-end gap-1 shrink-0 min-w-[90px]">
         {reviewCount > 0 ? (
           <>
-            <span className="flex items-center gap-1.5">
-              <Stars rating={avgRating} size={14} />
-              <span className="text-sm font-semibold text-gray-800">{avgRating.toFixed(1)}</span>
-            </span>
-            <span className="text-xs text-gray-400">({reviewCount})</span>
+            <div className="flex items-center gap-1.5">
+              <span className="font-display font-extrabold text-[22px] text-primary tabular-nums">
+                {avgRating.toFixed(1)}
+              </span>
+              <Stars rating={avgRating} size={13} idPrefix={`rc-${safeId}`} />
+            </div>
+            <span className="text-[12.5px] text-[#8A8471]">({reviewCount})</span>
           </>
         ) : (
-          <Stars rating={0} size={14} />
+          <Stars rating={0} size={13} idPrefix={`rc-${safeId}`} />
         )}
       </div>
     </Link>

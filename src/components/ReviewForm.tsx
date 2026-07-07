@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Star, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
+import { NetworkStarIcon } from "./NetworkStar";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useAuthGate } from "./auth/AuthGate";
@@ -170,10 +171,10 @@ export default function ReviewForm({ targetType, targetId, backHref, askCity }: 
 
   return (
     <div className="space-y-6">
-      {/* 1. Yjet */}
+      {/* 1. NetworkStar interactive picker */}
       <div>
         <span className={labelClass}>{t("ratingLabel")}</span>
-        <div className="flex gap-1">
+        <div className="flex gap-1.5 mt-1">
           {[1, 2, 3, 4, 5].map((i) => (
             <button
               key={i}
@@ -182,19 +183,21 @@ export default function ReviewForm({ targetType, targetId, backHref, askCity }: 
               onMouseEnter={() => setHover(i)}
               onMouseLeave={() => setHover(0)}
               aria-label={`${i}/5`}
-              className="p-1"
+              className="p-0.5 transition-transform hover:scale-110"
             >
-              <Star
-                size={36}
-                className={
-                  i <= (hover || rating)
-                    ? "fill-trust text-trust"
-                    : "fill-gray-200 text-gray-200"
-                }
+              <NetworkStarIcon
+                id={`form-star-${i}`}
+                fill={i <= (hover || rating) ? 1 : 0}
+                size={40}
               />
             </button>
           ))}
         </div>
+        {(hover || rating) > 0 && (
+          <p className="mt-1.5 text-[13px] font-medium text-primary">
+            {["", "Shumë keq", "Keq", "Mesatar", "Mirë", "Shumë mirë"][hover || rating]}
+          </p>
+        )}
       </div>
 
       {/* 2. Teksti */}

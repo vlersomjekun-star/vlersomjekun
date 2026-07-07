@@ -133,6 +133,7 @@ export default async function SearchPage({
       href: `/mjeku/${d.slug}`,
       name: `Dr. ${d.firstName} ${d.lastName}`,
       subtitle: localName(d.specialty, locale),
+      specialtySlug: d.specialty.slug,
       meta: [d.clinic?.name ?? d.clinicFreeText, d.city ? localName(d.city, locale) : null]
         .filter(Boolean)
         .join(" · "),
@@ -187,7 +188,7 @@ export default async function SearchPage({
   const totalPages = Math.ceil(total / PAGE_SIZE);
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-6">
+    <div className="mx-auto max-w-[1280px] px-8 py-6">
       <div className="mb-5 max-w-2xl">
         <SearchBar initialQuery={q} />
       </div>

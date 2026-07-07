@@ -1,0 +1,17 @@
+export const CITY_DOTS: Record<string, { x: number; y: number }> = {
+  tirane:       { x: 95,  y: 195 },
+  durres:       { x: 75,  y: 185 },
+  shkoder:      { x: 90,  y: 55  },
+  vlore:        { x: 85,  y: 295 },
+  elbasan:      { x: 125, y: 205 },
+  korce:        { x: 160, y: 235 },
+  fier:         { x: 90,  y: 255 },
+  berat:        { x: 115, y: 245 },
+  lushnje:      { x: 95,  y: 235 },
+  kavaje:       { x: 85,  y: 205 },
+  gjirokaster:  { x: 115, y: 325 },
+  sarande:      { x: 100, y: 355 },
+  permet:       { x: 135, y: 315 },
+  kukes:        { x: 145, y: 65  },
+  diber:        { x: 155, y: 115 },
+};

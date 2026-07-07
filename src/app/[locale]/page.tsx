@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
 import { getTranslations, getLocale } from "next-intl/server";
-import { ShieldCheck } from "lucide-react";
 import { ReviewStatus, ContentStatus } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { localName } from "@/lib/locale-name";
 import { hreflangAlternates, localeUrl } from "@/lib/seo";
+import { colorForSpecialty } from "@/lib/specialty-color";
 import { Link } from "@/i18n/navigation";
 import SearchBar from "@/components/SearchBar";
 import SpecialtyIcon from "@/components/SpecialtyIcon";
 import Stars from "@/components/Stars";
+import CounterStrip from "@/components/CounterStrip";
+import HeroVisual from "@/components/HeroVisual";
 
 export const dynamic = "force-dynamic";
 
@@ -42,8 +44,11 @@ export default async function HomePage() {
   const locale = await getLocale();
   const t = await getTranslations("home");
 
-  const [specialties, reviewCount, latestReviews] = await Promise.all([
-    prisma.specialty.findMany({ where: { slug: { in: TOP_SPECIALTIES } } }),
+  const [specialties, reviewCount, latestReviews, doctorCount, cityCount] = await Promise.all([
+    prisma.specialty.findMany({
+      where: { slug: { in: TOP_SPECIALTIES } },
+      include: { _count: { select: { doctors: { where: { status: ContentStatus.APPROVED } } } } },
+    }),
     prisma.review.count({ where: { status: ReviewStatus.PUBLISHED } }),
     prisma.review.findMany({
       where: {
@@ -54,9 +59,11 @@ export default async function HomePage() {
         ],
       },
       orderBy: { createdAt: "desc" },
-      take: 6,
-      include: { doctor: true, clinic: true },
+      take: 4,
+      include: { doctor: { include: { city: true } }, clinic: true },
     }),
+    prisma.doctor.count({ where: { status: ContentStatus.APPROVED } }),
+    prisma.city.count(),
   ]);
 
   const orderedSpecialties = TOP_SPECIALTIES.map((slug) =>
@@ -64,81 +71,133 @@ export default async function HomePage() {
   ).filter((s): s is NonNullable<typeof s> => Boolean(s));
 
   return (
-    <div className="mx-auto max-w-5xl px-4">
-      {/* Hero */}
-      <section className="py-12 text-center sm:py-16">
-        <h1 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          {t("title")}
-        </h1>
-        <p className="mx-auto mt-3 max-w-xl text-gray-500">{t("subtitle")}</p>
-        <div className="mx-auto mt-8 max-w-2xl">
-          <SearchBar large />
-        </div>
-        <p className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-trust">
-          <ShieldCheck size={18} aria-hidden />
-          {t("counterLabel", { count: reviewCount })}
-        </p>
-      </section>
-
-      {/* Specialitetet */}
-      <section className="py-8">
-        <h2 className="mb-4 text-xl font-bold text-gray-900">{t("specialtiesTitle")}</h2>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {orderedSpecialties.map((s) => (
-            <Link
-              key={s.id}
-              href={`/kerko?specialty=${s.slug}`}
-              className="flex flex-col items-center gap-2 rounded-xl border border-gray-100 bg-white p-4 text-center shadow-sm transition hover:border-primary/40 hover:shadow"
-            >
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-primary-light text-primary">
-                <SpecialtyIcon icon={s.icon} size={22} />
-              </span>
-              <span className="text-sm font-medium text-gray-800">{localName(s, locale)}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* Vlerësimet e fundit */}
-      <section className="py-8">
-        <h2 className="mb-4 text-xl font-bold text-gray-900">{t("latestReviews")}</h2>
-        {latestReviews.length === 0 ? (
-          <p className="rounded-xl border border-dashed border-gray-200 p-8 text-center text-sm text-gray-400">
-            {t("noReviewsYet")}
-          </p>
-        ) : (
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {latestReviews.map((r) => {
-              const isDoctor = Boolean(r.doctor);
-              const name = r.doctor
-                ? `Dr. ${r.doctor.firstName} ${r.doctor.lastName}`
-                : r.clinic?.name ?? "";
-              const href = r.doctor
-                ? `/mjeku/${r.doctor.slug}`
-                : `/klinika/${r.clinic?.slug}`;
-              const excerpt =
-                r.text.length > 140 ? `${r.text.slice(0, 140).trimEnd()}…` : r.text;
-              return (
-                <Link
-                  key={r.id}
-                  href={href}
-                  className="flex flex-col gap-2 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:border-primary/40 hover:shadow"
-                >
-                  <div className="flex items-center justify-between">
-                    <Stars rating={r.rating} size={14} />
-                    <span className="text-xs text-gray-400">
-                      {new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(r.createdAt)}
-                    </span>
-                  </div>
-                  <p className="text-sm leading-relaxed text-gray-600">“{excerpt}”</p>
-                  <p className="mt-auto text-sm font-semibold text-primary">
-                    {isDoctor ? name : `🏥 ${name}`}
-                  </p>
-                </Link>
-              );
-            })}
+    <div>
+      {/* ===== HERO ===== */}
+      <section className="mx-auto max-w-[1280px] px-8 py-16 grid grid-cols-1 gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+        {/* Left */}
+        <div className="vm-fade-up">
+          <div className="inline-flex items-center gap-2 bg-primary-light text-primary px-4 py-2 rounded-full text-[13px] font-bold mb-5">
+            Platformë shqiptare · falas &amp; pa reklama
           </div>
-        )}
+          <h1 className="font-display font-extrabold text-[42px] sm:text-[54px] leading-[1.04] tracking-tight text-[#16213D] mb-5">
+            Gjej mjekun e duhur.<br />
+            <span className="text-primary">Me përvoja nga pacientë të vërtetë.</span>
+          </h1>
+          <p className="text-[17px] leading-relaxed text-[#5B6478] max-w-[480px] mb-8">
+            Vlerësime të verifikuara për mjekë dhe klinika në të gjithë Shqipërinë. Para se të vizitosh, lexo çfarë thonë njerëz si ti.
+          </p>
+
+          <div className="flex items-center gap-3 bg-white border-[1.5px] border-[#E8E4DA] rounded-2xl p-2 pl-5 shadow-[0_8px_24px_rgba(26,37,64,0.06)] max-w-[510px]">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8A8471" strokeWidth="2" aria-hidden>
+              <circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <div className="flex-1">
+              <SearchBar large />
+            </div>
+          </div>
+
+          <CounterStrip
+            doctorCount={doctorCount}
+            reviewCount={reviewCount}
+            cityCount={cityCount}
+          />
+        </div>
+
+        {/* Right: animated network + callout card */}
+        <div className="hidden lg:block relative" aria-hidden>
+          <HeroVisual />
+        </div>
+      </section>
+
+      {/* ===== SPECIALITÀ ===== */}
+      <section className="mx-auto max-w-[1280px] px-8 py-12">
+        <h2 className="font-display font-bold text-[26px] text-[#16213D] mb-6">{t("specialtiesTitle")}</h2>
+        <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-4">
+          {orderedSpecialties.map((s) => {
+            const c = colorForSpecialty(s.slug);
+            const count = s._count.doctors;
+            return (
+              <Link
+                key={s.id}
+                href={`/kerko?specialty=${s.slug}`}
+                className="group bg-white border-[1.5px] border-[#E8E4DA] rounded-2xl p-[18px] flex flex-col gap-2.5 transition hover:-translate-y-0.5"
+                style={{ ["--sp-color" as string]: c.text }}
+              >
+                <span
+                  className="flex h-[42px] w-[42px] items-center justify-center rounded-xl"
+                  style={{ background: c.bg }}
+                >
+                  <SpecialtyIcon icon={s.icon} size={21} className="text-[--sp-color]" />
+                </span>
+                <div>
+                  <p className="font-bold text-[14.5px] text-[#16213D]">{localName(s, locale)}</p>
+                  {count > 0 && (
+                    <p className="text-[11.5px] text-[#8A8471] mt-0.5">{count} mjekë</p>
+                  )}
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* ===== RECENSIONI RECENTI ===== */}
+      <section className="bg-section py-12">
+        <div className="mx-auto max-w-[1280px] px-8">
+          <h2 className="font-display font-bold text-[26px] text-[#16213D] mb-1.5">{t("latestReviews")}</h2>
+          <p className="text-[14.5px] text-[#5B6478] mb-5">
+            Njerëz reale, përvoja reale
+            {reviewCount > 0 && ` — ${reviewCount} vlerësime të publikuara.`}
+          </p>
+
+          {latestReviews.length === 0 ? (
+            <p className="rounded-2xl border border-dashed border-[#E8E4DA] p-10 text-center text-sm text-[#8A8471]">
+              {t("noReviewsYet")}
+            </p>
+          ) : (
+            <div className="grid gap-[18px] sm:grid-cols-2">
+              {latestReviews.map((r, idx) => {
+                const name = r.doctor
+                  ? `Dr. ${r.doctor.firstName} ${r.doctor.lastName}`
+                  : r.clinic?.name ?? "";
+                const href = r.doctor ? `/mjeku/${r.doctor.slug}` : `/klinika/${r.clinic?.slug}`;
+                const city = r.doctor?.city ? localName(r.doctor.city, locale) : null;
+                const excerpt = r.text.length > 165 ? `${r.text.slice(0, 165).trimEnd()}…` : r.text;
+                return (
+                  <div key={r.id} className="bg-white rounded-2xl p-[22px] border border-[#E8E4DA]">
+                    <Stars rating={r.rating} size={17} idPrefix={`rev-${idx}`} />
+                    <p className="mt-2.5 text-[15px] leading-[1.55] text-[#2C3345] mb-3.5">
+                      &ldquo;{excerpt}&rdquo;
+                    </p>
+                    <div className="flex items-center justify-between border-t border-[#F0EEE4] pt-[11px]">
+                      <Link href={href} className="font-bold text-[13.5px] text-primary hover:underline">
+                        {name}
+                      </Link>
+                      <span className="text-[12px] text-[#8A8471]">
+                        {city && `${city} · `}
+                        {new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(r.createdAt)}
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ===== MANIFESTO ===== */}
+      <section className="mx-auto max-w-[1280px] px-8 py-14 grid grid-cols-1 gap-8 sm:grid-cols-3">
+        {[
+          { title: "100% falas", text: "Asnjë profil me pagesë, asnjë reklamë. Vlerëso Mjekun mbetet i pavarur." },
+          { title: "Vlerësime asnjëherë të fshira", text: "Edhe kur janë negative. Transparenca është pika jonë e nisjes." },
+          { title: "Pacientë të verifikuar", text: "Çdo vlerësim lidhet me një vizitë reale, jo me një llogari anonime." },
+        ].map((item) => (
+          <div key={item.title}>
+            <p className="font-display font-extrabold text-[19px] text-primary mb-2">{item.title}</p>
+            <p className="text-[14px] text-[#5B6478] leading-[1.55]">{item.text}</p>
+          </div>
+        ))}
       </section>
     </div>
   );
