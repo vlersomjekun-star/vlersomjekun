@@ -224,6 +224,17 @@ export default async function DoctorPage({
         </div>
       </div>
 
+      {/* ── Owner: gestisci profilo ── */}
+      {isOwner && (
+        <Link
+          href={`/mjeku/${doctor.slug}/menaxho`}
+          className="mb-5 flex items-center gap-2 rounded-xl border border-primary bg-primary-light px-4 py-3 text-sm font-semibold text-primary hover:bg-primary hover:text-white transition-colors"
+        >
+          <Settings size={16} aria-hidden />
+          {t("manageProfile")}
+        </Link>
+      )}
+
       {/* ── Rating block ── */}
       <div className="mb-5">
         <RatingBlock
