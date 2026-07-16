@@ -128,21 +128,26 @@ async function ProfileTabContent({
 }) {
   void pageLocale;
 
-  const clinics = doctor.cityId
-    ? await prisma.clinic.findMany({
-        where: { status: ContentStatus.APPROVED, cityId: doctor.cityId },
-        orderBy: { name: "asc" },
-      })
-    : await prisma.clinic.findMany({
-        where: { status: ContentStatus.APPROVED },
-        orderBy: { name: "asc" },
-      });
+  const [clinics, specialties] = await Promise.all([
+    doctor.cityId
+      ? prisma.clinic.findMany({
+          where: { status: ContentStatus.APPROVED, cityId: doctor.cityId },
+          orderBy: { name: "asc" },
+        })
+      : prisma.clinic.findMany({
+          where: { status: ContentStatus.APPROVED },
+          orderBy: { name: "asc" },
+        }),
+    prisma.specialty.findMany({ orderBy: { nameSq: "asc" } }),
+  ]);
 
   return (
     <ManageForm
       doctorId={doctor.id}
       clinics={clinics.map((c: { id: string; name: string }) => ({ id: c.id, name: c.name }))}
+      specialties={specialties.map((s: { id: string; nameSq: string }) => ({ id: s.id, name: s.nameSq }))}
       initial={{
+        specialtyId:  doctor.specialtyId  ?? "",
         photoUrl:     doctor.photoUrl    ?? "",
         subSpecialty: doctor.subSpecialty ?? "",
         address:      doctor.address     ?? "",

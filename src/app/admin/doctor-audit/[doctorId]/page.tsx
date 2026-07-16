@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 export const dynamic = "force-dynamic";
 
 const FIELD_LABELS: Record<string, string> = {
+  specialtyId:  "Specialiteti (ID)",
   photoUrl:     "Foto",
   subSpecialty: "Nën-specialiteti",
   address:      "Adresa",

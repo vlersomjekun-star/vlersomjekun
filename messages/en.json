@@ -151,7 +151,8 @@
     "activityOldLabel": "Previous value",
     "activityNewLabel": "New value",
     "activityDateLabel": "Date",
-    "noReviewsForDoctor": "No reviews yet."
+    "noReviewsForDoctor": "No reviews yet.",
+    "manageFieldSpecialty": "Specialty"
   },
   "reviewForm": {
     "title": "Leave a review",

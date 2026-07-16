@@ -14,6 +14,7 @@ const URL_FIELD = z.string().trim().url().max(500).optional().or(z.literal(""));
 
 const profileSchema = z.object({
   doctorId:     z.string().min(1),
+  specialtyId:  z.string().min(1).optional(),
   photoUrl:     URL_FIELD,
   subSpecialty: z.string().trim().max(120).optional(),
   address:      z.string().trim().max(200).optional(),
@@ -74,6 +75,11 @@ export async function updateOwnProfile(
     return { status: "error", error: "NOT_OWNER" };
   }
 
+  if (d.specialtyId) {
+    const specialty = await prisma.specialty.findUnique({ where: { id: d.specialtyId } });
+    if (!specialty) return { status: "error", error: "INVALID_INPUT" };
+  }
+
   if (d.clinicId) {
     const clinic = await prisma.clinic.findUnique({ where: { id: d.clinicId } });
     if (!clinic) return { status: "error", error: "INVALID_INPUT" };
@@ -83,6 +89,7 @@ export async function updateOwnProfile(
 
   // Vlerat e reja dhe të vjetra për audit log
   const newVals: Record<string, string | null> = {
+    specialtyId:  d.specialtyId  || null,
     photoUrl:     d.photoUrl     || null,
     subSpecialty: d.subSpecialty || null,
     address:      d.address      || null,
@@ -96,6 +103,7 @@ export async function updateOwnProfile(
     scheduleJson: scheduleJson ? JSON.stringify(scheduleJson) : null,
   };
   const oldVals: Record<string, string | null> = {
+    specialtyId:  doctor.specialtyId,
     photoUrl:     doctor.photoUrl,
     subSpecialty: doctor.subSpecialty,
     address:      doctor.address,
@@ -123,6 +131,7 @@ export async function updateOwnProfile(
     prisma.doctor.update({
       where: { id: doctor.id },
       data: {
+        ...(d.specialtyId ? { specialtyId: d.specialtyId } : {}),
         photoUrl:     d.photoUrl     || null,
         subSpecialty: d.subSpecialty || null,
         address:      d.address      || null,

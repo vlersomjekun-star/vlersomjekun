@@ -151,7 +151,8 @@
     "activityOldLabel": "Valore precedente",
     "activityNewLabel": "Nuovo valore",
     "activityDateLabel": "Data",
-    "noReviewsForDoctor": "Ancora nessuna recensione."
+    "noReviewsForDoctor": "Ancora nessuna recensione.",
+    "manageFieldSpecialty": "Specialità"
   },
   "reviewForm": {
     "title": "Lascia una recensione",

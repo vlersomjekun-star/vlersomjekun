@@ -151,7 +151,8 @@
     "activityOldLabel": "Vlera e mëparshme",
     "activityNewLabel": "Vlera e re",
     "activityDateLabel": "Data",
-    "noReviewsForDoctor": "Nuk ka ende vlerësime."
+    "noReviewsForDoctor": "Nuk ka ende vlerësime.",
+    "manageFieldSpecialty": "Specialiteti"
   },
   "reviewForm": {
     "title": "Lër një vlerësim",

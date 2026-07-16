@@ -41,12 +41,15 @@ function initSchedule(
 export default function ManageForm({
   doctorId,
   clinics,
+  specialties,
   initial,
   backHref,
 }: {
   doctorId: string;
   clinics: Option[];
+  specialties: Option[];
   initial: {
+    specialtyId: string;
     photoUrl: string;
     subSpecialty: string;
     address: string;
@@ -153,6 +156,18 @@ export default function ManageForm({
             className={inputClass}
           />
         </div>
+      </div>
+
+      {/* ── Specialiteti ── */}
+      <div>
+        <label htmlFor="specialtyId" className={labelClass}>
+          {t("manageFieldSpecialty")}
+        </label>
+        <select id="specialtyId" name="specialtyId" defaultValue={initial.specialtyId} className={inputClass}>
+          {specialties.map((s) => (
+            <option key={s.id} value={s.id}>{s.name}</option>
+          ))}
+        </select>
       </div>
 
       {/* ── Nën-specialiteti ── */}
