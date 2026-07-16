@@ -8,7 +8,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-inter" });
 
 export const metadata = {
-  title: "Admin — VlersoMjekun",
+  title: "Admin — Vleresomjekun",
   robots: { index: false, follow: false },
 };
 
@@ -22,7 +22,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
         <header className="border-b border-gray-200 bg-white">
           <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-3">
             <Link href="/admin" className="font-bold text-primary">
-              VlersoMjekun <span className="rounded bg-primary-light px-1.5 py-0.5 text-xs">ADMIN</span>
+              Vleresomjekun <span className="rounded bg-primary-light px-1.5 py-0.5 text-xs">ADMIN</span>
             </Link>
             {email && (
               <nav className="flex flex-wrap items-center gap-1 text-sm">
@@ -40,6 +40,9 @@ export default async function AdminLayout({ children }: { children: React.ReactN
                 </Link>
                 <Link href="/admin/claims" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Pretendime
+                </Link>
+                <Link href="/admin/disputes" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
+                  Kontestime
                 </Link>
                 <Link href="/admin/users" className="rounded px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
                   Përdoruesit

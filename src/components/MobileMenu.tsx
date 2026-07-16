@@ -1,10 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export function MobileMenuButton() {
   const [open, setOpen] = useState(false);
+  const t = useTranslations("header");
+  const tAuth = useTranslations("auth");
 
   return (
     <>
@@ -33,19 +36,19 @@ export function MobileMenuButton() {
             style={{ animation: "vm-slide-right 0.25s ease both" }}
           >
             <div className="flex items-center justify-between mb-5">
-              <span className="font-display font-bold text-[18px] text-[#16213D]">Menu</span>
+              <span className="font-display font-bold text-[18px] text-[#16213D]">{t("menuTitle")}</span>
               <button
                 onClick={() => setOpen(false)}
                 className="text-[#8A8471] text-[20px] px-1 leading-none"
-                aria-label="Mbyll"
+                aria-label={t("close")}
               >✕</button>
             </div>
-            <Link href="/kerko" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">Kërko mjekë</Link>
-            <Link href="/shto-mjek" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">Shto mjek</Link>
-            <Link href="/rreth-nesh" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">Rreth nesh</Link>
+            <Link href="/kerko" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">{t("searchDoctors")}</Link>
+            <Link href="/shto-mjek" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">{t("addDoctor")}</Link>
+            <Link href="/rreth-nesh" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#16213D] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">{t("about")}</Link>
             <div className="h-px bg-[#E8E4DA] my-2" />
-            <Link href="/identifikohu" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#5B6478] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">Identifikohu</Link>
-            <Link href="/regjistrohu" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-white bg-primary text-center hover:bg-primary-dark transition">Regjistrohu</Link>
+            <Link href="/identifikohu" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-[#5B6478] border border-[#E8E4DA] hover:bg-[#EAF3EE] transition">{tAuth("identifikohu")}</Link>
+            <Link href="/regjistrohu" onClick={() => setOpen(false)} className="px-3.5 py-3 rounded-xl text-[15px] font-bold text-white bg-primary text-center hover:bg-primary-dark transition">{tAuth("signupButton")}</Link>
           </div>
         </>
       )}

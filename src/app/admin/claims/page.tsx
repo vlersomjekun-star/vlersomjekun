@@ -87,12 +87,20 @@ export default async function ClaimsPage() {
               </Link>{" "}
               → {d.claimedByUser?.email} ({d.claimedByUser?.nickname ?? "pa nofkë"})
             </span>
-            <form action={revokeClaim}>
-              <input type="hidden" name="doctorId" value={d.id} />
-              <button className="rounded-lg border border-red-300 px-2.5 py-1 text-xs font-semibold text-red-500 hover:bg-red-50">
-                Hiq pronësinë
-              </button>
-            </form>
+            <div className="flex items-center gap-2">
+              <Link
+                href={`/admin/doctor-audit/${d.id}`}
+                className="rounded-lg border border-gray-200 px-2.5 py-1 text-xs font-medium text-gray-500 hover:bg-gray-50"
+              >
+                Log auditimi
+              </Link>
+              <form action={revokeClaim}>
+                <input type="hidden" name="doctorId" value={d.id} />
+                <button className="rounded-lg border border-red-300 px-2.5 py-1 text-xs font-semibold text-red-500 hover:bg-red-50">
+                  Hiq pronësinë
+                </button>
+              </form>
+            </div>
           </div>
         ))}
       </div>

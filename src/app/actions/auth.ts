@@ -33,7 +33,7 @@ async function createAndSendVerification(userId: string, email: string): Promise
       expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24h
     },
   });
-  await getEmailProvider().sendVerification(email, `${BASE_URL}/verifiko-email?token=${token}`);
+  await getEmailProvider().sendVerification(email, `${BASE_URL}/sq/verifiko-email?token=${token}`);
 }
 
 export async function signup(
@@ -107,6 +107,82 @@ export async function resendVerification(): Promise<AuthActionState> {
     console.error("Dërgimi i email-it dështoi:", e);
     return { status: "error", error: "EMAIL_SEND_FAILED" };
   }
+  return { status: "ok" };
+}
+
+export async function requestPasswordReset(
+  _prev: AuthActionState,
+  formData: FormData
+): Promise<AuthActionState> {
+  const email = z.string().trim().toLowerCase().email().safeParse(formData.get("email"));
+  if (!email.success) return { status: "error", error: "INVALID_EMAIL" };
+
+  const ipHash = hashIp(clientIp(await headers()));
+  if (!rateLimit(`pwreset:${ipHash}`, 3, 60 * 60 * 1000)) {
+    return { status: "error", error: "RATE_LIMITED" };
+  }
+
+  const user = await prisma.user.findUnique({ where: { email: email.data } });
+  // Always return ok — never reveal if email exists
+  if (!user || user.provider !== AuthProvider.CREDENTIALS) return { status: "ok" };
+
+  const token = randomBytes(32).toString("hex");
+  await prisma.$transaction([
+    prisma.passwordResetToken.deleteMany({ where: { userId: user.id } }),
+    prisma.passwordResetToken.create({
+      data: {
+        userId: user.id,
+        token,
+        expiresAt: new Date(Date.now() + 60 * 60 * 1000), // 1h
+      },
+    }),
+  ]);
+
+  try {
+    await getEmailProvider().sendPasswordReset(
+      email.data,
+      `${BASE_URL}/sq/fjalekalim-i-ri?token=${token}`
+    );
+  } catch (e) {
+    console.error("Password reset email dështoi:", e);
+  }
+
+  return { status: "ok" };
+}
+
+const resetSchema = z.object({
+  token: z.string().min(1),
+  password: z.string().min(8).max(100),
+  confirm: z.string(),
+});
+
+export async function resetPassword(
+  _prev: AuthActionState,
+  formData: FormData
+): Promise<AuthActionState> {
+  const parsed = resetSchema.safeParse({
+    token: formData.get("token"),
+    password: formData.get("password"),
+    confirm: formData.get("confirm"),
+  });
+  if (!parsed.success) return { status: "error", error: "PASSWORD_TOO_SHORT" };
+  const { token, password, confirm } = parsed.data;
+
+  if (password !== confirm) return { status: "error", error: "PASSWORD_MISMATCH" };
+
+  const record = await prisma.passwordResetToken.findUnique({ where: { token } });
+  if (!record || record.expiresAt < new Date()) {
+    return { status: "error", error: "INVALID_TOKEN" };
+  }
+
+  await prisma.$transaction([
+    prisma.user.update({
+      where: { id: record.userId },
+      data: { passwordHash: await bcrypt.hash(password, 10) },
+    }),
+    prisma.passwordResetToken.deleteMany({ where: { userId: record.userId } }),
+  ]);
+
   return { status: "ok" };
 }
 

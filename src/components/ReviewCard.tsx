@@ -4,6 +4,8 @@ import Stars from "./Stars";
 import ReportButton from "./ReportButton";
 import CommentSection, { type CommentData } from "./CommentSection";
 
+export type DoctorReplyData = { text: string };
+
 function hashId(s: string): string {
   let h = 5381;
   for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0;
@@ -15,6 +17,7 @@ export default function ReviewCard({
   comments = [],
   viewerLoggedIn = false,
   locale = "sq",
+  doctorReply = null,
 }: {
   review: {
     id: string;
@@ -28,6 +31,7 @@ export default function ReviewCard({
   comments?: CommentData[];
   viewerLoggedIn?: boolean;
   locale?: string;
+  doctorReply?: DoctorReplyData | null;
 }) {
   const t = useTranslations("profile");
   const tm = useTranslations("months");
@@ -55,6 +59,16 @@ export default function ReviewCard({
         </span>
         <ReportButton reviewId={review.id} />
       </div>
+      {doctorReply && (
+        <div className="mt-3 rounded-lg border-l-[3px] border-primary bg-primary-light px-3 py-2.5">
+          <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
+            {t("replyDoctorLabel")}
+          </p>
+          <p className="whitespace-pre-line text-sm leading-relaxed text-gray-700">
+            {doctorReply.text}
+          </p>
+        </div>
+      )}
       <CommentSection
         reviewId={review.id}
         comments={comments}

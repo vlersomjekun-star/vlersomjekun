@@ -195,7 +195,7 @@ export default function ReviewForm({ targetType, targetId, backHref, askCity }: 
         </div>
         {(hover || rating) > 0 && (
           <p className="mt-1.5 text-[13px] font-medium text-primary">
-            {["", "Shumë keq", "Keq", "Mesatar", "Mirë", "Shumë mirë"][hover || rating]}
+            {(t.raw("ratingLabels") as string[])[hover || rating]}
           </p>
         )}
       </div>

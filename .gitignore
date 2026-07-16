@@ -48,3 +48,5 @@ scripts/clinics/probe/
 scripts/osm/output/osm-raw.json
 
 scripts/*.log
+.vercel
+.env*

@@ -77,14 +77,14 @@ export default async function HomePage() {
         {/* Left */}
         <div className="vm-fade-up">
           <div className="inline-flex items-center gap-2 bg-primary-light text-primary px-4 py-2 rounded-full text-[13px] font-bold mb-5">
-            Platformë shqiptare · falas &amp; pa reklama
+            {t("heroBadge")}
           </div>
           <h1 className="font-display font-extrabold text-[42px] sm:text-[54px] leading-[1.04] tracking-tight text-[#16213D] mb-5">
-            Gjej mjekun e duhur.<br />
-            <span className="text-primary">Me përvoja nga pacientë të vërtetë.</span>
+            {t("title")}<br />
+            <span className="text-primary">{t("titleHighlight")}</span>
           </h1>
           <p className="text-[17px] leading-relaxed text-[#5B6478] max-w-[480px] mb-8">
-            Vlerësime të verifikuara për mjekë dhe klinika në të gjithë Shqipërinë. Para se të vizitosh, lexo çfarë thonë njerëz si ti.
+            {t("subtitle")}
           </p>
 
           <div className="flex items-center gap-3 bg-white border-[1.5px] border-[#E8E4DA] rounded-2xl p-2 pl-5 shadow-[0_8px_24px_rgba(26,37,64,0.06)] max-w-[510px]">
@@ -132,7 +132,7 @@ export default async function HomePage() {
                 <div>
                   <p className="font-bold text-[14.5px] text-[#16213D]">{localName(s, locale)}</p>
                   {count > 0 && (
-                    <p className="text-[11.5px] text-[#8A8471] mt-0.5">{count} mjekë</p>
+                    <p className="text-[11.5px] text-[#8A8471] mt-0.5">{t("specialtyCount", { count })}</p>
                   )}
                 </div>
               </Link>
@@ -146,8 +146,8 @@ export default async function HomePage() {
         <div className="mx-auto max-w-[1280px] px-8">
           <h2 className="font-display font-bold text-[26px] text-[#16213D] mb-1.5">{t("latestReviews")}</h2>
           <p className="text-[14.5px] text-[#5B6478] mb-5">
-            Njerëz reale, përvoja reale
-            {reviewCount > 0 && ` — ${reviewCount} vlerësime të publikuara.`}
+            {t("reviewsSubtitle")}
+            {reviewCount > 0 && ` ${t("reviewsPublishedCount", { count: reviewCount })}`}
           </p>
 
           {latestReviews.length === 0 ? (
@@ -188,14 +188,16 @@ export default async function HomePage() {
 
       {/* ===== MANIFESTO ===== */}
       <section className="mx-auto max-w-[1280px] px-8 py-14 grid grid-cols-1 gap-8 sm:grid-cols-3">
-        {[
-          { title: "100% falas", text: "Asnjë profil me pagesë, asnjë reklamë. Vlerëso Mjekun mbetet i pavarur." },
-          { title: "Vlerësime asnjëherë të fshira", text: "Edhe kur janë negative. Transparenca është pika jonë e nisjes." },
-          { title: "Pacientë të verifikuar", text: "Çdo vlerësim lidhet me një vizitë reale, jo me një llogari anonime." },
-        ].map((item) => (
-          <div key={item.title}>
-            <p className="font-display font-extrabold text-[19px] text-primary mb-2">{item.title}</p>
-            <p className="text-[14px] text-[#5B6478] leading-[1.55]">{item.text}</p>
+        {(
+          [
+            ["manifesto0Title", "manifesto0Text"],
+            ["manifesto1Title", "manifesto1Text"],
+            ["manifesto2Title", "manifesto2Text"],
+          ] as const
+        ).map(([titleKey, textKey]) => (
+          <div key={titleKey}>
+            <p className="font-display font-extrabold text-[19px] text-primary mb-2">{t(titleKey)}</p>
+            <p className="text-[14px] text-[#5B6478] leading-[1.55]">{t(textKey)}</p>
           </div>
         ))}
       </section>

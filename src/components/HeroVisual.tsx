@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 const NODES = [
   { cx: 50, cy: 10, label: "AH", color: "#1a7d5e" },
@@ -12,6 +13,7 @@ const NODES = [
 
 export default function HeroVisual() {
   const [active, setActive] = useState(0);
+  const t = useTranslations("home");
 
   useEffect(() => {
     const id = setInterval(() => setActive((n) => (n + 1) % NODES.length), 2200);
@@ -91,7 +93,7 @@ export default function HeroVisual() {
       {/* Center rating badge */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full border border-[#E8E4DA] shadow-[0_12px_28px_rgba(26,37,64,0.12)] w-20 h-20 flex flex-col items-center justify-center z-10 pointer-events-none">
         <span className="font-display font-extrabold text-[22px] text-primary leading-none">4.6</span>
-        <span className="text-[10px] text-[#8A8471] font-bold">mesatarja</span>
+        <span className="text-[10px] text-[#8A8471] font-bold">{t("heroRatingLabel")}</span>
       </div>
     </div>
   );

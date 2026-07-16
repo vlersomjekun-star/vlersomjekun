@@ -4,6 +4,7 @@ import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import GoogleButton from "./GoogleButton";
 
 export default function LoginForm({
@@ -62,9 +63,17 @@ export default function LoginForm({
           />
         </div>
         <div>
-          <label htmlFor="login-password" className="mb-1 block text-sm font-semibold text-gray-800">
-            {t("password")}
-          </label>
+          <div className="mb-1 flex items-center justify-between">
+            <label htmlFor="login-password" className="text-sm font-semibold text-gray-800">
+              {t("password")}
+            </label>
+            <Link
+              href="/fjalekalim-harruar"
+              className="text-xs text-primary hover:underline"
+            >
+              {t("forgotLink")}
+            </Link>
+          </div>
           <input
             id="login-password"
             type="password"

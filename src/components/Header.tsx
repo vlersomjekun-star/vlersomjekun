@@ -34,7 +34,7 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-6">
           <Link href="/kerko" className="text-[14.5px] font-semibold text-[#5B6478] hover:text-primary transition">
-            Kërko
+            {t("search")}
           </Link>
           <Link href="/shto-mjek" className="text-[14.5px] font-semibold text-[#5B6478] hover:text-primary transition">
             {t("addDoctor")}

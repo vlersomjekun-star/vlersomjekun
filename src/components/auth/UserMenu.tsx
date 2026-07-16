@@ -21,13 +21,13 @@ export default function UserMenu() {
           onClick={() => openGate("login")}
           className="hidden sm:block rounded-lg border-[1.5px] border-[#E8E4DA] px-[13px] py-[7px] text-[13.5px] font-semibold text-[#5B6478] transition hover:border-primary hover:text-primary"
         >
-          Identifikohu
+          {t("identifikohu")}
         </button>
         <button
           onClick={() => openGate("signup")}
           className="rounded-lg bg-primary px-[15px] py-[8px] text-[13.5px] font-bold text-white transition hover:bg-primary-dark"
         >
-          Regjistrohu
+          {t("signupButton")}
         </button>
       </div>
     );

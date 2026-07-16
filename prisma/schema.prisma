@@ -95,6 +95,12 @@ enum ClaimStatus {
   REJECTED
 }
 
+enum DisputeStatus {
+  OPEN
+  DISMISSED
+  RESOLVED
+}
+
 model User {
   id                 String              @id @default(cuid())
   email              String              @unique
@@ -105,16 +111,27 @@ model User {
   provider           AuthProvider        @default(CREDENTIALS)
   status             UserStatus          @default(ACTIVE)
   createdAt          DateTime            @default(now())
-  reviews            Review[]
-  comments           ReviewComment[]
-  verificationTokens VerificationToken[]
-  locationSuggestions LocationSuggestion[]
-  doctorClaims       DoctorClaim[]
+  reviews              Review[]
+  comments             ReviewComment[]
+  verificationTokens   VerificationToken[]
+  passwordResetTokens  PasswordResetToken[]
+  locationSuggestions  LocationSuggestion[]
+  doctorClaims         DoctorClaim[]
+  doctorProfileLogs    DoctorProfileLog[]
   // Mjeku i verifikuar tashmë menaxhon vetë profilin e tij (1 llogari → max 1 profil)
-  claimedDoctor      Doctor?              @relation("ClaimedDoctor")
+  claimedDoctor        Doctor?              @relation("ClaimedDoctor")
 }
 
 model VerificationToken {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+model PasswordResetToken {
   id        String   @id @default(cuid())
   userId    String
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
@@ -215,10 +232,21 @@ model Doctor {
   locationSuggestions LocationSuggestion[]
   osmCandidates  OsmCandidate[]
   claims         DoctorClaim[]
+  // Fusha shtesë të profilit — plotësohen nga mjeku pas verifikimit
+  bio          String?
+  yearsExp     Int?
+  languages    String?  // vlera të ndara me presje, p.sh. "Shqip, Anglisht"
+  websiteUrl1  String?
+  websiteUrl2  String?
+  scheduleJson Json?    // {Mon:{open:"09:00",close:"17:00"}, ...}
+
   // I vendosur VETËM pas aprovimit admini (DoctorClaim.status APPROVED) —
   // atëherë, dhe vetëm atëherë, mjeku mund të menaxhojë vetë profilin e tij
   claimedByUserId String?      @unique
   claimedByUser   User?        @relation("ClaimedDoctor", fields: [claimedByUserId], references: [id])
+  replies         DoctorReply[]
+  disputes        DoctorDispute[]
+  profileLogs     DoctorProfileLog[]
 
   @@index([specialtyId, status])
   @@index([cityId, status])
@@ -281,6 +309,8 @@ model Review {
   createdAt     DateTime        @default(now())
   reports       Report[]
   comments      ReviewComment[]
+  doctorReply   DoctorReply?
+  disputes      DoctorDispute[]
 
   @@index([doctorId, status])
   @@index([clinicId, status])
@@ -369,4 +399,49 @@ model OsmCandidate {
 model PlacesQuota {
   date  String @id // yyyy-mm-dd
   count Int    @default(0)
+}
+
+// Përgjigja publike e mjekut ndaj një recensioni — një për recensi, e dukshme gjithmonë
+model DoctorReply {
+  id        String   @id @default(cuid())
+  reviewId  String   @unique
+  review    Review   @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  doctorId  String
+  doctor    Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  text      String   // max 1000 (Zod)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([doctorId])
+}
+
+// Kontestim i mjekut ndaj një recensioni — pa efekt publik, vetëm admin e sheh
+model DoctorDispute {
+  id        String        @id @default(cuid())
+  reviewId  String
+  review    Review        @relation(fields: [reviewId], references: [id], onDelete: Cascade)
+  doctorId  String
+  doctor    Doctor        @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  reason    String        // max 500 (Zod)
+  status    DisputeStatus @default(OPEN)
+  adminNote String?
+  createdAt DateTime      @default(now())
+
+  @@unique([reviewId, doctorId])
+  @@index([status])
+}
+
+// Log auditimi i çdo ndryshimi të fushave të profilit nga mjeku
+model DoctorProfileLog {
+  id          String   @id @default(cuid())
+  doctorId    String
+  doctor      Doctor   @relation(fields: [doctorId], references: [id], onDelete: Cascade)
+  field       String
+  oldValue    String?
+  newValue    String?
+  changedAt   DateTime @default(now())
+  changedById String
+  changedBy   User     @relation(fields: [changedById], references: [id])
+
+  @@index([doctorId, changedAt])
 }

@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "VlersoMjekun",
-    short_name: "VlersoMjekun",
+    name: "Vleresomjekun",
+    short_name: "Vleresomjekun",
     description:
       "Vlerësime të verifikuara për mjekë dhe klinika në Shqipëri.",
     start_url: "/",

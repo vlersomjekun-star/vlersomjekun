@@ -17,7 +17,7 @@ const OUT_DIR = path.join(DIR, "output");
 const RAW_FILE = path.join(OUT_DIR, "osm-raw.json");
 
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
-const USER_AGENT = "VlersoMjekun/1.0 (platformë vlerësimesh mjekësh; info@vlersomjekun.al)";
+const USER_AGENT = "Vleresomjekun/1.0 (platformë vlerësimesh mjekësh; info@vlersomjekun.al)";
 
 // 1 query e vetme për gjithë Shqipërinë: amenity mjekësore + healthcare=*
 const QUERY = `

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 
 function useCountUp(target: number, duration = 1500) {
   const [current, setCurrent] = useState(0);
@@ -61,11 +62,12 @@ export default function CounterStrip({
   reviewCount: number;
   cityCount: number;
 }) {
+  const t = useTranslations("home");
   return (
     <div className="flex gap-8 mt-8">
-      <Stat value={doctorCount} suffix="+" label="mjekë & klinika" />
-      <Stat value={reviewCount} label="vlerësime" />
-      <Stat value={cityCount} label="qytete" />
+      <Stat value={doctorCount} suffix="+" label={t("counterDoctors")} />
+      <Stat value={reviewCount} label={t("counterReviews")} />
+      <Stat value={cityCount} label={t("counterCities")} />
     </div>
   );
 }

@@ -10,7 +10,7 @@ import path from "path";
 
 const DIR = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const OUT_DIR = path.join(DIR, "output");
-const UA = "VlersoMjekun/1.0 (kërkim strukture publike; info@vlersomjekun.al)";
+const UA = "Vleresomjekun/1.0 (kërkim strukture publike; info@vlersomjekun.al)";
 
 const CANDIDATES = [
   "https://api.portaliimjekut.gov.al/api/doctors",

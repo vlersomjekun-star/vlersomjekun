@@ -33,7 +33,7 @@ export default async function Footer() {
         {/* Colonna destra: città + link */}
         <div>
           <p className="text-[14px] font-bold text-[#9AA5BE] mb-4 uppercase tracking-wider">
-            Qytetet e mbuluara
+            {t("citiesTitle")}
           </p>
           <div className="flex flex-wrap gap-2.5 mb-8">
             {cities.map((c) => (

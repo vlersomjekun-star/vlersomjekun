@@ -15,7 +15,7 @@ import path from "path";
 const DIR = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, "$1"));
 const OUT_DIR = path.join(DIR, "output");
 const LIST_URL = "https://regjistri.urdhriipsikologut.al/members/list/licensuar";
-const USER_AGENT = "VlersoMjekun/1.0 (platformë vlerësimesh mjekësh; info@vlersomjekun.al)";
+const USER_AGENT = "Vleresomjekun/1.0 (platformë vlerësimesh mjekësh; info@vlersomjekun.al)";
 
 export function isMaintenance(html: string): boolean {
   return (

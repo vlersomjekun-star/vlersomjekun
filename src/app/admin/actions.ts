@@ -656,3 +656,27 @@ export async function revokeClaim(formData: FormData): Promise<void> {
   });
   revalidatePath("/admin/claims");
 }
+
+// ---------- Kontestime (DoctorDispute) ----------
+
+export async function dismissDispute(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const adminNote = String(formData.get("adminNote") || "").trim() || null;
+  await prisma.doctorDispute.update({
+    where: { id },
+    data: { status: "DISMISSED", adminNote },
+  });
+  revalidatePath("/admin/disputes");
+}
+
+export async function resolveDispute(formData: FormData): Promise<void> {
+  await requireAdmin();
+  const id = String(formData.get("id"));
+  const adminNote = String(formData.get("adminNote") || "").trim() || null;
+  await prisma.doctorDispute.update({
+    where: { id },
+    data: { status: "RESOLVED", adminNote },
+  });
+  revalidatePath("/admin/disputes");
+}

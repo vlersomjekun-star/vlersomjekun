@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 type Option = { slug: string; name: string };
 
@@ -16,6 +17,7 @@ export default function SearchFilters({
   showSpecialty: boolean;
 }) {
   const router = useRouter();
+  const t = useTranslations("search");
 
   function apply(overrides: Record<string, string | undefined>) {
     const merged = { ...current, ...overrides };
@@ -40,7 +42,7 @@ export default function SearchFilters({
             onClick={() => apply({ specialty: undefined, page: undefined })}
             className={!current.specialty ? pillActive : pillIdle}
           >
-            Të gjitha
+            {t("all")}
           </button>
           {specialties.map((s) => (
             <button
@@ -60,7 +62,7 @@ export default function SearchFilters({
           onClick={() => apply({ city: undefined, page: undefined })}
           className={!current.city ? pillActive : pillIdle}
         >
-          Të gjitha qytetet
+          {t("allCities")}
         </button>
         {cities.map((c) => (
           <button
@@ -76,7 +78,7 @@ export default function SearchFilters({
       {/* Rating pills */}
       <div className="flex gap-2">
         {[
-          { label: "Të gjitha", value: undefined },
+          { label: t("all"), value: undefined },
           { label: "3+ ★", value: "3" },
           { label: "4+ ★", value: "4" },
         ].map(({ label, value }) => (

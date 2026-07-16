@@ -13,7 +13,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "auth" });
-  return { title: `${t("verifyTitle")} — VlersoMjekun`, robots: { index: false } };
+  return { title: `${t("verifyTitle")} — Vleresomjekun`, robots: { index: false } };
 }
 
 export default async function VerifyEmailPage({

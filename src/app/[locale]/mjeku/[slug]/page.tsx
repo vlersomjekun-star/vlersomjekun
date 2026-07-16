@@ -12,7 +12,7 @@ import { CITY_DOTS } from "@/lib/city-coords";
 import { Link } from "@/i18n/navigation";
 import Avatar from "@/components/Avatar";
 import RatingBlock from "@/components/RatingBlock";
-import ReviewCard from "@/components/ReviewCard";
+import ReviewCard, { type DoctorReplyData } from "@/components/ReviewCard";
 import BlurGate from "@/components/BlurGate";
 import GatedLink from "@/components/auth/GatedLink";
 import ClaimProfileButton from "@/components/ClaimProfileButton";
@@ -35,6 +35,7 @@ async function getDoctor(slug: string) {
             orderBy: { createdAt: "asc" },
             include: { user: { select: { nickname: true } } },
           },
+          doctorReply: { select: { text: true } },
         },
       },
     },
@@ -278,7 +279,7 @@ export default async function DoctorPage({
               <circle cx={dot.x} cy={dot.y} r="3.5" fill="white" />
             </svg>
             <div>
-              <p className="text-[12px] text-[#8A8471] uppercase tracking-wider font-semibold mb-0.5">Vendndodhja</p>
+              <p className="text-[12px] text-[#8A8471] uppercase tracking-wider font-semibold mb-0.5">{t("locationLabel")}</p>
               <p className="font-bold text-[15px] text-[#16213D]">{localName(doctor.city!, locale)}</p>
               {doctor.address && (
                 <p className="text-[13px] text-[#5B6478] mt-0.5">{doctor.address}</p>
@@ -299,6 +300,7 @@ export default async function DoctorPage({
           </p>
         ) : (
           <div className="space-y-3">
+            {/* Prima recensione — sempre visibile */}
             {doctor.reviews.slice(0, 1).map((r) => (
               <ReviewCard
                 key={r.id}
@@ -311,10 +313,14 @@ export default async function DoctorPage({
                 }))}
                 viewerLoggedIn={loggedIn}
                 locale={locale}
+                doctorReply={r.doctorReply as DoctorReplyData | null}
               />
             ))}
+
+            {/* Recensioni 2+ */}
             {doctor.reviews.length > 1 &&
               (loggedIn ? (
+                // Logged-in: risposta visibile dentro la card
                 doctor.reviews.slice(1).map((r) => (
                   <ReviewCard
                     key={r.id}
@@ -327,16 +333,35 @@ export default async function DoctorPage({
                     }))}
                     viewerLoggedIn
                     locale={locale}
+                    doctorReply={r.doctorReply as DoctorReplyData | null}
                   />
                 ))
               ) : (
-                <BlurGate>
-                  <div className="space-y-3">
-                    {doctor.reviews.slice(1).map((r) => (
-                      <ReviewCard key={r.id} review={r} locale={locale} />
-                    ))}
+                // Non-logged: prima blurred con overlay, resto solo blur CSS;
+                // risposte medico SEMPRE fuori blur
+                doctor.reviews.slice(1).map((r, idx) => (
+                  <div key={r.id} className="space-y-1">
+                    {idx === 0 ? (
+                      <BlurGate>
+                        <ReviewCard review={r} locale={locale} />
+                      </BlurGate>
+                    ) : (
+                      <div className="pointer-events-none select-none blur-[6px]">
+                        <ReviewCard review={r} locale={locale} />
+                      </div>
+                    )}
+                    {r.doctorReply && (
+                      <div className="ml-1 rounded-lg border-l-[3px] border-primary bg-primary-light px-3 py-2.5">
+                        <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
+                          {t("replyDoctorLabel")}
+                        </p>
+                        <p className="whitespace-pre-line text-sm leading-relaxed text-gray-700">
+                          {r.doctorReply.text}
+                        </p>
+                      </div>
+                    )}
                   </div>
-                </BlurGate>
+                ))
               ))}
           </div>
         )}
